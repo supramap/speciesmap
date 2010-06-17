@@ -1,0 +1,7 @@
+<div id="login">
+<% if current_user %>
+Welcome <%= current_user.login %> [<%= link_to "My Account", account_url %> | <%= link_to "Logout", "/user_sessions/destroy" %>]
+<% else %>
+[<%= link_to "Login", "/user_sessions/new" %> | <%= link_to "Register", "/users/new" %>]
+<% end %>
+</div>

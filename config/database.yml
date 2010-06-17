@@ -1,0 +1,23 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: pointmap2
+  pool: 5
+  username: pointmap
+  password: point.map!
+
+test:
+  adapter: mysql
+  encoding: utf8
+  database: pointmap2
+  pool: 5
+  username: pointmap
+  password: point.map!
+
+production:
+  adapter: mysql
+  encoding: utf8
+  database: pointmap2
+  pool: 5
+  username: pointmap
+  password: point.map!
