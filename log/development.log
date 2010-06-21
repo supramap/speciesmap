@@ -163,3 +163,2216 @@ ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:
   /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePointmaps (20100617185530)
+  [4;36;1mSQL (92.3ms)[0m   [0;1mCREATE TABLE `pointmaps` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `kml` blob, `public` tinyint(1), `user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (24.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100617185530')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `pointmaps`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `pointmaps`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (25.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (15.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (17.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePointmaps (20100617185530)
+Migrating to ChangeKmlToTextAndAddCsv (20100621143721)
+  [4;36;1mSQL (160.4ms)[0m   [0;1mALTER TABLE `pointmaps` ADD `csv` text[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mSQL (147.0ms)[0m   [0;1mALTER TABLE `pointmaps` CHANGE `kml` `kml` text DEFAULT NULL[0m
+  [4;35;1mSQL (24.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100621143721')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `pointmaps`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `pointmaps`[0m
+  [4;36;1mSQL (12.7ms)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 12:45:00) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (43.4ms)
+Completed in 192ms (View: 189, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:45:00) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 12:45:02) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mPointmap Load (33.4ms)[0m   [0mSELECT * FROM `pointmaps` [0m
+Rendering template within layouts/pointmaps
+Rendering pointmaps/index
+Completed in 82ms (View: 25, DB: 34) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 12:45:17) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (9.0ms)
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:45:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 12:45:58) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (9.9ms)
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:45:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 12:47:25) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (9.0ms)
+Completed in 59ms (View: 53, DB: 1) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:47:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:47:27) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/pointmaps_controller.rb:28:in `new'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:49:31) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mPointmap Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x00000005088068>) on line #1 of app/views/pointmaps/_form.html.erb:
+1: <%= f.label :name %><br/>
+2: <%= f.text_field :name %><br/>
+3: <br/>
+4: <%= f.label :description %><br/>
+
+    app/views/pointmaps/_form.html.erb:1
+    app/views/pointmaps/new.html.erb:5:in `block in _run_erb_app47views47pointmaps47new46html46erb'
+    app/views/pointmaps/new.html.erb:3
+    app/controllers/pointmaps_controller.rb:29:in `new'
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (72.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:51:10) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x0000000547d200>) on line #1 of app/views/pointmaps/_form.html.erb:
+1: <%= f.label :name %><br/>
+2: <%= f.text_field :name %><br/>
+3: <br/>
+4: <%= f.label :description %><br/>
+
+    app/views/pointmaps/_form.html.erb:1
+    app/views/pointmaps/new.html.erb:5:in `block in _run_erb_app47views47pointmaps47new46html46erb'
+    app/views/pointmaps/new.html.erb:3
+    app/controllers/pointmaps_controller.rb:29:in `new'
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (70.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:51:12) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x00000004232ac0>) on line #1 of app/views/pointmaps/_form.html.erb:
+1: <%= f.label :name %><br/>
+2: <%= f.text_field :name %><br/>
+3: <br/>
+4: <%= f.label :description %><br/>
+
+    app/views/pointmaps/_form.html.erb:1
+    app/views/pointmaps/new.html.erb:5:in `block in _run_erb_app47views47pointmaps47new46html46erb'
+    app/views/pointmaps/new.html.erb:3
+    app/controllers/pointmaps_controller.rb:29:in `new'
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (73.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:51:41) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #13 of app/views/pointmaps/_form.html.erb:
+10: <%= form.label :csv %><br/>
+11: <%= form.file_field :csv %><br/>
+12: <br/>
+13: <%= form.hidden_field :user_id, :value => current_user.id %>
+14: <br/>
+
+    app/views/pointmaps/_form.html.erb:13
+    app/views/pointmaps/new.html.erb:5:in `block in _run_erb_app47views47pointmaps47new46html46erb'
+    app/views/pointmaps/new.html.erb:3
+    app/controllers/pointmaps_controller.rb:29:in `new'
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (120.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:52:15) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/pointmaps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-21 12:52:15) [GET]
+  Parameters: {"controller"=>"user_sessions", "action"=>"new"}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.1ms)
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://localhost/user_session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:52:15) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-21 12:52:17) [POST]
+  Parameters: {"user_session"=>{"login"=>"jhardman", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login", "controller"=>"user_sessions", "action"=>"create"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (111.1ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'jhardman') LIMIT 1[0m
+  [4;36;1mSQL (15.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (20.5ms)[0m   [0mUPDATE `users` SET `login_count` = 2, `last_login_at` = '2010-06-17 18:52:19', `current_login_at` = '2010-06-21 16:52:17', `last_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-21 16:52:17', `perishable_token` = 'h4nTSyQj2ujocJd0u1Vt', `updated_at` = '2010-06-21 16:52:17' WHERE `id` = 1[0m
+  [4;36;1mSQL (46.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/pointmaps/new
+Completed in 378ms (DB: 195) | 302 Found [http://localhost/user_session]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:52:17) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (7.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 16:52:17', `perishable_token` = '_AYjt3Nc161AnmR7hh_b', `updated_at` = '2010-06-21 16:52:17' WHERE `id` = 1[0m
+  [4;35;1mSQL (30.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (0.9ms)
+Rendered home/_login (0.1ms)
+Completed in 64ms (View: 5, DB: 40) | 200 OK [http://localhost/pointmaps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:52:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:52:42) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 16:52:42', `perishable_token` = '_5OBp6AW47c3cxGUfrSI', `updated_at` = '2010-06-21 16:52:42' WHERE `id` = 1[0m
+  [4;35;1mSQL (37.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.7ms)
+Rendered home/_login (0.1ms)
+Completed in 70ms (View: 11, DB: 39) | 200 OK [http://localhost/pointmaps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:52:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 12:53:08) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 16:53:08', `perishable_token` = 'f6-9oI8fnpWHYm5tWaKB', `updated_at` = '2010-06-21 16:53:08' WHERE `id` = 1[0m
+  [4;35;1mSQL (33.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.6ms)
+Rendered home/_login (0.1ms)
+Completed in 66ms (View: 11, DB: 35) | 200 OK [http://localhost/pointmaps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 12:53:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 13:14:41) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:14:42', `perishable_token` = 'kcbv_mlBbtOKp6xlxrEa', `updated_at` = '2010-06-21 17:14:42' WHERE `id` = 1[0m
+  [4;35;1mSQL (42.8ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (62.7ms)
+Completed in 107ms (View: 20, DB: 44) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:14:42) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 13:15:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 17:15:18', `perishable_token` = 'brceRISXqIqjDsLJScvP', `updated_at` = '2010-06-21 17:15:18' WHERE `id` = 1[0m
+  [4;36;1mSQL (36.6ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (53.4ms)
+Completed in 62ms (View: 23, DB: 38) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:15:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 13:15:22) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:15:22', `perishable_token` = 'E8oPliaUJS6xB2m60jkf', `updated_at` = '2010-06-21 17:15:22' WHERE `id` = 1[0m
+  [4;35;1mSQL (53.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+Rendered home/_login (0.2ms)
+Completed in 76ms (View: 2, DB: 55) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:15:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 13:15:23) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:15:23', `perishable_token` = 'OtQdKRu3F1xiBEPHrbcQ', `updated_at` = '2010-06-21 17:15:23' WHERE `id` = 1[0m
+  [4;35;1mSQL (64.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.0ms)
+Rendered home/_login (0.2ms)
+Completed in 91ms (View: 5, DB: 67) | 200 OK [http://localhost/pointmaps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:15:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:16:18) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-7c6h9k-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:16:18', `perishable_token` = 'mdFT2MrjPE4ZJb4RR2OO', `updated_at` = '2010-06-21 17:16:18' WHERE `id` = 1[0m
+  [4;35;1mSQL (35.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/pointmap.rb:78:in `writeKml'
+  app/controllers/pointmaps_controller.rb:49:in `create'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:17:21) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-16qv9xc-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:17:21', `perishable_token` = '9dxztI74nC1cU_aRShEC', `updated_at` = '2010-06-21 17:17:21' WHERE `id` = 1[0m
+  [4;35;1mSQL (53.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+
+NameError (undefined local variable or method `label' for #<Pointmap:0x00000004ad3448>):
+  app/models/pointmap.rb:95:in `block in writeKml'
+  app/models/pointmap.rb:85:in `each_line'
+  app/models/pointmap.rb:85:in `writeKml'
+  app/controllers/pointmaps_controller.rb:49:in `create'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (89.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:18:20) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-zvgn6s-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:18:20', `perishable_token` = 'PgGPgA9coeWZ2rDJUEf-', `updated_at` = '2010-06-21 17:18:20' WHERE `id` = 1[0m
+  [4;35;1mSQL (59.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.0ms)
+Rendered home/_login (0.1ms)
+Completed in 89ms (View: 5, DB: 62) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:18:20) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:19:58) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-daec9n-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (1.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:19:58', `perishable_token` = 'Um6fHZMU_bzBvQyCQeEE', `updated_at` = '2010-06-21 17:19:58' WHERE `id` = 1[0m
+  [4;35;1mSQL (41.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.0ms)
+Rendered home/_login (0.2ms)
+Completed in 120ms (View: 5, DB: 44) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:19:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:52:24) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-1wv7034-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:52:24', `perishable_token` = 'XKtLdEqBU4Zb1EBcGnXo', `updated_at` = '2010-06-21 17:52:24' WHERE `id` = 1[0m
+  [4;35;1mSQL (50.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.1ms)
+Rendered home/_login (0.2ms)
+Completed in 82ms (View: 6, DB: 53) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:52:25) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#create (for 127.0.0.1 at 2010-06-21 13:55:17) [POST]
+  Parameters: {"pointmap"=>{"name"=>"test", "description"=>"", "public"=>"0", "csv"=>#<File:/tmp/RackMultipart20100621-3764-3v17mc-0>, "user_id"=>"1"}, "commit"=>"Create", "controller"=>"pointmaps", "action"=>"create"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:55:17', `perishable_token` = '6ROUDAcAgnZe0i6sMeFa', `updated_at` = '2010-06-21 17:55:17' WHERE `id` = 1[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPointmap Create (0.3ms)[0m   [0;1mINSERT INTO `pointmaps` (`name`, `description`, `kml`, `public`, `user_id`, `created_at`, `updated_at`, `csv`) VALUES('test', '', '<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<kml xmlns=\"http://earth.google.com/kml/2.2\">\r\n	<Document>\r\n		<Name>Transmissions</Name><open>1</open>\r\n			<Placemark>\r\n				<name>label</name>\r\n				<TimeStamp><when>color\n</when></TimeStamp>\r\n				<Point>\r\n					<coordinates>long,lat,date</coordinates>\r\n					<altitudeMode>absolute</altitudeMode>\r\n				</Point>\r\n			</Placemark>\r\n			<Placemark>\r\n				<name>loc1</name>\r\n				<Style><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><color>ffff0000\n</color></IconStyle></Style>\r\n				<TimeStamp><when>1989-02-15</when></TimeStamp>\r\n				<Point>\r\n					<coordinates>-77.037684,38.898748,0</coordinates>\r\n					<altitudeMode>absolute</altitudeMode>\r\n				</Point>\r\n			</Placemark>\r\n			<Placemark>\r\n				<name>loc2</name>\r\n				<Style><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><color>ff00ff00\n</color></IconStyle></Style>\r\n				<TimeStamp><when>1992-05-01</when></TimeStamp>\r\n				<Point>\r\n					<coordinates>-83.015841,39.994278,0</coordinates>\r\n					<altitudeMode>absolute</altitudeMode>\r\n				</Point>\r\n			</Placemark>\r\n			<Placemark>\r\n				<name>loc3</name>\r\n				<Style><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><color>ff0000ff\n</color></IconStyle></Style>\r\n				<TimeStamp><when>2009-01-01</when></TimeStamp>\r\n				<Point>\r\n					<coordinates>-73.978363,40.772831,0</coordinates>\r\n					<altitudeMode>absolute</altitudeMode>\r\n				</Point>\r\n			</Placemark>\r\n	</Document>\r\n</kml>', 0, 1, '2010-06-21 17:55:17', '2010-06-21 17:55:17', 'label,lat,long,date,color\nloc1,38.898748,-77.037684,0,1989-02-15,ffff0000\nloc2,39.994278,-83.015841,0,1992-05-01,ff00ff00\nloc3,40.772831,-73.978363,0,2009-01-01,ff0000ff\n')[0m
+  [4;35;1mSQL (32.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/pointmaps/1
+Completed in 135ms (DB: 65) | 302 Found [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 13:55:17) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 17:55:17', `perishable_token` = 'v5ZvE4qRlm16ct0YfCX7', `updated_at` = '2010-06-21 17:55:17' WHERE `id` = 1[0m
+  [4;36;1mSQL (64.6ms)[0m   [0;1mCOMMIT[0m
+
+NameError (uninitialized constant ApplicationController::Blast):
+  app/controllers/application_controller.rb:48:in `viewable'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 13:56:34) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:56:34', `perishable_token` = 'p7gcUJcsqH-2fn5Hg8QM', `updated_at` = '2010-06-21 17:56:34' WHERE `id` = 1[0m
+  [4;35;1mSQL (34.5ms)[0m   [0mCOMMIT[0m
+
+NameError (undefined local variable or method `pointmap' for #<PointmapsController:0x000000049add08>):
+  app/controllers/application_controller.rb:48:in `viewable'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (86.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:56:40) [GET]
+
+ActionController::RoutingError (No route matches "/pointmap/1" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 13:56:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 17:56:45', `perishable_token` = 'x-82zqYag85LB12E1lQJ', `updated_at` = '2010-06-21 17:56:45' WHERE `id` = 1[0m
+  [4;36;1mSQL (28.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (47.1ms)
+Completed in 50ms (View: 18, DB: 30) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:56:45) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 13:56:47) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:56:47', `perishable_token` = '7V5IUIl0ya1mfKO8dD9o', `updated_at` = '2010-06-21 17:56:47' WHERE `id` = 1[0m
+  [4;35;1mSQL (59.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+Rendered home/_login (0.2ms)
+Completed in 134ms (View: 5, DB: 62) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:56:47) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 13:56:49) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 17:56:49', `perishable_token` = 'xin9T_oUhIZ4vPlIKqK-', `updated_at` = '2010-06-21 17:56:49' WHERE `id` = 1[0m
+  [4;36;1mSQL (50.2ms)[0m   [0;1mCOMMIT[0m
+
+NameError (undefined local variable or method `pointmap' for #<PointmapsController:0x00000005286310>):
+  app/controllers/application_controller.rb:48:in `viewable'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 13:57:33) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 17:57:33', `perishable_token` = '4N13hI3MH_1fNKMiE_nP', `updated_at` = '2010-06-21 17:57:33' WHERE `id` = 1[0m
+  [4;35;1mSQL (35.1ms)[0m   [0mCOMMIT[0m
+
+NoMethodError (undefined method `id' for {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}:HashWithIndifferentAccess):
+  app/controllers/application_controller.rb:48:in `viewable'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 13:58:22) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 17:58:22', `perishable_token` = 'CZCU4ZW16304yqC88UfZ', `updated_at` = '2010-06-21 17:58:22' WHERE `id` = 1[0m
+  [4;36;1mSQL (35.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 67ms (View: 8, DB: 38) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 13:58:22) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:26) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:26', `perishable_token` = '2CItPiISUfmpNVCDrTNK', `updated_at` = '2010-06-21 18:10:26' WHERE `id` = 1[0m
+  [4;36;1mSQL (42.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.4ms)
+Completed in 76ms (View: 9, DB: 45) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:26) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:28) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:28', `perishable_token` = 'aaGbftjXWcCCI588aVd2', `updated_at` = '2010-06-21 18:10:28' WHERE `id` = 1[0m
+  [4;36;1mSQL (40.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 68ms (View: 3, DB: 43) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:28) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:31) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:31', `perishable_token` = 'x6I0uHy2AOWYruGLiPdM', `updated_at` = '2010-06-21 18:10:31' WHERE `id` = 1[0m
+  [4;36;1mSQL (49.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 77ms (View: 3, DB: 52) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:32) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:32', `perishable_token` = 'Zw3n3VQAruEtChJSogfl', `updated_at` = '2010-06-21 18:10:32' WHERE `id` = 1[0m
+  [4;36;1mSQL (47.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 124ms (View: 2, DB: 50) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:32) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:53) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:53', `perishable_token` = '_czPO8y9TmrtJYAPJJBb', `updated_at` = '2010-06-21 18:10:53' WHERE `id` = 1[0m
+  [4;36;1mSQL (34.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 67ms (View: 9, DB: 37) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:53) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:54) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:54', `perishable_token` = '_lmY_1_1aCgVPrXbRHuW', `updated_at` = '2010-06-21 18:10:54' WHERE `id` = 1[0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 63ms (View: 2, DB: 39) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:54) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:55) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:55', `perishable_token` = 'yafWkIUpMLFBPVE197bM', `updated_at` = '2010-06-21 18:10:55' WHERE `id` = 1[0m
+  [4;36;1mSQL (55.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 82ms (View: 2, DB: 58) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:55) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:10:58) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:10:58', `perishable_token` = '5nqmn8jQmsxwDFUG-woD', `updated_at` = '2010-06-21 18:10:58' WHERE `id` = 1[0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 64ms (View: 2, DB: 39) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:10:58) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#1 (for 127.0.0.1 at 2010-06-21 14:25:40) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"1", "id"=>"download"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:25:40', `perishable_token` = 'vnNuGhRAdnSbN9Z7pkHS', `updated_at` = '2010-06-21 18:25:40' WHERE `id` = 1[0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mCOMMIT[0m
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, download, edit, index, new, show, and update):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download (for 127.0.0.1 at 2010-06-21 14:25:51) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"download", "id"=>"1"}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:25:51', `perishable_token` = 'BM7oTZK6vs2-yS-rdKfT', `updated_at` = '2010-06-21 18:25:51' WHERE `id` = 1[0m
+  [4;35;1mSQL (31.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/pointmaps_controller.rb:96:in `new'
+  app/controllers/pointmaps_controller.rb:96:in `download'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download (for 127.0.0.1 at 2010-06-21 14:27:05) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"download", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:27:05', `perishable_token` = 'ur4la4NwRix24vYJ03aw', `updated_at` = '2010-06-21 18:27:05' WHERE `id` = 1[0m
+  [4;35;1mSQL (35.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Completed in 61ms (View: 0, DB: 38) | 200 OK [http://localhost/pointmaps/download/1]
+Streaming file /tmp/pointmap20100621-3764-yewwan-0
+  [4;35;1mSQL (0.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 14:33:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:33:27', `perishable_token` = 'zig0W0zXemEdzSrye6Fx', `updated_at` = '2010-06-21 18:33:27' WHERE `id` = 1[0m
+  [4;35;1mSQL (35.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (54.3ms)
+Completed in 57ms (View: 18, DB: 39) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:33:27) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 14:33:29) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (1.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:33:29', `perishable_token` = 'lW3L1lAUGJUlQykZfXjt', `updated_at` = '2010-06-21 18:33:29' WHERE `id` = 1[0m
+  [4;36;1mSQL (205.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendered home/_login (0.2ms)
+Completed in 234ms (View: 6, DB: 209) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:33:29) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:33:31) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:33:31', `perishable_token` = 'kIMykbIvxG6uwOLBa1oj', `updated_at` = '2010-06-21 18:33:31' WHERE `id` = 1[0m
+  [4;35;1mSQL (78.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 111ms (View: 8, DB: 81) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:33:31) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download (for 127.0.0.1 at 2010-06-21 14:36:29) [GET]
+  Parameters: {"type"=>"\"kml\"", "controller"=>"pointmaps", "action"=>"download", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:36:29', `perishable_token` = '2VRxhd1URPn_dToedzec', `updated_at` = '2010-06-21 18:36:29' WHERE `id` = 1[0m
+  [4;35;1mSQL (36.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Completed in 62ms (View: 0, DB: 39) | 200 OK [http://localhost/pointmaps/download/1?type=%22kml%22]
+Streaming file /tmp/pointmap20100621-3764-p2hc52-0
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:38:13) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:38:13', `perishable_token` = 'dARhTNmQC_-OVDAPXZht', `updated_at` = '2010-06-21 18:38:13' WHERE `id` = 1[0m
+  [4;35;1mSQL (38.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 70ms (View: 7, DB: 41) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:38:13) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:38:14) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"download"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:38:15', `perishable_token` = '1GO-RSewiUCwqTv2yfZt', `updated_at` = '2010-06-21 18:38:15' WHERE `id` = 1[0m
+  [4;35;1mSQL (54.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Pointmap with ID=download):
+  app/controllers/application_controller.rb:48:in `viewable'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:38:45) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:38:46', `perishable_token` = 'DtECTOqIkd4tOrIBeJr6', `updated_at` = '2010-06-21 18:38:46' WHERE `id` = 1[0m
+  [4;36;1mSQL (42.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 125ms (View: 8, DB: 45) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 14:38:47) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:38:47', `perishable_token` = '--FTanvOV93ci0IyZSDd', `updated_at` = '2010-06-21 18:38:47' WHERE `id` = 1[0m
+  [4;36;1mSQL (41.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+Rendered home/_login (0.3ms)
+Completed in 68ms (View: 5, DB: 44) | 200 OK [http://localhost/pointmaps/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:38:47) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:38:51) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:38:51', `perishable_token` = 'k1sIajNH-LNshnzFeQyY', `updated_at` = '2010-06-21 18:38:51' WHERE `id` = 1[0m
+  [4;35;1mSQL (59.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.8ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 87ms (View: 2, DB: 62) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (2.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:38:51) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:42:32) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:42:32', `perishable_token` = 'N_TNuGcUNzZzDfRzgncP', `updated_at` = '2010-06-21 18:42:32' WHERE `id` = 1[0m
+  [4;35;1mSQL (37.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.6ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 69ms (View: 8, DB: 40) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:42:33) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download_csv (for 127.0.0.1 at 2010-06-21 14:42:36) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"download_csv", "id"=>"1"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:42:36', `perishable_token` = 'zgWnjmJN3yUW_BDHe7Ec', `updated_at` = '2010-06-21 18:42:36' WHERE `id` = 1[0m
+  [4;35;1mSQL (54.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Completed in 81ms (View: 0, DB: 57) | 200 OK [http://localhost/pointmaps/download_csv/1]
+Streaming file /tmp/pointmap20100621-3764-hi7e7j-0
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:43:21) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:43:21', `perishable_token` = '2GBbFUo_7lFzuH9bvZly', `updated_at` = '2010-06-21 18:43:21' WHERE `id` = 1[0m
+  [4;36;1mSQL (35.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 67ms (View: 8, DB: 38) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:43:21) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 14:43:22) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:43:22', `perishable_token` = 'iuRC6s9nR0__Yettbs7J', `updated_at` = '2010-06-21 18:43:22' WHERE `id` = 1[0m
+  [4;36;1mSQL (50.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+Rendered home/_login (0.2ms)
+Completed in 76ms (View: 2, DB: 53) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 14:43:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download_csv (for 127.0.0.1 at 2010-06-21 14:43:24) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"download_csv", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 18:43:24', `perishable_token` = '9V5nh6S85nphZg8lX8cI', `updated_at` = '2010-06-21 18:43:24' WHERE `id` = 1[0m
+  [4;36;1mSQL (43.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Completed in 69ms (View: 1, DB: 46) | 200 OK [http://localhost/pointmaps/download_csv/1]
+Streaming file /tmp/pointmap20100621-3764-1npv9hy-0
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#download_kml (for 127.0.0.1 at 2010-06-21 14:43:25) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"download_kml", "id"=>"1"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 18:43:26', `perishable_token` = 't-LHUrIhA-DCjK42TcJ8', `updated_at` = '2010-06-21 18:43:26' WHERE `id` = 1[0m
+  [4;35;1mSQL (46.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Completed in 74ms (View: 0, DB: 50) | 200 OK [http://localhost/pointmaps/download_kml/1]
+Streaming file /tmp/pointmap20100621-3764-pkrul5-0
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:24:07) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:24:07', `perishable_token` = 'fkPCKmfr8iPqmOYBFFSm', `updated_at` = '2010-06-21 19:24:07' WHERE `id` = 1[0m
+  [4;36;1mSQL (351.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+
+ActionView::TemplateError (undefined method `name' for #<ActiveRecord::Associations::BelongsToAssociation:0x000000056683f0>) on line #18 of app/views/pointmaps/show.html.erb:
+15: 
+16: <p>
+17:   <b>Owner:</b>
+18:   <%=h @pointmap.user.name %>
+19: </p>
+20: 
+21: <p>
+
+    app/views/pointmaps/show.html.erb:18
+    app/controllers/pointmaps_controller.rb:22:in `show'
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:24:50) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:24:50', `perishable_token` = 'PCB6OVNk3yPNYTp6uFN3', `updated_at` = '2010-06-21 19:24:50' WHERE `id` = 1[0m
+  [4;35;1mSQL (39.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 71ms (View: 8, DB: 42) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:27:17) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:27:17', `perishable_token` = '2j_p4zHwGYv8DUfyoukv', `updated_at` = '2010-06-21 19:27:17' WHERE `id` = 1[0m
+  [4;36;1mSQL (30.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 65ms (View: 9, DB: 33) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:27:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:29:29) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:29:29', `perishable_token` = 'lluTCQIpp_f2qarTXtAi', `updated_at` = '2010-06-21 19:29:29' WHERE `id` = 1[0m
+  [4;35;1mSQL (57.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 92ms (View: 13, DB: 61) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:29:29) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:29:47) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:29:47', `perishable_token` = '0wNN6Ffn7riMhnAn04sI', `updated_at` = '2010-06-21 19:29:47' WHERE `id` = 1[0m
+  [4;35;1mSQL (33.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 112ms (View: 57, DB: 37) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:29:48) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:29:50) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:29:50', `perishable_token` = 'kTx8UKjvnGLb6ZKhDBlP', `updated_at` = '2010-06-21 19:29:50' WHERE `id` = 1[0m
+  [4;35;1mSQL (52.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.1ms)
+Completed in 86ms (View: 9, DB: 55) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:29:51) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:30:06) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:30:06', `perishable_token` = 'ES4ue349Xat2zB5YqNVP', `updated_at` = '2010-06-21 19:30:06' WHERE `id` = 1[0m
+  [4;36;1mSQL (40.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (0.2ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 119ms (View: 10, DB: 43) | 200 OK [http://localhost/pointmaps/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:30:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:30:09) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:30:09', `perishable_token` = 'RdqYTFiFAtZCy5sQuJog', `updated_at` = '2010-06-21 19:30:09' WHERE `id` = 1[0m
+  [4;35;1mSQL (54.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 82ms (View: 7, DB: 57) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:30:09) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2010-06-21 15:30:12) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"show", "id"=>"1"}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:30:12', `perishable_token` = 'FGwOGm9LfRyqLr3-jfyn', `updated_at` = '2010-06-21 19:30:12' WHERE `id` = 1[0m
+  [4;35;1mSQL (46.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (0.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/show
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 75ms (View: 3, DB: 49) | 200 OK [http://localhost/pointmaps/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:30:12) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:30:15) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:30:15', `perishable_token` = 'YAugqm8g0ox-FkubxfMV', `updated_at` = '2010-06-21 19:30:15' WHERE `id` = 1[0m
+  [4;36;1mSQL (43.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 72ms (View: 6, DB: 46) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:30:15) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:31:16) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:31:16', `perishable_token` = '0IXq5S9GlEw_UHB2wvfK', `updated_at` = '2010-06-21 19:31:16' WHERE `id` = 1[0m
+  [4;36;1mSQL (34.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 108ms (View: 5, DB: 38) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:31:16) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:31:17) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:31:17', `perishable_token` = 'elfMe6dS3Y3LKrNhUtSs', `updated_at` = '2010-06-21 19:31:17' WHERE `id` = 1[0m
+  [4;36;1mSQL (55.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 84ms (View: 6, DB: 58) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:31:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:31:18) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:31:18', `perishable_token` = 'GB4aynAp4xwVcVNvBd8A', `updated_at` = '2010-06-21 19:31:18' WHERE `id` = 1[0m
+  [4;36;1mSQL (44.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 73ms (View: 7, DB: 47) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:31:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:31:28) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:31:28', `perishable_token` = 'JycIUG9j7kwL8VHB378Z', `updated_at` = '2010-06-21 19:31:28' WHERE `id` = 1[0m
+  [4;36;1mSQL (37.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 71ms (View: 7, DB: 41) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:31:28) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 15:34:10) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:10', `perishable_token` = '8OH8GwXTU7utgYxv99vN', `updated_at` = '2010-06-21 19:34:10' WHERE `id` = 1[0m
+  [4;36;1mSQL (53.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.0ms)
+Rendered home/_login (0.2ms)
+Completed in 83ms (View: 6, DB: 56) | 200 OK [http://localhost/pointmaps/new]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:10) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#new (for 127.0.0.1 at 2010-06-21 15:34:34) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"new"}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:34', `perishable_token` = '2nokTnCoDjn_2zQ_lc1F', `updated_at` = '2010-06-21 19:34:34' WHERE `id` = 1[0m
+  [4;36;1mSQL (38.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+Rendering template within layouts/application
+Rendering pointmaps/new
+Rendered pointmaps/_form (1.5ms)
+Rendered home/_login (0.2ms)
+Completed in 74ms (View: 12, DB: 41) | 200 OK [http://localhost/pointmaps/new]
+  [4;36;1mSQL (5.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:34) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:34:43) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:44', `perishable_token` = '8J2TTWjKRrECGLnL43bn', `updated_at` = '2010-06-21 19:34:44' WHERE `id` = 1[0m
+  [4;36;1mSQL (42.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (0.3ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 116ms (View: 6, DB: 46) | 200 OK [http://localhost/pointmaps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:44) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 15:34:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.2ms)[0m   [0mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:45', `perishable_token` = 'P-TrbXcBGSmckOIhgsOk', `updated_at` = '2010-06-21 19:34:45' WHERE `id` = 1[0m
+  [4;36;1mSQL (27.7ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (44.3ms)
+Completed in 47ms (View: 17, DB: 29) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:45) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2010-06-21 15:34:49) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:49', `perishable_token` = 'TfV3QfHSiU9_mxolOSeZ', `updated_at` = '2010-06-21 19:34:49' WHERE `id` = 1[0m
+  [4;35;1mSQL (52.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (0.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 1 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 125ms (View: 51, DB: 55) | 200 OK [http://localhost/pointmaps]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-21 15:34:49) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.2ms)[0m   [0;1mUPDATE `users` SET `last_request_at` = '2010-06-21 19:34:49', `perishable_token` = 'zJKmlxnO8Imf4jlHX977', `updated_at` = '2010-06-21 19:34:49' WHERE `id` = 1[0m
+  [4;35;1mSQL (53.1ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (69.4ms)
+Completed in 72ms (View: 16, DB: 55) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 15:34:49) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)

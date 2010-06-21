@@ -1,0 +1,13 @@
+<%= form.label :name %><br/>
+<%= form.text_field :name %><br/>
+<br/>
+<%= form.label :description %><br/>
+<%= form.text_field :description %><br/>
+<br/>
+<%= form.label :public %><br/>
+<%= form.check_box :public %><br/>
+<br/>
+<%= form.label :csv %><br/>
+<%= form.file_field :csv %><br/>
+<br/>
+<%= form.hidden_field :user_id, :value => current_user.id %>

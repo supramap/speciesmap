@@ -45,16 +45,16 @@ class ApplicationController < ActionController::Base
   end
 
   def viewable
-    blastInstance = Blast.find(params.id)
-  	if blastInstance.user_id != current_user.id && !blastInstance.public
-  	  redirect_to blasts_url
+    pointmapInstance = Pointmap.find(params[:id])
+  	if pointmapInstance.user_id != current_user.id && !pointmapInstance.public
+  	  redirect_to pointmaps_url
   	  return false
   	end
   end
 
   def editable
-  	if Blast.find(params.id).user_id != current_user.id
-  	  redirect_to blasts_url
+  	if Pointmap.find(params[:id]).user_id != current_user.id
+  	  redirect_to pointmaps_url
   	  return false
   	end
   end

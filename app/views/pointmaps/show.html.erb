@@ -1,0 +1,29 @@
+<p>
+  <b>Name:</b>
+  <%=h @pointmap.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @pointmap.description %>
+</p>
+
+<p>
+  <b>Public?:</b>
+  <%=h @pointmap.public %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @pointmap.user.login %> <<%= mail_to @pointmap.user.email %>>
+</p>
+
+<p>
+  <b>Csv:</b><br/>
+  <a href="/pointmaps/download_csv/<%= @pointmap.id %>">Download</a>
+<p>
+  <b>Kml:</b><br/>
+  <a href="/pointmaps/download_kml/<%= @pointmap.id %>">Download</a>
+</p>
+
+<%= link_to 'Edit', edit_pointmap_path(@pointmap) %>
