@@ -1,2 +1,53 @@
+<% content_for :head do %>
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA5uUDbWrxnGTprsjai05OsRTpnzgNMq93dBSwZou5rEhTmdAl_xRMfDMIiKOouzLCoKri6b1XtXxoyg"></script>
+<script type="text/javascript">
+google.load("earth", "1");
+
+var ge = null;
+
+function init() {
+  google.earth.createInstance("map3d", initCallback, failureCallback);
+}
+
+function initCallback(pluginInstance) {
+  ge = pluginInstance;
+  ge.getWindow().setVisibility(true); // required!
+  ge.getNavigationControl().setVisibility(ge.VISIBILITY_AUTO);
+  createNetworkLink();
+  document.getElementById('installed-plugin-version').innerHTML = ge.getPluginVersion().toString();
+}
+
+function failureCallback(errorCode) {
+  //alert("Failure loading the Google Earth Plugin: " + errorCode);
+}
+
+function createNetworkLink() {
+  var networkLink = ge.createNetworkLink("");
+  networkLink.setDescription("NetworkLink open to fetched content");
+  networkLink.setName("Open NetworkLink");
+  networkLink.setFlyToView(true);
+
+  // create a Link object
+  var link = ge.createLink("");
+  link.setHref("http://pointmap.osu.edu/files/oilspill.kml");
+
+  // attach the Link to the NetworkLink
+  networkLink.setLink(link);
+
+  // add the NetworkLink feature to Earth
+  ge.getFeatures().appendChild(networkLink);
+}
+</script>
+<% end %>
+
 <h1>Welcome to Pointmap</h1>
-<p>This site is currently under construction</p>
+<p>
+  Pointmap produces a keyhole markup file (kml) that displays locations in Google Earth.
+  <br/><br/>
+  Below is an interactive visualization of co-distribution of surface oil (green; NOAA)
+  and Halieutichthys aculeatus (yellow points; the pancake batfish; Ho et al., in press.) in the Gulf of Mexico.
+</p>
+
+<div id="map3d_container">
+  <div id="map3d"></div>
+</div>

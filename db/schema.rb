@@ -9,17 +9,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100621143721) do
+ActiveRecord::Schema.define(:version => 20100623173531) do
 
   create_table "pointmaps", :force => true do |t|
     t.string   "name"
     t.string   "description"
-    t.text     "kml"
+    t.text     "kml",         :limit => 2147483647
     t.boolean  "public"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text     "csv"
+    t.text     "csv",         :limit => 2147483647
   end
 
   create_table "sessions", :force => true do |t|
@@ -49,6 +49,8 @@ ActiveRecord::Schema.define(:version => 20100621143721) do
     t.string   "last_login_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "first_name"
+    t.string   "last_name"
   end
 
 end

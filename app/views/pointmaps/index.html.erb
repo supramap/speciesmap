@@ -1,13 +1,19 @@
-<h1>Listing pointmaps</h1>
+<% content_for :head do %>
+  <script src="/javascripts/sorttable.js"></script>
+<% end %>
 
-<%= link_to 'New pointmap', new_pointmap_path %>
+<h1>Listing Pointmaps</h1>
 
-<table>
+<p><%= link_to 'New pointmap', new_pointmap_path %></p>
+
+
+<table class="sortable">
   <tr>
     <th>Name</th>
     <th>Description</th>
     <th>Public?</th>
     <th>Owner</th>
+    <th>Options</th>
   </tr>
 
 <% @pointmaps.each do |pointmap| %>
@@ -16,9 +22,11 @@
     <td><%=h pointmap.description %></td>
     <td><%=h pointmap.public %></td>
     <td><%=h pointmap.user.login %></td>
-    <td><%= link_to 'Show', pointmap %></td>
-    <td><%= link_to 'Edit', edit_pointmap_path(pointmap) %></td>
-    <td><%= link_to 'Destroy', pointmap, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td>
+      <%= link_to 'Show', pointmap %> |
+      <%= link_to 'Edit', edit_pointmap_path(pointmap) %> |
+      <%= link_to 'Delete', pointmap, :confirm => 'Are you sure?', :method => :delete %>
+    </td>
   </tr>
 <% end %>
 </table>

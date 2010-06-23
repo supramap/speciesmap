@@ -152,19 +152,52 @@ a:hover { color: #9CC3DE;}
     border: 1px solid silver;
 }
 
-.list th, .list td{
+.list th, .list td {
     border-right: 1px solid #CCCCCC;
     padding: 0.5em;
 }
 
 #login {
-    float: right;
+	position: absolute;
+	bottom: 2px;
+	right: 24px;
     font-size: 12px;
-    padding: 0px 10px 0px 0px;
 }
 
-#login a:hover
-{
-    color: #FFF;
-    background-color: #333;
+#login a{
+	color: #a2c7e1;
+	text-decoration: none;
+}
+
+table {
+	border: 1px dotted black;
+	width: 100%;
+}
+
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+th {
+	border-bottom: 1px solid black;
+	padding: 2px;
+}
+
+td {
+	padding: 0px 15px 5px 0px;
+}
+
+#map3d_container {
+	margin: 0 20px 0 15px;
+	border: 5px solid #565656;
+	height: 500px;
+	width: 703px;
+}
+
+#map3d {
+	height: 100%;
+	width: 100%;
 }

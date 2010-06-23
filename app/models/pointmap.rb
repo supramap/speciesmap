@@ -13,7 +13,7 @@ class Pointmap < ActiveRecord::Base
 		self.csv.each_line do |curLine|
 			lineNum += 1
 			fields = curLine.split(",")
-			if fields.size < 3
+			if fields[1] && fields.size < 3
 				errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
 			else
 				if fields[0] == "label" #If the file includes a header
@@ -72,7 +72,7 @@ class Pointmap < ActiveRecord::Base
 		locations.each_with_index do |location, locIndex|
 			locations.each_with_index do |compare, comIndex|
 				if location == compare && comIndex > locIndex
-					errors.add :csv, "Location #{locIndex} and #{comIndex} have the same name"
+					errors.add :csv, "Location #{locIndex+1} and #{comIndex+1} have the same name"
 				end
 			end
 		end
@@ -88,7 +88,7 @@ class Pointmap < ActiveRecord::Base
         self.kml << "\t\t<Name>Transmissions</Name><open>1</open>\r\n"
 
         self.csv.each_line do |curLine|
-			fields = curLine.split(",")
+			fields = curLine.gsub!("\n", "").split(",")
 			label = fields[0]
 			latitude = fields[1]
 			longitude = fields[2]

@@ -1,7 +1,44 @@
-<p>
-  <b>Name:</b>
-  <%=h @pointmap.name %>
-</p>
+<% content_for :head do %>
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA5uUDbWrxnGTprsjai05OsRTpnzgNMq93dBSwZou5rEhTmdAl_xRMfDMIiKOouzLCoKri6b1XtXxoyg"></script>
+<script type="text/javascript">
+google.load("earth", "1");
+
+var ge = null;
+
+function init() {
+  google.earth.createInstance("map3d", initCallback, failureCallback);
+}
+
+function initCallback(pluginInstance) {
+  ge = pluginInstance;
+  ge.getWindow().setVisibility(true);
+  ge.getNavigationControl().setVisibility(ge.VISIBILITY_AUTO);
+  createKmlObject();
+  document.getElementById('installed-plugin-version').innerHTML = ge.getPluginVersion().toString();
+}
+
+function failureCallback(errorCode) {
+  alert("Failure loading the Google Earth Plugin: " + errorCode);
+}
+
+function createKmlObject() {
+  var kmlBox = document.getElementById('kml-box');
+  var kmlString = kmlBox.value;
+  // create a kml object
+  try {
+    var kmlObject = ge.parseKml(kmlString);
+    ge.getFeatures().appendChild(kmlObject);
+  } catch (ex) {
+    alert('Parse error');
+  }
+}
+</script>
+<% end %>
+
+<h1><%=h @pointmap.name %></h1>
+
+<%= link_to 'Edit', edit_pointmap_path(@pointmap) %> |
+<%= link_to 'Delete', :pointmap, :confirm => 'Are you sure?', :method => :delete %>
 
 <p>
   <b>Description:</b>
@@ -19,11 +56,14 @@
 </p>
 
 <p>
-  <b>Csv:</b><br/>
+  <b>Csv:</b>
   <a href="/pointmaps/download_csv/<%= @pointmap.id %>">Download</a>
 <p>
-  <b>Kml:</b><br/>
+  <b>Kml:</b>
   <a href="/pointmaps/download_kml/<%= @pointmap.id %>">Download</a>
 </p>
+<div id="map3d_container">
+  <div id="map3d"></div>
+</div>
 
-<%= link_to 'Edit', edit_pointmap_path(@pointmap) %>
+<textarea id="kml-box" style="position:absolute; display:none; visibility:hidden;"><%=h @pointmap.kml %></textarea>

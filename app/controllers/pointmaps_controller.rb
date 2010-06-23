@@ -45,12 +45,14 @@ class PointmapsController < ApplicationController
   # POST /pointmaps.xml
   def create
     @pointmap = Pointmap.new(params[:pointmap])
-    @pointmap.csv = params[:pointmap][:csv].read
+    if params[:pointmap][:csv]
+    	@pointmap.csv = params[:pointmap][:csv].read
+    end
     @pointmap.writeKml
 
     respond_to do |format|
       if @pointmap.save
-        flash[:notice] = 'Pointmap was successfully created.'
+        flash[:notice] = "#{@pointmap.name} was successfully created."
         format.html { redirect_to(@pointmap) }
         format.xml  { render :xml => @pointmap, :status => :created, :location => @pointmap }
       else
@@ -64,12 +66,14 @@ class PointmapsController < ApplicationController
   # PUT /pointmaps/1.xml
   def update
     @pointmap = Pointmap.find(params[:id])
-    @pointmap.csv = params[:pointmap][:csv].read
+    if params[:pointmap][:csv]
+    	@pointmap.csv = params[:pointmap][:csv].read
+    end
     @pointmap.writeKml
 
     respond_to do |format|
       if @pointmap.update_attributes(params[:pointmap])
-        flash[:notice] = 'Pointmap was successfully updated.'
+        flash[:notice] = "#{@pointmap.names} was successfully updated."
         format.html { redirect_to(@pointmap) }
         format.xml  { head :ok }
       else
@@ -83,6 +87,7 @@ class PointmapsController < ApplicationController
   # DELETE /pointmaps/1.xml
   def destroy
     @pointmap = Pointmap.find(params[:id])
+    flash[:notice] = "#{@pointmap.names} was successfully deleted."
     @pointmap.destroy
 
     respond_to do |format|
@@ -93,15 +98,11 @@ class PointmapsController < ApplicationController
 
   def download_kml
   	@pointmap = Pointmap.find(params[:id])
-  	data = Tempfile.new('pointmap')
-  	data.write(@pointmap.kml)
-  	send_file data.path, :filename => "#{@pointmap.name}.kml", :type => "application/vnd.google-earth.kml+xml"
+  	send_data @pointmap.kml, :filename => "#{@pointmap.name}.kml", :type => "application/vnd.google-earth.kml+xml"
   end
 
   def download_csv
-  @pointmap = Pointmap.find(params[:id])
-  	data = Tempfile.new('pointmap')
-  	data.write(@pointmap.csv)
-  	send_file data.path, :filename => "#{@pointmap.name}.csv", :type => "text/csv"
+    @pointmap = Pointmap.find(params[:id])
+  	send_data @pointmap.csv, :filename => "#{@pointmap.name}.csv", :type => "text/csv"
   end
 end
