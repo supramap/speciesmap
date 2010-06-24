@@ -1,0 +1,1014 @@
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:44:44) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 96ms (View: 92, DB: 0) | 200 OK [http://pointmap.osu.edu/]
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:44:48) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:48) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:44:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:51) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing PointmapsController#index (for 70.63.1.5 at 2010-06-24 14:44:52) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+Redirected to http://pointmap.osu.edu/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://pointmap.osu.edu/pointmaps]
+
+
+Processing UserSessionsController#new (for 70.63.1.5 at 2010-06-24 14:44:52) [GET]
+  Parameters: {"controller"=>"user_sessions", "action"=>"new"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 25ms (View: 20, DB: 0) | 200 OK [http://pointmap.osu.edu/user_session/new]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:52) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#publications (for 70.63.1.5 at 2010-06-24 14:44:53) [GET]
+  Parameters: {"controller"=>"home", "action"=>"publications"}
+Rendering template within layouts/application
+Rendering home/publications
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/publications]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:54) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#help (for 70.63.1.5 at 2010-06-24 14:44:55) [GET]
+  Parameters: {"controller"=>"home", "action"=>"help"}
+Rendering template within layouts/application
+Rendering home/help
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/help]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:55) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:44:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:44:57) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:45:01) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:47:02) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:47:03) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:47:05) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:47:05) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:47:06) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:47:06) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:47:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:47:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:48:03) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:48:04) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:50:06) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:50:07) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing PointmapsController#index (for 70.63.1.5 at 2010-06-24 14:50:10) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+Redirected to http://pointmap.osu.edu/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://pointmap.osu.edu/pointmaps]
+
+
+Processing UserSessionsController#new (for 70.63.1.5 at 2010-06-24 14:50:10) [GET]
+  Parameters: {"controller"=>"user_sessions", "action"=>"new"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://pointmap.osu.edu/user_session/new]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:50:10) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:50:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:50:11) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:55:06) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:55:06) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:55:06) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:55:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:55:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:55:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:55:09) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:56:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:08) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:56:10) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:10) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:56:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:11) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:56:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:13) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing PointmapsController#index (for 70.63.1.5 at 2010-06-24 14:56:14) [GET]
+  Parameters: {"controller"=>"pointmaps", "action"=>"index"}
+Redirected to http://pointmap.osu.edu/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://pointmap.osu.edu/pointmaps]
+
+
+Processing UserSessionsController#new (for 70.63.1.5 at 2010-06-24 14:56:14) [GET]
+  Parameters: {"controller"=>"user_sessions", "action"=>"new"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://pointmap.osu.edu/user_session/new]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:14) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#publications (for 70.63.1.5 at 2010-06-24 14:56:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"publications"}
+Rendering template within layouts/application
+Rendering home/publications
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/publications]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:16) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#help (for 70.63.1.5 at 2010-06-24 14:56:16) [GET]
+  Parameters: {"controller"=>"home", "action"=>"help"}
+Rendering template within layouts/application
+Rendering home/help
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/help]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:16) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#videos (for 70.63.1.5 at 2010-06-24 14:56:17) [GET]
+  Parameters: {"controller"=>"home", "action"=>"videos"}
+Rendering template within layouts/application
+Rendering home/videos
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/videos]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:17) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#contact (for 70.63.1.5 at 2010-06-24 14:56:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"contact"}
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://pointmap.osu.edu/home/contact]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:18) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)
+
+
+Processing HomeController#index (for 70.63.1.5 at 2010-06-24 14:56:19) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://pointmap.osu.edu/home]
+
+
+Processing ApplicationController#index (for 70.63.1.5 at 2010-06-24 14:56:19) [GET]
+
+ActionController::RoutingError (No route matches "/css/box.jpg" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `block in handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `block in spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `block in synchronize'
+  <internal:prelude>:8:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /home/jori/pointmap2-depthmap/public/404.html (404 Not Found)

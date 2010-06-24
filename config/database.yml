@@ -1,7 +1,7 @@
 development:
   adapter: mysql
   encoding: utf8
-  database: pointmap2
+  database: pointmap
   pool: 5
   username: pointmap
   password: point.map!
@@ -9,7 +9,7 @@ development:
 test:
   adapter: mysql
   encoding: utf8
-  database: pointmap2
+  database: pointmap
   pool: 5
   username: pointmap
   password: point.map!
@@ -17,7 +17,7 @@ test:
 production:
   adapter: mysql
   encoding: utf8
-  database: pointmap2
+  database: pointmap
   pool: 5
   username: pointmap
   password: point.map!

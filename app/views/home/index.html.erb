@@ -37,6 +37,8 @@ function createNetworkLink() {
   // add the NetworkLink feature to Earth
   ge.getFeatures().appendChild(networkLink);
 }
+
+Event.observe(window, 'load', function() { init() });
 </script>
 <% end %>
 
