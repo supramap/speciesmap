@@ -12,4 +12,7 @@ class HomeController < ApplicationController
   def videos
   end
 
+  def oil_spill
+  end
+
 end
