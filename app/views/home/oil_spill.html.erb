@@ -3,6 +3,6 @@
 <p>Example kmls:<p>
 <ul>
   <% @files.each do |file| %>
-    <li><%= link_to file, "/public/files/#{file}" %></li>
+    <li><a href="/files/<%=file%>"><%= file %></a></li>
   <% end %>
 </ul>
