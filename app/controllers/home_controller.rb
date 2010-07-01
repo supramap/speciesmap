@@ -13,6 +13,10 @@ class HomeController < ApplicationController
   end
 
   def oil_spill
+  	@files = []
+  	Dir.new("public/files").each do |curFile|
+  		@files << curFile if curFile =~ /oil.kml/
+  	end
   end
 
 end
