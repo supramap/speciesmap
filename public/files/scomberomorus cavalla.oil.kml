@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+<NetworkLink>
+        <open>1</open>
+	<name>NOAA Spill Extent</name>
+	<Link>
+		<href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href>
+	</Link>
+</NetworkLink>
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2010-06-17)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2010-06-17)<br/><br/>GBIF-Spain, Colección de referencia de otolitos, Instituto de Ciencias del Mar-CSIC (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9192">http://data.gbif.org/datasets/resource/9192</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, ECNASAP - East Coast North America Strategic Assessment (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/349">http://data.gbif.org/datasets/resource/349</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, NODC WOD01 Plankton Database (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/318">http://data.gbif.org/datasets/resource/318</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, SEAMAP - marine mammals, birds and turtles (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/338">http://data.gbif.org/datasets/resource/338</a>, 2010-06-17)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2010-06-17)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2010-06-17)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2010-06-17)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2010-06-17)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2010-06-17)<br/><br/>OZCAM (Online Zoological Collections of Australian Museums) Provider, Australian Museum provider for OZCAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9105">http://data.gbif.org/datasets/resource/9105</a>, 2010-06-17)<br/><br/>Ocean Biogeographic Information System, A Biological Survey of the Waters of Woods Hole and Vacinity (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1920">http://data.gbif.org/datasets/resource/1920</a>, 2010-06-17)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2010-06-17)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2010-06-17)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2010-06-17)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2010-06-17)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2010-06-17)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Scomberomorus cavalla</name>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>67290</td><td>1976-09-05</td><td><a href="http://data.gbif.org/occurrences/35345440">http://data.gbif.org/occurrences/35345440</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-78.23,33.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93073</td><td>1984-09-20</td><td><a href="http://data.gbif.org/occurrences/35346499">http://data.gbif.org/occurrences/35346499</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-74.92,35.73,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>67289</td><td>1977-09-02</td><td><a href="http://data.gbif.org/occurrences/35345435">http://data.gbif.org/occurrences/35345435</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.88,33.06,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13551</td><td>1969-12-20</td><td><a href="http://data.gbif.org/occurrences/189349744">http://data.gbif.org/occurrences/189349744</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.6167,25.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281082</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354542">http://data.gbif.org/occurrences/11354542</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.69,28.891,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13554</td><td>1971-11-26</td><td><a href="http://data.gbif.org/occurrences/189349747">http://data.gbif.org/occurrences/189349747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-68.9667,18.4167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13656</td><td>2001-11-16</td><td><a href="http://data.gbif.org/occurrences/189349690">http://data.gbif.org/occurrences/189349690</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.7833,27.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13578</td><td>1982-04-17</td><td><a href="http://data.gbif.org/occurrences/189349712">http://data.gbif.org/occurrences/189349712</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.05,26.8667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5767</td><td></td><td><a href="http://data.gbif.org/occurrences/93304213">http://data.gbif.org/occurrences/93304213</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-38.483,-12.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>30727-18</td><td></td><td><a href="http://data.gbif.org/occurrences/83250896">http://data.gbif.org/occurrences/83250896</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.8333,9.675,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>297408.5181749</td><td>1968-11-28</td><td><a href="http://data.gbif.org/occurrences/150170643">http://data.gbif.org/occurrences/150170643</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.7,10.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P3147</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/145108524">http://data.gbif.org/occurrences/145108524</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P3167</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/145108526">http://data.gbif.org/occurrences/145108526</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.394,20.859,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>291492</td><td>1978-06-17</td><td><a href="http://data.gbif.org/occurrences/11354668">http://data.gbif.org/occurrences/11354668</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>291631</td><td>1978-06-17</td><td><a href="http://data.gbif.org/occurrences/11354669">http://data.gbif.org/occurrences/11354669</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.776,29.125,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00298420</td><td>1975-05-10</td><td><a href="http://data.gbif.org/occurrences/189349662">http://data.gbif.org/occurrences/189349662</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-49.0,2.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14897</td><td></td><td><a href="http://data.gbif.org/occurrences/203875298">http://data.gbif.org/occurrences/203875298</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>88.8886,30.1891,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272315</td><td>1975-09-12</td><td><a href="http://data.gbif.org/occurrences/11353537">http://data.gbif.org/occurrences/11353537</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272378</td><td>1975-09-13</td><td><a href="http://data.gbif.org/occurrences/11353545">http://data.gbif.org/occurrences/11353545</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>273959</td><td>1976-05-30</td><td><a href="http://data.gbif.org/occurrences/11353641">http://data.gbif.org/occurrences/11353641</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276077</td><td>1976-09-11</td><td><a href="http://data.gbif.org/occurrences/11354105">http://data.gbif.org/occurrences/11354105</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.65,26.17,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3929</td><td></td><td><a href="http://data.gbif.org/occurrences/176214027">http://data.gbif.org/occurrences/176214027</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29673</td><td></td><td><a href="http://data.gbif.org/occurrences/190571342">http://data.gbif.org/occurrences/190571342</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.5035,29.2477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93071</td><td>1985-08-29</td><td><a href="http://data.gbif.org/occurrences/35346493">http://data.gbif.org/occurrences/35346493</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.1,34.32,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13546</td><td>1967-07-27</td><td><a href="http://data.gbif.org/occurrences/189349739">http://data.gbif.org/occurrences/189349739</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>148.867,-20.0333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>386980.5307743</td><td>2002-09-08</td><td><a href="http://data.gbif.org/occurrences/150170709">http://data.gbif.org/occurrences/150170709</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>75.549,35.142,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271578</td><td>1975-05-07</td><td><a href="http://data.gbif.org/occurrences/11353466">http://data.gbif.org/occurrences/11353466</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271927</td><td>1975-08-27</td><td><a href="http://data.gbif.org/occurrences/11353488">http://data.gbif.org/occurrences/11353488</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271956</td><td>1975-08-28</td><td><a href="http://data.gbif.org/occurrences/11353490">http://data.gbif.org/occurrences/11353490</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274829</td><td>1976-06-07</td><td><a href="http://data.gbif.org/occurrences/11353771">http://data.gbif.org/occurrences/11353771</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274855</td><td>1976-06-07</td><td><a href="http://data.gbif.org/occurrences/11353775">http://data.gbif.org/occurrences/11353775</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276708</td><td>1976-09-15</td><td><a href="http://data.gbif.org/occurrences/11354215">http://data.gbif.org/occurrences/11354215</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276733</td><td>1976-09-15</td><td><a href="http://data.gbif.org/occurrences/11354223">http://data.gbif.org/occurrences/11354223</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282156</td><td>1977-09-11</td><td><a href="http://data.gbif.org/occurrences/11354640">http://data.gbif.org/occurrences/11354640</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.318,27.901,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>1</td><td>905</td><td>1998-08-15</td><td><a href="http://data.gbif.org/occurrences/17218897">http://data.gbif.org/occurrences/17218897</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.8057,29.8155,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 39188</td><td>1967-04-07</td><td><a href="http://data.gbif.org/occurrences/189349816">http://data.gbif.org/occurrences/189349816</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-83.7333,15.825,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13626</td><td>1997-06-14</td><td><a href="http://data.gbif.org/occurrences/189349760">http://data.gbif.org/occurrences/189349760</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.0833,26.2667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13561</td><td>1973-11-05</td><td><a href="http://data.gbif.org/occurrences/189349754">http://data.gbif.org/occurrences/189349754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.5333,28.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14897</td><td></td><td><a href="http://data.gbif.org/occurrences/190571468">http://data.gbif.org/occurrences/190571468</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.8886,30.1891,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>3133-A</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/46411801">http://data.gbif.org/occurrences/46411801</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.6736,21.2731,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275326</td><td>1976-08-17</td><td><a href="http://data.gbif.org/occurrences/11353876">http://data.gbif.org/occurrences/11353876</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.758,28.932,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13582</td><td>1983-03-29</td><td><a href="http://data.gbif.org/occurrences/189349716">http://data.gbif.org/occurrences/189349716</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13630</td><td>1998-01-01</td><td><a href="http://data.gbif.org/occurrences/189349764">http://data.gbif.org/occurrences/189349764</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.2,25.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13629</td><td>1997-07-26</td><td><a href="http://data.gbif.org/occurrences/189349763">http://data.gbif.org/occurrences/189349763</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.3333,27.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>44218</td><td>2006-05-28</td><td><a href="http://data.gbif.org/occurrences/199239722">http://data.gbif.org/occurrences/199239722</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.1043,35.2406,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (10 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274682</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11353745">http://data.gbif.org/occurrences/11353745</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274713</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11353749">http://data.gbif.org/occurrences/11353749</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275273</td><td>1976-07-12</td><td><a href="http://data.gbif.org/occurrences/11353863">http://data.gbif.org/occurrences/11353863</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275761</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354021">http://data.gbif.org/occurrences/11354021</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276546</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354177">http://data.gbif.org/occurrences/11354177</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276579</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354187">http://data.gbif.org/occurrences/11354187</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279679</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354337">http://data.gbif.org/occurrences/11354337</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280072</td><td>1977-07-06</td><td><a href="http://data.gbif.org/occurrences/11354397">http://data.gbif.org/occurrences/11354397</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281996</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354625">http://data.gbif.org/occurrences/11354625</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282022</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354628">http://data.gbif.org/occurrences/11354628</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.6,27.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (10 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274437</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11353716">http://data.gbif.org/occurrences/11353716</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275615</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11353976">http://data.gbif.org/occurrences/11353976</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275655</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11353986">http://data.gbif.org/occurrences/11353986</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276334</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354147">http://data.gbif.org/occurrences/11354147</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276377</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354155">http://data.gbif.org/occurrences/11354155</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279498</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354330">http://data.gbif.org/occurrences/11354330</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280230</td><td>1977-07-07</td><td><a href="http://data.gbif.org/occurrences/11354413">http://data.gbif.org/occurrences/11354413</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281458</td><td>1977-08-05</td><td><a href="http://data.gbif.org/occurrences/11354581">http://data.gbif.org/occurrences/11354581</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281822</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354612">http://data.gbif.org/occurrences/11354612</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281861</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354615">http://data.gbif.org/occurrences/11354615</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.301,27.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13661</td><td>2003-04-19</td><td><a href="http://data.gbif.org/occurrences/189349696">http://data.gbif.org/occurrences/189349696</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.7,30.2333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00298336</td><td>1962-09-05</td><td><a href="http://data.gbif.org/occurrences/189349661">http://data.gbif.org/occurrences/189349661</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P3133</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/145108522">http://data.gbif.org/occurrences/145108522</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.674,21.273,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275464</td><td>1976-08-18</td><td><a href="http://data.gbif.org/occurrences/11353941">http://data.gbif.org/occurrences/11353941</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.685,28.856,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>46234</td><td>2007-08-20</td><td><a href="http://data.gbif.org/occurrences/199238942">http://data.gbif.org/occurrences/199238942</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.6305,34.6338,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>265607.5124045</td><td>1972-06-21</td><td><a href="http://data.gbif.org/occurrences/150170593">http://data.gbif.org/occurrences/150170593</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-57.8,7.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272289</td><td>1975-09-12</td><td><a href="http://data.gbif.org/occurrences/11353533">http://data.gbif.org/occurrences/11353533</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276116</td><td>1976-09-12</td><td><a href="http://data.gbif.org/occurrences/11354111">http://data.gbif.org/occurrences/11354111</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276125</td><td>1976-09-12</td><td><a href="http://data.gbif.org/occurrences/11354116">http://data.gbif.org/occurrences/11354116</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.001,26.17,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.41</td><td>14075.KINMAK</td><td>1981-03-26</td><td><a href="http://data.gbif.org/occurrences/18443291">http://data.gbif.org/occurrences/18443291</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.33,34.02,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13610</td><td>1992-04-05</td><td><a href="http://data.gbif.org/occurrences/189349801">http://data.gbif.org/occurrences/189349801</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-81.0833,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>16735</td><td></td><td><a href="http://data.gbif.org/occurrences/35343708">http://data.gbif.org/occurrences/35343708</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.02,26.93,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>28307</td><td>1983-10-18</td><td><a href="http://data.gbif.org/occurrences/199238881">http://data.gbif.org/occurrences/199238881</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.6367,34.6459,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280557</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354468">http://data.gbif.org/occurrences/11354468</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280644</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354487">http://data.gbif.org/occurrences/11354487</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280668</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354495">http://data.gbif.org/occurrences/11354495</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.698,28.867,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13644</td><td>2000-08-02</td><td><a href="http://data.gbif.org/occurrences/189349778">http://data.gbif.org/occurrences/189349778</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.4167,30.3333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>273872</td><td>1976-05-25</td><td><a href="http://data.gbif.org/occurrences/11353634">http://data.gbif.org/occurrences/11353634</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.642,28.811,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>b-2509</td><td></td><td><a href="http://data.gbif.org/occurrences/93304092">http://data.gbif.org/occurrences/93304092</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5720</td><td></td><td><a href="http://data.gbif.org/occurrences/93304212">http://data.gbif.org/occurrences/93304212</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5780</td><td></td><td><a href="http://data.gbif.org/occurrences/93304216">http://data.gbif.org/occurrences/93304216</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-61.0,14.583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>67288</td><td>1975-09-18</td><td><a href="http://data.gbif.org/occurrences/35345428">http://data.gbif.org/occurrences/35345428</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.84,31.59,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271885</td><td>1975-08-27</td><td><a href="http://data.gbif.org/occurrences/11353476">http://data.gbif.org/occurrences/11353476</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271910</td><td>1975-08-27</td><td><a href="http://data.gbif.org/occurrences/11353483">http://data.gbif.org/occurrences/11353483</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274874</td><td>1976-06-08</td><td><a href="http://data.gbif.org/occurrences/11353779">http://data.gbif.org/occurrences/11353779</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274897</td><td>1976-06-08</td><td><a href="http://data.gbif.org/occurrences/11353787">http://data.gbif.org/occurrences/11353787</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.45,28.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2002-1129</td><td>1926-12-01</td><td><a href="http://data.gbif.org/occurrences/93303995">http://data.gbif.org/occurrences/93303995</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-61.5,14.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>5159</td><td></td><td><a href="http://data.gbif.org/occurrences/203888123">http://data.gbif.org/occurrences/203888123</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>96.7328,27.9567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>27069</td><td></td><td><a href="http://data.gbif.org/occurrences/203875477">http://data.gbif.org/occurrences/203875477</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1222</td><td></td><td><a href="http://data.gbif.org/occurrences/203888037">http://data.gbif.org/occurrences/203888037</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>75.4667,35.6167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93075</td><td>1987-09-13</td><td><a href="http://data.gbif.org/occurrences/35346505">http://data.gbif.org/occurrences/35346505</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.15,35.22,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13548</td><td>1968-02-22</td><td><a href="http://data.gbif.org/occurrences/189349741">http://data.gbif.org/occurrences/189349741</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.1,26.9333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31672-021</td><td></td><td><a href="http://data.gbif.org/occurrences/223681920">http://data.gbif.org/occurrences/223681920</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.9,31.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29673</td><td></td><td><a href="http://data.gbif.org/occurrences/203875172">http://data.gbif.org/occurrences/203875172</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3929</td><td></td><td><a href="http://data.gbif.org/occurrences/203887660">http://data.gbif.org/occurrences/203887660</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>88.5035,29.2477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (15 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272023</td><td>1975-09-05</td><td><a href="http://data.gbif.org/occurrences/11353497">http://data.gbif.org/occurrences/11353497</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272053</td><td>1975-09-06</td><td><a href="http://data.gbif.org/occurrences/11353502">http://data.gbif.org/occurrences/11353502</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274313</td><td>1976-06-05</td><td><a href="http://data.gbif.org/occurrences/11353694">http://data.gbif.org/occurrences/11353694</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274337</td><td>1976-06-05</td><td><a href="http://data.gbif.org/occurrences/11353697">http://data.gbif.org/occurrences/11353697</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275071</td><td>1976-07-11</td><td><a href="http://data.gbif.org/occurrences/11353820">http://data.gbif.org/occurrences/11353820</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275099</td><td>1976-07-11</td><td><a href="http://data.gbif.org/occurrences/11353833">http://data.gbif.org/occurrences/11353833</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275809</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354032">http://data.gbif.org/occurrences/11354032</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275835</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354039">http://data.gbif.org/occurrences/11354039</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276602</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354194">http://data.gbif.org/occurrences/11354194</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276618</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354199">http://data.gbif.org/occurrences/11354199</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279707</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354341">http://data.gbif.org/occurrences/11354341</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279738</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354351">http://data.gbif.org/occurrences/11354351</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280342</td><td>1977-07-07</td><td><a href="http://data.gbif.org/occurrences/11354425">http://data.gbif.org/occurrences/11354425</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281941</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354619">http://data.gbif.org/occurrences/11354619</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281969</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354622">http://data.gbif.org/occurrences/11354622</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.735,27.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272439</td><td>1975-09-29</td><td><a href="http://data.gbif.org/occurrences/11353555">http://data.gbif.org/occurrences/11353555</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272472</td><td>1975-09-30</td><td><a href="http://data.gbif.org/occurrences/11353560">http://data.gbif.org/occurrences/11353560</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274766</td><td>1976-06-07</td><td><a href="http://data.gbif.org/occurrences/11353753">http://data.gbif.org/occurrences/11353753</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274802</td><td>1976-06-07</td><td><a href="http://data.gbif.org/occurrences/11353757">http://data.gbif.org/occurrences/11353757</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276648</td><td>1976-09-15</td><td><a href="http://data.gbif.org/occurrences/11354205">http://data.gbif.org/occurrences/11354205</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282108</td><td>1977-09-11</td><td><a href="http://data.gbif.org/occurrences/11354637">http://data.gbif.org/occurrences/11354637</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282137</td><td>1977-09-11</td><td><a href="http://data.gbif.org/occurrences/11354639">http://data.gbif.org/occurrences/11354639</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.101,27.551,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5521</td><td></td><td><a href="http://data.gbif.org/occurrences/93304197">http://data.gbif.org/occurrences/93304197</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5706</td><td></td><td><a href="http://data.gbif.org/occurrences/93304210">http://data.gbif.org/occurrences/93304210</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.0,22.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (6 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13529</td><td>1955-04-25</td><td><a href="http://data.gbif.org/occurrences/189349681">http://data.gbif.org/occurrences/189349681</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13535</td><td>1960-03-27</td><td><a href="http://data.gbif.org/occurrences/189349728">http://data.gbif.org/occurrences/189349728</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13542</td><td>1965-02-14</td><td><a href="http://data.gbif.org/occurrences/189349735">http://data.gbif.org/occurrences/189349735</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13564</td><td>1974-12-23</td><td><a href="http://data.gbif.org/occurrences/189349740">http://data.gbif.org/occurrences/189349740</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13556</td><td>1972-11-29</td><td><a href="http://data.gbif.org/occurrences/189349749">http://data.gbif.org/occurrences/189349749</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13557</td><td>1973-02-23</td><td><a href="http://data.gbif.org/occurrences/189349750">http://data.gbif.org/occurrences/189349750</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.0333,26.7167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274126</td><td>1976-06-03</td><td><a href="http://data.gbif.org/occurrences/11353654">http://data.gbif.org/occurrences/11353654</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274139</td><td>1976-06-03</td><td><a href="http://data.gbif.org/occurrences/11353662">http://data.gbif.org/occurrences/11353662</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280001</td><td>1977-07-06</td><td><a href="http://data.gbif.org/occurrences/11354381">http://data.gbif.org/occurrences/11354381</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281226</td><td>1977-08-04</td><td><a href="http://data.gbif.org/occurrences/11354553">http://data.gbif.org/occurrences/11354553</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281242</td><td>1977-08-04</td><td><a href="http://data.gbif.org/occurrences/11354558">http://data.gbif.org/occurrences/11354558</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.98,27.67,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13568</td><td>1976-12-31</td><td><a href="http://data.gbif.org/occurrences/189349703">http://data.gbif.org/occurrences/189349703</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.25,27.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00297408</td><td>1968-11-28</td><td><a href="http://data.gbif.org/occurrences/189349660">http://data.gbif.org/occurrences/189349660</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.0,10.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>387808.5309383</td><td>2005-09-23</td><td><a href="http://data.gbif.org/occurrences/150170690">http://data.gbif.org/occurrences/150170690</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.414,35.276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (6 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13533</td><td>1957-05-12</td><td><a href="http://data.gbif.org/occurrences/189349674">http://data.gbif.org/occurrences/189349674</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13523</td><td>1947-03-05</td><td><a href="http://data.gbif.org/occurrences/189349675">http://data.gbif.org/occurrences/189349675</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13524</td><td>1952-05-22</td><td><a href="http://data.gbif.org/occurrences/189349676">http://data.gbif.org/occurrences/189349676</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13531</td><td>1956-06-24</td><td><a href="http://data.gbif.org/occurrences/189349683">http://data.gbif.org/occurrences/189349683</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13540</td><td>1963-06-27</td><td><a href="http://data.gbif.org/occurrences/189349733">http://data.gbif.org/occurrences/189349733</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13642</td><td>1999-04-26</td><td><a href="http://data.gbif.org/occurrences/189349776">http://data.gbif.org/occurrences/189349776</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-71.95,25.7167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13637</td><td>1999-03-29</td><td><a href="http://data.gbif.org/occurrences/189349756">http://data.gbif.org/occurrences/189349756</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.6333,27.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>189247</td><td>1998-08-02</td><td><a href="http://data.gbif.org/occurrences/198349025">http://data.gbif.org/occurrences/198349025</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.5583,28.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>298420.5182013</td><td>1975-05-10</td><td><a href="http://data.gbif.org/occurrences/150170701">http://data.gbif.org/occurrences/150170701</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-49.5,2.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93067</td><td>1985-09-15</td><td><a href="http://data.gbif.org/occurrences/35346482">http://data.gbif.org/occurrences/35346482</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-74.78,36.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13547</td><td>1967-07-29</td><td><a href="http://data.gbif.org/occurrences/189349755">http://data.gbif.org/occurrences/189349755</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>145.75,-16.9167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1249</td><td></td><td><a href="http://data.gbif.org/occurrences/203888146">http://data.gbif.org/occurrences/203888146</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>75.3667,35.5167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>357122</td><td>1980-09-11</td><td><a href="http://data.gbif.org/occurrences/11354688">http://data.gbif.org/occurrences/11354688</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.91,31.143,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13660</td><td>2002-12-29</td><td><a href="http://data.gbif.org/occurrences/189349694">http://data.gbif.org/occurrences/189349694</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.4,25.1167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13589</td><td>1984-08-15</td><td><a href="http://data.gbif.org/occurrences/189349723">http://data.gbif.org/occurrences/189349723</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.3333,25.0667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5784</td><td></td><td><a href="http://data.gbif.org/occurrences/93304220">http://data.gbif.org/occurrences/93304220</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>168.0,-29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (13 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271859</td><td>1975-05-17</td><td><a href="http://data.gbif.org/occurrences/11353475">http://data.gbif.org/occurrences/11353475</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272097</td><td>1975-09-07</td><td><a href="http://data.gbif.org/occurrences/11353507">http://data.gbif.org/occurrences/11353507</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274527</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11353731">http://data.gbif.org/occurrences/11353731</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274974</td><td>1976-07-10</td><td><a href="http://data.gbif.org/occurrences/11353798">http://data.gbif.org/occurrences/11353798</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275005</td><td>1976-07-10</td><td><a href="http://data.gbif.org/occurrences/11353801">http://data.gbif.org/occurrences/11353801</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275537</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11353955">http://data.gbif.org/occurrences/11353955</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275574</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11353968">http://data.gbif.org/occurrences/11353968</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276417</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354161">http://data.gbif.org/occurrences/11354161</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279402</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354316">http://data.gbif.org/occurrences/11354316</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279448</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354321">http://data.gbif.org/occurrences/11354321</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281400</td><td>1977-08-05</td><td><a href="http://data.gbif.org/occurrences/11354578">http://data.gbif.org/occurrences/11354578</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281755</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354605">http://data.gbif.org/occurrences/11354605</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281781</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354609">http://data.gbif.org/occurrences/11354609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.38,27.285,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272170</td><td>1975-09-08</td><td><a href="http://data.gbif.org/occurrences/11353515">http://data.gbif.org/occurrences/11353515</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274369</td><td>1976-06-05</td><td><a href="http://data.gbif.org/occurrences/11353702">http://data.gbif.org/occurrences/11353702</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274393</td><td>1976-06-05</td><td><a href="http://data.gbif.org/occurrences/11353708">http://data.gbif.org/occurrences/11353708</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276262</td><td>1976-09-13</td><td><a href="http://data.gbif.org/occurrences/11354136">http://data.gbif.org/occurrences/11354136</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276292</td><td>1976-09-13</td><td><a href="http://data.gbif.org/occurrences/11354143">http://data.gbif.org/occurrences/11354143</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281692</td><td>1977-09-09</td><td><a href="http://data.gbif.org/occurrences/11354599">http://data.gbif.org/occurrences/11354599</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281722</td><td>1977-09-09</td><td><a href="http://data.gbif.org/occurrences/11354601">http://data.gbif.org/occurrences/11354601</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.535,26.951,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280400</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354437">http://data.gbif.org/occurrences/11354437</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280417</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354442">http://data.gbif.org/occurrences/11354442</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280434</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354444">http://data.gbif.org/occurrences/11354444</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280531</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354461">http://data.gbif.org/occurrences/11354461</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280581</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354475">http://data.gbif.org/occurrences/11354475</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.698,28.868,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280460</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354448">http://data.gbif.org/occurrences/11354448</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280482</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354453">http://data.gbif.org/occurrences/11354453</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280508</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354457">http://data.gbif.org/occurrences/11354457</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.697,28.868,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93074</td><td>1987-09-13</td><td><a href="http://data.gbif.org/occurrences/35346502">http://data.gbif.org/occurrences/35346502</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-74.78,36.02,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>298336.5181825</td><td>1962-09-05</td><td><a href="http://data.gbif.org/occurrences/150170597">http://data.gbif.org/occurrences/150170597</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.8,29.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>b-2508</td><td></td><td><a href="http://data.gbif.org/occurrences/93304091">http://data.gbif.org/occurrences/93304091</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-73.0,20.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn a-5767</td><td></td><td><a href="http://data.gbif.org/occurrences/189349625">http://data.gbif.org/occurrences/189349625</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-38.4833,-12.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5575</td><td></td><td><a href="http://data.gbif.org/occurrences/93304203">http://data.gbif.org/occurrences/93304203</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn a-5575</td><td></td><td><a href="http://data.gbif.org/occurrences/189349626">http://data.gbif.org/occurrences/189349626</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-35.0,-15.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93069</td><td>1985-08-31</td><td><a href="http://data.gbif.org/occurrences/35346486">http://data.gbif.org/occurrences/35346486</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.25,35.47,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272239</td><td>1975-09-09</td><td><a href="http://data.gbif.org/occurrences/11353527">http://data.gbif.org/occurrences/11353527</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276149</td><td>1976-09-13</td><td><a href="http://data.gbif.org/occurrences/11354118">http://data.gbif.org/occurrences/11354118</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.18,26.951,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>17269</td><td>1865-04-30</td><td><a href="http://data.gbif.org/occurrences/35343906">http://data.gbif.org/occurrences/35343906</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-43.28,-22.88,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>3147-A</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/46411805">http://data.gbif.org/occurrences/46411805</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>3167-A</td><td>1985-11-07</td><td><a href="http://data.gbif.org/occurrences/46411806">http://data.gbif.org/occurrences/46411806</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.3942,20.8589,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280697</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354499">http://data.gbif.org/occurrences/11354499</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280800</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354510">http://data.gbif.org/occurrences/11354510</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280865</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354514">http://data.gbif.org/occurrences/11354514</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.707,28.852,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13588</td><td>1984-05-27</td><td><a href="http://data.gbif.org/occurrences/189349722">http://data.gbif.org/occurrences/189349722</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13595</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/189349786">http://data.gbif.org/occurrences/189349786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.75,28.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>4596</td><td>1865-08-06</td><td><a href="http://data.gbif.org/occurrences/35343608">http://data.gbif.org/occurrences/35343608</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-44.27,-2.52,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13528</td><td>1954-08-26</td><td><a href="http://data.gbif.org/occurrences/189349680">http://data.gbif.org/occurrences/189349680</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13539</td><td>1963-06-18</td><td><a href="http://data.gbif.org/occurrences/189349732">http://data.gbif.org/occurrences/189349732</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.05,26.5167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5781</td><td></td><td><a href="http://data.gbif.org/occurrences/93304217">http://data.gbif.org/occurrences/93304217</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-1.167,18.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280915</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354525">http://data.gbif.org/occurrences/11354525</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.708,28.852,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>290652</td><td>1978-06-16</td><td><a href="http://data.gbif.org/occurrences/11354660">http://data.gbif.org/occurrences/11354660</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.704,29.057,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93070</td><td>1985-08-30</td><td><a href="http://data.gbif.org/occurrences/35346489">http://data.gbif.org/occurrences/35346489</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-74.97,35.05,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (49 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13652</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349686">http://data.gbif.org/occurrences/189349686</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13653</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349687">http://data.gbif.org/occurrences/189349687</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13654</td><td>2001-02-14</td><td><a href="http://data.gbif.org/occurrences/189349688">http://data.gbif.org/occurrences/189349688</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13657</td><td>2002-02-13</td><td><a href="http://data.gbif.org/occurrences/189349691">http://data.gbif.org/occurrences/189349691</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13658</td><td>2002-02-13</td><td><a href="http://data.gbif.org/occurrences/189349692">http://data.gbif.org/occurrences/189349692</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13649</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349697">http://data.gbif.org/occurrences/189349697</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13567</td><td>1976-02-16</td><td><a href="http://data.gbif.org/occurrences/189349702">http://data.gbif.org/occurrences/189349702</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13569</td><td>1978-01-23</td><td><a href="http://data.gbif.org/occurrences/189349704">http://data.gbif.org/occurrences/189349704</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13572</td><td>1980-01-15</td><td><a href="http://data.gbif.org/occurrences/189349708">http://data.gbif.org/occurrences/189349708</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13575</td><td>1980-12-14</td><td><a href="http://data.gbif.org/occurrences/189349709">http://data.gbif.org/occurrences/189349709</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13562</td><td>1974-01-19</td><td><a href="http://data.gbif.org/occurrences/189349713">http://data.gbif.org/occurrences/189349713</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13580</td><td>1983-01-28</td><td><a href="http://data.gbif.org/occurrences/189349714">http://data.gbif.org/occurrences/189349714</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13581</td><td>1983-01-31</td><td><a href="http://data.gbif.org/occurrences/189349715">http://data.gbif.org/occurrences/189349715</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13583</td><td>1984-01-15</td><td><a href="http://data.gbif.org/occurrences/189349717">http://data.gbif.org/occurrences/189349717</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13584</td><td>1984-01-16</td><td><a href="http://data.gbif.org/occurrences/189349718">http://data.gbif.org/occurrences/189349718</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13585</td><td>1984-01-28</td><td><a href="http://data.gbif.org/occurrences/189349719">http://data.gbif.org/occurrences/189349719</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13586</td><td>1984-01-29</td><td><a href="http://data.gbif.org/occurrences/189349720">http://data.gbif.org/occurrences/189349720</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13587</td><td>1984-01-29</td><td><a href="http://data.gbif.org/occurrences/189349721">http://data.gbif.org/occurrences/189349721</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13651</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349725">http://data.gbif.org/occurrences/189349725</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13552</td><td>1971-01-12</td><td><a href="http://data.gbif.org/occurrences/189349745">http://data.gbif.org/occurrences/189349745</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13553</td><td>1971-01-12</td><td><a href="http://data.gbif.org/occurrences/189349746">http://data.gbif.org/occurrences/189349746</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13623</td><td>1997-02-05</td><td><a href="http://data.gbif.org/occurrences/189349757">http://data.gbif.org/occurrences/189349757</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13624</td><td>1997-02-05</td><td><a href="http://data.gbif.org/occurrences/189349758">http://data.gbif.org/occurrences/189349758</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13625</td><td>1997-02-06</td><td><a href="http://data.gbif.org/occurrences/189349759">http://data.gbif.org/occurrences/189349759</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13591</td><td>1985-01-18</td><td><a href="http://data.gbif.org/occurrences/189349769">http://data.gbif.org/occurrences/189349769</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13620</td><td>1997-01-05</td><td><a href="http://data.gbif.org/occurrences/189349771">http://data.gbif.org/occurrences/189349771</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13641</td><td>1999-04-23</td><td><a href="http://data.gbif.org/occurrences/189349775">http://data.gbif.org/occurrences/189349775</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13643</td><td>2000-01-10</td><td><a href="http://data.gbif.org/occurrences/189349777">http://data.gbif.org/occurrences/189349777</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13645</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349779">http://data.gbif.org/occurrences/189349779</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13646</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349780">http://data.gbif.org/occurrences/189349780</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13647</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349781">http://data.gbif.org/occurrences/189349781</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13648</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349782">http://data.gbif.org/occurrences/189349782</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13608</td><td>1992-02-19</td><td><a href="http://data.gbif.org/occurrences/189349784">http://data.gbif.org/occurrences/189349784</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13596</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/189349787">http://data.gbif.org/occurrences/189349787</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13597</td><td>1986-02-27</td><td><a href="http://data.gbif.org/occurrences/189349788">http://data.gbif.org/occurrences/189349788</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13598</td><td>1987-01-13</td><td><a href="http://data.gbif.org/occurrences/189349789">http://data.gbif.org/occurrences/189349789</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13599</td><td>1987-02-15</td><td><a href="http://data.gbif.org/occurrences/189349790">http://data.gbif.org/occurrences/189349790</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13600</td><td>1987-02-22</td><td><a href="http://data.gbif.org/occurrences/189349791">http://data.gbif.org/occurrences/189349791</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13601</td><td>1989-01-15</td><td><a href="http://data.gbif.org/occurrences/189349792">http://data.gbif.org/occurrences/189349792</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13602</td><td>1989-04-16</td><td><a href="http://data.gbif.org/occurrences/189349793">http://data.gbif.org/occurrences/189349793</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13603</td><td>1990-01-20</td><td><a href="http://data.gbif.org/occurrences/189349794">http://data.gbif.org/occurrences/189349794</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13605</td><td>1991-01-02</td><td><a href="http://data.gbif.org/occurrences/189349796">http://data.gbif.org/occurrences/189349796</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13622</td><td>1997-02-04</td><td><a href="http://data.gbif.org/occurrences/189349797">http://data.gbif.org/occurrences/189349797</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13607</td><td>1992-02-12</td><td><a href="http://data.gbif.org/occurrences/189349798">http://data.gbif.org/occurrences/189349798</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13621</td><td>1997-02-04</td><td><a href="http://data.gbif.org/occurrences/189349799">http://data.gbif.org/occurrences/189349799</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13612</td><td>1995-02-08</td><td><a href="http://data.gbif.org/occurrences/189349803">http://data.gbif.org/occurrences/189349803</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13613</td><td>1995-02-08</td><td><a href="http://data.gbif.org/occurrences/189349804">http://data.gbif.org/occurrences/189349804</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13618</td><td>1995-03-20</td><td><a href="http://data.gbif.org/occurrences/189349809">http://data.gbif.org/occurrences/189349809</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13650</td><td>2001-01-19</td><td><a href="http://data.gbif.org/occurrences/189349811">http://data.gbif.org/occurrences/189349811</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-81.7667,24.55,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (9 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274263</td><td>1976-06-05</td><td><a href="http://data.gbif.org/occurrences/11353686">http://data.gbif.org/occurrences/11353686</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275025</td><td>1976-07-10</td><td><a href="http://data.gbif.org/occurrences/11353806">http://data.gbif.org/occurrences/11353806</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275043</td><td>1976-07-10</td><td><a href="http://data.gbif.org/occurrences/11353812">http://data.gbif.org/occurrences/11353812</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275860</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354051">http://data.gbif.org/occurrences/11354051</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275882</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354065">http://data.gbif.org/occurrences/11354065</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275958</td><td>1976-09-11</td><td><a href="http://data.gbif.org/occurrences/11354080">http://data.gbif.org/occurrences/11354080</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275976</td><td>1976-09-11</td><td><a href="http://data.gbif.org/occurrences/11354085">http://data.gbif.org/occurrences/11354085</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279766</td><td>1977-05-19</td><td><a href="http://data.gbif.org/occurrences/11354353">http://data.gbif.org/occurrences/11354353</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280018</td><td>1977-07-06</td><td><a href="http://data.gbif.org/occurrences/11354389">http://data.gbif.org/occurrences/11354389</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.83,27.57,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>75347</td><td>1984-08-12</td><td><a href="http://data.gbif.org/occurrences/35346165">http://data.gbif.org/occurrences/35346165</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-61.06,39.04,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>289928.5167278</td><td>1979-08-14</td><td><a href="http://data.gbif.org/occurrences/150170592">http://data.gbif.org/occurrences/150170592</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.6867,32.2367,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>273782</td><td>1976-05-25</td><td><a href="http://data.gbif.org/occurrences/11353621">http://data.gbif.org/occurrences/11353621</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275348</td><td>1976-08-17</td><td><a href="http://data.gbif.org/occurrences/11353891">http://data.gbif.org/occurrences/11353891</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275368</td><td>1976-08-17</td><td><a href="http://data.gbif.org/occurrences/11353903">http://data.gbif.org/occurrences/11353903</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.709,28.882,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>75345</td><td>1982-08-14</td><td><a href="http://data.gbif.org/occurrences/35346159">http://data.gbif.org/occurrences/35346159</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-73.91,36.91,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93072</td><td>1985-08-29</td><td><a href="http://data.gbif.org/occurrences/35346496">http://data.gbif.org/occurrences/35346496</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.95,34.17,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>6741-10</td><td>1965-06-05</td><td><a href="http://data.gbif.org/occurrences/83249859">http://data.gbif.org/occurrences/83249859</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-67.15,18.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>303435.5189719</td><td>1967-08-02</td><td><a href="http://data.gbif.org/occurrences/150170664">http://data.gbif.org/occurrences/150170664</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.3,30.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1958</td><td></td><td><a href="http://data.gbif.org/occurrences/122332896">http://data.gbif.org/occurrences/122332896</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1958</td><td></td><td><a href="http://data.gbif.org/occurrences/178129170">http://data.gbif.org/occurrences/178129170</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-70.65,41.54,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13604</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/189349795">http://data.gbif.org/occurrences/189349795</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.85,27.8667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272345</td><td>1975-09-13</td><td><a href="http://data.gbif.org/occurrences/11353543">http://data.gbif.org/occurrences/11353543</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272410</td><td>1975-09-13</td><td><a href="http://data.gbif.org/occurrences/11353552">http://data.gbif.org/occurrences/11353552</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276008</td><td>1976-09-11</td><td><a href="http://data.gbif.org/occurrences/11354089">http://data.gbif.org/occurrences/11354089</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276044</td><td>1976-09-11</td><td><a href="http://data.gbif.org/occurrences/11354097">http://data.gbif.org/occurrences/11354097</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>279113</td><td>1977-05-16</td><td><a href="http://data.gbif.org/occurrences/11354304">http://data.gbif.org/occurrences/11354304</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281535</td><td>1977-09-07</td><td><a href="http://data.gbif.org/occurrences/11354586">http://data.gbif.org/occurrences/11354586</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281554</td><td>1977-09-07</td><td><a href="http://data.gbif.org/occurrences/11354587">http://data.gbif.org/occurrences/11354587</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.4,26.17,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00315531</td><td>1980-08-09</td><td><a href="http://data.gbif.org/occurrences/189349664">http://data.gbif.org/occurrences/189349664</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.8817,31.3867,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>338977.5241347</td><td></td><td><a href="http://data.gbif.org/occurrences/150170595">http://data.gbif.org/occurrences/150170595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-55.2,6.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13530</td><td>1956-03-22</td><td><a href="http://data.gbif.org/occurrences/189349682">http://data.gbif.org/occurrences/189349682</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13655</td><td>2001-07-21</td><td><a href="http://data.gbif.org/occurrences/189349689">http://data.gbif.org/occurrences/189349689</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13571</td><td>1979-01-15</td><td><a href="http://data.gbif.org/occurrences/189349706">http://data.gbif.org/occurrences/189349706</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13577</td><td>1982-02-12</td><td><a href="http://data.gbif.org/occurrences/189349726">http://data.gbif.org/occurrences/189349726</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13631</td><td>1998-01-13</td><td><a href="http://data.gbif.org/occurrences/189349765">http://data.gbif.org/occurrences/189349765</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.6167,24.9167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>297406.5181745</td><td>1968-11-27</td><td><a href="http://data.gbif.org/occurrences/150170661">http://data.gbif.org/occurrences/150170661</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.7,10.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.11</td><td>9281.KINMAK</td><td>1975-11-03</td><td><a href="http://data.gbif.org/occurrences/18447234">http://data.gbif.org/occurrences/18447234</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.23,35.85,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13633</td><td>1998-03-22</td><td><a href="http://data.gbif.org/occurrences/189349767">http://data.gbif.org/occurrences/189349767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.1167,25.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13532</td><td>1957-01-06</td><td><a href="http://data.gbif.org/occurrences/189349685">http://data.gbif.org/occurrences/189349685</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13536</td><td>1961-01-26</td><td><a href="http://data.gbif.org/occurrences/189349729">http://data.gbif.org/occurrences/189349729</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13555</td><td>1972-04-14</td><td><a href="http://data.gbif.org/occurrences/189349748">http://data.gbif.org/occurrences/189349748</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.1,26.2333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>ICM-CSIC</td><td>AFORO-ICM</td><td>8016</td><td></td><td><a href="http://data.gbif.org/occurrences/231564290">http://data.gbif.org/occurrences/231564290</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-84.0063,29.8052,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>75348</td><td>1984-08-14</td><td><a href="http://data.gbif.org/occurrences/35346169">http://data.gbif.org/occurrences/35346169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-57.22,38.99,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>61589</td><td></td><td><a href="http://data.gbif.org/occurrences/45246456">http://data.gbif.org/occurrences/45246456</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-55.5833,7.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (10 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274602</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11353738">http://data.gbif.org/occurrences/11353738</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275176</td><td>1976-07-11</td><td><a href="http://data.gbif.org/occurrences/11353841">http://data.gbif.org/occurrences/11353841</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275694</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11353997">http://data.gbif.org/occurrences/11353997</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275731</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/11354011">http://data.gbif.org/occurrences/11354011</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276482</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354168">http://data.gbif.org/occurrences/11354168</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276515</td><td>1976-09-14</td><td><a href="http://data.gbif.org/occurrences/11354172">http://data.gbif.org/occurrences/11354172</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281323</td><td>1977-08-04</td><td><a href="http://data.gbif.org/occurrences/11354572">http://data.gbif.org/occurrences/11354572</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281344</td><td>1977-08-04</td><td><a href="http://data.gbif.org/occurrences/11354574">http://data.gbif.org/occurrences/11354574</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282049</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354631">http://data.gbif.org/occurrences/11354631</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282075</td><td>1977-09-10</td><td><a href="http://data.gbif.org/occurrences/11354634">http://data.gbif.org/occurrences/11354634</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.48,27.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13638</td><td>1999-04-03</td><td><a href="http://data.gbif.org/occurrences/189349772">http://data.gbif.org/occurrences/189349772</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.5833,28.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>61768</td><td>1972-04-26</td><td><a href="http://data.gbif.org/occurrences/45246459">http://data.gbif.org/occurrences/45246459</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 61768</td><td>1972-04-26</td><td><a href="http://data.gbif.org/occurrences/189349635">http://data.gbif.org/occurrences/189349635</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-61.0,10.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13527</td><td>1954-06-04</td><td><a href="http://data.gbif.org/occurrences/189349679">http://data.gbif.org/occurrences/189349679</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13632</td><td>1998-03-07</td><td><a href="http://data.gbif.org/occurrences/189349766">http://data.gbif.org/occurrences/189349766</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-78.0,24.5833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13550</td><td>1969-06-19</td><td><a href="http://data.gbif.org/occurrences/189349743">http://data.gbif.org/occurrences/189349743</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.3667,24.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13636</td><td>1999-03-21</td><td><a href="http://data.gbif.org/occurrences/189349770">http://data.gbif.org/occurrences/189349770</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13635</td><td>1999-03-21</td><td><a href="http://data.gbif.org/occurrences/189349783">http://data.gbif.org/occurrences/189349783</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13609</td><td>1992-03-16</td><td><a href="http://data.gbif.org/occurrences/189349800">http://data.gbif.org/occurrences/189349800</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13611</td><td>1994-03-16</td><td><a href="http://data.gbif.org/occurrences/189349802">http://data.gbif.org/occurrences/189349802</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13614</td><td>1995-02-11</td><td><a href="http://data.gbif.org/occurrences/189349805">http://data.gbif.org/occurrences/189349805</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13615</td><td>1995-02-12</td><td><a href="http://data.gbif.org/occurrences/189349806">http://data.gbif.org/occurrences/189349806</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13616</td><td>1995-03-15</td><td><a href="http://data.gbif.org/occurrences/189349807">http://data.gbif.org/occurrences/189349807</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13617</td><td>1995-03-17</td><td><a href="http://data.gbif.org/occurrences/189349808">http://data.gbif.org/occurrences/189349808</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.9167,24.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>278609.5157977</td><td>1980-09-11</td><td><a href="http://data.gbif.org/occurrences/150170739">http://data.gbif.org/occurrences/150170739</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00278609</td><td>1980-09-11</td><td><a href="http://data.gbif.org/occurrences/189349655">http://data.gbif.org/occurrences/189349655</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.91,31.1433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>1</td><td>906</td><td>1998-08-15</td><td><a href="http://data.gbif.org/occurrences/17218923">http://data.gbif.org/occurrences/17218923</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.8102,29.813,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00217375</td><td>1969-04-30</td><td><a href="http://data.gbif.org/occurrences/189349647">http://data.gbif.org/occurrences/189349647</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00338977</td><td></td><td><a href="http://data.gbif.org/occurrences/189349666">http://data.gbif.org/occurrences/189349666</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-55.0,6.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>28411</td><td>1974-10-30</td><td><a href="http://data.gbif.org/occurrences/199239858">http://data.gbif.org/occurrences/199239858</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.9645,33.9436,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 56327</td><td>1985-08-14</td><td><a href="http://data.gbif.org/occurrences/189349822">http://data.gbif.org/occurrences/189349822</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.15,32.5833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1957</td><td></td><td><a href="http://data.gbif.org/occurrences/122332895">http://data.gbif.org/occurrences/122332895</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1957</td><td></td><td><a href="http://data.gbif.org/occurrences/178129169">http://data.gbif.org/occurrences/178129169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-70.78,41.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13590</td><td>1984-11-30</td><td><a href="http://data.gbif.org/occurrences/189349724">http://data.gbif.org/occurrences/189349724</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13634</td><td>1998-10-10</td><td><a href="http://data.gbif.org/occurrences/189349768">http://data.gbif.org/occurrences/189349768</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13619</td><td>1995-09-19</td><td><a href="http://data.gbif.org/occurrences/189349810">http://data.gbif.org/occurrences/189349810</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.7,30.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13594</td><td>1985-11-30</td><td><a href="http://data.gbif.org/occurrences/189349785">http://data.gbif.org/occurrences/189349785</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-83.0333,29.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>275384</td><td>1976-08-17</td><td><a href="http://data.gbif.org/occurrences/11353919">http://data.gbif.org/occurrences/11353919</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>280947</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354530">http://data.gbif.org/occurrences/11354530</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.768,28.817,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>1</td><td>886</td><td>1998-08-15</td><td><a href="http://data.gbif.org/occurrences/17217322">http://data.gbif.org/occurrences/17217322</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.3588,29.8508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281034</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354540">http://data.gbif.org/occurrences/11354540</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.699,28.876,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13640</td><td>1999-04-18</td><td><a href="http://data.gbif.org/occurrences/189349774">http://data.gbif.org/occurrences/189349774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-66.0667,18.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281020</td><td>1977-07-14</td><td><a href="http://data.gbif.org/occurrences/11354537">http://data.gbif.org/occurrences/11354537</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>282675</td><td>1977-10-14</td><td><a href="http://data.gbif.org/occurrences/11354647">http://data.gbif.org/occurrences/11354647</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.698,28.876,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>269672.5150969</td><td>1974-09-26</td><td><a href="http://data.gbif.org/occurrences/150170725">http://data.gbif.org/occurrences/150170725</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00269672</td><td>1974-09-26</td><td><a href="http://data.gbif.org/occurrences/189349651">http://data.gbif.org/occurrences/189349651</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.245,36.7533,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>28396</td><td>1979-10-30</td><td><a href="http://data.gbif.org/occurrences/199239623">http://data.gbif.org/occurrences/199239623</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.65,34.6559,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 52469</td><td></td><td><a href="http://data.gbif.org/occurrences/189349825">http://data.gbif.org/occurrences/189349825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-64.6,32.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272142</td><td>1975-09-07</td><td><a href="http://data.gbif.org/occurrences/11353513">http://data.gbif.org/occurrences/11353513</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>272197</td><td>1975-09-08</td><td><a href="http://data.gbif.org/occurrences/11353520">http://data.gbif.org/occurrences/11353520</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274209</td><td>1976-06-04</td><td><a href="http://data.gbif.org/occurrences/11353672">http://data.gbif.org/occurrences/11353672</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274231</td><td>1976-06-04</td><td><a href="http://data.gbif.org/occurrences/11353677">http://data.gbif.org/occurrences/11353677</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276198</td><td>1976-09-13</td><td><a href="http://data.gbif.org/occurrences/11354126">http://data.gbif.org/occurrences/11354126</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>276227</td><td>1976-09-13</td><td><a href="http://data.gbif.org/occurrences/11354131">http://data.gbif.org/occurrences/11354131</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281642</td><td>1977-09-09</td><td><a href="http://data.gbif.org/occurrences/11354592">http://data.gbif.org/occurrences/11354592</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>281663</td><td>1977-09-09</td><td><a href="http://data.gbif.org/occurrences/11354595">http://data.gbif.org/occurrences/11354595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.8,26.951,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00303435</td><td>1967-08-02</td><td><a href="http://data.gbif.org/occurrences/189349663">http://data.gbif.org/occurrences/189349663</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.0,30.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>93068</td><td>1985-08-31</td><td><a href="http://data.gbif.org/occurrences/35346484">http://data.gbif.org/occurrences/35346484</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-74.77,36.27,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00289928</td><td>1979-08-14</td><td><a href="http://data.gbif.org/occurrences/189349659">http://data.gbif.org/occurrences/189349659</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-79.475,32.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1222</td><td></td><td><a href="http://data.gbif.org/occurrences/176214489">http://data.gbif.org/occurrences/176214489</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>27069</td><td></td><td><a href="http://data.gbif.org/occurrences/190571647">http://data.gbif.org/occurrences/190571647</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.4667,35.6167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 120-13639</td><td>1999-04-17</td><td><a href="http://data.gbif.org/occurrences/189349773">http://data.gbif.org/occurrences/189349773</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.0833,26.3333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1249</td><td></td><td><a href="http://data.gbif.org/occurrences/176214612">http://data.gbif.org/occurrences/176214612</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.3667,35.5167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00265607</td><td>1972-06-21</td><td><a href="http://data.gbif.org/occurrences/189349648">http://data.gbif.org/occurrences/189349648</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-57.0,7.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.11</td><td>10251.KINMAK</td><td>1979-09-21</td><td><a href="http://data.gbif.org/occurrences/18442814">http://data.gbif.org/occurrences/18442814</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.48,35.05,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5610</td><td></td><td><a href="http://data.gbif.org/occurrences/93304207">http://data.gbif.org/occurrences/93304207</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-65.0,17.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>40986</td><td></td><td><a href="http://data.gbif.org/occurrences/45244211">http://data.gbif.org/occurrences/45244211</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 40986</td><td></td><td><a href="http://data.gbif.org/occurrences/189349632">http://data.gbif.org/occurrences/189349632</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-60.7,11.2833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.41</td><td>14122.KINMAK</td><td>1979-03-25</td><td><a href="http://data.gbif.org/occurrences/18443294">http://data.gbif.org/occurrences/18443294</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.15,33.65,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>217375.5075950</td><td>1969-04-30</td><td><a href="http://data.gbif.org/occurrences/150170642">http://data.gbif.org/occurrences/150170642</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-55.4,6.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>48187</td><td>1980-09-19</td><td><a href="http://data.gbif.org/occurrences/199239514">http://data.gbif.org/occurrences/199239514</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.7227,34.6869,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.41</td><td>14063.KINMAK</td><td>1980-03-24</td><td><a href="http://data.gbif.org/occurrences/18443290">http://data.gbif.org/occurrences/18443290</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.87,33.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>315531.5207176</td><td>1980-08-09</td><td><a href="http://data.gbif.org/occurrences/150170752">http://data.gbif.org/occurrences/150170752</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-80.8883,31.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Scomberomorus cavalla (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>55092</td><td>1928-09-17</td><td><a href="http://data.gbif.org/occurrences/45246129">http://data.gbif.org/occurrences/45246129</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 55092</td><td>1928-09-17</td><td><a href="http://data.gbif.org/occurrences/189349634">http://data.gbif.org/occurrences/189349634</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.8167,34.6167,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
