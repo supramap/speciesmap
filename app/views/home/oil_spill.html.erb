@@ -1,6 +1,37 @@
 <h1>Marine Life and the Oil Spill</h1>
 
-<p>Example kmls:<p>
+<p>
+  We have modified pointmap to include depth, making pointmap KMLs suitable for layered visualization with data on the oil spill from NOAA (www.nesdis.noaa.gov/news_archives/gulf_spill.html).
+  Users need only create a simple data file of geographic and depth references for each taxon in comma separated values (csv) format in an editor like Excel.
+</p>
+
+<h3>How to create oil KMLs (without depth):</h3>
+<ol>
+  <li>Go to <a href="data.gbif.org">GBIF Data Portal</a></li>
+  <li>Search for the specific species you are interested in</li>
+  <li>Click on the name of the species</li>
+  <li>Right click and download "Placemarks for Google Earth" link</li>
+  <li>Find and open the downloaded file with a text editor such as BBEdit or TextEdit</li>
+  <li>Add the following line of code:<br/>"<i>&lt;NetworkLink&gt;<br />
+        &lt;open&gt;1&lt;/open&gt;<br />
+
+	&lt;name&gt;NOAA Spill Extent&lt;/name&gt;<br />
+	&lt;Link&gt;<br />
+		&lt;href&gt;http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml&lt;/href&gt;<br />
+	&lt;/Link&gt;<br />
+&lt;/NetworkLink&gt;</i>" <br/><br/>below the following line of code:<br/> "<i>&lt;Document xmlns="http://earth.google.com/kml/2.1"&gt;</i>"</li>
+  <li>Save the KML and open it in Google Earth.</li>
+</ol>
+
+<h3>Viewing Underwater Points in Google Earth 5</h3>
+<ol>
+	<li>Make sure that the "Terrain" box in the layers menu to the lower left of the screen is checked.</li>
+	<li>Hold down the command key (OSX) or control key (Windows, Linux) and click and hold on the screen.</li>
+	<li>While the command or control key is held down, move the mouse pointer to change the viewing angle so the angle is not straight down.</li>
+	<li>Zoom into an ocean area and the view should go underwater.</li>
+</ol>
+
+<h3>Example kmls:</h3>
 <ul>
   <% @files.each do |file| %>
     <li><a href="/files/<%=file%>"><%= file %></a></li>
