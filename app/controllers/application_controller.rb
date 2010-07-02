@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
     unless current_user
       store_location
       flash[:notice] = "You must be logged in to access this page"
-      redirect_to new_user_session_url
+      redirect_to new_user_session_path
       return false
     end
   end
@@ -30,7 +30,7 @@ class ApplicationController < ActionController::Base
     if current_user
       store_location
       flash[:notice] = "You must be logged out to access this page"
-      redirect_to account_url
+      redirect_to account_path
       return false
     end
   end
@@ -47,14 +47,14 @@ class ApplicationController < ActionController::Base
   def viewable
     pointmapInstance = Pointmap.find(params[:id])
   	if pointmapInstance.user_id != current_user.id && !pointmapInstance.public
-  	  redirect_to pointmaps_url
+  	  redirect_to pointmaps_path
   	  return false
   	end
   end
 
   def editable
   	if Pointmap.find(params[:id]).user_id != current_user.id
-  	  redirect_to pointmaps_url
+  	  redirect_to pointmaps_path
   	  return false
   	end
   end
