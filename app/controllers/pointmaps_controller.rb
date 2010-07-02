@@ -73,7 +73,7 @@ class PointmapsController < ApplicationController
 
     respond_to do |format|
       if @pointmap.update_attributes(params[:pointmap])
-        flash[:notice] = "#{@pointmap.names} was successfully updated."
+        flash[:notice] = "#{@pointmap.name} was successfully updated."
         format.html { redirect_to(@pointmap) }
         format.xml  { head :ok }
       else
@@ -87,7 +87,7 @@ class PointmapsController < ApplicationController
   # DELETE /pointmaps/1.xml
   def destroy
     @pointmap = Pointmap.find(params[:id])
-    flash[:notice] = "#{@pointmap.names} was successfully deleted."
+    flash[:notice] = "#{@pointmap.name} was successfully deleted."
     @pointmap.destroy
 
     respond_to do |format|
