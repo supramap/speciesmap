@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+<NetworkLink>
+        <open>1</open>
+	<name>NOAA Spill Extent</name>
+	<Link>
+		<href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href>
+	</Link>
+</NetworkLink>
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, ECNASAP - East Coast North America Strategic Assessment (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/349">http://data.gbif.org/datasets/resource/349</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, FishBase DiGIR Provider - Philippine Server (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/329">http://data.gbif.org/datasets/resource/329</a>, 2010-06-17)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, South African Institute for Aquatic Biodiversity - Fish Collection (AfrOBIS) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/400">http://data.gbif.org/datasets/resource/400</a>, 2010-06-17)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2010-06-17)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2010-06-17)<br/><br/>Ocean Biogeographic Information System, A Biological Survey of the Waters of Woods Hole and Vacinity (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1920">http://data.gbif.org/datasets/resource/1920</a>, 2010-06-17)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2010-06-17)<br/><br/>Senckenberg, Collection Pisces SMF (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8301">http://data.gbif.org/datasets/resource/8301</a>, 2010-06-17)<br/><br/>South African National Biodiversity Institute, SABIF Resource (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8051">http://data.gbif.org/datasets/resource/8051</a>, 2010-06-17)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2010-06-17)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2010-06-17)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2010-06-17)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2010-06-17)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Mycteroperca bonaci</name>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9499</td><td>2001-07-29</td><td><a href="http://data.gbif.org/occurrences/189126752">http://data.gbif.org/occurrences/189126752</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076544</td><td>IGFA 1209-9499</td><td></td><td><a href="http://data.gbif.org/occurrences/197898168">http://data.gbif.org/occurrences/197898168</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.1,30.2333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9494</td><td>1990-01-27</td><td><a href="http://data.gbif.org/occurrences/189126757">http://data.gbif.org/occurrences/189126757</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076549</td><td>IGFA 1209-9494</td><td></td><td><a href="http://data.gbif.org/occurrences/197898164">http://data.gbif.org/occurrences/197898164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-82.9167,24.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9496</td><td>1997-05-28</td><td><a href="http://data.gbif.org/occurrences/189126755">http://data.gbif.org/occurrences/189126755</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076547</td><td>IGFA 1209-9496</td><td></td><td><a href="http://data.gbif.org/occurrences/197898165">http://data.gbif.org/occurrences/197898165</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-81.0833,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>200</td><td></td><td><a href="http://data.gbif.org/occurrences/176213849">http://data.gbif.org/occurrences/176213849</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.0667,16.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CAS</td><td>144875</td><td>CAS 145733</td><td></td><td><a href="http://data.gbif.org/occurrences/197897279">http://data.gbif.org/occurrences/197897279</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>CAS</td><td>144756</td><td>CAS 145734</td><td></td><td><a href="http://data.gbif.org/occurrences/197897280">http://data.gbif.org/occurrences/197897280</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-64.0,32.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9493</td><td>1986-06-08</td><td><a href="http://data.gbif.org/occurrences/189126758">http://data.gbif.org/occurrences/189126758</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076550</td><td>IGFA 1209-9493</td><td></td><td><a href="http://data.gbif.org/occurrences/197898163">http://data.gbif.org/occurrences/197898163</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-81.7167,25.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1991.9.25.32</td><td></td><td><a href="http://data.gbif.org/occurrences/189126715">http://data.gbif.org/occurrences/189126715</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>BMNH                                              </td><td>442982</td><td>BMNH 1991.9.25.32</td><td></td><td><a href="http://data.gbif.org/occurrences/197897254">http://data.gbif.org/occurrences/197897254</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-38.0,-17.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9491</td><td>1985-09-22</td><td><a href="http://data.gbif.org/occurrences/189126760">http://data.gbif.org/occurrences/189126760</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076552</td><td>IGFA 1209-9491</td><td></td><td><a href="http://data.gbif.org/occurrences/197898161">http://data.gbif.org/occurrences/197898161</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-82.8333,27.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9501</td><td>2003-01-11</td><td><a href="http://data.gbif.org/occurrences/189126751">http://data.gbif.org/occurrences/189126751</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076542</td><td>IGFA 1209-9501</td><td></td><td><a href="http://data.gbif.org/occurrences/197898170">http://data.gbif.org/occurrences/197898170</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-87.7,30.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1975-0388</td><td></td><td><a href="http://data.gbif.org/occurrences/93277048">http://data.gbif.org/occurrences/93277048</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-38.667,-18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>200</td><td></td><td><a href="http://data.gbif.org/occurrences/203886444">http://data.gbif.org/occurrences/203886444</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>88.0667,16.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81967</td><td>1962-07-13</td><td><a href="http://data.gbif.org/occurrences/198284747">http://data.gbif.org/occurrences/198284747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-80.1572,25.7492,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NMFS-NEFSC</td><td>DE.11</td><td>9155.BLKGRP</td><td>1978-07-29</td><td><a href="http://data.gbif.org/occurrences/18325201">http://data.gbif.org/occurrences/18325201</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-77.07,33.82,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>SU 45733</td><td></td><td><a href="http://data.gbif.org/occurrences/189126741">http://data.gbif.org/occurrences/189126741</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>SU 45734</td><td></td><td><a href="http://data.gbif.org/occurrences/189126742">http://data.gbif.org/occurrences/189126742</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 88311</td><td></td><td><a href="http://data.gbif.org/occurrences/189126746">http://data.gbif.org/occurrences/189126746</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>AMNH                                              </td><td>1147934</td><td>AMNH 88311</td><td></td><td><a href="http://data.gbif.org/occurrences/197897226">http://data.gbif.org/occurrences/197897226</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-64.6,32.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAIAB</td><td>SAIAB</td><td>SAIAB-027323</td><td></td><td><a href="http://data.gbif.org/occurrences/24900149">http://data.gbif.org/occurrences/24900149</a></td></tr><tr><td>South African National Biodiversity Institute</td><td>SAIAB</td><td>SAIAB</td><td>38197</td><td></td><td><a href="http://data.gbif.org/occurrences/193498372">http://data.gbif.org/occurrences/193498372</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAIAB</td><td>SAIAB</td><td>25009</td><td></td><td><a href="http://data.gbif.org/occurrences/235542548">http://data.gbif.org/occurrences/235542548</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.5,30.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1989-0627</td><td></td><td><a href="http://data.gbif.org/occurrences/93277153">http://data.gbif.org/occurrences/93277153</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-45.083,-23.583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1975-0388</td><td></td><td><a href="http://data.gbif.org/occurrences/189126712">http://data.gbif.org/occurrences/189126712</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>MNHN</td><td>90895</td><td>mnhn 1975-0388</td><td></td><td><a href="http://data.gbif.org/occurrences/197898578">http://data.gbif.org/occurrences/197898578</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-38.6667,-18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1520</td><td></td><td><a href="http://data.gbif.org/occurrences/122324622">http://data.gbif.org/occurrences/122324622</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1520</td><td></td><td><a href="http://data.gbif.org/occurrences/178123651">http://data.gbif.org/occurrences/178123651</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-70.67,41.52,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1989-0627</td><td></td><td><a href="http://data.gbif.org/occurrences/189126713">http://data.gbif.org/occurrences/189126713</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>MNHN</td><td>57149</td><td>mnhn 1989-0627</td><td></td><td><a href="http://data.gbif.org/occurrences/197898584">http://data.gbif.org/occurrences/197898584</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-45.0833,-23.5833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>44515</td><td>1968-02-19</td><td><a href="http://data.gbif.org/occurrences/96425261">http://data.gbif.org/occurrences/96425261</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 44515</td><td>1968-02-19</td><td><a href="http://data.gbif.org/occurrences/189126718">http://data.gbif.org/occurrences/189126718</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>ROM                                               </td><td>1485795</td><td>ROM 44515</td><td></td><td><a href="http://data.gbif.org/occurrences/197898398">http://data.gbif.org/occurrences/197898398</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-60.8444,11.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9500</td><td>2002-02-03</td><td><a href="http://data.gbif.org/occurrences/189126750">http://data.gbif.org/occurrences/189126750</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076529</td><td>IGFA 1209-9500</td><td></td><td><a href="http://data.gbif.org/occurrences/197898169">http://data.gbif.org/occurrences/197898169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-80.2,25.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1521</td><td></td><td><a href="http://data.gbif.org/occurrences/122324623">http://data.gbif.org/occurrences/122324623</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>1521</td><td></td><td><a href="http://data.gbif.org/occurrences/178123652">http://data.gbif.org/occurrences/178123652</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-70.48,41.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5432</td><td>1961-08-13</td><td><a href="http://data.gbif.org/occurrences/82098812">http://data.gbif.org/occurrences/82098812</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-76.3667,18.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-6390</td><td></td><td><a href="http://data.gbif.org/occurrences/93277955">http://data.gbif.org/occurrences/93277955</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>MNHN</td><td>90866</td><td>mnhn a-6390</td><td></td><td><a href="http://data.gbif.org/occurrences/197898683">http://data.gbif.org/occurrences/197898683</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-65.0,17.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>2565</td><td>1962-05-23</td><td><a href="http://data.gbif.org/occurrences/82098541">http://data.gbif.org/occurrences/82098541</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-83.0333,10.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>5123</td><td></td><td><a href="http://data.gbif.org/occurrences/190559125">http://data.gbif.org/occurrences/190559125</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-77.8171,34.212,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9497</td><td>1997-10-04</td><td><a href="http://data.gbif.org/occurrences/189126754">http://data.gbif.org/occurrences/189126754</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076546</td><td>IGFA 1209-9497</td><td></td><td><a href="http://data.gbif.org/occurrences/197898166">http://data.gbif.org/occurrences/197898166</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-80.1333,26.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9498</td><td>1997-12-26</td><td><a href="http://data.gbif.org/occurrences/189126753">http://data.gbif.org/occurrences/189126753</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076545</td><td>IGFA 1209-9498</td><td></td><td><a href="http://data.gbif.org/occurrences/197898167">http://data.gbif.org/occurrences/197898167</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-80.1167,25.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>5123</td><td></td><td><a href="http://data.gbif.org/occurrences/203862946">http://data.gbif.org/occurrences/203862946</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>77.8171,34.212,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1209-9492</td><td>1986-04-03</td><td><a href="http://data.gbif.org/occurrences/189126759">http://data.gbif.org/occurrences/189126759</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>IGFA</td><td>1076551</td><td>IGFA 1209-9492</td><td></td><td><a href="http://data.gbif.org/occurrences/197898162">http://data.gbif.org/occurrences/197898162</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-85.6667,30.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>7596</td><td></td><td><a href="http://data.gbif.org/occurrences/207893097">http://data.gbif.org/occurrences/207893097</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>82.5667,27.3167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>12448</td><td>2000-11-12</td><td><a href="http://data.gbif.org/occurrences/148508754">http://data.gbif.org/occurrences/148508754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-97.9086,23.7978,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mycteroperca bonaci</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16978</td><td>1957-11-17</td><td><a href="http://data.gbif.org/occurrences/198284416">http://data.gbif.org/occurrences/198284416</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-80.9344,24.7758,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
