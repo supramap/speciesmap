@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100623173531) do
+ActiveRecord::Schema.define(:version => 20100702172544) do
 
   create_table "pointmaps", :force => true do |t|
     t.string   "name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20100623173531) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "csv",         :limit => 2147483647
+    t.boolean  "oil_spill"
   end
 
   create_table "sessions", :force => true do |t|

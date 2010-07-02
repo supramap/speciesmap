@@ -85,7 +85,13 @@ class Pointmap < ActiveRecord::Base
 		self.kml << "encoding=\"utf-8\"?>\r\n"
         self.kml << "<kml xmlns=\"http://earth.google.com/kml/2.2\">\r\n"
         self.kml << "\t<Document>\r\n"
-        self.kml << "\t\t<Name>Transmissions</Name><open>1</open>\r\n"
+        if self.oil_spill
+        	self.kml << "\t\t<NetworkLink>\r\n"
+        	self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\r\n"
+			self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\r\n"
+			self.kml << "\t\t</NetworkLink>\r\n"
+		end
+        self.kml << "\t\t<Name>Points</Name><open>1</open>\r\n"
 
         self.csv.each_line do |curLine|
 			fields = curLine.gsub!("\n", "").split(",")

@@ -4,8 +4,11 @@
 <%= form.label :description %><br/>
 <%= form.text_field :description %><br/>
 <br/>
-<%= form.label :public %><br/>
-<%= form.check_box :public %><br/>
+<%= form.check_box :public %>
+<%= form.label :public, "Make Public" %><br/>
+<br/>
+<%= form.check_box :oil_spill %>
+<%= form.label :oil_spill, "Link Kml to Oil Spill" %><br/>
 <br/>
 <%= form.label :csv %><br/>
 <%= form.file_field :csv %><br/>
