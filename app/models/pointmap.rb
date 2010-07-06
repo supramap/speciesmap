@@ -16,7 +16,7 @@ class Pointmap < ActiveRecord::Base
 			if fields[1] && fields.size < 3
 				errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
 			else
-				if fields[0] == "label" #If the file includes a header
+				if fields[0] =~ /label/ #If the file includes a header
 					next
 				end
 				locations << fields[0]
@@ -24,7 +24,7 @@ class Pointmap < ActiveRecord::Base
 				#Check latitude
 				begin
 					latitude = fields[1].to_f
-					if latitude > 90 || latitude < -90
+					if latitude > 90 or latitude < -90
 						errors.add :csv, "Line #{lineNum}: latitude is out of bounds"
 					end
 				rescue
@@ -34,7 +34,7 @@ class Pointmap < ActiveRecord::Base
 				#Check longitude
 				begin
 					longitude = fields[2].to_f
-					if longitude > 180 || longitude < -180
+					if longitude > 180 or longitude < -180
 						errors.add :csv, "Line #{lineNum}: longitude is out of bounds"
 					end
 				rescue
@@ -42,7 +42,7 @@ class Pointmap < ActiveRecord::Base
 				end
 
 				#Check altitude
-				if fields[3]
+				if not fields[3].blank?
 					begin
 						latitude = fields[3].to_f
 					rescue
@@ -51,20 +51,27 @@ class Pointmap < ActiveRecord::Base
 				end
 
 				#Check date
-				if fields[4]
+				if not fields[4].blank?
 					date = fields[4]
 					if !(date =~ /\d{4}-\d{2}-\d{2}/)
 						errors.add :csv, "Line #{lineNum}: date is not in the correct format"
 					end
 				end
 
-				#Check color
-				if fields[5]
-					color = fields[5]
-					if !(color =~ /[A-F,a-f,0-9]{8}/)
-						errors.add :csv, "Line #{lineNum}: color is not in the correct format"
-					end
-				end
+				#Check icon
+				if not fields[5].blank?
+				  icon = fields[5]
+				  if not (icon =~ /[A-F,a-f,0-9]{8}/)
+		 	        begin
+				      uri = URI.parse(fields[5])
+				      if uri.class != URI::HTTP
+					    errors.add(:url, 'Line #{lineNum}: the icon field is neither a valid color or a valid url')
+				      end
+				    rescue URI::InvalidURIError
+				      errors.add(:url, 'Line #{lineNum}: the icon field is neither a valid color or a valid url')
+				    end
+				  end
+			    end
 			end
 		end
 
@@ -95,24 +102,32 @@ class Pointmap < ActiveRecord::Base
 
         self.csv.each_line do |curLine|
 			fields = curLine.gsub!("\n", "").split(",")
+
+			if fields[0] =~ /label/ #If the file includes a header
+				next
+			end
+
 			label = fields[0]
 			latitude = fields[1]
 			longitude = fields[2]
 			altitude = fields[3]
 			date = fields[4]
-			color = fields[5]
+			icon = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png" : fields[5]
+			color = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? fields[5] : ""
 
 			self.kml << "\t\t\t<Placemark>\r\n"
             self.kml << "\t\t\t\t<name>#{label}</name>\r\n"
-            if color
-            	self.kml << "\t\t\t\t<Style><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><color>#{color}</color></IconStyle></Style>\r\n"
+            self.kml << "\t\t\t\t<Style><IconStyle><Icon><href>#{icon}</href></Icon>"
+            if not color.blank?
+            	self.kml << "<color>#{color}</color>"
             end
-            if date
+           	self.kml << "</IconStyle></Style>\r\n"
+            if not date.blank?
             	self.kml << "\t\t\t\t<TimeStamp><when>#{date}</when></TimeStamp>\r\n"
             end
             self.kml << "\t\t\t\t<Point>\r\n"
             self.kml << "\t\t\t\t\t<coordinates>#{longitude},#{latitude}"
-            if altitude
+            if not altitude.blank?
             	self.kml << ",#{altitude}</coordinates>\r\n"
             	self.kml << "\t\t\t\t\t<altitudeMode>absolute</altitudeMode>\r\n"
             else
