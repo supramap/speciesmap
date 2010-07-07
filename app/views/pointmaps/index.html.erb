@@ -2,9 +2,9 @@
   <script src="/javascripts/sorttable.js"></script>
 <% end %>
 
-<h1>Listing Pointmaps</h1>
+<h1>Listing Depthmaps</h1>
 
-<p><%= link_to 'New pointmap', new_pointmap_path %></p>
+<p><%= link_to 'New Depthmap', new_depthmap_path %></p>
 
 
 <table class="sortable">
@@ -25,9 +25,9 @@
     <td><%=h pointmap.public %></td>
     <td><%=h pointmap.user.login %></td>
     <td>
-      <%= link_to 'Show', pointmap %> |
-      <%= link_to 'Edit', edit_pointmap_path(pointmap) %> |
-      <%= link_to 'Delete', pointmap, :confirm => 'Are you sure?', :method => :delete %>
+      <%= link_to 'Show', depthmap_path(pointmap) %> |
+      <%= link_to 'Edit', edit_depthmap_path(pointmap) %> |
+      <%= link_to 'Delete', depthmap_path(pointmap), :confirm => 'Are you sure?', :method => :delete %>
     </td>
   </tr>
 <% end %>

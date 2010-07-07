@@ -47,14 +47,14 @@ class ApplicationController < ActionController::Base
   def viewable
     pointmapInstance = Pointmap.find(params[:id])
   	if pointmapInstance.user_id != current_user.id && !pointmapInstance.public
-  	  redirect_to pointmaps_path
+  	  redirect_to depthmaps_path
   	  return false
   	end
   end
 
   def editable
   	if Pointmap.find(params[:id]).user_id != current_user.id
-  	  redirect_to pointmaps_path
+  	  redirect_to depthmaps_path
   	  return false
   	end
   end

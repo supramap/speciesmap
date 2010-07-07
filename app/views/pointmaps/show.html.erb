@@ -39,8 +39,8 @@ Event.observe(window, 'load', function() { init() });
 
 <h1><%=h @pointmap.name %></h1>
 
-<%= link_to 'Edit', edit_pointmap_path(@pointmap) %> |
-<%= link_to 'Delete', :pointmap, :confirm => 'Are you sure?', :method => :delete %>
+<%= link_to 'Edit', edit_depthmap_path(@pointmap) %> |
+<%= link_to 'Delete', depthmap_path(@pointmap), :confirm => 'Are you sure?', :method => :delete %>
 
 <p>
   <b>Description:</b>

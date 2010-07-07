@@ -3,8 +3,8 @@ class PointmapsController < ApplicationController
   before_filter :editable, :only => [:edit, :destroy, :update]
   before_filter :viewable, :only => [:show, :download]
 
-  # GET /pointmaps
-  # GET /pointmaps.xml
+  # GET /depthmaps
+  # GET /depthmaps.xml
   def index
     @pointmaps = Pointmap.find(:all, :conditions => ["user_id = ? OR public = ?", current_user.id, true])
 
@@ -14,8 +14,8 @@ class PointmapsController < ApplicationController
     end
   end
 
-  # GET /pointmaps/1
-  # GET /pointmaps/1.xml
+  # GET /depthmaps/1
+  # GET /depthmaps/1.xml
   def show
     @pointmap = Pointmap.find(params[:id])
 
@@ -25,8 +25,8 @@ class PointmapsController < ApplicationController
     end
   end
 
-  # GET /pointmaps/new
-  # GET /pointmaps/new.xml
+  # GET /depthmaps/new
+  # GET /depthmaps/new.xml
   def new
     @pointmap = Pointmap.new
 
@@ -36,13 +36,13 @@ class PointmapsController < ApplicationController
     end
   end
 
-  # GET /pointmaps/1/edit
+  # GET /depthmaps/1/edit
   def edit
     @pointmap = Pointmap.find(params[:id])
   end
 
-  # POST /pointmaps
-  # POST /pointmaps.xml
+  # POST /depthmaps
+  # POST /depthmaps.xml
   def create
     @pointmap = Pointmap.new(params[:pointmap])
     if params[:pointmap][:csv]
@@ -62,8 +62,8 @@ class PointmapsController < ApplicationController
     end
   end
 
-  # PUT /pointmaps/1
-  # PUT /pointmaps/1.xml
+  # PUT /depthmaps/1
+  # PUT /depthmaps/1.xml
   def update
     @pointmap = Pointmap.find(params[:id])
     if params[:pointmap][:csv]
@@ -83,15 +83,15 @@ class PointmapsController < ApplicationController
     end
   end
 
-  # DELETE /pointmaps/1
-  # DELETE /pointmaps/1.xml
+  # DELETE /depthmaps/1
+  # DELETE /depthmaps/1.xml
   def destroy
     @pointmap = Pointmap.find(params[:id])
     flash[:notice] = "#{@pointmap.name} was successfully deleted."
     @pointmap.destroy
 
     respond_to do |format|
-      format.html { redirect_to(pointmaps_url) }
+      format.html { redirect_to(depthmaps_url) }
       format.xml  { head :ok }
     end
   end
