@@ -66,13 +66,14 @@ class PointmapsController < ApplicationController
   # PUT /depthmaps/1.xml
   def update
     @pointmap = Pointmap.find(params[:id])
+    @pointmap.update_attributes(params[:pointmap])
     if params[:pointmap][:csv]
     	@pointmap.csv = params[:pointmap][:csv].read
     end
     @pointmap.writeKml
 
     respond_to do |format|
-      if @pointmap.update_attributes(params[:pointmap])
+      if @pointmap.save
         flash[:notice] = "#{@pointmap.name} was successfully updated."
         format.html { redirect_to(@pointmap) }
         format.xml  { head :ok }

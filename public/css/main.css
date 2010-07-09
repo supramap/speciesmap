@@ -142,20 +142,6 @@ a:hover { color: #9CC3DE;}
   list-style: square;
 }
 
-.list table {
-    border: 1px solid silver;
-    border-collapse: collapse;
-}
-
-.list tr {
-    border: 1px solid silver;
-}
-
-.list th, .list td {
-    border-right: 1px solid #CCCCCC;
-    padding: 0.5em;
-}
-
 #login {
 	position: absolute;
 	bottom: 2px;
@@ -168,27 +154,30 @@ a:hover { color: #9CC3DE;}
 	text-decoration: none;
 }
 
-table {
-	border: 1px solid black;
-	width: 100%;
-}
-
 table.sortable thead {
-    background-color:#eee;
-    color:#666666;
     font-weight: bold;
     cursor: default;
 }
 
-th {
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	background-color: #bfd9ea;
-	padding: 2px;
+.list table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-td {
-	padding: 0px 15px 5px 0px;
+.list th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid silver;
+    padding: 0.5em;
+    background-color: #bfd9ea;
+}
+
+.list tr {
+    border: 1px solid silver;
+}
+
+.list td {
+	padding: 0.5em;
+	border-right: 1px solid #CCCCCC;
 }
 
 #map3d_container {

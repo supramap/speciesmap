@@ -1,12 +1,11 @@
 class Pointmap < ActiveRecord::Base
 	belongs_to :user
-	validates_presence_of :name
-	validates_presence_of :csv
-	validates_presence_of :kml
+	validates_presence_of :name, :csv, :kml
 
 	def validate
 		if self.csv
-		self.csv.gsub!("\r\n|\n\r|\r", "\n")
+		self.csv.gsub!("\n|\n\r|\r", "\n")
+		self.csv.gsub!(/"/,"")
 		locations = []
 		lineNum = 0
 
@@ -89,16 +88,16 @@ class Pointmap < ActiveRecord::Base
 	def writeKml
 		self.kml = ""
 		self.kml << "<?xml version=\"1.0\" "
-		self.kml << "encoding=\"utf-8\"?>\r\n"
-        self.kml << "<kml xmlns=\"http://earth.google.com/kml/2.2\">\r\n"
-        self.kml << "\t<Document>\r\n"
+		self.kml << "encoding=\"utf-8\"?>\n"
+        self.kml << "<kml xmlns=\"http://earth.google.com/kml/2.2\">\n"
+        self.kml << "\t<Document>\n"
         if self.oil_spill
-        	self.kml << "\t\t<NetworkLink>\r\n"
-        	self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\r\n"
-			self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\r\n"
-			self.kml << "\t\t</NetworkLink>\r\n"
+        	self.kml << "\t\t<NetworkLink>\n"
+        	self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\n"
+			self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\n"
+			self.kml << "\t\t</NetworkLink>\n"
 		end
-        self.kml << "\t\t<Name>Points</Name><open>1</open>\r\n"
+        self.kml << "\t\t<Name>Points</Name><open>1</open>\n"
 
         self.csv.each_line do |curLine|
 			fields = curLine.gsub!("\n", "").split(",")
@@ -114,30 +113,34 @@ class Pointmap < ActiveRecord::Base
 			date = fields[4]
 			icon = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png" : fields[5]
 			color = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? fields[5] : ""
+			description = fields[6]
 
-			self.kml << "\t\t\t<Placemark>\r\n"
-            self.kml << "\t\t\t\t<name>#{label}</name>\r\n"
+			self.kml << "\t\t\t<Placemark>\n"
+            self.kml << "\t\t\t\t<name>#{label}</name>\n"
+            if not description.blank?
+              self.kml << "\t\t\t\t<description>#{description}</description>\n"
+            end
             self.kml << "\t\t\t\t<Style><IconStyle><Icon><href>#{icon}</href></Icon>"
             if not color.blank?
             	self.kml << "<color>#{color}</color>"
             end
-           	self.kml << "</IconStyle></Style>\r\n"
+           	self.kml << "</IconStyle></Style>\n"
             if not date.blank?
-            	self.kml << "\t\t\t\t<TimeStamp><when>#{date}</when></TimeStamp>\r\n"
+            	self.kml << "\t\t\t\t<TimeStamp><when>#{date}</when></TimeStamp>\n"
             end
-            self.kml << "\t\t\t\t<Point>\r\n"
+            self.kml << "\t\t\t\t<Point>\n"
             self.kml << "\t\t\t\t\t<coordinates>#{longitude},#{latitude}"
             if not altitude.blank?
-            	self.kml << ",#{altitude}</coordinates>\r\n"
-            	self.kml << "\t\t\t\t\t<altitudeMode>absolute</altitudeMode>\r\n"
+            	self.kml << ",#{altitude}</coordinates>\n"
+            	self.kml << "\t\t\t\t\t<altitudeMode>absolute</altitudeMode>\n"
             else
-            	self.kml << "</coordinates>\r\n"
+            	self.kml << "</coordinates>\n"
             end
-            self.kml << "\t\t\t\t</Point>\r\n"
-            self.kml << "\t\t\t</Placemark>\r\n"
+            self.kml << "\t\t\t\t</Point>\n"
+            self.kml << "\t\t\t</Placemark>\n"
         end
 
-        self.kml << "\t</Document>\r\n"
+        self.kml << "\t</Document>\n"
         self.kml << "</kml>"
 	end
 end
