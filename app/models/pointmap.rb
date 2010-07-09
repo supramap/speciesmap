@@ -11,7 +11,7 @@ class Pointmap < ActiveRecord::Base
 
 		self.csv.each_line do |curLine|
 			lineNum += 1
-			fields = curLine.split(",")
+			fields = curLine.chomp.split(",")
 			if fields[1] && fields.size < 3
 				errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
 			else
