@@ -111,8 +111,12 @@ class Pointmap < ActiveRecord::Base
 			longitude = fields[2]
 			altitude = fields[3]
 			date = fields[4]
-			icon = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png" : fields[5]
-			color = (fields[5] =~ /[A-F,a-f,0-9]{8}/) ? fields[5] : ""
+			icon = "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png"
+			color = ""
+			if not fields[5].blank?
+			  icon = fields[5] if !(fields[5] =~ /[A-F,a-f,0-9]{8}/)
+			  color = fields[5] if fields[5] =~ /[A-F,a-f,0-9]{8}/
+			end
 			description = fields[6]
 
 			self.kml << "\t\t\t<Placemark>\n"
