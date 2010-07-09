@@ -4,8 +4,8 @@ class Pointmap < ActiveRecord::Base
 
 	def validate
 		if self.csv
-		self.csv.gsub!("\n|\n\r|\r", "\n")
-		self.csv.gsub!(/"/,"")
+		self.csv.gsub!("\r\n|\n\r|\r", "\n")
+		self.csv.gsub!(/"/, "")
 		locations = []
 		lineNum = 0
 
@@ -100,7 +100,7 @@ class Pointmap < ActiveRecord::Base
         self.kml << "\t\t<Name>Points</Name><open>1</open>\n"
 
         self.csv.each_line do |curLine|
-			fields = curLine.gsub!("\n", "").split(",")
+			fields = curLine.chomp.split(",")
 
 			if fields[0] =~ /label/ #If the file includes a header
 				next
