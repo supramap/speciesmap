@@ -47,6 +47,7 @@ class ApplicationController < ActionController::Base
   def viewable
     pointmapInstance = Pointmap.find(params[:id])
   	if pointmapInstance.user_id != current_user.id && !pointmapInstance.public
+  	  flash[:notice] = "You don't have permission to view this depthmap"
   	  redirect_to depthmaps_path
   	  return false
   	end
@@ -54,6 +55,7 @@ class ApplicationController < ActionController::Base
 
   def editable
   	if Pointmap.find(params[:id]).user_id != current_user.id
+  	  flash[:notice] = "You don't have permission to edit this depthmap"
   	  redirect_to depthmaps_path
   	  return false
   	end
