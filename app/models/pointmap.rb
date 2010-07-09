@@ -4,7 +4,7 @@ class Pointmap < ActiveRecord::Base
 
 	def validate
 		if self.csv
-		self.csv.gsub!("\r\n|\n\r|\r", "\n")
+		self.csv.gsub!(/\r\n|\r/, "\n")
 		self.csv.gsub!(/"/, "")
 		locations = []
 		lineNum = 0
@@ -64,10 +64,10 @@ class Pointmap < ActiveRecord::Base
 		 	        begin
 				      uri = URI.parse(fields[5])
 				      if uri.class != URI::HTTP
-					    errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+					    errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
 				      end
 				    rescue URI::InvalidURIError
-				      errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+				      errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
 				    end
 				  end
 			    end
