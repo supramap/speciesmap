@@ -58,19 +58,19 @@ class Pointmap < ActiveRecord::Base
 				end
 
 				#Check icon
-#				if not fields[5].blank?
-#				  icon = fields[5]
-#				  if not (icon =~ /[A-F,a-f,0-9]{8}/)
-#		 	        begin
-#				      uri = URI.parse(fields[5])
-#				      if uri.class != URI::HTTP
-#					    errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
-#				      end
-#				    rescue URI::InvalidURIError
-#				      errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
-#				    end
-#				  end
-#			    end
+				if not fields[5].blank?
+				  icon = fields[5]
+				  if not (icon =~ /[A-F,a-f,0-9]{8}/)
+		 	        begin
+				      uri = URI.parse(fields[5])
+				      if uri.class != URI::HTTP
+					    errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+				      end
+				    rescue URI::InvalidURIError
+				      errors.add :url, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+				    end
+				  end
+			    end
 			end
 		end
 
