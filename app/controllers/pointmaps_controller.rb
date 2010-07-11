@@ -44,10 +44,8 @@ class PointmapsController < ApplicationController
   # POST /depthmaps
   # POST /depthmaps.xml
   def create
+    params[:pointmap][:csv] = params[:pointmap][:csv].read if params[:pointmap][:csv]
     @pointmap = Pointmap.new(params[:pointmap])
-    if params[:pointmap][:csv]
-    	@pointmap.csv = params[:pointmap][:csv].read
-    end
     @pointmap.writeKml
 
     respond_to do |format|
@@ -65,15 +63,12 @@ class PointmapsController < ApplicationController
   # PUT /depthmaps/1
   # PUT /depthmaps/1.xml
   def update
+    params[:pointmap][:csv] = params[:pointmap][:csv].read if params[:pointmap][:csv]
     @pointmap = Pointmap.find(params[:id])
-    @pointmap.update_attributes(params[:pointmap])
-    if params[:pointmap][:csv]
-    	@pointmap.csv = params[:pointmap][:csv].read
-    end
     @pointmap.writeKml
 
     respond_to do |format|
-      if @pointmap.save
+      if @pointmap.update_attributes(params[:pointmap])
         flash[:notice] = "#{@pointmap.name} was successfully updated."
         format.html { redirect_to(@pointmap) }
         format.xml  { head :ok }

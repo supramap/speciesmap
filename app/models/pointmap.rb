@@ -4,18 +4,17 @@ class Pointmap < ActiveRecord::Base
 
 	def validate
 		if self.csv
-		self.csv.gsub!(/\r\n|\r/, "\n")
-		self.csv.gsub!(/"/, "")
-		locations = []
-		lineNum = 0
+			self.csv.gsub!(/\r\n|\r/, "\n")
+			self.csv.delete!('"')
+			locations = []
 
-		self.csv.each_line do |curLine|
-			lineNum += 1
-			fields = curLine.chomp.split(",")
-			if fields[1] && fields.size < 3
-				errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
-			else
-				if fields[0] =~ /label/ #If the file includes a header
+			self.csv.split.each_with_index do |curLine, lineNum|
+			#Start validating the current line
+				fields = curLine.split(",")
+				if fields.size < 3
+					errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
+					next
+				elsif fields[0] =~ /label/ #If the file includes a header
 					next
 				end
 				locations << fields[0]
@@ -62,26 +61,26 @@ class Pointmap < ActiveRecord::Base
 				  icon = fields[5]
 				  if not (icon =~ /[A-F,a-f,0-9]{8}/)
 		 	        begin
-				      uri = URI.parse(fields[5])
-				      if uri.class != URI::HTTP
-					    errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
-				      end
-				    rescue URI::InvalidURIError
-				      errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
-				    end
+					  uri = URI.parse(fields[5])
+					  if uri.class != URI::HTTP
+						errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+					  end
+					rescue URI::InvalidURIError
+					  errors.add :csv, "Line #{lineNum}: the icon field is neither a valid color nor a valid url"
+					end
 				  end
-			    end
-			end
-		end
-
-		#Check for conflicting names
-		locations.each_with_index do |location, locIndex|
-			locations.each_with_index do |compare, comIndex|
-				if location == compare && comIndex > locIndex
-					errors.add :csv, "Location #{locIndex+1} and #{comIndex+1} have the same name"
 				end
 			end
-		end
+
+			#Check for conflicting names
+			locations.each_with_index do |location, locIndex|
+				locations.each_with_index do |compare, comIndex|
+					if location == compare && comIndex > locIndex
+						errors.add :csv, "Location #{locIndex+1} and #{comIndex+1} have the same name"
+					end
+				end
+			end
+		#End validating the current line
 		end
 	end
 
