@@ -14,7 +14,7 @@ class Pointmap < ActiveRecord::Base
 				if fields.size < 3
 					errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields"
 					next
-				elsif fields[0] =~ /label/ #If the file includes a header
+				elsif fields[0] =~ /[lL]abel/ #If the file includes a header
 					next
 				end
 				locations << fields[0]
@@ -59,7 +59,7 @@ class Pointmap < ActiveRecord::Base
 				#Check icon
 				unless fields[5].blank?
 				  icon = fields[5]
-				  unless icon =~ /[A-F,a-f,0-9]{8}/ #This format means it's a hex color, so no need to check url
+				  unless icon =~ /[A-Fa-f0-9]{8}/ #This format means it's a hex color, so no need to check url
 		 	        begin
 					  uri = URI.parse(fields[5])
 					  if uri.class != URI::HTTP
@@ -113,8 +113,8 @@ class Pointmap < ActiveRecord::Base
 				icon = "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png"
 				color = ""
 				unless fields[5].blank?
-				  icon = fields[5] if !(fields[5] =~ /[A-F,a-f,0-9]{8}/)
-				  color = fields[5] if fields[5] =~ /[A-F,a-f,0-9]{8}/
+				  icon = fields[5] unless fields[5] =~ /[A-Fa-f0-9]{8}/
+				  color = fields[5] if fields[5] =~ /[A-Fa-f0-9]{8}/
 				end
 				description = fields[6]
 
