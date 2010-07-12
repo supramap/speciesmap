@@ -3,16 +3,16 @@ class Pointmap < ActiveRecord::Base
 	validates_presence_of :name, :csv, :kml
 
 	def validate
-		if self.csv
+		unless self.csv.blank?
 			self.csv.gsub!(/\r\n|\r/, "\n")
 			self.csv.delete!('"')
 			locations = []
 
-			self.csv.split.each_with_index do |curLine, lineNum|
+			self.csv.split("\n").each_with_index do |curLine, lineNum|
 			#Start validating the current line
-				fields = curLine.split(",")
+				fields = curLine.split(",").collect { |field| field.strip }
 				if fields.size < 3
-					errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields."
+					errors.add :csv, "Line #{lineNum}: does not contain the minimum 3 fields"
 					next
 				elsif fields[0] =~ /label/ #If the file includes a header
 					next
@@ -40,7 +40,7 @@ class Pointmap < ActiveRecord::Base
 				end
 
 				#Check altitude
-				if not fields[3].blank?
+				unless fields[3].blank?
 					begin
 						latitude = fields[3].to_f
 					rescue
@@ -49,17 +49,17 @@ class Pointmap < ActiveRecord::Base
 				end
 
 				#Check date
-				if not fields[4].blank?
+				unless fields[4].blank?
 					date = fields[4]
-					if !(date =~ /\d{4}-\d{2}-\d{2}/)
+					unless date =~ /\d{4}-\d{2}-\d{2}/
 						errors.add :csv, "Line #{lineNum}: date is not in the correct format"
 					end
 				end
 
 				#Check icon
-				if not fields[5].blank?
+				unless fields[5].blank?
 				  icon = fields[5]
-				  if not (icon =~ /[A-F,a-f,0-9]{8}/)
+				  unless icon =~ /[A-F,a-f,0-9]{8}/ #This format means it's a hex color, so no need to check url
 		 	        begin
 					  uri = URI.parse(fields[5])
 					  if uri.class != URI::HTTP
@@ -80,70 +80,71 @@ class Pointmap < ActiveRecord::Base
 					end
 				end
 			end
-		#End validating the current line
 		end
 	end
 
 	def writeKml
-		self.kml = ""
-		self.kml << "<?xml version=\"1.0\" "
-		self.kml << "encoding=\"utf-8\"?>\n"
-        self.kml << "<kml xmlns=\"http://earth.google.com/kml/2.2\">\n"
-        self.kml << "\t<Document>\n"
-        if self.oil_spill
-        	self.kml << "\t\t<NetworkLink>\n"
-        	self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\n"
-			self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\n"
-			self.kml << "\t\t</NetworkLink>\n"
+		unless self.csv.blank?
+			self.kml = ""
+			self.kml << "<?xml version=\"1.0\" "
+			self.kml << "encoding=\"utf-8\"?>\n"
+		    self.kml << "<kml xmlns=\"http://earth.google.com/kml/2.2\">\n"
+		    self.kml << "\t<Document>\n"
+		    if self.oil_spill
+		    	self.kml << "\t\t<NetworkLink>\n"
+		    	self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\n"
+				self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\n"
+				self.kml << "\t\t</NetworkLink>\n"
+			end
+		    self.kml << "\t\t<Name>Points</Name><open>1</open>\n"
+
+		    self.csv.each_line do |curLine|
+				fields = curLine.split(",").collect { |field| field.strip }
+
+				if fields[0] =~ /label/ #If the file includes a header
+					next
+				end
+
+				label = fields[0]
+				latitude = fields[1]
+				longitude = fields[2]
+				altitude = fields[3]
+				date = fields[4]
+				icon = "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png"
+				color = ""
+				unless fields[5].blank?
+				  icon = fields[5] if !(fields[5] =~ /[A-F,a-f,0-9]{8}/)
+				  color = fields[5] if fields[5] =~ /[A-F,a-f,0-9]{8}/
+				end
+				description = fields[6]
+
+				self.kml << "\t\t\t<Placemark>\n"
+		        self.kml << "\t\t\t\t<name>#{label}</name>\n"
+		        unless description.blank?
+		          self.kml << "\t\t\t\t<description>#{description}</description>\n"
+		        end
+		        self.kml << "\t\t\t\t<Style><IconStyle><Icon><href>#{icon}</href></Icon>"
+		        unless color.blank?
+		        	self.kml << "<color>#{color}</color>"
+		        end
+		       	self.kml << "</IconStyle></Style>\n"
+		        unless date.blank?
+		        	self.kml << "\t\t\t\t<TimeStamp><when>#{date}</when></TimeStamp>\n"
+		        end
+		        self.kml << "\t\t\t\t<Point>\n"
+		        self.kml << "\t\t\t\t\t<coordinates>#{longitude},#{latitude}"
+		        unless altitude.blank?
+		        	self.kml << ",#{altitude}</coordinates>\n"
+		        	self.kml << "\t\t\t\t\t<altitudeMode>absolute</altitudeMode>\n"
+		        else
+		        	self.kml << "</coordinates>\n"
+		        end
+		        self.kml << "\t\t\t\t</Point>\n"
+		        self.kml << "\t\t\t</Placemark>\n"
+		    end
+
+		    self.kml << "\t</Document>\n"
+		    self.kml << "</kml>"
 		end
-        self.kml << "\t\t<Name>Points</Name><open>1</open>\n"
-
-        self.csv.each_line do |curLine|
-			fields = curLine.chomp.split(",")
-
-			if fields[0] =~ /label/ #If the file includes a header
-				next
-			end
-
-			label = fields[0]
-			latitude = fields[1]
-			longitude = fields[2]
-			altitude = fields[3]
-			date = fields[4]
-			icon = "http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png"
-			color = ""
-			if not fields[5].blank?
-			  icon = fields[5] if !(fields[5] =~ /[A-F,a-f,0-9]{8}/)
-			  color = fields[5] if fields[5] =~ /[A-F,a-f,0-9]{8}/
-			end
-			description = fields[6]
-
-			self.kml << "\t\t\t<Placemark>\n"
-            self.kml << "\t\t\t\t<name>#{label}</name>\n"
-            if not description.blank?
-              self.kml << "\t\t\t\t<description>#{description}</description>\n"
-            end
-            self.kml << "\t\t\t\t<Style><IconStyle><Icon><href>#{icon}</href></Icon>"
-            if not color.blank?
-            	self.kml << "<color>#{color}</color>"
-            end
-           	self.kml << "</IconStyle></Style>\n"
-            if not date.blank?
-            	self.kml << "\t\t\t\t<TimeStamp><when>#{date}</when></TimeStamp>\n"
-            end
-            self.kml << "\t\t\t\t<Point>\n"
-            self.kml << "\t\t\t\t\t<coordinates>#{longitude},#{latitude}"
-            if not altitude.blank?
-            	self.kml << ",#{altitude}</coordinates>\n"
-            	self.kml << "\t\t\t\t\t<altitudeMode>absolute</altitudeMode>\n"
-            else
-            	self.kml << "</coordinates>\n"
-            end
-            self.kml << "\t\t\t\t</Point>\n"
-            self.kml << "\t\t\t</Placemark>\n"
-        end
-
-        self.kml << "\t</Document>\n"
-        self.kml << "</kml>"
 	end
 end
