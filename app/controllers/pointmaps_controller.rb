@@ -65,6 +65,7 @@ class PointmapsController < ApplicationController
   def update
     @pointmap = Pointmap.find(params[:id])
     params[:pointmap][:csv] = params[:pointmap][:csv].blank? ? @pointmap.csv : params[:pointmap][:csv].read
+    @pointmap.csv = params[:pointmap][:csv]
     @pointmap.writeKml if @pointmap.valid?
 
     respond_to do |format|
