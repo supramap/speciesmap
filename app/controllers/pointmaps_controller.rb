@@ -46,7 +46,7 @@ class PointmapsController < ApplicationController
   def create
     params[:pointmap][:csv] = params[:pointmap][:csv].read if params[:pointmap][:csv]
     @pointmap = Pointmap.new(params[:pointmap])
-    @pointmap.writeKml if @pointmap.validate
+    @pointmap.writeKml if @pointmap.valid?
 
     respond_to do |format|
       if @pointmap.save
@@ -65,7 +65,7 @@ class PointmapsController < ApplicationController
   def update
     @pointmap = Pointmap.find(params[:id])
     params[:pointmap][:csv] = params[:pointmap][:csv].blank? ? @pointmap.csv : params[:pointmap][:csv].read
-    @pointmap.writeKml if @pointmap.validate
+    @pointmap.writeKml if @pointmap.valid?
 
     respond_to do |format|
       if @pointmap.update_attributes(params[:pointmap])
