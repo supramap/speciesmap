@@ -3,12 +3,12 @@ class Pointmap < ActiveRecord::Base
 	validates_presence_of :name, :csv
 
 	def validate
-		unless self.csv.blank?
-			self.csv.gsub!(/\r\n|\r/, "\n")
-			self.csv.gsub!(/"/, "")
+		unless csv.blank?
+			csv.gsub!(/\r\n|\r/, "\n")
+			csv.gsub!(/"/, "")
 			locations = []
 
-			self.csv.split("\n").each_with_index do |curLine, lineNum|
+			csv.split("\n").each_with_index do |curLine, lineNum|
 			#Start validating the current line
 				fields = curLine.split(",").collect { |field| field.strip }
 				if fields.size < 3
@@ -95,12 +95,13 @@ class Pointmap < ActiveRecord::Base
 			self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\n"
 			self.kml << "\t\t</NetworkLink>\n"
 		end
-	    self.kml << "\t\t<name>#{self.name}</name><open>1</open>\n"
+	    self.kml << "\t\t<name>#{name}</name><open>1</open>\n"
 	    self.kml << "\t\t<description>\n"
-	    self.kml << "\t\t\t- This kml was generated using http://pointmap.osu.edu<br/>- #{self.description}"
+	    self.kml << "\t\t\t- This kml was generated using http://pointmap.osu.edu"
+	    self.kml << (description.blank? ? "\n" : "<br/>- #{description}\n")
 	    self.kml << "\t\t</description>\n"
 
-	    self.csv.each_line do |curLine|
+	    csv.each_line do |curLine|
 			fields = curLine.split(",").collect { |field| field.strip }
 
 			if fields[0] =~ /[lL]abel/ #If the file includes a header
@@ -147,5 +148,6 @@ class Pointmap < ActiveRecord::Base
 
 	    self.kml << "\t</Document>\n"
 	    self.kml << "</kml>"
+	    self.save!
 	end
 end

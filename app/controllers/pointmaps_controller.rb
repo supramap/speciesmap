@@ -46,12 +46,12 @@ class PointmapsController < ApplicationController
   def create
     params[:pointmap][:csv] = params[:pointmap][:csv].read if params[:pointmap][:csv]
     @pointmap = Pointmap.new(params[:pointmap])
-    @pointmap.writeKml if @pointmap.valid?
 
     respond_to do |format|
       if @pointmap.save
+        @pointmap.writeKml
         flash[:notice] = "#{@pointmap.name} was successfully created."
-        format.html { redirect_to(@pointmap) }
+        format.html { redirect_to depthmap_path(@pointmap) }
         format.xml  { render :xml => @pointmap, :status => :created, :location => @pointmap }
       else
         format.html { render :action => "new" }
@@ -65,13 +65,12 @@ class PointmapsController < ApplicationController
   def update
     @pointmap = Pointmap.find(params[:id])
     params[:pointmap][:csv] = params[:pointmap][:csv].blank? ? @pointmap.csv : params[:pointmap][:csv].read
-    @pointmap.csv = params[:pointmap][:csv]
-    @pointmap.writeKml if @pointmap.valid?
 
     respond_to do |format|
       if @pointmap.update_attributes(params[:pointmap])
+        @pointmap.writeKml
         flash[:notice] = "#{@pointmap.name} was successfully updated."
-        format.html { redirect_to(@pointmap) }
+        format.html { redirect_to depthmap_path(@pointmap) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
