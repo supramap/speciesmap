@@ -148,6 +148,6 @@ class Pointmap < ActiveRecord::Base
 
 	    self.kml << "\t</Document>\n"
 	    self.kml << "</kml>"
-	    self.save!
+	    self.save(perform_validation = false)
 	end
 end
