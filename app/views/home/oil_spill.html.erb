@@ -28,8 +28,11 @@
 </ol>
 
 <h3>Example kmls:</h3>
-<ul>
-  <% @files.each do |file| %>
-    <li><a href="/files/<%=file%>"><%= file %></a></li>
-  <% end %>
-</ul>
+<p>With depth:</p>
+<% @files['with_depth'].each do |file| %>
+  <li><a href="/files/<%=file%>"><%= file %></a></li>
+<% end %>
+<p>Without depth:</p>
+<% @files['without_depth'].each do |file| %>
+  <li><a href="/files/<%=file%>"><%= file %></a></li>
+<% end %>
