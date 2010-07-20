@@ -39,6 +39,8 @@ Event.observe(window, 'load', function() { init() });
 
 <h1><%=h @pointmap.name %></h1>
 
+<a href="/pointmaps/download_kml/<%= @pointmap.id %>">Download Kml</a> |
+<a href="/pointmaps/download_csv/<%= @pointmap.id %>">Download Csv</a> |
 <%= link_to 'Edit', edit_depthmap_path(@pointmap) %> |
 <%= link_to 'Delete', depthmap_path(@pointmap), :confirm => 'Are you sure?', :method => :delete %>
 
@@ -62,13 +64,6 @@ Event.observe(window, 'load', function() { init() });
   <%=h @pointmap.user.login %> <<%= mail_to @pointmap.user.email %>>
 </p>
 
-<p>
-  <b>Csv:</b>
-  <a href="/pointmaps/download_csv/<%= @pointmap.id %>">Download</a>
-<p>
-  <b>Kml:</b>
-  <a href="/pointmaps/download_kml/<%= @pointmap.id %>">Download</a>
-</p>
 <div id="map3d_container">
   <div id="map3d"></div>
 </div>

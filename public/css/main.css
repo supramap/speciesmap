@@ -34,7 +34,7 @@ body {
 }
 
 
- #nav1 {
+#nav {
 	clear: both;
 	margin: 0 auto;
 	padding: 0;
@@ -46,18 +46,18 @@ body {
 	border-bottom : 0px solid #FFFFFF ;
 }
 
-#nav1 ul {
+#nav ul {
 	float: left;
 	list-style: none;
 	margin:0;
 	padding: 0 ;
 }
 
-#nav1 ul li {
+#nav ul li {
 	display: inline;
 }
 
-#nav1 ul li a {
+#nav ul li a {
 	display: block;
 	float: left;
 	padding: 0 14px;
@@ -67,13 +67,13 @@ body {
 	border-right: 1px solid #bae1fc ;
 }
 
-#nav1 ul li a:hover {
+#nav ul li a:hover {
 	background: #222222 url( selectedMenu.jpg?z=42787 ) repeat-x;
 	color: #FFFFFF;
 }
 
 
-#nav1 ul li a.current {
+#nav ul li a.current {
 	background-color:#9CC3DE;
 	color: #FFFFFF;
 }
@@ -96,7 +96,7 @@ body {
 	font-size: 8pt;
 }
 
-/*End styles.css stuff*/
+/* End styles.css stuff */
 
 pre {
   background-color: #eee;
@@ -154,11 +154,6 @@ a:hover { color: #9CC3DE;}
 	text-decoration: none;
 }
 
-table.sortable thead {
-    font-weight: bold;
-    cursor: default;
-}
-
 .list table {
     border-collapse: collapse;
     width: 100%;
@@ -181,10 +176,10 @@ table.sortable thead {
 }
 
 #map3d_container {
-	margin: 0 20px 0 15px;
-	border: 5px solid #565656;
+	margin: 0px;
+	border: 2px solid #565656;
 	height: 500px;
-	width: 703px;
+	width: 738px;
 }
 
 #map3d {
