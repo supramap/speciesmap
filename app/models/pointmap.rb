@@ -97,7 +97,7 @@ class Pointmap < ActiveRecord::Base
     end
     self.kml << "\t\t<name>#{name}</name><open>1</open>\n"
     self.kml << "\t\t<description>\n"
-    self.kml << "\t\t\t- This kml was generated using http://pointmap.osu.edu"
+    self.kml << "\t\t\t- This kml was generated using http://depthmap.osu.edu"
     self.kml << (description.blank? ? "\n" : "<br/>- #{description}\n")
     self.kml << "\t\t</description>\n"
 
