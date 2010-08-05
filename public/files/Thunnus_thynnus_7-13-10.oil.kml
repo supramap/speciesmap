@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
-	<name>acule_7-13</name>
+	<name>Temporary Places</name>
 	<open>1</open>
 	<Document>
 		<name>NESDIS Anomaly</name>
@@ -25,7 +25,7 @@ used with caution.
 		<Style id="nesdis_anomaly_rs2_DocStyle">
 			<ListStyle>
 				<ItemIcon>
-					<href>noaaglow1trans_16.png</href>
+					<href>/Users/calvinlam/Lab/7-13-10/noaaglow1trans_16.png</href>
 				</ItemIcon>
 			</ListStyle>
 		</Style>
@@ -1310,7 +1310,7 @@ used with caution.
 			<ScreenOverlay>
 				<name>NOAA Logo</name>
 				<Icon>
-					<href>noaaglow1trans_96.png</href>
+					<href>/Users/calvinlam/Lab/7-13-10/noaaglow1trans_96.png</href>
 				</Icon>
 				<overlayXY x="0" y="186" xunits="pixels" yunits="insetPixels"/>
 				<screenXY x="0" y="0" xunits="pixels" yunits="pixels"/>
@@ -1320,7 +1320,7 @@ used with caution.
 			<ScreenOverlay>
 				<name>Legend</name>
 				<Icon>
-					<href>nesdis.png</href>
+					<href>/Users/calvinlam/Lab/7-13-10/nesdis.png</href>
 				</Icon>
 				<overlayXY x="0" y="90" xunits="pixels" yunits="insetPixels"/>
 				<screenXY x="0" y="0" xunits="pixels" yunits="pixels"/>
@@ -1330,1314 +1330,1132 @@ used with caution.
 		</Folder>
 	</Document>
 	<Document>
-		<name>Halieutichthys.acule</name>
+		<name>GBIF Data Portal Occurrence Search</name>
 		<open>1</open>
-		<description><![CDATA[- This kml was generated using http://pointmap.osu.edu<br></br>-]]></description>
-		<Placemark>
-			<name>AMNH83282</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.108333,29.866667,-128</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AMNH84801</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.25,26.415778,-182</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AMNH85309</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.333611,29.583333,-72.8</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AMNH85358</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.92,28.44,-91</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AMNH83212</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.283333,29.824167,-72.8</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AMNH82380</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.385278,29.55,-92.00000000000003</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>CAS74276</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-93.50000000000001,18.716667,-64</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH45287</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-96.333333,27.333333,-183</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH45288</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-96.466667,27.5,-73</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH45289</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-96.266667,27.483333,-106</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH45290</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-96.216667,27.416667,-139</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH46721</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-91.433333,22.233333,-91</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH46723</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.666667,29.333333,-185</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH59916</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-89.983333,22.45,-68</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH59922</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.916667,24.4,-58.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH64141</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.833333,28.783333,-103</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>MCZ28119</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-89.5,22.5,-64</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>MCZ27783</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.266667,28.73333299999999,-108</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>MCZ166059</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-83.183333,24.6,-55.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF27409</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.516667,27.833333,-105</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF37836</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.605833,29.487778,-72.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF70826</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.40000000000001,28.933333,-93.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF71395</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.38333299999999,28.933333,-104</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF71420</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.966667,28.5,-92.00000000000003</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF79211</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.966667,28.5,-100</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF81437</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.816667,28.036667,-153.7</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF116656</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.70016699999999,27.988833,-165</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF116966</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.453889,24.736389,-24.9</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF123330</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-83.993833,25.3795,-133</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF123417</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-83.97750000000001,25.380667,-130</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF123444</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-83.99166700000001,25.127333,-128</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF152146</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-84.516667,27.833333,-91.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM45646</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.266667,28.73333299999999,-110</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM45647</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-85.033333,28.75,-55.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM358206</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.744722,29.347222,-107</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM358207</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-87.73222199999999,29.351389,-107</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>CAS64052</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-79.99166667,28.39166667,-127</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>CAS64057</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-75.53333333,34.76666667,-137</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>CAS64072</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-75.90000000000001,34.31666667,-183</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>CAS74287</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.11666667,25.26666667,-119</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH64337</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-75.41666667,34.9,-137</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FMNH66180</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.2,29.66666667,-155</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF13232</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-79.98333332999999,29.83333333,-69.84999999999999</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF32432</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-81.93166667,24.39333333,-102</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF36452</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.03527778,24.39611111,-102.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF36481</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-76.98333332999999,33.43333333,-135.4</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF37259</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.08805556,24.41361111,-58.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF40790</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-77.78333333,33.03333333,-117.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF79924</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.21444443999999,24.39388889,-75.90000000000002</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF81804</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.24694443999999,24.38916667,-103.2</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86600</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.18333333,29.5,-137.3</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86603</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-79.96666667,27.88333333,-109.8</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86623</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-78.53333333,32.61666667,-121.55</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86625</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.08333333,27.575,-65.80000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86636</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-75.15000000000001,35.08333333,-183</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86949</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.45,29.73333333,-42.10000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF86650</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-79.73333332999999,31.43333333,-92.50000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF107557</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.43055556,24.34277778,-75.00000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF108828</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.607,24.34333333,-99.8</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF108843</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.63500000000001,24.34216667,-102.55</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF108929</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.66583333,24.34866667,-96.20000000000002</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF108944</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.68483333,24.34933333,-109.7</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF109089</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.74283333,24.358,-91.65000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF109204</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.54138888999999,24.36138889,-92.55000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF109240</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.51527778000001,24.36388889,-82.55000000000003</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF111035</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.74119444,24.35811111,-89.70000000000002</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF111419</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.98333332999999,24.40666667,-91.65000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF111470</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.98383333,24.36883333,-137.3</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF113875</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.00166667000001,28.42000000000001,-64.09999999999999</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF116963</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.97861111,24.39166667,-107</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF137673</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-81.08,24.5875,-144.55</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF149717</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.31666667,29.58333332999999,-47.60000000000002</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF209966</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.5325,24.84416667,-91.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF210122</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.53749999999999,24.84,-91.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF210209</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.52166667,24.82666667,-91.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF212335</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.01333332999999,25.775,-183</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF217397</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.93333333,24.41666667,-64</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF217427</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.95,24.38333333,-89.50000000000001</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF218398</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.08333333,25.78333333,-108</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF220519</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.95,24.4,-86.00000000000003</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF220967</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.16666667,25.18333333,-111.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF220988</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.16666667,25.21666667,-98.00000000000003</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF231801</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-80.54666666999999,24.81833333,-90.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>UF231905</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-82.93333333,24.38333333,-91</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM45644</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-77.90000000000001,32.91666667,-144</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM45651</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-77.11666667,33.30833333,-174</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>USNM45657</name>
-			<Style>
-				<IconStyle>
-					<heading>0</heading>
-					<Icon>
-						<href>http://www.iconeasy.com/icon/png/Cartoon/Fish%20Toys/Red%20Fish.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-72.84166667,38.91666667,-422</coordinates>
-			</Point>
-		</Placemark>
+		<description><![CDATA[-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA<br></br><br></br><b>Please cite these data as follows:</b><br></br><br></br>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2010-06-17)<br></br><br></br>FishBase, Fishbase (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2010-06-17)<br></br><br></br>GBIF-Spain, Colección de referencia de otolitos, Instituto de Ciencias del Mar-CSIC (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/9192">http://data.gbif.org/datasets/resource/9192</a>, 2010-06-17)<br></br><br></br>GBIF-Spain, Generalitat Valenciana. Banco de Datos de la Biodiversidad de la Comunitat Valenciana (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/8004">http://data.gbif.org/datasets/resource/8004</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Atlantic Reference Centre (OBIS Canada) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/341">http://data.gbif.org/datasets/resource/341</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Bay of Fundy Species List (OBIS Canada) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/347">http://data.gbif.org/datasets/resource/347</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Canada Maritimes Regional Cetacean Sightings (OBIS Canada) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/353">http://data.gbif.org/datasets/resource/353</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, NODC WOD01 Plankton Database (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/318">http://data.gbif.org/datasets/resource/318</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Nova Scotia Museum of Natural History - Marine Birds, Mammals, and Fishes (OBIS Canada) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/346">http://data.gbif.org/datasets/resource/346</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, SEAMAP - marine mammals, birds and turtles (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/338">http://data.gbif.org/datasets/resource/338</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, Taxonomic Information Sytem for the Belgian coastal area (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/361">http://data.gbif.org/datasets/resource/361</a>, 2010-06-17)<br></br><br></br>Institute of Marine and Coastal Sciences, Rutgers University, iziko South African Museum - Fish Collection (AfrOBIS) (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/402">http://data.gbif.org/datasets/resource/402</a>, 2010-06-17)<br></br><br></br>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2010-06-17)<br></br><br></br>Museum of Comparative Zoology, Harvard University, MCZ Fish Collection (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2010-06-17)<br></br><br></br>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2010-06-17)<br></br><br></br>National Science Museum, Japan, Fish specimen database of Osaka Museum of Natural History (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/610">http://data.gbif.org/datasets/resource/610</a>, 2010-06-17)<br></br><br></br>OZCAM (Online Zoological Collections of Australian Museums) Provider, Australian Museum provider for OZCAM (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/9105">http://data.gbif.org/datasets/resource/9105</a>, 2010-06-17)<br></br><br></br>Ocean Biogeographic Information System, A Biological Survey of the Waters of Woods Hole and Vacinity (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/1920">http://data.gbif.org/datasets/resource/1920</a>, 2010-06-17)<br></br><br></br>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2010-06-17)<br></br><br></br>Santa Barbara Museum of Natural History, Santa Barbara Musem of Natural History (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/646">http://data.gbif.org/datasets/resource/646</a>, 2010-06-17)<br></br><br></br>The Swedish Museum of Natural History (NRM), NRM-Fishes (accessed through GBIF data portal,<a href="http://data.gbif.org/datasets/resource/1023">http://data.gbif.org/datasets/resource/1023</a>, 2010-06-17)<br></br><br></br>
+-]]></description>
+		<Style id="gbifIcon5">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GE5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon15">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcil1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon4">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GE4.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon22">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEslp3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon24">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEslp5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon9">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcube4.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon20">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEslp1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon18">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcil4.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon21">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEslp2.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon7">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcube2.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon3">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GE3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon13">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GErc3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon16">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcil2.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon11">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GErc1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon1">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GE1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon23">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEslp4.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon8">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcube3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon14">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEfl1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon6">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcube1.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon12">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GErc2.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon2">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GE2.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon17">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcil3.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon10">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcube5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gbifIcon19">
+			<IconStyle>
+				<Icon>
+					<href>http://data.gbif.org/images/GEcil5.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>Thynnus thynnus</name>
+			<Placemark>
+				<name>Thynnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMC</td><td>MBF</td><td>SAMC-MBF-003529</td><td>1960-11-10</td><td><a href="http://data.gbif.org/occurrences/24961957">http://data.gbif.org/occurrences/24961957</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMC</td><td>MBF</td><td>SAMC-MBF-003534</td><td>1960-11-10</td><td><a href="http://data.gbif.org/occurrences/24961961">http://data.gbif.org/occurrences/24961961</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon19</styleUrl>
+				<Point>
+					<coordinates>17.9833,-34.5167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thynnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMC</td><td>MBF</td><td>SAMC-MBF-005047</td><td></td><td><a href="http://data.gbif.org/occurrences/24962068">http://data.gbif.org/occurrences/24962068</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMC</td><td>MBF</td><td>SAMC-MBF-005383</td><td>1968-01-08</td><td><a href="http://data.gbif.org/occurrences/24962088">http://data.gbif.org/occurrences/24962088</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon19</styleUrl>
+				<Point>
+					<coordinates>18.6167,-34.1833,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Thunnus thynnus</name>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2813</td><td>2002-08-30</td><td><a href="http://data.gbif.org/occurrences/18714194">http://data.gbif.org/occurrences/18714194</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.477,44.7187,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1968-1557.1</td><td>1957-08-26</td><td><a href="http://data.gbif.org/occurrences/17644599">http://data.gbif.org/occurrences/17644599</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1968-1557.1</td><td>1957-08-26</td><td><a href="http://data.gbif.org/occurrences/78305932">http://data.gbif.org/occurrences/78305932</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-131.1,48,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>BDBCV-General</td><td>1</td><td>307008</td><td></td><td><a href="http://data.gbif.org/occurrences/188365827">http://data.gbif.org/occurrences/188365827</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-0.4325639999999999,38.1442,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11505</td><td>2003-09-03</td><td><a href="http://data.gbif.org/occurrences/18709037">http://data.gbif.org/occurrences/18709037</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.63,44.6398,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>ICM-CSIC</td><td>AFORO-ICM</td><td>6623</td><td></td><td><a href="http://data.gbif.org/occurrences/231564625">http://data.gbif.org/occurrences/231564625</a></td></tr><tr><td>GBIF-Spain</td><td>ICM-CSIC</td><td>AFORO-ICM</td><td>6622</td><td></td><td><a href="http://data.gbif.org/occurrences/231564624">http://data.gbif.org/occurrences/231564624</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>2.575,41.442,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2749</td><td>2002-08-29</td><td><a href="http://data.gbif.org/occurrences/18714168">http://data.gbif.org/occurrences/18714168</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.58,44.5725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>BDBCV-General</td><td>1</td><td>307009</td><td></td><td><a href="http://data.gbif.org/occurrences/188365828">http://data.gbif.org/occurrences/188365828</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-0.435714,38.0542,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>BDBCV-General</td><td>1</td><td>307007</td><td></td><td><a href="http://data.gbif.org/occurrences/188365826">http://data.gbif.org/occurrences/188365826</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-0.423028,38.4143,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2834</td><td>2002-08-30</td><td><a href="http://data.gbif.org/occurrences/18714204">http://data.gbif.org/occurrences/18714204</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.66249999999999,44.736,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>1139</td><td>2002-07-14</td><td><a href="http://data.gbif.org/occurrences/18708966">http://data.gbif.org/occurrences/18708966</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.76779999999999,44.8038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2821</td><td>2002-08-30</td><td><a href="http://data.gbif.org/occurrences/18714197">http://data.gbif.org/occurrences/18714197</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4562,44.6827,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16531</td><td>1963-05-27</td><td><a href="http://data.gbif.org/occurrences/189440776">http://data.gbif.org/occurrences/189440776</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>146.5,-41.5167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>273987</td><td>1976-05-30</td><td><a href="http://data.gbif.org/occurrences/11681848">http://data.gbif.org/occurrences/11681848</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.65000000000001,26.17,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00268985</td><td>1960-04-24</td><td><a href="http://data.gbif.org/occurrences/189440684">http://data.gbif.org/occurrences/189440684</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-74,36,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271579</td><td>1975-05-07</td><td><a href="http://data.gbif.org/occurrences/11681837">http://data.gbif.org/occurrences/11681837</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.318,27.901,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11490</td><td>2003-08-31</td><td><a href="http://data.gbif.org/occurrences/18709026">http://data.gbif.org/occurrences/18709026</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6217,44.5913,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16532</td><td>1965-04-12</td><td><a href="http://data.gbif.org/occurrences/189440777">http://data.gbif.org/occurrences/189440777</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>136.167,-35.2,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>ARC</td><td>ARC</td><td>24512</td><td>1991-09-05</td><td><a href="http://data.gbif.org/occurrences/17542699">http://data.gbif.org/occurrences/17542699</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-52.45,43.2,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11546</td><td>2003-09-13</td><td><a href="http://data.gbif.org/occurrences/18709057">http://data.gbif.org/occurrences/18709057</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4562,44.6393,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70153</td><td>2006-09-27</td><td><a href="http://data.gbif.org/occurrences/234982882">http://data.gbif.org/occurrences/234982882</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.61969999999999,44.6362,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2006-1201</td><td>2003-10-23</td><td><a href="http://data.gbif.org/occurrences/93315134">http://data.gbif.org/occurrences/93315134</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>24.45,40.35,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Nature and Science, Japan</td><td>OMNH</td><td>OMNH</td><td>5880</td><td></td><td><a href="http://data.gbif.org/occurrences/43806227">http://data.gbif.org/occurrences/43806227</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>134.431,35.617,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70152</td><td>2006-09-27</td><td><a href="http://data.gbif.org/occurrences/234982881">http://data.gbif.org/occurrences/234982881</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6232,44.6402,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5377</td><td></td><td><a href="http://data.gbif.org/occurrences/93315341">http://data.gbif.org/occurrences/93315341</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>7.267,43.7,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274440</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11681853">http://data.gbif.org/occurrences/11681853</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.30099999999999,27.25,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>VLIZ</td><td>Tisbe</td><td>565627</td><td></td><td><a href="http://data.gbif.org/occurrences/115634451">http://data.gbif.org/occurrences/115634451</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>1.62,50.77,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (5 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16560</td><td>1976-09-22</td><td><a href="http://data.gbif.org/occurrences/189440748">http://data.gbif.org/occurrences/189440748</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16562</td><td>1976-09-26</td><td><a href="http://data.gbif.org/occurrences/189440750">http://data.gbif.org/occurrences/189440750</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16572</td><td>1978-10-06</td><td><a href="http://data.gbif.org/occurrences/189440759">http://data.gbif.org/occurrences/189440759</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16537</td><td>1969-09-01</td><td><a href="http://data.gbif.org/occurrences/189440767">http://data.gbif.org/occurrences/189440767</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16542</td><td>1971-08-31</td><td><a href="http://data.gbif.org/occurrences/189440787">http://data.gbif.org/occurrences/189440787</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-62.76669999999999,46.05,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2620</td><td>2002-08-26</td><td><a href="http://data.gbif.org/occurrences/18714125">http://data.gbif.org/occurrences/18714125</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.7015,44.7493,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1913-0243</td><td></td><td><a href="http://data.gbif.org/occurrences/93314755">http://data.gbif.org/occurrences/93314755</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1913-0243</td><td></td><td><a href="http://data.gbif.org/occurrences/189440651">http://data.gbif.org/occurrences/189440651</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>5,40,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16563</td><td>1977-03-25</td><td><a href="http://data.gbif.org/occurrences/189440751">http://data.gbif.org/occurrences/189440751</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-15.6,27.8,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11514</td><td>2003-09-09</td><td><a href="http://data.gbif.org/occurrences/18709040">http://data.gbif.org/occurrences/18709040</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4817,44.6597,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (4 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2004-1459</td><td>2004-07-20</td><td><a href="http://data.gbif.org/occurrences/93315158">http://data.gbif.org/occurrences/93315158</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2004-1461</td><td>2004-07-20</td><td><a href="http://data.gbif.org/occurrences/93315160">http://data.gbif.org/occurrences/93315160</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2004-1462</td><td>2004-07-20</td><td><a href="http://data.gbif.org/occurrences/93315161">http://data.gbif.org/occurrences/93315161</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2004-1463</td><td>2004-07-20</td><td><a href="http://data.gbif.org/occurrences/93315162">http://data.gbif.org/occurrences/93315162</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-10,46,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16541</td><td>1970-11-19</td><td><a href="http://data.gbif.org/occurrences/189440786">http://data.gbif.org/occurrences/189440786</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-60.75000000000001,46.01669999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>69944</td><td>2006-09-05</td><td><a href="http://data.gbif.org/occurrences/234982876">http://data.gbif.org/occurrences/234982876</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.616,44.5867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11524</td><td>2003-09-10</td><td><a href="http://data.gbif.org/occurrences/18709044">http://data.gbif.org/occurrences/18709044</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.5735,44.603,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31675-006</td><td></td><td><a href="http://data.gbif.org/occurrences/223735500">http://data.gbif.org/occurrences/223735500</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-79.27,31.32,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0156.1</td><td>1978-07-09</td><td><a href="http://data.gbif.org/occurrences/17645018">http://data.gbif.org/occurrences/17645018</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0156.1</td><td>1978-07-09</td><td><a href="http://data.gbif.org/occurrences/78306098">http://data.gbif.org/occurrences/78306098</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-59.967,45.917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70097</td><td>2006-09-17</td><td><a href="http://data.gbif.org/occurrences/234982880">http://data.gbif.org/occurrences/234982880</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.5817,44.6792,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1883-0843</td><td></td><td><a href="http://data.gbif.org/occurrences/93315050">http://data.gbif.org/occurrences/93315050</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>20,35,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>3006</td><td>2002-09-07</td><td><a href="http://data.gbif.org/occurrences/18714235">http://data.gbif.org/occurrences/18714235</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6187,44.5957,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>21</td><td>234</td><td>2000-04-27</td><td><a href="http://data.gbif.org/occurrences/113815759">http://data.gbif.org/occurrences/113815759</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-86.983,27.3013,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70066</td><td>2006-09-16</td><td><a href="http://data.gbif.org/occurrences/234982879">http://data.gbif.org/occurrences/234982879</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.7128,44.5083,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>26125</td><td></td><td><a href="http://data.gbif.org/occurrences/96462566">http://data.gbif.org/occurrences/96462566</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 26125</td><td></td><td><a href="http://data.gbif.org/occurrences/189440659">http://data.gbif.org/occurrences/189440659</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-74.90000000000001,38.9333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271497</td><td>1975-05-06</td><td><a href="http://data.gbif.org/occurrences/11681836">http://data.gbif.org/occurrences/11681836</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.101,27.55099999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>3127</td><td>2002-09-14</td><td><a href="http://data.gbif.org/occurrences/18714596">http://data.gbif.org/occurrences/18714596</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.48180000000001,44.5725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2895</td><td>2002-09-03</td><td><a href="http://data.gbif.org/occurrences/18714213">http://data.gbif.org/occurrences/18714213</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.55200000000001,44.6045,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16555</td><td>1976-08-11</td><td><a href="http://data.gbif.org/occurrences/189440743">http://data.gbif.org/occurrences/189440743</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-118.467,32.8667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>21</td><td>556</td><td>2000-05-07</td><td><a href="http://data.gbif.org/occurrences/113816030">http://data.gbif.org/occurrences/113816030</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-89.1537,28.1035,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16611</td><td>1997-06-28</td><td><a href="http://data.gbif.org/occurrences/189440693">http://data.gbif.org/occurrences/189440693</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-74.9667,38.6,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>169890.5051137</td><td>1886-05-04</td><td><a href="http://data.gbif.org/occurrences/150254739">http://data.gbif.org/occurrences/150254739</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-80.0958,29.8,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16526</td><td>1950-05-13</td><td><a href="http://data.gbif.org/occurrences/189440771">http://data.gbif.org/occurrences/189440771</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-71.95,25.7167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2899</td><td>2002-09-03</td><td><a href="http://data.gbif.org/occurrences/18714215">http://data.gbif.org/occurrences/18714215</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6193,44.5872,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00169890</td><td>1886-05-04</td><td><a href="http://data.gbif.org/occurrences/189440679">http://data.gbif.org/occurrences/189440679</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-80.0958,29,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31711-017</td><td></td><td><a href="http://data.gbif.org/occurrences/223735501">http://data.gbif.org/occurrences/223735501</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-76.59999999999999,32.9,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>1168</td><td>2002-07-14</td><td><a href="http://data.gbif.org/occurrences/18709065">http://data.gbif.org/occurrences/18709065</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.7542,44.8212,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>HMSC</td><td>BOFSL</td><td>Thunnus thynnus</td><td></td><td><a href="http://data.gbif.org/occurrences/113845298">http://data.gbif.org/occurrences/113845298</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-65.40000000000001,44.85,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>69838</td><td>2006-08-30</td><td><a href="http://data.gbif.org/occurrences/234982874">http://data.gbif.org/occurrences/234982874</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.65170000000001,44.6285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2305</td><td>2002-08-18</td><td><a href="http://data.gbif.org/occurrences/18711489">http://data.gbif.org/occurrences/18711489</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.73999999999999,44.756,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (17 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16580</td><td>1981-08-29</td><td><a href="http://data.gbif.org/occurrences/189440691">http://data.gbif.org/occurrences/189440691</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16582</td><td>1981-08-30</td><td><a href="http://data.gbif.org/occurrences/189440710">http://data.gbif.org/occurrences/189440710</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16583</td><td>1981-09-06</td><td><a href="http://data.gbif.org/occurrences/189440711">http://data.gbif.org/occurrences/189440711</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16585</td><td>1982-09-05</td><td><a href="http://data.gbif.org/occurrences/189440713">http://data.gbif.org/occurrences/189440713</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16586</td><td>1983-09-13</td><td><a href="http://data.gbif.org/occurrences/189440714">http://data.gbif.org/occurrences/189440714</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16587</td><td>1983-10-08</td><td><a href="http://data.gbif.org/occurrences/189440715">http://data.gbif.org/occurrences/189440715</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16588</td><td>1984-09-09</td><td><a href="http://data.gbif.org/occurrences/189440716">http://data.gbif.org/occurrences/189440716</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16589</td><td>1985-08-24</td><td><a href="http://data.gbif.org/occurrences/189440717">http://data.gbif.org/occurrences/189440717</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16591</td><td>1990-09-25</td><td><a href="http://data.gbif.org/occurrences/189440719">http://data.gbif.org/occurrences/189440719</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16592</td><td>1990-09-25</td><td><a href="http://data.gbif.org/occurrences/189440720">http://data.gbif.org/occurrences/189440720</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16594</td><td>1991-09-06</td><td><a href="http://data.gbif.org/occurrences/189440722">http://data.gbif.org/occurrences/189440722</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16602</td><td>1994-09-14</td><td><a href="http://data.gbif.org/occurrences/189440729">http://data.gbif.org/occurrences/189440729</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16579</td><td>1981-08-29</td><td><a href="http://data.gbif.org/occurrences/189440736">http://data.gbif.org/occurrences/189440736</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16581</td><td>1981-08-30</td><td><a href="http://data.gbif.org/occurrences/189440737">http://data.gbif.org/occurrences/189440737</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16570</td><td>1978-08-21</td><td><a href="http://data.gbif.org/occurrences/189440757">http://data.gbif.org/occurrences/189440757</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16533</td><td>1966-08-14</td><td><a href="http://data.gbif.org/occurrences/189440778">http://data.gbif.org/occurrences/189440778</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16538</td><td>1970-08-30</td><td><a href="http://data.gbif.org/occurrences/189440783">http://data.gbif.org/occurrences/189440783</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-71.91670000000001,41.0333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>6451</td><td>1999-09-02</td><td><a href="http://data.gbif.org/occurrences/18718933">http://data.gbif.org/occurrences/18718933</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-62.3033,42.2867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>2006-1055</td><td>2003-06-17</td><td><a href="http://data.gbif.org/occurrences/93315101">http://data.gbif.org/occurrences/93315101</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>3,39,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16523</td><td>1941-09-14</td><td><a href="http://data.gbif.org/occurrences/189440768">http://data.gbif.org/occurrences/189440768</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16525</td><td>1947-09-06</td><td><a href="http://data.gbif.org/occurrences/189440770">http://data.gbif.org/occurrences/189440770</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-65.9667,43.7333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>8652</td><td>2003-08-29</td><td><a href="http://data.gbif.org/occurrences/18720739">http://data.gbif.org/occurrences/18720739</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4652,44.6072,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271786</td><td>1975-05-16</td><td><a href="http://data.gbif.org/occurrences/11681840">http://data.gbif.org/occurrences/11681840</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.38,27.285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>271824</td><td>1975-05-16</td><td><a href="http://data.gbif.org/occurrences/11681841">http://data.gbif.org/occurrences/11681841</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.53500000000001,26.951,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2815</td><td>2002-08-30</td><td><a href="http://data.gbif.org/occurrences/18714196">http://data.gbif.org/occurrences/18714196</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4597,44.678,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>8680</td><td>2003-09-02</td><td><a href="http://data.gbif.org/occurrences/18720742">http://data.gbif.org/occurrences/18720742</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6985,44.7338,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>69796</td><td>2006-08-27</td><td><a href="http://data.gbif.org/occurrences/234982873">http://data.gbif.org/occurrences/234982873</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6343,44.6078,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>22885</td><td>2005-07-22</td><td><a href="http://data.gbif.org/occurrences/18711482">http://data.gbif.org/occurrences/18711482</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6413,44.6123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2847</td><td>2002-09-02</td><td><a href="http://data.gbif.org/occurrences/18714209">http://data.gbif.org/occurrences/18714209</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.69329999999999,44.6975,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>17</td><td>2998-A</td><td>1993-06-13</td><td><a href="http://data.gbif.org/occurrences/113815768">http://data.gbif.org/occurrences/113815768</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-84.99850000000001,26.5025,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2998</td><td>2002-09-07</td><td><a href="http://data.gbif.org/occurrences/18714233">http://data.gbif.org/occurrences/18714233</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.6778,44.7008,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Spain</td><td>BDBCV-General</td><td>1</td><td>300675</td><td></td><td><a href="http://data.gbif.org/occurrences/188365567">http://data.gbif.org/occurrences/188365567</a></td></tr><tr><td>GBIF-Spain</td><td>BDBCV-General</td><td>1</td><td>301462</td><td></td><td><a href="http://data.gbif.org/occurrences/188365570">http://data.gbif.org/occurrences/188365570</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-0.09062249999999999,38.1362,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NSM</td><td>Zoology</td><td>4633</td><td></td><td><a href="http://data.gbif.org/occurrences/17650144">http://data.gbif.org/occurrences/17650144</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-64,44.58,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70036</td><td>2006-09-13</td><td><a href="http://data.gbif.org/occurrences/234982878">http://data.gbif.org/occurrences/234982878</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.47150000000001,44.7062,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn a-5299</td><td></td><td><a href="http://data.gbif.org/occurrences/189440649">http://data.gbif.org/occurrences/189440649</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn a-5791</td><td></td><td><a href="http://data.gbif.org/occurrences/189440650">http://data.gbif.org/occurrences/189440650</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>14.25,40.6667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Nature and Science, Japan</td><td>OMNH</td><td>OMNH</td><td>22536</td><td></td><td><a href="http://data.gbif.org/occurrences/43808464">http://data.gbif.org/occurrences/43808464</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>135.167,34.5,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2951</td><td>2002-09-05</td><td><a href="http://data.gbif.org/occurrences/18714227">http://data.gbif.org/occurrences/18714227</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.748,44.82,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2541</td><td>2002-08-23</td><td><a href="http://data.gbif.org/occurrences/18714028">http://data.gbif.org/occurrences/18714028</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.71899999999999,44.8005,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2941</td><td>2002-09-05</td><td><a href="http://data.gbif.org/occurrences/18714222">http://data.gbif.org/occurrences/18714222</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.74550000000001,44.7572,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2151</td><td></td><td><a href="http://data.gbif.org/occurrences/122336395">http://data.gbif.org/occurrences/122336395</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2151</td><td></td><td><a href="http://data.gbif.org/occurrences/178205335">http://data.gbif.org/occurrences/178205335</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-70.65000000000001,41.54,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Sweden</td><td>NRM</td><td>NRM-Fish</td><td>31731</td><td>1844-08-23</td><td><a href="http://data.gbif.org/occurrences/117096">http://data.gbif.org/occurrences/117096</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>NRM 31731</td><td>1844-08-23</td><td><a href="http://data.gbif.org/occurrences/189440664">http://data.gbif.org/occurrences/189440664</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>11.6333,58.00000000000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>69924</td><td>2006-09-03</td><td><a href="http://data.gbif.org/occurrences/234982875">http://data.gbif.org/occurrences/234982875</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.5937,44.5683,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274059</td><td>1976-05-31</td><td><a href="http://data.gbif.org/occurrences/11681850">http://data.gbif.org/occurrences/11681850</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274102</td><td>1976-05-31</td><td><a href="http://data.gbif.org/occurrences/11681851">http://data.gbif.org/occurrences/11681851</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.40000000000001,26.17,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11540</td><td>2003-09-13</td><td><a href="http://data.gbif.org/occurrences/18709055">http://data.gbif.org/occurrences/18709055</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.58669999999999,44.6917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>5</td><td>1151-A</td><td>1999-09-22</td><td><a href="http://data.gbif.org/occurrences/113815450">http://data.gbif.org/occurrences/113815450</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-79.1497,32.9172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16536</td><td>1968-09-10</td><td><a href="http://data.gbif.org/occurrences/189440781">http://data.gbif.org/occurrences/189440781</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-117.133,32.7,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>22881</td><td>2005-07-05</td><td><a href="http://data.gbif.org/occurrences/18711480">http://data.gbif.org/occurrences/18711480</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.7423,44.8678,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16527</td><td>1950-09-04</td><td><a href="http://data.gbif.org/occurrences/189440772">http://data.gbif.org/occurrences/189440772</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-60.4,46.45000000000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>NODC</td><td>World Ocean Database 2001</td><td>274646</td><td>1976-06-06</td><td><a href="http://data.gbif.org/occurrences/11681857">http://data.gbif.org/occurrences/11681857</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-96.48,27.4,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31637-013</td><td></td><td><a href="http://data.gbif.org/occurrences/223735503">http://data.gbif.org/occurrences/223735503</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-79.98,27.17000000000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (4 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16613</td><td>1997-07-20</td><td><a href="http://data.gbif.org/occurrences/189440695">http://data.gbif.org/occurrences/189440695</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16566</td><td>1977-07-03</td><td><a href="http://data.gbif.org/occurrences/189440739">http://data.gbif.org/occurrences/189440739</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16575</td><td>1979-07-07</td><td><a href="http://data.gbif.org/occurrences/189440762">http://data.gbif.org/occurrences/189440762</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16577</td><td>1980-06-15</td><td><a href="http://data.gbif.org/occurrences/189440764">http://data.gbif.org/occurrences/189440764</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-75.9667,36.85,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16556</td><td>1976-08-29</td><td><a href="http://data.gbif.org/occurrences/189440744">http://data.gbif.org/occurrences/189440744</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16557</td><td>1976-09-12</td><td><a href="http://data.gbif.org/occurrences/189440745">http://data.gbif.org/occurrences/189440745</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-64.95,47.7833,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31643-018</td><td></td><td><a href="http://data.gbif.org/occurrences/223735499">http://data.gbif.org/occurrences/223735499</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-79.98999999999999,28.46,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>11496</td><td>2003-09-02</td><td><a href="http://data.gbif.org/occurrences/18709028">http://data.gbif.org/occurrences/18709028</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4708,44.6417,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>22883</td><td>2005-07-26</td><td><a href="http://data.gbif.org/occurrences/18711481">http://data.gbif.org/occurrences/18711481</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.762,44.8097,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31779-011</td><td></td><td><a href="http://data.gbif.org/occurrences/223735502">http://data.gbif.org/occurrences/223735502</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-78,28.5,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn a-5377</td><td></td><td><a href="http://data.gbif.org/occurrences/189440648">http://data.gbif.org/occurrences/189440648</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>7.26667,43.7,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2149</td><td></td><td><a href="http://data.gbif.org/occurrences/122336393">http://data.gbif.org/occurrences/122336393</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2149</td><td></td><td><a href="http://data.gbif.org/occurrences/178205333">http://data.gbif.org/occurrences/178205333</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-70.78,41.35,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>44162</td><td></td><td><a href="http://data.gbif.org/occurrences/35466507">http://data.gbif.org/occurrences/35466507</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-65.55,41.63,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>OBIS-SEAMAP</td><td>21</td><td>1143-A</td><td>2000-05-23</td><td><a href="http://data.gbif.org/occurrences/113815449">http://data.gbif.org/occurrences/113815449</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-91.01220000000002,27.2507,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16524</td><td>1946-08-24</td><td><a href="http://data.gbif.org/occurrences/189440769">http://data.gbif.org/occurrences/189440769</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-64.7167,44.0333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>69795</td><td>2006-08-27</td><td><a href="http://data.gbif.org/occurrences/234982872">http://data.gbif.org/occurrences/234982872</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.5878,44.5978,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>I.31781-004</td><td></td><td><a href="http://data.gbif.org/occurrences/223735498">http://data.gbif.org/occurrences/223735498</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-79,28.5,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>6875</td><td>2000-07-10</td><td><a href="http://data.gbif.org/occurrences/18718956">http://data.gbif.org/occurrences/18718956</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-52.3667,43.7167,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>2708</td><td>2002-08-28</td><td><a href="http://data.gbif.org/occurrences/18714152">http://data.gbif.org/occurrences/18714152</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4515,44.6827,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16596</td><td>1992-05-03</td><td><a href="http://data.gbif.org/occurrences/189440724">http://data.gbif.org/occurrences/189440724</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16530</td><td>1962-12-20</td><td><a href="http://data.gbif.org/occurrences/189440775">http://data.gbif.org/occurrences/189440775</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-118.35,28.9833,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>Smithsonian Environmental Research Center</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2150</td><td></td><td><a href="http://data.gbif.org/occurrences/122336394">http://data.gbif.org/occurrences/122336394</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>WoodsHoleBioSurvey</td><td>A Biological Survey of the Waters of Woods Hole and Vacinity</td><td>2150</td><td></td><td><a href="http://data.gbif.org/occurrences/178205334">http://data.gbif.org/occurrences/178205334</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-70.81999999999999,41.26,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Sweden</td><td>NRM</td><td>NRM-Fish</td><td>35549</td><td>1907-08-23</td><td><a href="http://data.gbif.org/occurrences/117161">http://data.gbif.org/occurrences/117161</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>NRM 35549</td><td>1907-08-23</td><td><a href="http://data.gbif.org/occurrences/189440665">http://data.gbif.org/occurrences/189440665</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>11.1833,58.9333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 147-16534</td><td>1967-08-17</td><td><a href="http://data.gbif.org/occurrences/189440779">http://data.gbif.org/occurrences/189440779</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-53,47.7333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>3075</td><td>2002-09-10</td><td><a href="http://data.gbif.org/occurrences/18714249">http://data.gbif.org/occurrences/18714249</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.4652,44.6762,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus (2 records)</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5299</td><td></td><td><a href="http://data.gbif.org/occurrences/93315335">http://data.gbif.org/occurrences/93315335</a></td></tr><tr><td>Museum national d histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>A-5791</td><td></td><td><a href="http://data.gbif.org/occurrences/93315349">http://data.gbif.org/occurrences/93315349</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>14.25,40.667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Santa Barbara Museum of Natural History</td><td>SBMNH                                             </td><td>OS</td><td>4494</td><td>1993-08-11</td><td><a href="http://data.gbif.org/occurrences/153247650">http://data.gbif.org/occurrences/153247650</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-120.107,33.8992,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>VLIZ</td><td>Tisbe</td><td>565628</td><td></td><td><a href="http://data.gbif.org/occurrences/115634452">http://data.gbif.org/occurrences/115634452</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>2.80151,51.4805,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 43129</td><td></td><td><a href="http://data.gbif.org/occurrences/189440807">http://data.gbif.org/occurrences/189440807</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>12.6667,-6,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thunnus thynnus</name>
+				<description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SABS</td><td>Whalesitings</td><td>70035</td><td>2006-09-13</td><td><a href="http://data.gbif.org/occurrences/234982877">http://data.gbif.org/occurrences/234982877</a></td></tr></table></p>]]></description>
+				<styleUrl>#gbifIcon5</styleUrl>
+				<Point>
+					<coordinates>-66.52500000000001,44.706,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 	</Document>
 </Folder>
 </kml>

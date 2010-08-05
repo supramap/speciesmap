@@ -1332,7 +1332,7 @@ used with caution.
 	<Document>
 		<name>Halieutichthys.newspecies</name>
 		<open>1</open>
-		<description><![CDATA[- This kml was generated using http://pointmap.osu.edu<br></br>-]]></description>
+		<description><![CDATA[- This kml was generated using http://depthmap.osu.edu<br></br>-]]></description>
 		<Placemark>
 			<name>AMNH80788</name>
 			<Style>
