@@ -6,10 +6,14 @@ class HomeController < ApplicationController
   def contact
   end
 
+  def news
+
+  end
+
   def oil_spill
-    @oil = Oil.find(:all)
-    @file = 'hello'
-    @fish = Fish.find(:all)
+    #@oil = Oil.find(:all)
+    #@file = 'hello'
+    #@fish = Fish.find(:all)
   end
 
    # def oil_spill( fish,oil)
