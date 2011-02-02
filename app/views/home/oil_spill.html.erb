@@ -29,16 +29,17 @@
 
  
 <h3>Example kmls (click to expand):</h3>
-  
-<script src='http://code.jquery.com/jquery-latest.js'></script>
-                          <link rel='stylesheet' href='http://dev.jquery.com/view/trunk/plugins/treeview/demo/screen.css' type='text/css' />
-                          <link rel='stylesheet' href='http://dev.jquery.com/view/trunk/plugins/treeview/jquery.treeview.css' type='text/css' />
-                          <script type='text/javascript' src='http://dev.jquery.com/view/trunk/plugins/treeview/jquery.treeview.js'></script>
-                          <script>
-                          $(document).ready(function(){
-                            $('#example').treeview();
-                          });
-                          </script>
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.3/jquery-ui.min.js"/>             
+  <script type="text/javascript" src='/javascripts/jquery.treeview.js'/>
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+    $('#example').treeview();
+  });
+  </script>
                           <div>
 <br/>
 
@@ -2966,7 +2967,7 @@
 </ul></li></ul></div>
 
 <br/><br/><br/>
-<H3>How to use</h3>
+<H3>How to use</H3>
 <span>To view the kml's oil data in Google earth, move the 2 time sliders a short distance apart and pan the total distance or to see the total oil impact separate the 2 sliders all the way apart.  </span>
 <br/> <br/>       
 <img src="/images/GoogleEarthSample.png" alt=""/>

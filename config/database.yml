@@ -1,23 +1,26 @@
 development:
   adapter: mysql
   encoding: utf8
-  database: pointmap
+  host: 140.254.80.125
+  database: depthmap
   pool: 5
-  username: pointmap
-  password: point.map!
+  username: depthmap
+  password: map
 
 test:
   adapter: mysql
   encoding: utf8
-  database: pointmap
+  host: 140.254.80.125
+  database: depthmap
   pool: 5
-  username: pointmap
-  password: point.map!
+  username: depthmap
+  password: map
 
 production:
   adapter: mysql
   encoding: utf8
-  database: pointmap
+  host: 140.254.80.125
+  database: depthmap
   pool: 5
-  username: pointmap
-  password: point.map!
+  username: depthmap
+  password: map
