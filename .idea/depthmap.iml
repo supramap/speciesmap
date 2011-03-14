@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="RailsFacetType" name="Ruby on Rails">
+      <configuration>
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="config/database.yml" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="2.3.8" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="config/boot.rb" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/activeresource-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.1.0, /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v2.3.8, /usr/local/lib/ruby/gems/1.9.1/gems/actionmailer-2.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mysql (v2.8.1, /usr/local/lib/ruby/gems/1.9.1/gems/mysql-2.8.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] authlogic (v2.1.6, /usr/local/lib/ruby/gems/1.9.1/gems/authlogic-2.1.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.9.0.beta.1, /home/jacob/.gem/ruby/1.9.1/gems/rake-0.9.0.beta.1)" level="application" />
+  </component>
+</module>
+
