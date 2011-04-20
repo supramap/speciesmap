@@ -55,10 +55,11 @@ class HomeController < ApplicationController
   def getKML
       url = "http://data.gbif.org/occurrences/taxon/placemarks/taxon-placemarks-#{params[:id]}.kml"
       xml_data =  open(url, "Cookie"=> "GbifTermsAndConditions=accepted")
-      str =  File.open(xml_data).read
+      str = xml_data.read
+      #str =  File.open(xml_data).read
 
-      oil = File.open("OilSpillpart.txt", "r").read
 
+      oil = File.open("#{RAILS_ROOT}/OilSpillpart.txt").read
 
 
       send_data str.gsub("</Document>",oil+"</Document>"),  :filename => "#{params[:name]}.kml", :type => "kml", :disposition => 'attachment'
