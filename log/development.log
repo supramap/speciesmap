@@ -1,0 +1,2648 @@
+# Logfile created on 2011-04-08 13:29:38 -0400  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-08 13:29:46) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (46.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (97.8ms)
+Completed in 111ms (View: 64, DB: 96) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-08 13:29:49) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (19.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (33.9ms)
+Completed in 36ms (View: 15, DB: 59) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (39.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-08 13:29:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (11.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (28.9ms)
+Completed in 31ms (View: 19, DB: 71) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (24.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-08 13:52:52) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (12.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (26.6ms)
+Completed in 28ms (View: 15, DB: 56) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-08 14:10:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (9.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (23.9ms)
+Completed in 26ms (View: 15, DB: 49) | 200 OK [http://127.0.0.1/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-19 10:24:54) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (18.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (118.6ms)
+Completed in 135ms (View: 98, DB: 85) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:24:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'depthmap.mytable' doesn't exist: SELECT COUNT(*) FROM mytable[0m
+
+ActionView::TemplateError (Mysql::Error: Table 'depthmap.mytable' doesn't exist: SELECT COUNT(*) FROM mytable) on line #59 of app/views/home/oil_spill.html.erb:
+56:    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+57: 
+58:       <ul id="tree1">
+59:        <% ActiveRecord::Base.connection.select_one('SELECT COUNT(*) FROM mytable').rows.each { |c|  %>
+60: 
+61:      <li><span id='span<%c.id %>' class="pclass" onclick='alert("<%c.id %>");'><%= c.name %></span><br/>
+62:                        <ul id='<%c.id %>' ></ul>
+
+    app/views/home/oil_spill.html.erb:59
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:27:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.1ms)[0m   [0mSELECT * FROM class[0m
+
+ActionView::TemplateError (undefined method `rows' for {"id"=>"1", "name"=>"actinopterygii"}:Hash) on line #59 of app/views/home/oil_spill.html.erb:
+56:    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+57: 
+58:       <ul id="tree1">
+59:        <% ActiveRecord::Base.connection.select_one('SELECT * FROM class').rows.each { |c|  %>
+60: 
+61:      <li><span id='span<%c.id %>' class="pclass" onclick='alert("<%c.id %>");'><%= c.name %></span><br/>
+62:                        <ul id='<%c.id %>' ></ul>
+
+    app/views/home/oil_spill.html.erb:59
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (22.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:27:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.0ms)[0m   [0;1mSELECT * FROM class[0m
+
+ActionView::TemplateError (undefined method `id' for ["id", "1"]:Array) on line #61 of app/views/home/oil_spill.html.erb:
+58:       <ul id="tree1">
+59:        <% ActiveRecord::Base.connection.select_one('SELECT * FROM class').each { |c|  %>
+60: 
+61:      <li><span id='span<%c.id %>' class="pclass" onclick='alert("<%c.id %>");'><%= c.name %></span><br/>
+62:                        <ul id='<%c.id %>' ></ul>
+63:      </li>
+64: 
+
+    app/views/home/oil_spill.html.erb:61:in `block in _run_erb_app47views47home47oil_spill46html46erb'
+    app/views/home/oil_spill.html.erb:59:in `each'
+    app/views/home/oil_spill.html.erb:59
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (22.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (11.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:28:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (20.6ms)[0m   [0mSELECT * FROM class[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM class[0m
+  [4;36;1mSQL (14.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:35:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (15.3ms)[0m   [0;1mSELECT * FROM class[0m
+
+ActionView::TemplateError (undefined method `id' for ["1", "actinopterygii"]:Array) on line #61 of app/views/home/oil_spill.html.erb:
+58:       <ul id="tree1">
+59:        <% pclass =  ActiveRecord::Base.connection.execute('SELECT * FROM class').each { |c|  %>
+60: 
+61:      <li><span id='span<%c.id %>' class="pclass" onclick='alert("<%c.id %>");'><%= c.name %></span><br/>
+62:                        <ul id='<%c.id %>' ></ul>
+63:      </li>
+64: 
+
+    app/views/home/oil_spill.html.erb:61:in `block in _run_erb_app47views47home47oil_spill46html46erb'
+    app/views/home/oil_spill.html.erb:59:in `each'
+    app/views/home/oil_spill.html.erb:59
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (29.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:37:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (17.2ms)[0m   [0mSELECT id name FROM class[0m
+  [4;36;1mUser Columns (15.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (31.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (132.6ms)
+Completed in 10748ms (View: 10682, DB: 113) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:38:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (17.8ms)[0m   [0;1mSELECT id name FROM class[0m
+  [4;35;1mUser Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (75.9ms)
+Completed in 35762ms (View: 35708, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:38:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (20.5ms)[0m   [0mSELECT id name FROM class[0m
+  [4;36;1mSQL (17.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:40:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (12.3ms)[0m   [0;1mSELECT id name FROM class[0m
+  [4;35;1mUser Columns (22.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (121.8ms)
+Completed in 59388ms (View: 59335, DB: 98) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (18.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:41:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.6ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (25.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (89.4ms)
+Completed in 1421ms (View: 1359, DB: 99) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:44:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (23.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (14.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (78.1ms)
+Completed in 111ms (View: 53, DB: 96) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:47:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.3ms)
+Completed in 99ms (View: 44, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 10:58:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (17.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (72.4ms)
+Completed in 100ms (View: 42, DB: 96) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:00:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (18.1ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.5ms)
+Completed in 98ms (View: 44, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:02:58) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (16.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.4ms)
+Completed in 96ms (View: 44, DB: 89) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (16.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (17.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:03:52) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.2ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (27.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (89.3ms)
+Completed in 112ms (View: 49, DB: 97) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:04:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (25.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.2ms)
+Completed in 123ms (View: 56, DB: 105) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:04:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (23.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (24.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (79.6ms)
+Completed in 113ms (View: 47, DB: 104) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:05:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (14.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (100.6ms)
+Completed in 124ms (View: 78, DB: 84) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:05:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (18.5ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.6ms)
+Completed in 94ms (View: 40, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:06:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (18.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (68.6ms)
+Completed in 91ms (View: 39, DB: 89) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:07:19) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (17.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.5ms)
+Completed in 97ms (View: 44, DB: 90) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:07:42) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (24.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (27.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (80.4ms)
+Completed in 114ms (View: 44, DB: 108) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (25.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:08:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (9.6ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (25.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.1ms)
+Completed in 104ms (View: 49, DB: 100) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:09:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.2ms)
+Completed in 134ms (View: 79, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:09:21) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (18.6ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (99.4ms)
+Completed in 124ms (View: 68, DB: 93) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (22.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:10:34) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.4ms)
+Completed in 93ms (View: 44, DB: 89) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:10:53) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (22.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (78.7ms)
+Completed in 104ms (View: 49, DB: 93) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:11:10) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (76.6ms)
+Completed in 100ms (View: 50, DB: 88) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:11:39) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (10.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (22.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (87.3ms)
+Completed in 108ms (View: 53, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:12:13) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (15.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (24.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (18.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (91.7ms)
+Completed in 152ms (View: 92, DB: 98) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (16.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:20:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.8ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (20.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (24.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (122.5ms)
+Completed in 148ms (View: 87, DB: 95) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:25:55) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (32.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (79.4ms)
+Completed in 144ms (View: 71, DB: 111) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (12.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:31:43) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+
+ActionView::TemplateError (undefined local variable or method `c' for #<ActionView::Base:0x00000004211250>) on line #44 of app/views/home/oil_spill.html.erb:
+41:                           });
+42: 
+43:                              function getOrder(id) {
+44:                              alert('class'+<%=c[0] %>+'state')
+45: 
+46: 
+47:                              $('#orderlist'+id).append('<li><a href="/user/messages"><span class="tab">Message Center</span></a></li>');
+
+    app/views/home/oil_spill.html.erb:44
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:31:44) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+
+ActionView::TemplateError (undefined local variable or method `c' for #<ActionView::Base:0x00000003e53730>) on line #44 of app/views/home/oil_spill.html.erb:
+41:                           });
+42: 
+43:                              function getOrder(id) {
+44:                              alert('class'+<%=c[0] %>+'state')
+45: 
+46: 
+47:                              $('#orderlist'+id).append('<li><a href="/user/messages"><span class="tab">Message Center</span></a></li>');
+
+    app/views/home/oil_spill.html.erb:44
+    <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (23.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:32:05) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (20.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (124.7ms)
+Completed in 154ms (View: 93, DB: 99) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (20.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:32:46) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.3ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (23.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (21.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (90.6ms)
+Completed in 115ms (View: 54, DB: 99) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:36:21) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (17.2ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (21.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (97.4ms)
+Completed in 122ms (View: 66, DB: 94) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:38:02) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (10.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (100.7ms)
+Completed in 124ms (View: 80, DB: 81) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:41:20) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (18.5ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (20.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (22.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (94.5ms)
+Completed in 160ms (View: 96, DB: 101) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#NaN (for 127.0.0.1 at 2011-04-19 11:41:23) [GET]
+  Parameters: {"controller"=>"home", "action"=>"NaN"}
+
+ActionController::UnknownAction (No action responded to NaN. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (22.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#NaN (for 127.0.0.1 at 2011-04-19 11:41:50) [GET]
+  Parameters: {"controller"=>"home", "action"=>"NaN"}
+
+ActionController::UnknownAction (No action responded to NaN. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:42:48) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.4ms)
+Completed in 98ms (View: 44, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (27.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:42:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:19:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:43:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:19:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:44:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+NameError (undefined local variable or method `id' for #<HomeController:0x000000049cfe10>):
+  app/controllers/home_controller.rb:20:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (21.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (17.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:44:42) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+NameError (undefined local variable or method `id' for #<HomeController:0x000000045646f0>):
+  app/controllers/home_controller.rb:20:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:44:53) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:19:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (19.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:44:55) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:19:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:44:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:19:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:45:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+
+NameError (undefined local variable or method `id' for #<HomeController:0x00000003e6f688>):
+  app/controllers/home_controller.rb:20:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 11:47:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (18.8ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (111.4ms)
+Completed in 136ms (View: 78, DB: 95) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (18.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:47:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT * FROM `order` where class_id=1[0m
+
+ActionView::MissingTemplate (Missing template home/getOrder.erb in view path /home/jacob/depthmap/app/views):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:47:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT * FROM `order` where class_id=1[0m
+
+ActionView::MissingTemplate (Missing template home/getOrder.erb in view path /home/jacob/depthmap/app/views):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:47:39) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (24.0ms)[0m   [0;1mSELECT * FROM `order` where class_id=1[0m
+
+ActionView::MissingTemplate (Missing template home/getOrder.erb in view path /home/jacob/depthmap/app/views):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:49:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (28.4ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 33ms (View: 2, DB: 68) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:49:46) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (10.7ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 77714ms (View: 2, DB: 50) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:51:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.3ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+  [4;36;1mSQL (20.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:51:29) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (23.8ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 306014ms (View: 9, DB: 64) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:56:48) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (11.9ms)[0m   [0mSELECT id, name FROM class[0m
+
+NoMethodError (undefined method `<<' for {}:Hash):
+  app/controllers/home_controller.rb:22:in `block in getOrder'
+  app/controllers/home_controller.rb:22:in `each'
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:57:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+
+NoMethodError (undefined method `>>' for ["1", "actinopterygii"]:Array):
+  app/controllers/home_controller.rb:22:in `block in getOrder'
+  app/controllers/home_controller.rb:22:in `each'
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:58:33) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (18.9ms)[0m   [0mSELECT id, name FROM class[0m
+
+NoMethodError (undefined method `>>' for ["1", "actinopterygii"]:Array):
+  app/controllers/home_controller.rb:22:in `block in getOrder'
+  app/controllers/home_controller.rb:22:in `each'
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:58:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (12.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+
+NoMethodError (undefined method `>>' for ["1", "actinopterygii"]:Array):
+  app/controllers/home_controller.rb:22:in `block in getOrder'
+  app/controllers/home_controller.rb:22:in `each'
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (29.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:58:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.2ms)[0m   [0mSELECT id, name FROM class[0m
+
+NoMethodError (undefined method `>>' for ["1", "actinopterygii"]:Array):
+  app/controllers/home_controller.rb:22:in `block in getOrder'
+  app/controllers/home_controller.rb:22:in `each'
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (18.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 11:59:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+Completed in 55610ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (20.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:00:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT id,name FROM `order` where class_id=#{params[:id]}[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT id,name FROM `order` where class_id=#{params[:id]}):
+  app/controllers/home_controller.rb:22:in `getOrder'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (19.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:00:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+  [4;35;1mSQL (11.3ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 57936ms (View: 7, DB: 70) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (25.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:02:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;36;1mSQL (27.9ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:12:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (11.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (15.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (84.7ms)
+Completed in 148ms (View: 102, DB: 84) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (18.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:12:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (18.1ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+  [4;36;1mSQL (11.5ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+  [4;36;1mSQL (32.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:14:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (14.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (20.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.8ms)
+Completed in 158ms (View: 108, DB: 101) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:14:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+  [4;36;1mSQL (18.2ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 22152ms (View: 7, DB: 77) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:15:25) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:16:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (16.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (105.0ms)
+Completed in 133ms (View: 81, DB: 90) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (18.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:16:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.3ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 56) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:17:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (30.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (98.5ms)
+Completed in 128ms (View: 58, DB: 107) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:17:47) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (23.8ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 29ms (View: 3, DB: 63) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:19:42) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (15.7ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.5ms)
+Completed in 96ms (View: 45, DB: 90) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:19:49) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:26:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (12.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (7.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (49.5ms)
+Completed in 72ms (View: 39, DB: 71) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:27:48) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.4ms)
+Completed in 135ms (View: 79, DB: 93) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:33:05) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (13.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (61.5ms)
+Completed in 83ms (View: 38, DB: 82) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (30.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (11.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:34:08) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (29.3ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 38ms (View: 7, DB: 71) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:34:47) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:35:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (18.2ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 28ms (View: 7, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:36:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (15.1ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 19ms (View: 2, DB: 55) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (20.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:36:19) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (18.1ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 27ms (View: 7, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:37:01) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (17.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (14.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (109.8ms)
+Completed in 137ms (View: 85, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:37:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.8ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:37:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (7.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (21.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (60.6ms)
+Completed in 125ms (View: 75, DB: 87) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:37:58) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (18.8ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 24ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:38:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (25.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:38:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (23.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (84.0ms)
+Completed in 108ms (View: 53, DB: 93) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:38:30) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (26.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:38:39) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (20.2ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 26ms (View: 3, DB: 66) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:38:40) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.3ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.6ms)
+Completed in 95ms (View: 42, DB: 90) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:38:42) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (18.5ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 28ms (View: 7, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:38:43) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 25ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:39:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (29.7ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (12.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (10.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (89.3ms)
+Completed in 129ms (View: 76, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:39:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (28.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:39:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (13.0ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 19ms (View: 3, DB: 61) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:42:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (66.4ms)
+Completed in 90ms (View: 43, DB: 84) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:42:23) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (73.1ms)
+Completed in 98ms (View: 42, DB: 93) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:43:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (26.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (18.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (85.9ms)
+Completed in 117ms (View: 50, DB: 104) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:45:03) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (77.6ms)
+Completed in 108ms (View: 51, DB: 95) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:45:05) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:45:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:45:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (11.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (20.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (110.0ms)
+Completed in 134ms (View: 82, DB: 90) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:46:03) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (13.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (113.7ms)
+Completed in 137ms (View: 83, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:46:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:46:11) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:46:32) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (21.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (19.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (85.2ms)
+Completed in 118ms (View: 55, DB: 101) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:46:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#ajax to json (for 127.0.0.1 at 2011-04-19 12:46:39) [GET]
+  Parameters: {"controller"=>"home", "action"=>"ajax", "id"=>"test", "format"=>"json"}
+
+ActionController::UnknownAction (No action responded to ajax. Actions: contact, getFamily, getGenus, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:47:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (30.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (23.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (83.3ms)
+Completed in 124ms (View: 52, DB: 110) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:47:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (24.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:48:49) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.8ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (7.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (92.6ms)
+Completed in 118ms (View: 73, DB: 82) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:48:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 25ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;35;1mSQL (19.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 12:49:22) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (11.8ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.4ms)
+Completed in 126ms (View: 79, DB: 84) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:49:24) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (17.9ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 22ms (View: 3, DB: 57) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 12:49:30) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (14.2ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:18:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.6ms)
+Completed in 94ms (View: 43, DB: 89) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:18:58) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 25ms (View: 7, DB: 55) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:19:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (12.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (68.6ms)
+Completed in 94ms (View: 49, DB: 83) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (24.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:19:37) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (22.8ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 32ms (View: 7, DB: 66) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:21:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (14.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (14.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.6ms)
+Completed in 94ms (View: 46, DB: 86) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:21:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (19.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 25ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (20.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:21:24) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (20.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:27:29) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (29.2ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (13.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.2ms)
+Completed in 109ms (View: 49, DB: 98) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:27:31) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;36;1mSQL (24.5ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 30ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;35;1mSQL (19.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:27:34) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"47"}
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT id,name FROM family where order_id=47[0m
+Completed in 25ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/home/getFamily/47]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:31:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.2ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (71.7ms)
+Completed in 94ms (View: 45, DB: 87) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:32:53) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (19.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (87.8ms)
+Completed in 112ms (View: 56, DB: 95) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:32:55) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;36;1mSQL (15.1ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 21ms (View: 3, DB: 55) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:32:57) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"48"}
+  [4;35;1mSQL (19.2ms)[0m   [0mSELECT id,name FROM family where order_id=48[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getFamily/48]
+  [4;36;1mSQL (20.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:32:58) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"467"}
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSELECT id,name FROM genus where family_id=467[0m
+Completed in 25ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getGenus/467]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:10) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"47"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name FROM family where order_id=47[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/home/getFamily/47]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:33:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"459"}
+  [4;36;1mSQL (14.3ms)[0m   [0;1mSELECT id,name FROM genus where family_id=459[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/home/getGenus/459]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"57"}
+  [4;35;1mSQL (19.3ms)[0m   [0mSELECT id,name FROM family where order_id=57[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getFamily/57]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:33:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"502"}
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSELECT id,name FROM genus where family_id=502[0m
+Completed in 25ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getGenus/502]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"53"}
+  [4;35;1mSQL (22.0ms)[0m   [0mSELECT id,name FROM family where order_id=53[0m
+Completed in 26ms (View: 2, DB: 61) | 200 OK [http://0.0.0.0/home/getFamily/53]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (23.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"51"}
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSELECT id,name FROM family where order_id=51[0m
+Completed in 18ms (View: 2, DB: 57) | 200 OK [http://0.0.0.0/home/getFamily/51]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:37) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"49"}
+  [4;35;1mSQL (14.9ms)[0m   [0mSELECT id,name FROM family where order_id=49[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/home/getFamily/49]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"50"}
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT id,name FROM family where order_id=50[0m
+Completed in 24ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getFamily/50]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:40) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"52"}
+  [4;35;1mSQL (23.0ms)[0m   [0mSELECT id,name FROM family where order_id=52[0m
+Completed in 27ms (View: 2, DB: 62) | 200 OK [http://0.0.0.0/home/getFamily/52]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:41) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"54"}
+  [4;36;1mSQL (11.7ms)[0m   [0;1mSELECT id,name FROM family where order_id=54[0m
+Completed in 17ms (View: 3, DB: 51) | 200 OK [http://0.0.0.0/home/getFamily/54]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:43) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"55"}
+  [4;35;1mSQL (24.3ms)[0m   [0mSELECT id,name FROM family where order_id=55[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/home/getFamily/55]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:33:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"56"}
+  [4;36;1mSQL (18.4ms)[0m   [0;1mSELECT id,name FROM family where order_id=56[0m
+Completed in 21ms (View: 1, DB: 58) | 200 OK [http://0.0.0.0/home/getFamily/56]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:33:51) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"460"}
+  [4;35;1mSQL (21.1ms)[0m   [0mSELECT id,name FROM genus where family_id=460[0m
+Completed in 30ms (View: 7, DB: 60) | 200 OK [http://0.0.0.0/home/getGenus/460]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 13:36:55) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (71.8ms)
+Completed in 94ms (View: 45, DB: 87) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:36:57) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"2"}
+  [4;35;1mSQL (20.6ms)[0m   [0mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 26ms (View: 3, DB: 60) | 200 OK [http://0.0.0.0/home/getOrder/2]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:36:58) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"57"}
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSELECT id,name FROM family where order_id=57[0m
+Completed in 24ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getFamily/57]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:36:59) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"502"}
+  [4;35;1mSQL (18.8ms)[0m   [0mSELECT id,name FROM genus where family_id=502[0m
+Completed in 24ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/home/getGenus/502]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:00) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"8702"}
+  [4;36;1mSQL (32.4ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=8702[0m
+Completed in 40ms (View: 5, DB: 73) | 200 OK [http://0.0.0.0/home/getSpecies/8702]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:37:13) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"49"}
+  [4;35;1mSQL (18.7ms)[0m   [0mSELECT id,name FROM family where order_id=49[0m
+Completed in 23ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getFamily/49]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 13:37:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 30ms (View: 7, DB: 60) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:37:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"2"}
+  [4;35;1mSQL (20.1ms)[0m   [0mSELECT id,name FROM family where order_id=2[0m
+Completed in 26ms (View: 3, DB: 60) | 200 OK [http://0.0.0.0/home/getFamily/2]
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:37:16) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"124"}
+  [4;36;1mSQL (23.2ms)[0m   [0;1mSELECT id,name FROM genus where family_id=124[0m
+Completed in 29ms (View: 4, DB: 64) | 200 OK [http://0.0.0.0/home/getGenus/124]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:17) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"5881"}
+  [4;35;1mSQL (18.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=5881[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/5881]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"6615"}
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=6615[0m
+Completed in 23ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/6615]
+  [4;35;1mSQL (18.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:37:25) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"29"}
+  [4;35;1mSQL (18.8ms)[0m   [0mSELECT id,name FROM family where order_id=29[0m
+Completed in 24ms (View: 3, DB: 57) | 200 OK [http://0.0.0.0/home/getFamily/29]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 13:37:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"7"}
+  [4;36;1mSQL (14.1ms)[0m   [0;1mSELECT id,name FROM family where order_id=7[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/home/getFamily/7]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 13:37:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"30"}
+  [4;35;1mSQL (39.1ms)[0m   [0mSELECT id,name FROM genus where family_id=30[0m
+Completed in 56ms (View: 14, DB: 79) | 200 OK [http://0.0.0.0/home/getGenus/30]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (14.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:30) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"115"}
+  [4;36;1mSQL (18.5ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=115[0m
+Completed in 22ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/115]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:31) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"134"}
+  [4;35;1mSQL (19.8ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=134[0m
+Completed in 25ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/134]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:32) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"140"}
+  [4;36;1mSQL (17.8ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=140[0m
+Completed in 23ms (View: 3, DB: 57) | 200 OK [http://0.0.0.0/home/getSpecies/140]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:34) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"146"}
+  [4;35;1mSQL (19.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=146[0m
+Completed in 24ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getSpecies/146]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"211"}
+  [4;36;1mSQL (28.2ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=211[0m
+Completed in 33ms (View: 2, DB: 69) | 200 OK [http://0.0.0.0/home/getSpecies/211]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"391"}
+  [4;35;1mSQL (22.5ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=391[0m
+Completed in 61ms (View: 2, DB: 62) | 200 OK [http://0.0.0.0/home/getSpecies/391]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:37) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"407"}
+  [4;36;1mSQL (21.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=407[0m
+Completed in 27ms (View: 3, DB: 61) | 200 OK [http://0.0.0.0/home/getSpecies/407]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"405"}
+  [4;35;1mSQL (19.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=405[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/405]
+  [4;36;1mSQL (20.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:40) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"444"}
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=444[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/444]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:41) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"445"}
+  [4;35;1mSQL (11.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=445[0m
+Completed in 15ms (View: 1, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/445]
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:42) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"527"}
+  [4;36;1mSQL (18.1ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=527[0m
+Completed in 23ms (View: 2, DB: 57) | 200 OK [http://0.0.0.0/home/getSpecies/527]
+  [4;35;1mSQL (18.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:43) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"591"}
+  [4;35;1mSQL (22.4ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=591[0m
+Completed in 27ms (View: 2, DB: 61) | 200 OK [http://0.0.0.0/home/getSpecies/591]
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:43) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"592"}
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=592[0m
+Completed in 30ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/home/getSpecies/592]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:45) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"593"}
+  [4;35;1mSQL (28.1ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=593[0m
+Completed in 40ms (View: 4, DB: 67) | 200 OK [http://0.0.0.0/home/getSpecies/593]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:52) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"594"}
+  [4;36;1mSQL (18.5ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=594[0m
+Completed in 23ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getSpecies/594]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:53) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"597"}
+  [4;35;1mSQL (19.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=597[0m
+Completed in 24ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getSpecies/597]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:54) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"737"}
+  [4;36;1mSQL (18.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=737[0m
+Completed in 23ms (View: 2, DB: 58) | 200 OK [http://0.0.0.0/home/getSpecies/737]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:37:56) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"882"}
+  [4;35;1mSQL (35.1ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=882[0m
+Completed in 45ms (View: 7, DB: 75) | 200 OK [http://0.0.0.0/home/getSpecies/882]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:38:01) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"1324"}
+  [4;36;1mSQL (18.4ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1324[0m
+Completed in 23ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/1324]
+  [4;35;1mSQL (24.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:38:02) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"1340"}
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1340[0m
+Completed in 24ms (View: 2, DB: 62) | 200 OK [http://0.0.0.0/home/getSpecies/1340]
+  [4;36;1mSQL (11.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (21.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:52:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"1020"}
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1020[0m
+Completed in 24ms (View: 2, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/1020]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 13:52:20) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"1262"}
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1262[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/1262]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-19 15:05:29) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (12.8ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.5ms)
+Completed in 93ms (View: 45, DB: 86) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-19 15:05:31) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (14.3ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-19 15:05:32) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"44"}
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSELECT id,name FROM family where order_id=44[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getFamily/44]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-19 15:05:33) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"307"}
+  [4;35;1mSQL (19.4ms)[0m   [0mSELECT id,name FROM genus where family_id=307[0m
+Completed in 25ms (View: 3, DB: 59) | 200 OK [http://0.0.0.0/home/getGenus/307]
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (14.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-19 15:05:35) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"7728"}
+  [4;36;1mSQL (28.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=7728[0m
+Completed in 35ms (View: 4, DB: 64) | 200 OK [http://0.0.0.0/home/getSpecies/7728]
+  [4;35;1mSQL (11.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKml (for 127.0.0.1 at 2011-04-19 15:05:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKml", "id"=>"12817358"}
+
+ActionController::UnknownAction (No action responded to getKml. Actions: contact, getFamily, getGenus, getKML, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+/!\ FAILSAFE /!\  2011-04-20 11:15:56 -0400
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on '140.254.80.125' (111)
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    /usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /usr/local/lib/ruby/gems/1.9.1/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:165:in `block in process_client'
+    /usr/local/lib/ruby/gems/1.9.1/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `process_client'
+    /usr/local/lib/ruby/gems/1.9.1/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:291:in `block (2 levels) in run'
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (28.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-04-20 11:17:16) [GET]
+  Parameters: {"controller"=>"home", "action"=>"index"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (115.9ms)
+Completed in 164ms (View: 128, DB: 84) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-20 11:17:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (16.5ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (21.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (105.1ms)
+Completed in 132ms (View: 75, DB: 95) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-20 11:17:21) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 29ms (View: 7, DB: 59) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:17:22) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"3"}
+  [4;36;1mSQL (21.8ms)[0m   [0;1mSELECT id,name FROM family where order_id=3[0m
+Completed in 28ms (View: 4, DB: 61) | 200 OK [http://0.0.0.0/home/getFamily/3]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:17:23) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"3"}
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT id,name FROM genus where family_id=3[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/home/getGenus/3]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:17:25) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"535"}
+  [4;36;1mSQL (30.2ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=535[0m
+Completed in 35ms (View: 2, DB: 70) | 200 OK [http://0.0.0.0/home/getSpecies/535]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:17:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"4837"}
+  [4;35;1mSQL (19.7ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=4837[0m
+Completed in 24ms (View: 2, DB: 60) | 200 OK [http://0.0.0.0/home/getSpecies/4837]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:17:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"4381"}
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=4381[0m
+Completed in 23ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/4381]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:17:29) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"4379"}
+  [4;35;1mSQL (13.7ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=4379[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/4379]
+  [4;36;1mSQL (28.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKml (for 127.0.0.1 at 2011-04-20 11:17:32) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKml", "id"=>"12815766"}
+
+ActionController::UnknownAction (No action responded to getKml. Actions: contact, getFamily, getGenus, getKML, getOrder, getSpecies, get_oil_fishkml, help, news, and oil_spill):
+  <internal:prelude>:10:in `synchronize'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-20 11:18:34) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (18.5ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (17.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.3ms)
+Completed in 98ms (View: 44, DB: 91) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-20 11:18:36) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 58ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:18:37) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"2"}
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSELECT id,name FROM family where order_id=2[0m
+Completed in 23ms (View: 1, DB: 59) | 200 OK [http://0.0.0.0/home/getFamily/2]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:18:38) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"2"}
+  [4;35;1mSQL (19.3ms)[0m   [0mSELECT id,name FROM genus where family_id=2[0m
+Completed in 25ms (View: 4, DB: 59) | 200 OK [http://0.0.0.0/home/getGenus/2]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:18:39) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"2"}
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=2[0m
+Completed in 24ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/home/getSpecies/2]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:18:40) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12569443"}
+
+NameError (undefined local variable or method `id' for #<HomeController:0x000000044c2c88>):
+  app/controllers/home_controller.rb:53:in `getKML'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:19:12) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12569443"}
+
+Errno::ENOENT (No such file or directory - http://data.gbif.org/species/12569443):
+  app/controllers/home_controller.rb:54:in `initialize'
+  app/controllers/home_controller.rb:54:in `open'
+  app/controllers/home_controller.rb:54:in `getKML'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:19:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12569443"}
+
+Errno::ENOENT (No such file or directory - http://data.gbif.org/species/12569443):
+  app/controllers/home_controller.rb:54:in `initialize'
+  app/controllers/home_controller.rb:54:in `open'
+  app/controllers/home_controller.rb:54:in `getKML'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:19:24) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12569443"}
+
+Errno::ENOENT (No such file or directory - http://data.gbif.org/species/12569443):
+  app/controllers/home_controller.rb:54:in `initialize'
+  app/controllers/home_controller.rb:54:in `open'
+  app/controllers/home_controller.rb:54:in `getKML'
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:22:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12569443"}
+Sending data 
+Completed in 799ms (View: 2, DB: 39) | 200 OK [http://0.0.0.0/home/getKML/12569443]
+  [4;35;1mSQL (29.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:22:14) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getKML", "id"=>"12583561"}
+Sending data 
+Completed in 1133ms (View: 2, DB: 48) | 200 OK [http://0.0.0.0/home/getKML/12583561]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#oil_spill (for 127.0.0.1 at 2011-04-20 11:26:37) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+
+SyntaxError (/home/jacob/depthmap/app/controllers/home_controller.rb:59: syntax error, unexpected ':', expecting keyword_end
+      send_data str  :filename => "#{params[:name]}...
+                      ^
+/home/jacob/depthmap/app/controllers/home_controller.rb:59: syntax error, unexpected ',', expecting keyword_end
+...name => "#{params[:name]}.kml", :type => "kml", :disposition...
+...                               ^
+/home/jacob/depthmap/app/controllers/home_controller.rb:59: syntax error, unexpected ',', expecting keyword_end
+...s[:name]}.kml", :type => "kml", :disposition => 'attachment'
+...                               ^):
+  <internal:prelude>:10:in `synchronize'
+
+Rendered rescues/_trace (17.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-20 11:27:00) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (22.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (21.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (85.4ms)
+Completed in 155ms (View: 91, DB: 101) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-20 11:27:03) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;36;1mSQL (17.5ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 22ms (View: 3, DB: 57) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:27:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"1"}
+  [4;35;1mSQL (12.2ms)[0m   [0mSELECT id,name FROM family where order_id=1[0m
+Completed in 15ms (View: 1, DB: 53) | 200 OK [http://0.0.0.0/home/getFamily/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:27:05) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"8"}
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSELECT id,name FROM genus where family_id=8[0m
+Completed in 21ms (View: 3, DB: 56) | 200 OK [http://0.0.0.0/home/getGenus/8]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:27:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"47"}
+  [4;35;1mSQL (15.7ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=47[0m
+Completed in 21ms (View: 3, DB: 55) | 200 OK [http://0.0.0.0/home/getSpecies/47]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:27:09) [GET]
+  Parameters: {"name"=>"Acanthocobitis uroph", "controller"=>"home", "action"=>"getKML", "id"=>"12562285"}
+Sending data Acanthocobitis uroph.kml
+Completed in 26573ms (View: 2, DB: 40) | 200 OK [http://0.0.0.0/home/getKML/12562285?name=Acanthocobitis%20uroph]
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:32:02) [GET]
+  Parameters: {"name"=>"Acanthocobitis rubid", "controller"=>"home", "action"=>"getKML", "id"=>"12604038"}
+Sending data Acanthocobitis rubid.kml
+Completed in 516ms (View: 2, DB: 39) | 200 OK [http://0.0.0.0/home/getKML/12604038?name=Acanthocobitis%20rubid]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-20 11:33:04) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (19.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (20.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (112.1ms)
+Completed in 136ms (View: 78, DB: 96) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-20 11:33:06) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (15.5ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 5, DB: 56) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:33:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"1"}
+  [4;36;1mSQL (11.1ms)[0m   [0;1mSELECT id,name FROM family where order_id=1[0m
+Completed in 15ms (View: 2, DB: 51) | 200 OK [http://0.0.0.0/home/getFamily/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:33:07) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"1"}
+  [4;35;1mSQL (59.9ms)[0m   [0mSELECT id,name FROM genus where family_id=1[0m
+Completed in 83ms (View: 20, DB: 100) | 200 OK [http://0.0.0.0/home/getGenus/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:33:09) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"4"}
+  [4;36;1mSQL (26.3ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=4[0m
+Completed in 31ms (View: 3, DB: 66) | 200 OK [http://0.0.0.0/home/getSpecies/4]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:33:13) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"14"}
+  [4;35;1mSQL (27.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=14[0m
+Completed in 32ms (View: 2, DB: 67) | 200 OK [http://0.0.0.0/home/getSpecies/14]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-04-20 11:51:13) [GET]
+  Parameters: {"controller"=>"home", "action"=>"oil_spill"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (20.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.2ms)
+Completed in 105ms (View: 50, DB: 92) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-04-20 11:51:15) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getOrder", "id"=>"1"}
+  [4;35;1mSQL (13.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 24ms (View: 7, DB: 53) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (17.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:51:18) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"5"}
+  [4;36;1mSQL (35.8ms)[0m   [0;1mSELECT id,name FROM family where order_id=5[0m
+Completed in 50ms (View: 12, DB: 72) | 200 OK [http://0.0.0.0/home/getFamily/5]
+  [4;35;1mSQL (30.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (27.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:51:20) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"7"}
+  [4;35;1mSQL (58.6ms)[0m   [0mSELECT id,name FROM genus where family_id=7[0m
+Completed in 78ms (View: 16, DB: 116) | 200 OK [http://0.0.0.0/home/getGenus/7]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:51:21) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"15"}
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=15[0m
+Completed in 24ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/15]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-04-20 11:51:26) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getFamily", "id"=>"4"}
+  [4;35;1mSQL (16.1ms)[0m   [0mSELECT id,name FROM family where order_id=4[0m
+Completed in 24ms (View: 6, DB: 56) | 200 OK [http://0.0.0.0/home/getFamily/4]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-04-20 11:51:27) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getGenus", "id"=>"4"}
+  [4;36;1mSQL (16.2ms)[0m   [0;1mSELECT id,name FROM genus where family_id=4[0m
+Completed in 22ms (View: 4, DB: 56) | 200 OK [http://0.0.0.0/home/getGenus/4]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:51:28) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"7"}
+  [4;35;1mSQL (11.2ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=7[0m
+Completed in 15ms (View: 2, DB: 51) | 200 OK [http://0.0.0.0/home/getSpecies/7]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-04-20 11:51:31) [GET]
+  Parameters: {"controller"=>"home", "action"=>"getSpecies", "id"=>"3796"}
+  [4;36;1mSQL (18.0ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=3796[0m
+Completed in 22ms (View: 2, DB: 59) | 200 OK [http://0.0.0.0/home/getSpecies/3796]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-04-20 11:51:32) [GET]
+  Parameters: {"name"=>"Glyptauchen pandurat", "controller"=>"home", "action"=>"getKML", "id"=>"12359202"}
+Sending data Glyptauchen pandurat.kml
+Completed in 1021ms (View: 1, DB: 40) | 200 OK [http://0.0.0.0/home/getKML/12359202?name=Glyptauchen%20pandurat]
