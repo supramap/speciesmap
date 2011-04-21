@@ -52,6 +52,17 @@ class HomeController < ApplicationController
     #Oil.find(:first, :conditions => [ "Name = ?",params[:date]). ]find   Client.where("orders_count = #{params[:orders]}")
   end
 
+  def getSpeciesKML
+     items =Array.new
+     ActiveRecord::Base.connection.execute("SELECT gbif_key FROM species where name='#{params[:id]}'").each { |c|   items << c}
+
+    if items.length >0
+       render :text => items[0][0]
+    else
+      render :text => '0'
+    end
+  end
+
   def getKML
       url = "http://data.gbif.org/occurrences/taxon/placemarks/taxon-placemarks-#{params[:id]}.kml"
       xml_data =  open(url, "Cookie"=> "GbifTermsAndConditions=accepted")

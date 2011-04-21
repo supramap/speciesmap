@@ -27,8 +27,26 @@
   <li>Save the KML and open it in Google Earth.</li>
 </ol>
 
+    <H3> Get Species manually:</H3>
+    <script>
+         function getSpeciesbyName() {
+//               alert( $('#searchbox').val()  )
+                $.get('getSpeciesKML/'+$('#searchbox').val(), function(data) {
+
+                    if(data=='0')
+                    {
+                        alert('Could not find '+ $('#searchbox').val()+'. Maybe you misspelled it.')
+                    }
+                    else
+                    {
+                        window.location.href = 'getKML/'+data.replace('"', '').replace("[", "").replace("]", "")+"?name="+$('#searchbox').val();
+                    }
+                                       });
+         }
+    </script>
+    Species Scientific Name: <input id="searchbox" type="text"/> <input onclick="getSpeciesbyName()"  type="button" value="download kml"></input>
  
-<h3>Example kmls (click to expand):</h3>
+<h3>Browse for Species(click to expand):</h3>
 
 <script src='http://code.jquery.com/jquery-latest.js'></script>
                           <link rel='stylesheet' href='/css/screen.css' type='text/css' />
@@ -53,8 +71,6 @@
                                           treestate["order"+val[0]] = 0;
                                    });
                                  });
-
-
                                 }
                              }
 
@@ -109,6 +125,9 @@
 
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
+
+
+
       <ul id="tree1">
        <% pclass =  ActiveRecord::Base.connection.execute('SELECT id, name FROM class').each { |c|  %>
 
@@ -119,7 +138,7 @@
    </script>
   <%  } %>
   </ul>
-  </div>
+
 
 
 <br/><br/><br/>
@@ -127,3 +146,4 @@
 <span>To view the kml's oil data in Google earth, move the 2 time sliders a short distance apart and pan the total distance or to see the total oil impact separate the 2 sliders all the way apart.  </span>
 <br/> <br/>       
 <img src="/images/GoogleEarthSample.png" alt=""/>
+<br/> <br/>
