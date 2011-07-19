@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-20)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Bollmannia communis</name>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119884.5038552</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/149691242">http://data.gbif.org/occurrences/149691242</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119884</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/188678123">http://data.gbif.org/occurrences/188678123</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119884</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/241166839">http://data.gbif.org/occurrences/241166839</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.85,26.7167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119887.5038555</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/149691247">http://data.gbif.org/occurrences/149691247</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119887</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/188678126">http://data.gbif.org/occurrences/188678126</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119887</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/241166774">http://data.gbif.org/occurrences/241166774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.3583,27.7083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119882.5038550</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/149691237">http://data.gbif.org/occurrences/149691237</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119882</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/188678121">http://data.gbif.org/occurrences/188678121</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119882</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/241167035">http://data.gbif.org/occurrences/241167035</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.85,28.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003992</td><td>1937-03-25</td><td><a href="http://data.gbif.org/occurrences/350163092">http://data.gbif.org/occurrences/350163092</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.03,28.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119879.5038547</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/149691249">http://data.gbif.org/occurrences/149691249</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119879</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/241166611">http://data.gbif.org/occurrences/241166611</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.225,28.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>172089</td><td>1991-08-07</td><td><a href="http://data.gbif.org/occurrences/198168621">http://data.gbif.org/occurrences/198168621</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.82056,29.28333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119873</td><td>1938-07-08</td><td><a href="http://data.gbif.org/occurrences/188678117">http://data.gbif.org/occurrences/188678117</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003988</td><td>1937-04-09</td><td><a href="http://data.gbif.org/occurrences/350163093">http://data.gbif.org/occurrences/350163093</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.7667,29.4833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>184980</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/241166450">http://data.gbif.org/occurrences/241166450</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.9,26.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 67120</td><td>1988-10-11</td><td><a href="http://data.gbif.org/occurrences/188678142">http://data.gbif.org/occurrences/188678142</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-9.93667,26.695,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00197731</td><td>1962-03-21</td><td><a href="http://data.gbif.org/occurrences/188678139">http://data.gbif.org/occurrences/188678139</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-82.0,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119885</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/188678124">http://data.gbif.org/occurrences/188678124</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.8181,27.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003988</td><td>1937-04-09</td><td><a href="http://data.gbif.org/occurrences/202557868">http://data.gbif.org/occurrences/202557868</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.767,29.483,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003991</td><td>1937-03-25</td><td><a href="http://data.gbif.org/occurrences/350163096">http://data.gbif.org/occurrences/350163096</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.6833,28.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119885.5038553</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/149691243">http://data.gbif.org/occurrences/149691243</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.825,27.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00193539</td><td>1962-09-24</td><td><a href="http://data.gbif.org/occurrences/188678136">http://data.gbif.org/occurrences/188678136</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.9583,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003922</td><td>1937-03-23</td><td><a href="http://data.gbif.org/occurrences/350163095">http://data.gbif.org/occurrences/350163095</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003989</td><td>1937-03-23</td><td><a href="http://data.gbif.org/occurrences/350163097">http://data.gbif.org/occurrences/350163097</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.7583,29.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155656</td><td>1938-05-23</td><td><a href="http://data.gbif.org/occurrences/241166485">http://data.gbif.org/occurrences/241166485</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.633,29.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003990</td><td>1937-03-25</td><td><a href="http://data.gbif.org/occurrences/202557869">http://data.gbif.org/occurrences/202557869</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.983,28.317,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003991</td><td>1937-03-25</td><td><a href="http://data.gbif.org/occurrences/202557870">http://data.gbif.org/occurrences/202557870</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.683,28.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119885</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/241166926">http://data.gbif.org/occurrences/241166926</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.825,27.083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187761</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198168693">http://data.gbif.org/occurrences/198168693</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.96083,28.65055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2662</td><td>1968-03-26</td><td><a href="http://data.gbif.org/occurrences/188678106">http://data.gbif.org/occurrences/188678106</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.4583,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>184980.5245212</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/149691317">http://data.gbif.org/occurrences/149691317</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.9,26.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119886</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/188678125">http://data.gbif.org/occurrences/188678125</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.75,28.8181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>131306.5245196</td><td>1885-03-18</td><td><a href="http://data.gbif.org/occurrences/149691260">http://data.gbif.org/occurrences/149691260</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00131306</td><td>1885-03-18</td><td><a href="http://data.gbif.org/occurrences/188678133">http://data.gbif.org/occurrences/188678133</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>131306</td><td>1885-03-18</td><td><a href="http://data.gbif.org/occurrences/241166767">http://data.gbif.org/occurrences/241166767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-83.2583,26.5583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>337773.5239654</td><td>1951-08-19</td><td><a href="http://data.gbif.org/occurrences/149691263">http://data.gbif.org/occurrences/149691263</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>337773</td><td>1951-08-19</td><td><a href="http://data.gbif.org/occurrences/241166982">http://data.gbif.org/occurrences/241166982</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.7917,19.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119881.5038549</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/149691253">http://data.gbif.org/occurrences/149691253</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119881</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/241166516">http://data.gbif.org/occurrences/241166516</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.2917,27.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119893.5038561</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/149691241">http://data.gbif.org/occurrences/149691241</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119893</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/188678132">http://data.gbif.org/occurrences/188678132</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119893</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/241166997">http://data.gbif.org/occurrences/241166997</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.5667,27.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>364236.5275237</td><td>1972-06-30</td><td><a href="http://data.gbif.org/occurrences/149691278">http://data.gbif.org/occurrences/149691278</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-54.0,6.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2290</td><td>1967-08-29</td><td><a href="http://data.gbif.org/occurrences/188678111">http://data.gbif.org/occurrences/188678111</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.4042,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119886.5038554</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/149691299">http://data.gbif.org/occurrences/149691299</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119886</td><td>1938-05-13</td><td><a href="http://data.gbif.org/occurrences/241166499">http://data.gbif.org/occurrences/241166499</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.75,28.825,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12934</td><td>1954-06-02</td><td><a href="http://data.gbif.org/occurrences/198168074">http://data.gbif.org/occurrences/198168074</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.75,26.21667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82273</td><td>1973-03-29</td><td><a href="http://data.gbif.org/occurrences/198168410">http://data.gbif.org/occurrences/198168410</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.995,28.29333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00184980</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/188678135">http://data.gbif.org/occurrences/188678135</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.0,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11752</td><td>1954-06-02</td><td><a href="http://data.gbif.org/occurrences/198168055">http://data.gbif.org/occurrences/198168055</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.86667,26.18333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5395</td><td>1952-08-10</td><td><a href="http://data.gbif.org/occurrences/198167939">http://data.gbif.org/occurrences/198167939</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5441</td><td>1952-08-11</td><td><a href="http://data.gbif.org/occurrences/198167941">http://data.gbif.org/occurrences/198167941</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.93,29.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197730.5149723</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/149691320">http://data.gbif.org/occurrences/149691320</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00197730</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/188678138">http://data.gbif.org/occurrences/188678138</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197730</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/241166771">http://data.gbif.org/occurrences/241166771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.7083,30.125,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119883.5038551</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/149691240">http://data.gbif.org/occurrences/149691240</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119883</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/188678122">http://data.gbif.org/occurrences/188678122</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119883</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/241166586">http://data.gbif.org/occurrences/241166586</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.6667,27.225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197729</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/241166702">http://data.gbif.org/occurrences/241166702</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.7,30.133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119880</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/188678119">http://data.gbif.org/occurrences/188678119</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.4681,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119873</td><td>1938-07-08</td><td><a href="http://data.gbif.org/occurrences/241166862">http://data.gbif.org/occurrences/241166862</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.483,28.983,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119889.5038557</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/149691250">http://data.gbif.org/occurrences/149691250</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119889</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/188678128">http://data.gbif.org/occurrences/188678128</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119889</td><td>1939-01-31</td><td><a href="http://data.gbif.org/occurrences/241166961">http://data.gbif.org/occurrences/241166961</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.8917,27.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119873.5038541</td><td>1938-07-08</td><td><a href="http://data.gbif.org/occurrences/149691239">http://data.gbif.org/occurrences/149691239</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.5,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119888</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/188678127">http://data.gbif.org/occurrences/188678127</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.7333,27.7181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>5148</td><td></td><td><a href="http://data.gbif.org/occurrences/176209656">http://data.gbif.org/occurrences/176209656</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>5149</td><td></td><td><a href="http://data.gbif.org/occurrences/176209657">http://data.gbif.org/occurrences/176209657</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>30145</td><td></td><td><a href="http://data.gbif.org/occurrences/190535836">http://data.gbif.org/occurrences/190535836</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-97.0762,27.0378,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155656</td><td>1938-05-23</td><td><a href="http://data.gbif.org/occurrences/188678134">http://data.gbif.org/occurrences/188678134</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82210</td><td>1973-03-28</td><td><a href="http://data.gbif.org/occurrences/198168407">http://data.gbif.org/occurrences/198168407</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.96667,29.28833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003992</td><td></td><td><a href="http://data.gbif.org/occurrences/202557873">http://data.gbif.org/occurrences/202557873</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.0,28.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20200</td><td></td><td><a href="http://data.gbif.org/occurrences/190535675">http://data.gbif.org/occurrences/190535675</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-97.302,26.0013,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197731</td><td>1962-03-21</td><td><a href="http://data.gbif.org/occurrences/241167042">http://data.gbif.org/occurrences/241167042</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-82.05,26.267,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>364236</td><td>1972-06-30</td><td><a href="http://data.gbif.org/occurrences/241166709">http://data.gbif.org/occurrences/241166709</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-53.967,6.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00337773</td><td>1951-08-19</td><td><a href="http://data.gbif.org/occurrences/188678140">http://data.gbif.org/occurrences/188678140</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.7917,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>193539.5245211</td><td>1962-09-24</td><td><a href="http://data.gbif.org/occurrences/149691265">http://data.gbif.org/occurrences/149691265</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.9583,25.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119892.5038560</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/149691238">http://data.gbif.org/occurrences/149691238</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119892</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/188678131">http://data.gbif.org/occurrences/188678131</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119892</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/241167088">http://data.gbif.org/occurrences/241167088</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.7833,27.2167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155656.5245277</td><td>1938-05-23</td><td><a href="http://data.gbif.org/occurrences/149691266">http://data.gbif.org/occurrences/149691266</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.6,29.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119880.5038548</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/149691251">http://data.gbif.org/occurrences/149691251</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.4681,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197729.5149722</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/149691319">http://data.gbif.org/occurrences/149691319</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.7,30.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119881</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/188678120">http://data.gbif.org/occurrences/188678120</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.2847,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119888</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/241167129">http://data.gbif.org/occurrences/241167129</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.733,27.725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119888.5038556</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/149691248">http://data.gbif.org/occurrences/149691248</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.7333,27.725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82240</td><td>1973-03-29</td><td><a href="http://data.gbif.org/occurrences/198168408">http://data.gbif.org/occurrences/198168408</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-92.025,28.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119880</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/241166548">http://data.gbif.org/occurrences/241166548</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.475,28.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>193539</td><td>1962-09-24</td><td><a href="http://data.gbif.org/occurrences/241166928">http://data.gbif.org/occurrences/241166928</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.9583,25.767,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00197729</td><td>1963-06-22</td><td><a href="http://data.gbif.org/occurrences/188678137">http://data.gbif.org/occurrences/188678137</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.0,30.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003922</td><td>1937-03-23</td><td><a href="http://data.gbif.org/occurrences/202557871">http://data.gbif.org/occurrences/202557871</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.003989</td><td>1937-03-23</td><td><a href="http://data.gbif.org/occurrences/202557872">http://data.gbif.org/occurrences/202557872</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.758,29.133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119890.5038558</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/149691252">http://data.gbif.org/occurrences/149691252</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119890</td><td>1939-02-05</td><td><a href="http://data.gbif.org/occurrences/188678129">http://data.gbif.org/occurrences/188678129</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119890</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/241166575">http://data.gbif.org/occurrences/241166575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.5333,26.5667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>13222</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/198168081">http://data.gbif.org/occurrences/198168081</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.66666,26.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 003990</td><td>1937-03-25</td><td><a href="http://data.gbif.org/occurrences/350163099">http://data.gbif.org/occurrences/350163099</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.9833,28.3167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>197731.5149724</td><td>1962-03-21</td><td><a href="http://data.gbif.org/occurrences/149691321">http://data.gbif.org/occurrences/149691321</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-82.0,26.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119879</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/188678118">http://data.gbif.org/occurrences/188678118</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.2181,28.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Bollmannia communis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119891.5038559</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/149691254">http://data.gbif.org/occurrences/149691254</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00119891</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/188678130">http://data.gbif.org/occurrences/188678130</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>119891</td><td>1938-11-10</td><td><a href="http://data.gbif.org/occurrences/241166418">http://data.gbif.org/occurrences/241166418</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.45,28.9667,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

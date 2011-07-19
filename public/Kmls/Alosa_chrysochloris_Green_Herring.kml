@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-05-16)<br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-05-16)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-05-16)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-05-16)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-05-16)<br/><br/>Sam Noble Oklahoma Museum of Natural History, Fish Specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9162">http://data.gbif.org/datasets/resource/9162</a>, 2011-05-16)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-05-16)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-05-16)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-05-16)<br/><br/>University of Minnesota Bell Museum of Natural History, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1008">http://data.gbif.org/datasets/resource/1008</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Pomolobus chrysochloris</name>
+  <Placemark>
+   <name>Pomolobus chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8118</td><td>1954-02-05</td><td><a href="http://data.gbif.org/occurrences/198343402">http://data.gbif.org/occurrences/198343402</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-89.62556,30.15278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Pomolobus chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>22220</td><td>1952-08-01</td><td><a href="http://data.gbif.org/occurrences/46619662">http://data.gbif.org/occurrences/46619662</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-85.6744,37.7653,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Pomolobus chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7953</td><td>1953-07-01</td><td><a href="http://data.gbif.org/occurrences/198343401">http://data.gbif.org/occurrences/198343401</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Pomolobus chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>23283</td><td></td><td><a href="http://data.gbif.org/occurrences/35272093">http://data.gbif.org/occurrences/35272093</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-88.0833,30.6667,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Alosa chrysochloris</name>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17783</td><td></td><td><a href="http://data.gbif.org/occurrences/190533635">http://data.gbif.org/occurrences/190533635</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.8785,39.8026,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108115</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156183">http://data.gbif.org/occurrences/198156183</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.35611,30.72278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>29589</td><td>1955-07-25</td><td><a href="http://data.gbif.org/occurrences/230700905">http://data.gbif.org/occurrences/230700905</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.829,33.936,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28474</td><td>1962-06-06</td><td><a href="http://data.gbif.org/occurrences/198155630">http://data.gbif.org/occurrences/198155630</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.67278,30.24472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>101693</td><td>1977-04-13</td><td><a href="http://data.gbif.org/occurrences/198156128">http://data.gbif.org/occurrences/198156128</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82222,30.75417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>41103</td><td>1973-06-19</td><td><a href="http://data.gbif.org/occurrences/230701114">http://data.gbif.org/occurrences/230701114</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>95.2785,33.9696,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>31177</td><td>1991-04-04</td><td><a href="http://data.gbif.org/occurrences/199190429">http://data.gbif.org/occurrences/199190429</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.2454,35.7915,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19855</td><td></td><td><a href="http://data.gbif.org/occurrences/190533667">http://data.gbif.org/occurrences/190533667</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.9556,39.8774,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1982-0405.1</td><td>1957-10-22</td><td><a href="http://data.gbif.org/occurrences/17583853">http://data.gbif.org/occurrences/17583853</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1982-0405.1</td><td>1957-10-22</td><td><a href="http://data.gbif.org/occurrences/78308845">http://data.gbif.org/occurrences/78308845</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.762,38.247,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8757</td><td>1954-04-19</td><td><a href="http://data.gbif.org/occurrences/198155503">http://data.gbif.org/occurrences/198155503</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.26667,30.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>169863</td><td>1994-05-07</td><td><a href="http://data.gbif.org/occurrences/198156452">http://data.gbif.org/occurrences/198156452</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.08778,31.54861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135073</td><td>1984-05-03</td><td><a href="http://data.gbif.org/occurrences/198156299">http://data.gbif.org/occurrences/198156299</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135536</td><td>1984-05-30</td><td><a href="http://data.gbif.org/occurrences/198156301">http://data.gbif.org/occurrences/198156301</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137540</td><td>1984-09-25</td><td><a href="http://data.gbif.org/occurrences/198156321">http://data.gbif.org/occurrences/198156321</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147270</td><td>1986-12-08</td><td><a href="http://data.gbif.org/occurrences/198156369">http://data.gbif.org/occurrences/198156369</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>156279</td><td>1989-09-15</td><td><a href="http://data.gbif.org/occurrences/198156405">http://data.gbif.org/occurrences/198156405</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.96833,29.88305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>58970</td><td>1969-08-27</td><td><a href="http://data.gbif.org/occurrences/198155826">http://data.gbif.org/occurrences/198155826</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-93.56167,30.86028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9640</td><td>1955-04-15</td><td><a href="http://data.gbif.org/occurrences/198155513">http://data.gbif.org/occurrences/198155513</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.25,30.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8455</td><td>1953-03-21</td><td><a href="http://data.gbif.org/occurrences/198155500">http://data.gbif.org/occurrences/198155500</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.44222,30.00056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>52091</td><td>1968-05-22</td><td><a href="http://data.gbif.org/occurrences/198155768">http://data.gbif.org/occurrences/198155768</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.52778,31.74278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>2119</td><td></td><td><a href="http://data.gbif.org/occurrences/190533380">http://data.gbif.org/occurrences/190533380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-104.551,35.7909,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>131121</td><td>1974-07-08</td><td><a href="http://data.gbif.org/occurrences/198156289">http://data.gbif.org/occurrences/198156289</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.130554,33.960556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>188127</td><td>1999-06-12</td><td><a href="http://data.gbif.org/occurrences/198156573">http://data.gbif.org/occurrences/198156573</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.46639,31.34861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>49639</td><td>1966-07-26</td><td><a href="http://data.gbif.org/occurrences/198155756">http://data.gbif.org/occurrences/198155756</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.46139,35.6575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143823</td><td>1985-10-19</td><td><a href="http://data.gbif.org/occurrences/198156341">http://data.gbif.org/occurrences/198156341</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.43528,30.39222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107940</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156176">http://data.gbif.org/occurrences/198156176</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.24361,30.54861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102491</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156134">http://data.gbif.org/occurrences/198156134</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107850</td><td>1978-06-22</td><td><a href="http://data.gbif.org/occurrences/198156173">http://data.gbif.org/occurrences/198156173</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>109320</td><td>1978-09-28</td><td><a href="http://data.gbif.org/occurrences/198156193">http://data.gbif.org/occurrences/198156193</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>129527</td><td>1983-06-28</td><td><a href="http://data.gbif.org/occurrences/198156270">http://data.gbif.org/occurrences/198156270</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>148983</td><td>1987-06-14</td><td><a href="http://data.gbif.org/occurrences/198156377">http://data.gbif.org/occurrences/198156377</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.36833,31.22139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9736</td><td>1954-03-03</td><td><a href="http://data.gbif.org/occurrences/198155516">http://data.gbif.org/occurrences/198155516</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.63333,30.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>41452</td><td>1993-09-10</td><td><a href="http://data.gbif.org/occurrences/48171476">http://data.gbif.org/occurrences/48171476</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.3078,43.8603,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107910</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156175">http://data.gbif.org/occurrences/198156175</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.28111,30.50833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186324</td><td>1998-08-08</td><td><a href="http://data.gbif.org/occurrences/198156565">http://data.gbif.org/occurrences/198156565</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.06917,31.53667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>100586</td><td>1970-12-10</td><td><a href="http://data.gbif.org/occurrences/198156124">http://data.gbif.org/occurrences/198156124</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.85389,30.15333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>48488</td><td>1967-09-24</td><td><a href="http://data.gbif.org/occurrences/198155744">http://data.gbif.org/occurrences/198155744</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84611,30.705,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21121</td><td>1959-08-15</td><td><a href="http://data.gbif.org/occurrences/198155579">http://data.gbif.org/occurrences/198155579</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.89278,30.45139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>58038</td><td>1969-07-14</td><td><a href="http://data.gbif.org/occurrences/198155821">http://data.gbif.org/occurrences/198155821</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>63759</td><td>1970-07-09</td><td><a href="http://data.gbif.org/occurrences/198155860">http://data.gbif.org/occurrences/198155860</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82972,30.77861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8960</td><td>1955-01-13</td><td><a href="http://data.gbif.org/occurrences/198155507">http://data.gbif.org/occurrences/198155507</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.6,30.13333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>193198</td><td>2001-07-26</td><td><a href="http://data.gbif.org/occurrences/198156599">http://data.gbif.org/occurrences/198156599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.51111,30.74444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>351912.5259861</td><td>1997-08-21</td><td><a href="http://data.gbif.org/occurrences/149629633">http://data.gbif.org/occurrences/149629633</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00351912</td><td>1997-08-21</td><td><a href="http://data.gbif.org/occurrences/188585788">http://data.gbif.org/occurrences/188585788</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>351912</td><td>1997-08-21</td><td><a href="http://data.gbif.org/occurrences/241134459">http://data.gbif.org/occurrences/241134459</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-81.9625,38.7475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>180803</td><td>1996-07-20</td><td><a href="http://data.gbif.org/occurrences/198156552">http://data.gbif.org/occurrences/198156552</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186265</td><td>1998-07-18</td><td><a href="http://data.gbif.org/occurrences/198156564">http://data.gbif.org/occurrences/198156564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84472,30.70389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>110900</td><td>1978-12-14</td><td><a href="http://data.gbif.org/occurrences/198156199">http://data.gbif.org/occurrences/198156199</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.38028,30.7625,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>16141</td><td></td><td><a href="http://data.gbif.org/occurrences/190533615">http://data.gbif.org/occurrences/190533615</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-95.0775,39.4999,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108056</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156181">http://data.gbif.org/occurrences/198156181</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.30389,30.65528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26768</td><td>1995-11-08</td><td><a href="http://data.gbif.org/occurrences/188585769">http://data.gbif.org/occurrences/188585769</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.6194,30.5039,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>95442</td><td>1975-08-27</td><td><a href="http://data.gbif.org/occurrences/198156093">http://data.gbif.org/occurrences/198156093</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.69889,31.2375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>110857</td><td>1978-12-13</td><td><a href="http://data.gbif.org/occurrences/198156198">http://data.gbif.org/occurrences/198156198</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.31055,30.5925,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>95689</td><td>1975-09-10</td><td><a href="http://data.gbif.org/occurrences/198156094">http://data.gbif.org/occurrences/198156094</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.85389,35.98944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>48262</td><td>1967-10-11</td><td><a href="http://data.gbif.org/occurrences/198155742">http://data.gbif.org/occurrences/198155742</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.20167,30.51056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108088</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156182">http://data.gbif.org/occurrences/198156182</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>114533</td><td>1979-09-28</td><td><a href="http://data.gbif.org/occurrences/198156214">http://data.gbif.org/occurrences/198156214</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.33,30.66028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>46368</td><td>1990-08-18</td><td><a href="http://data.gbif.org/occurrences/230701169">http://data.gbif.org/occurrences/230701169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>94.0414,33.5536,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>68645</td><td>1971-03-20</td><td><a href="http://data.gbif.org/occurrences/198155898">http://data.gbif.org/occurrences/198155898</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.76305,29.83694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7017</td><td>1953-11-25</td><td><a href="http://data.gbif.org/occurrences/198155486">http://data.gbif.org/occurrences/198155486</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8252</td><td>1954-04-19</td><td><a href="http://data.gbif.org/occurrences/198155499">http://data.gbif.org/occurrences/198155499</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.23333,30.03333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>4576</td><td>1966-09-07</td><td><a href="http://data.gbif.org/occurrences/199190846">http://data.gbif.org/occurrences/199190846</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.9596,38.0992,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9073</td><td>1954-12-22</td><td><a href="http://data.gbif.org/occurrences/198155509">http://data.gbif.org/occurrences/198155509</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.46667,30.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>86238</td><td>1963-09-18</td><td><a href="http://data.gbif.org/occurrences/198156038">http://data.gbif.org/occurrences/198156038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.53306,31.16861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8956</td><td>1955-01-12</td><td><a href="http://data.gbif.org/occurrences/198155506">http://data.gbif.org/occurrences/198155506</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16955</td><td>1954-12-23</td><td><a href="http://data.gbif.org/occurrences/198155565">http://data.gbif.org/occurrences/198155565</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.75,30.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9621</td><td>1955-05-13</td><td><a href="http://data.gbif.org/occurrences/198155512">http://data.gbif.org/occurrences/198155512</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.01667,30.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200204</td><td>2006-04-19</td><td><a href="http://data.gbif.org/occurrences/198156638">http://data.gbif.org/occurrences/198156638</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.301,29.475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>117332</td><td>1980-06-19</td><td><a href="http://data.gbif.org/occurrences/198156230">http://data.gbif.org/occurrences/198156230</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135926</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156305">http://data.gbif.org/occurrences/198156305</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.28139,31.18194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15977</td><td>1957-07-18</td><td><a href="http://data.gbif.org/occurrences/198155556">http://data.gbif.org/occurrences/198155556</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.21361,30.96167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196037</td><td>2003-05-08</td><td><a href="http://data.gbif.org/occurrences/198156615">http://data.gbif.org/occurrences/198156615</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.8036,30.5189,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>88443</td><td>1974-07-09</td><td><a href="http://data.gbif.org/occurrences/198156052">http://data.gbif.org/occurrences/198156052</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>104664</td><td>1977-11-04</td><td><a href="http://data.gbif.org/occurrences/198156149">http://data.gbif.org/occurrences/198156149</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82611,30.75667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>47138</td><td>1967-05-13</td><td><a href="http://data.gbif.org/occurrences/198155738">http://data.gbif.org/occurrences/198155738</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.40166,29.98944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>80672</td><td>1971-09-06</td><td><a href="http://data.gbif.org/occurrences/198155993">http://data.gbif.org/occurrences/198155993</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.09389,30.46861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>131370</td><td>1974-07-29</td><td><a href="http://data.gbif.org/occurrences/198156290">http://data.gbif.org/occurrences/198156290</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.29723,35.34945,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9616</td><td>1955-04-15</td><td><a href="http://data.gbif.org/occurrences/198155511">http://data.gbif.org/occurrences/198155511</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.23333,30.05,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>9634</td><td></td><td><a href="http://data.gbif.org/occurrences/190533464">http://data.gbif.org/occurrences/190533464</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.6888,36.0599,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>90960</td><td>1974-08-06</td><td><a href="http://data.gbif.org/occurrences/198156067">http://data.gbif.org/occurrences/198156067</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45639,31.975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>192191</td><td>2000-05-22</td><td><a href="http://data.gbif.org/occurrences/198156595">http://data.gbif.org/occurrences/198156595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.91528,29.86833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>173810</td><td>1995-03-31</td><td><a href="http://data.gbif.org/occurrences/198156498">http://data.gbif.org/occurrences/198156498</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.42973,30.76833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102442</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156131">http://data.gbif.org/occurrences/198156131</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107773</td><td>1978-06-22</td><td><a href="http://data.gbif.org/occurrences/198156172">http://data.gbif.org/occurrences/198156172</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135957</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156307">http://data.gbif.org/occurrences/198156307</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.22361,31.14417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>98086</td><td>1975-07-10</td><td><a href="http://data.gbif.org/occurrences/198156108">http://data.gbif.org/occurrences/198156108</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.16778,33.08833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8759</td><td>1954-04-19</td><td><a href="http://data.gbif.org/occurrences/198155504">http://data.gbif.org/occurrences/198155504</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.25,30.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137062</td><td>1984-08-08</td><td><a href="http://data.gbif.org/occurrences/198156316">http://data.gbif.org/occurrences/198156316</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.55334,31.61444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7764</td><td>1953-02-09</td><td><a href="http://data.gbif.org/occurrences/198155495">http://data.gbif.org/occurrences/198155495</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.41055,30.02111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>93904</td><td>1972-04-10</td><td><a href="http://data.gbif.org/occurrences/198156082">http://data.gbif.org/occurrences/198156082</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-82.74722,28.04,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36989</td><td>1963-02-01</td><td><a href="http://data.gbif.org/occurrences/198155672">http://data.gbif.org/occurrences/198155672</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.32417,35.88722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102507</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156135">http://data.gbif.org/occurrences/198156135</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102519</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156136">http://data.gbif.org/occurrences/198156136</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107870</td><td>1978-06-22</td><td><a href="http://data.gbif.org/occurrences/198156174">http://data.gbif.org/occurrences/198156174</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>117290</td><td>1980-06-19</td><td><a href="http://data.gbif.org/occurrences/198156229">http://data.gbif.org/occurrences/198156229</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.35861,31.24389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102479</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156133">http://data.gbif.org/occurrences/198156133</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>129557</td><td>1983-06-28</td><td><a href="http://data.gbif.org/occurrences/198156271">http://data.gbif.org/occurrences/198156271</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135911</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156304">http://data.gbif.org/occurrences/198156304</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.34167,31.20667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107969</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156177">http://data.gbif.org/occurrences/198156177</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.26667,30.56778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11828</td><td>1956-05-11</td><td><a href="http://data.gbif.org/occurrences/198155528">http://data.gbif.org/occurrences/198155528</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.68333,30.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102429</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156130">http://data.gbif.org/occurrences/198156130</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.650314,31.32694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>36424</td><td>1980-06-20</td><td><a href="http://data.gbif.org/occurrences/199191192">http://data.gbif.org/occurrences/199191192</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-96.9676,31.2874,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>141886</td><td>1985-07-31</td><td><a href="http://data.gbif.org/occurrences/198156336">http://data.gbif.org/occurrences/198156336</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.35806,30.47445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24361</td><td>1960-10-18</td><td><a href="http://data.gbif.org/occurrences/198155599">http://data.gbif.org/occurrences/198155599</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24389</td><td>1960-11-17</td><td><a href="http://data.gbif.org/occurrences/198155600">http://data.gbif.org/occurrences/198155600</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86389,30.70833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>172615</td><td>1994-02-19</td><td><a href="http://data.gbif.org/occurrences/198156468">http://data.gbif.org/occurrences/198156468</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.85611,30.225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199985</td><td>2004-11-04</td><td><a href="http://data.gbif.org/occurrences/198156634">http://data.gbif.org/occurrences/198156634</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>91.299,29.474,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>124505</td><td>1982-02-11</td><td><a href="http://data.gbif.org/occurrences/198156253">http://data.gbif.org/occurrences/198156253</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>140895</td><td>1985-05-23</td><td><a href="http://data.gbif.org/occurrences/198156334">http://data.gbif.org/occurrences/198156334</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.39861,31.95944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186555</td><td>1998-09-19</td><td><a href="http://data.gbif.org/occurrences/198156567">http://data.gbif.org/occurrences/198156567</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.35528,31.21278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199978</td><td>2004-11-02</td><td><a href="http://data.gbif.org/occurrences/198156633">http://data.gbif.org/occurrences/198156633</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>91.318,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164071</td><td>1972-01-25</td><td><a href="http://data.gbif.org/occurrences/198156431">http://data.gbif.org/occurrences/198156431</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.68305,29.4725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>36650</td><td></td><td><a href="http://data.gbif.org/occurrences/199191180">http://data.gbif.org/occurrences/199191180</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-99.1067,29.995,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>193185</td><td>2001-07-26</td><td><a href="http://data.gbif.org/occurrences/198156598">http://data.gbif.org/occurrences/198156598</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.44556,30.73972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83864</td><td>1973-10-06</td><td><a href="http://data.gbif.org/occurrences/198156020">http://data.gbif.org/occurrences/198156020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.3,31.43861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108010</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156179">http://data.gbif.org/occurrences/198156179</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.30194,30.60528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>36453</td><td>1980-06-20</td><td><a href="http://data.gbif.org/occurrences/199190788">http://data.gbif.org/occurrences/199190788</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-96.8247,31.1346,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6325</td><td>1952-03-12</td><td><a href="http://data.gbif.org/occurrences/198155483">http://data.gbif.org/occurrences/198155483</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>104302</td><td>1977-10-20</td><td><a href="http://data.gbif.org/occurrences/198156148">http://data.gbif.org/occurrences/198156148</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23029</td><td>1960-05-12</td><td><a href="http://data.gbif.org/occurrences/198155585">http://data.gbif.org/occurrences/198155585</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23065</td><td>1960-05-08</td><td><a href="http://data.gbif.org/occurrences/198155586">http://data.gbif.org/occurrences/198155586</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86214,30.706694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>169888</td><td>1994-05-07</td><td><a href="http://data.gbif.org/occurrences/198156453">http://data.gbif.org/occurrences/198156453</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.0625,31.52389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199886</td><td>2004-09-29</td><td><a href="http://data.gbif.org/occurrences/198156631">http://data.gbif.org/occurrences/198156631</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>91.266,29.428,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>62979</td><td>1969-12-14</td><td><a href="http://data.gbif.org/occurrences/198155859">http://data.gbif.org/occurrences/198155859</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.97417,29.24278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108141</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156184">http://data.gbif.org/occurrences/198156184</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.36361,30.73889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108223</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156186">http://data.gbif.org/occurrences/198156186</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.50417,30.735,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94939</td><td>1974-10-29</td><td><a href="http://data.gbif.org/occurrences/198156090">http://data.gbif.org/occurrences/198156090</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.56333,30.48083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36971</td><td>1963-09-11</td><td><a href="http://data.gbif.org/occurrences/198155671">http://data.gbif.org/occurrences/198155671</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.81973,30.53278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>113598</td><td>1979-07-12</td><td><a href="http://data.gbif.org/occurrences/198156212">http://data.gbif.org/occurrences/198156212</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.11056,30.165,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9648</td><td>1955-05-05</td><td><a href="http://data.gbif.org/occurrences/198155514">http://data.gbif.org/occurrences/198155514</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9665</td><td>1955-02-17</td><td><a href="http://data.gbif.org/occurrences/198155515">http://data.gbif.org/occurrences/198155515</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.9,30.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>149106</td><td>1987-06-30</td><td><a href="http://data.gbif.org/occurrences/198156378">http://data.gbif.org/occurrences/198156378</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>149996</td><td>1987-09-18</td><td><a href="http://data.gbif.org/occurrences/198156380">http://data.gbif.org/occurrences/198156380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.45472,29.35861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163643</td><td>1970-02-11</td><td><a href="http://data.gbif.org/occurrences/198156430">http://data.gbif.org/occurrences/198156430</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.14861,29.04417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>56758</td><td>1969-03-02</td><td><a href="http://data.gbif.org/occurrences/198155812">http://data.gbif.org/occurrences/198155812</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.95417,29.265,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143128</td><td>1985-10-25</td><td><a href="http://data.gbif.org/occurrences/198156339">http://data.gbif.org/occurrences/198156339</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.90417,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43085</td><td>1965-08-04</td><td><a href="http://data.gbif.org/occurrences/198155707">http://data.gbif.org/occurrences/198155707</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.3225,35.63972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107746</td><td>1978-06-22</td><td><a href="http://data.gbif.org/occurrences/198156171">http://data.gbif.org/occurrences/198156171</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135831</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156302">http://data.gbif.org/occurrences/198156302</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.650314,31.387566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>122716</td><td>1981-08-04</td><td><a href="http://data.gbif.org/occurrences/198156247">http://data.gbif.org/occurrences/198156247</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.5125,31.55806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>110905</td><td>1978-12-14</td><td><a href="http://data.gbif.org/occurrences/198156200">http://data.gbif.org/occurrences/198156200</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>113193</td><td>1979-06-27</td><td><a href="http://data.gbif.org/occurrences/198156209">http://data.gbif.org/occurrences/198156209</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>115699</td><td>1979-12-07</td><td><a href="http://data.gbif.org/occurrences/198156219">http://data.gbif.org/occurrences/198156219</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.43806,30.74111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>11290</td><td></td><td><a href="http://data.gbif.org/occurrences/190533496">http://data.gbif.org/occurrences/190533496</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.5272,36.582,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>167578</td><td>1993-08-07</td><td><a href="http://data.gbif.org/occurrences/198156441">http://data.gbif.org/occurrences/198156441</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.53472,31.85278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>146909</td><td>1986-10-24</td><td><a href="http://data.gbif.org/occurrences/198156366">http://data.gbif.org/occurrences/198156366</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147282</td><td>1986-12-12</td><td><a href="http://data.gbif.org/occurrences/198156370">http://data.gbif.org/occurrences/198156370</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147431</td><td>1986-12-30</td><td><a href="http://data.gbif.org/occurrences/198156371">http://data.gbif.org/occurrences/198156371</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>156288</td><td>1989-09-15</td><td><a href="http://data.gbif.org/occurrences/198156406">http://data.gbif.org/occurrences/198156406</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.45139,29.36028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>99965</td><td>1976-10-21</td><td><a href="http://data.gbif.org/occurrences/198156115">http://data.gbif.org/occurrences/198156115</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.8725,30.95722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>41070</td><td>1973-06-06</td><td><a href="http://data.gbif.org/occurrences/230701112">http://data.gbif.org/occurrences/230701112</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>95.3799,34.0078,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>98032</td><td>1975-07-11</td><td><a href="http://data.gbif.org/occurrences/198156107">http://data.gbif.org/occurrences/198156107</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.15556,33.34528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200262</td><td>2003-04-29</td><td><a href="http://data.gbif.org/occurrences/198156639">http://data.gbif.org/occurrences/198156639</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.318,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135875</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156303">http://data.gbif.org/occurrences/198156303</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.35889,31.24306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>16872</td><td>1953-03-21</td><td><a href="http://data.gbif.org/occurrences/48172256">http://data.gbif.org/occurrences/48172256</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.4481,30.0047,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9528</td><td>1954-11-26</td><td><a href="http://data.gbif.org/occurrences/198155510">http://data.gbif.org/occurrences/198155510</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.61667,30.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200058</td><td>2004-12-08</td><td><a href="http://data.gbif.org/occurrences/198156635">http://data.gbif.org/occurrences/198156635</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200192</td><td>2004-06-09</td><td><a href="http://data.gbif.org/occurrences/198156637">http://data.gbif.org/occurrences/198156637</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>91.312,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>180715</td><td>1996-07-20</td><td><a href="http://data.gbif.org/occurrences/198156551">http://data.gbif.org/occurrences/198156551</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82027,30.7825,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>9651</td><td></td><td><a href="http://data.gbif.org/occurrences/190533465">http://data.gbif.org/occurrences/190533465</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.2064,36.6123,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200177</td><td>2006-04-19</td><td><a href="http://data.gbif.org/occurrences/198156636">http://data.gbif.org/occurrences/198156636</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.302,29.471,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>93905</td><td>1975-03-04</td><td><a href="http://data.gbif.org/occurrences/198156083">http://data.gbif.org/occurrences/198156083</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.03,29.76583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5066</td><td>1952-06-18</td><td><a href="http://data.gbif.org/occurrences/198155480">http://data.gbif.org/occurrences/198155480</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.74084,30.3975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>37733</td><td>2001-08-31</td><td><a href="http://data.gbif.org/occurrences/48171564">http://data.gbif.org/occurrences/48171564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.1367,44.4344,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8742</td><td>1954-04-09</td><td><a href="http://data.gbif.org/occurrences/198155502">http://data.gbif.org/occurrences/198155502</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11553</td><td>1956-05-02</td><td><a href="http://data.gbif.org/occurrences/198155523">http://data.gbif.org/occurrences/198155523</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84417,30.22305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38472</td><td>1965-08-28</td><td><a href="http://data.gbif.org/occurrences/198155684">http://data.gbif.org/occurrences/198155684</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.77306,30.52111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>13737</td><td></td><td><a href="http://data.gbif.org/occurrences/190533551">http://data.gbif.org/occurrences/190533551</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-96.0203,40.7655,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20919</td><td>1959-07-30</td><td><a href="http://data.gbif.org/occurrences/198155578">http://data.gbif.org/occurrences/198155578</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.67694,30.24167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11625</td><td>1955-10-14</td><td><a href="http://data.gbif.org/occurrences/198155524">http://data.gbif.org/occurrences/198155524</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11798</td><td>1955-09-09</td><td><a href="http://data.gbif.org/occurrences/198155527">http://data.gbif.org/occurrences/198155527</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.68972,30.27056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>45830</td><td>2007-03-31</td><td><a href="http://data.gbif.org/occurrences/199190806">http://data.gbif.org/occurrences/199190806</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.8602,30.703,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>192285</td><td>2000-09-11</td><td><a href="http://data.gbif.org/occurrences/198156596">http://data.gbif.org/occurrences/198156596</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>193245</td><td>2001-07-31</td><td><a href="http://data.gbif.org/occurrences/198156600">http://data.gbif.org/occurrences/198156600</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.91805,29.86778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>356038.5265939</td><td>1998-08-25</td><td><a href="http://data.gbif.org/occurrences/149629636">http://data.gbif.org/occurrences/149629636</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00356038</td><td>1998-08-25</td><td><a href="http://data.gbif.org/occurrences/188585789">http://data.gbif.org/occurrences/188585789</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>356038</td><td>1998-08-25</td><td><a href="http://data.gbif.org/occurrences/241134515">http://data.gbif.org/occurrences/241134515</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-80.8219,39.8311,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>88474</td><td>1974-07-09</td><td><a href="http://data.gbif.org/occurrences/198156053">http://data.gbif.org/occurrences/198156053</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94641</td><td>1975-07-02</td><td><a href="http://data.gbif.org/occurrences/198156085">http://data.gbif.org/occurrences/198156085</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102705</td><td>1977-07-06</td><td><a href="http://data.gbif.org/occurrences/198156137">http://data.gbif.org/occurrences/198156137</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136264</td><td>1984-07-17</td><td><a href="http://data.gbif.org/occurrences/198156308">http://data.gbif.org/occurrences/198156308</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>141599</td><td>1985-07-01</td><td><a href="http://data.gbif.org/occurrences/198156335">http://data.gbif.org/occurrences/198156335</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>145878</td><td>1986-07-01</td><td><a href="http://data.gbif.org/occurrences/198156362">http://data.gbif.org/occurrences/198156362</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>161057</td><td>1991-07-05</td><td><a href="http://data.gbif.org/occurrences/198156420">http://data.gbif.org/occurrences/198156420</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196498</td><td>2003-10-11</td><td><a href="http://data.gbif.org/occurrences/198156620">http://data.gbif.org/occurrences/198156620</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84417,30.70222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>129602</td><td>1983-06-28</td><td><a href="http://data.gbif.org/occurrences/198156272">http://data.gbif.org/occurrences/198156272</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135935</td><td>1984-06-25</td><td><a href="http://data.gbif.org/occurrences/198156306">http://data.gbif.org/occurrences/198156306</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.24416,31.14389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108162</td><td>1978-06-29</td><td><a href="http://data.gbif.org/occurrences/198156185">http://data.gbif.org/occurrences/198156185</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.39778,30.75361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>72889</td><td>2003-08-28</td><td><a href="http://data.gbif.org/occurrences/230701310">http://data.gbif.org/occurrences/230701310</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>94.7763,35.3499,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>122014</td><td>1981-07-08</td><td><a href="http://data.gbif.org/occurrences/198156240">http://data.gbif.org/occurrences/198156240</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>198547</td><td>2005-07-15</td><td><a href="http://data.gbif.org/occurrences/198156629">http://data.gbif.org/occurrences/198156629</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.81834,30.79722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14444</td><td></td><td><a href="http://data.gbif.org/occurrences/190533566">http://data.gbif.org/occurrences/190533566</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-95.2097,38.9702,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186512</td><td>1998-09-19</td><td><a href="http://data.gbif.org/occurrences/198156566">http://data.gbif.org/occurrences/198156566</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.39889,31.28667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102465</td><td>1977-06-28</td><td><a href="http://data.gbif.org/occurrences/198156132">http://data.gbif.org/occurrences/198156132</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.28056,31.18167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70975</td><td>1971-07-24</td><td><a href="http://data.gbif.org/occurrences/198155909">http://data.gbif.org/occurrences/198155909</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.57,31.09611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43255</td><td>1967-02-08</td><td><a href="http://data.gbif.org/occurrences/198155709">http://data.gbif.org/occurrences/198155709</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.18139,30.33139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70258</td><td>1970-12-03</td><td><a href="http://data.gbif.org/occurrences/198155908">http://data.gbif.org/occurrences/198155908</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.82166,29.96194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14928</td><td></td><td><a href="http://data.gbif.org/occurrences/190533575">http://data.gbif.org/occurrences/190533575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.6874,30.2445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43818</td><td>1967-02-26</td><td><a href="http://data.gbif.org/occurrences/198155715">http://data.gbif.org/occurrences/198155715</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.07472,30.24667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>192672</td><td>2000-12-12</td><td><a href="http://data.gbif.org/occurrences/198156597">http://data.gbif.org/occurrences/198156597</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.30389,30.6525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163549</td><td>1969-05-28</td><td><a href="http://data.gbif.org/occurrences/198156429">http://data.gbif.org/occurrences/198156429</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.14555,29.05056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>148779</td><td>1987-05-21</td><td><a href="http://data.gbif.org/occurrences/198156376">http://data.gbif.org/occurrences/198156376</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45917,31.97472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>26255</td><td>1955-10-29</td><td><a href="http://data.gbif.org/occurrences/230700845">http://data.gbif.org/occurrences/230700845</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>95.2295,35.8531,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>113352</td><td>1979-06-27</td><td><a href="http://data.gbif.org/occurrences/198156210">http://data.gbif.org/occurrences/198156210</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.30639,30.57472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>106703</td><td>1978-04-07</td><td><a href="http://data.gbif.org/occurrences/198156164">http://data.gbif.org/occurrences/198156164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.46972,30.73389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38189</td><td>1965-06-24</td><td><a href="http://data.gbif.org/occurrences/198155682">http://data.gbif.org/occurrences/198155682</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.88277,33.28444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23135</td><td>1960-05-14</td><td><a href="http://data.gbif.org/occurrences/198155587">http://data.gbif.org/occurrences/198155587</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.85445,31.23333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>22043</td><td></td><td><a href="http://data.gbif.org/occurrences/190533705">http://data.gbif.org/occurrences/190533705</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>22129</td><td></td><td><a href="http://data.gbif.org/occurrences/190533707">http://data.gbif.org/occurrences/190533707</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.7513,39.0657,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163364</td><td>1992-05-30</td><td><a href="http://data.gbif.org/occurrences/198156427">http://data.gbif.org/occurrences/198156427</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>169947</td><td>1994-06-03</td><td><a href="http://data.gbif.org/occurrences/198156454">http://data.gbif.org/occurrences/198156454</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.45667,31.34528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>29699</td><td></td><td><a href="http://data.gbif.org/occurrences/199191185">http://data.gbif.org/occurrences/199191185</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.8225,35.9775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>98829</td><td>1976-08-04</td><td><a href="http://data.gbif.org/occurrences/198156112">http://data.gbif.org/occurrences/198156112</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136927</td><td>1984-08-06</td><td><a href="http://data.gbif.org/occurrences/198156314">http://data.gbif.org/occurrences/198156314</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142000</td><td>1985-08-06</td><td><a href="http://data.gbif.org/occurrences/198156337">http://data.gbif.org/occurrences/198156337</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45111,31.915,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196052</td><td>2003-05-08</td><td><a href="http://data.gbif.org/occurrences/198156616">http://data.gbif.org/occurrences/198156616</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.7967,30.495,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8690</td><td>1954-04-19</td><td><a href="http://data.gbif.org/occurrences/198155501">http://data.gbif.org/occurrences/198155501</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.23333,30.26667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>47100</td><td>2007-07-21</td><td><a href="http://data.gbif.org/occurrences/199190784">http://data.gbif.org/occurrences/199190784</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.9648,35.5193,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138144</td><td>1984-10-19</td><td><a href="http://data.gbif.org/occurrences/198156326">http://data.gbif.org/occurrences/198156326</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.8175,30.79694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>155461</td><td>1989-07-06</td><td><a href="http://data.gbif.org/occurrences/198156404">http://data.gbif.org/occurrences/198156404</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>175652</td><td>1995-07-29</td><td><a href="http://data.gbif.org/occurrences/198156503">http://data.gbif.org/occurrences/198156503</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82694,30.74055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10044</td><td>1955-06-17</td><td><a href="http://data.gbif.org/occurrences/198155517">http://data.gbif.org/occurrences/198155517</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.51667,30.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6949</td><td>1953-10-17</td><td><a href="http://data.gbif.org/occurrences/198155485">http://data.gbif.org/occurrences/198155485</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.27167,30.33556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>53960</td><td>1992-06-10</td><td><a href="http://data.gbif.org/occurrences/230701199">http://data.gbif.org/occurrences/230701199</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>95.1266,35.5121,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>154253</td><td>1989-01-13</td><td><a href="http://data.gbif.org/occurrences/198156396">http://data.gbif.org/occurrences/198156396</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.40083,30.42278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>95299</td><td>1975-08-25</td><td><a href="http://data.gbif.org/occurrences/198156092">http://data.gbif.org/occurrences/198156092</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>161185</td><td>1991-08-23</td><td><a href="http://data.gbif.org/occurrences/198156421">http://data.gbif.org/occurrences/198156421</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.47222,31.99611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11379</td><td>1955-08-26</td><td><a href="http://data.gbif.org/occurrences/198155521">http://data.gbif.org/occurrences/198155521</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.61851,30.248959,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>37350</td><td>1954-11-30</td><td><a href="http://data.gbif.org/occurrences/230701047">http://data.gbif.org/occurrences/230701047</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>94.5753,33.9524,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>34357</td><td>1963-08-27</td><td><a href="http://data.gbif.org/occurrences/230700980">http://data.gbif.org/occurrences/230700980</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>96.5683,33.818,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>26286</td><td>1941-06-12</td><td><a href="http://data.gbif.org/occurrences/230700846">http://data.gbif.org/occurrences/230700846</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>96.5566,33.8206,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23641</td><td>1960-07-08</td><td><a href="http://data.gbif.org/occurrences/198155592">http://data.gbif.org/occurrences/198155592</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86361,30.68889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170537</td><td>1989-06-20</td><td><a href="http://data.gbif.org/occurrences/198156455">http://data.gbif.org/occurrences/198156455</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86117,30.707472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196287</td><td>2003-08-09</td><td><a href="http://data.gbif.org/occurrences/198156618">http://data.gbif.org/occurrences/198156618</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.12278,31.66167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16846</td><td>1955-08-18</td><td><a href="http://data.gbif.org/occurrences/198155564">http://data.gbif.org/occurrences/198155564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.94527,30.25667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>192107</td><td>2000-09-11</td><td><a href="http://data.gbif.org/occurrences/198156594">http://data.gbif.org/occurrences/198156594</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.96778,29.88417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>97862</td><td>1976-05-19</td><td><a href="http://data.gbif.org/occurrences/198156106">http://data.gbif.org/occurrences/198156106</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.06973,31.53611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>149483</td><td>1987-08-13</td><td><a href="http://data.gbif.org/occurrences/198156379">http://data.gbif.org/occurrences/198156379</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.43833,31.74333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108028</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156180">http://data.gbif.org/occurrences/198156180</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.29916,30.64278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1910</td><td></td><td><a href="http://data.gbif.org/occurrences/176208430">http://data.gbif.org/occurrences/176208430</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29963</td><td></td><td><a href="http://data.gbif.org/occurrences/190533851">http://data.gbif.org/occurrences/190533851</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.7904,39.0451,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>160702</td><td>1991-05-29</td><td><a href="http://data.gbif.org/occurrences/198156419">http://data.gbif.org/occurrences/198156419</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.3475,31.24472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>112923</td><td>1979-05-30</td><td><a href="http://data.gbif.org/occurrences/198156208">http://data.gbif.org/occurrences/198156208</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>135356</td><td>1984-05-17</td><td><a href="http://data.gbif.org/occurrences/198156300">http://data.gbif.org/occurrences/198156300</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>195194</td><td>2003-05-10</td><td><a href="http://data.gbif.org/occurrences/198156607">http://data.gbif.org/occurrences/198156607</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.08139,31.60667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>158101</td><td>1990-05-25</td><td><a href="http://data.gbif.org/occurrences/198156411">http://data.gbif.org/occurrences/198156411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.46555,32.01972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>193303</td><td>2001-07-26</td><td><a href="http://data.gbif.org/occurrences/198156601">http://data.gbif.org/occurrences/198156601</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.49805,30.73806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199938</td><td>2004-11-04</td><td><a href="http://data.gbif.org/occurrences/198156632">http://data.gbif.org/occurrences/198156632</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>91.302,29.471,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>113361</td><td>1979-06-28</td><td><a href="http://data.gbif.org/occurrences/198156211">http://data.gbif.org/occurrences/198156211</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.31084,30.58333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196477</td><td>2003-10-11</td><td><a href="http://data.gbif.org/occurrences/198156619">http://data.gbif.org/occurrences/198156619</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82528,30.74195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18825</td><td></td><td><a href="http://data.gbif.org/occurrences/190533651">http://data.gbif.org/occurrences/190533651</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18830</td><td></td><td><a href="http://data.gbif.org/occurrences/190533652">http://data.gbif.org/occurrences/190533652</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.7105,39.0933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107991</td><td>1978-06-28</td><td><a href="http://data.gbif.org/occurrences/198156178">http://data.gbif.org/occurrences/198156178</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-91.29528,30.57417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa chrysochloris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>26325</td><td>1962-07-11</td><td><a href="http://data.gbif.org/occurrences/198155607">http://data.gbif.org/occurrences/198155607</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.24695,32.0325,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>

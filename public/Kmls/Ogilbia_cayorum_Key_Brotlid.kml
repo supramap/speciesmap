@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-20)<br/><br/>Senckenberg, Collection Pisces SMF (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8301">http://data.gbif.org/datasets/resource/8301</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>Zoologisches Forschungsinstitut und Museum Alexander Koenig, ZFMK Hymenoptera collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1840">http://data.gbif.org/datasets/resource/1840</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Ogilbia cayorum</name>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 24288</td><td>1961-05-24</td><td><a href="http://data.gbif.org/occurrences/189166149">http://data.gbif.org/occurrences/189166149</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-59.5975,13.3194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16981</td><td>1957-11-17</td><td><a href="http://data.gbif.org/occurrences/198322208">http://data.gbif.org/occurrences/198322208</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.93445,24.77583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>65002</td><td></td><td><a href="http://data.gbif.org/occurrences/35179493">http://data.gbif.org/occurrences/35179493</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.6167,24.9333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>32751</td><td></td><td><a href="http://data.gbif.org/occurrences/35177061">http://data.gbif.org/occurrences/35177061</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-64.6748,32.384,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Zoologisches Forschungsinstitut und Museum Alexander Koenig</td><td>ZFMK_HYMENOPT</td><td>ZFMK Hymenoptera collection</td><td>ZFMK_HYM_2010_96</td><td></td><td><a href="http://data.gbif.org/occurrences/345740290">http://data.gbif.org/occurrences/345740290</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>7.44972,49.7831,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6897</td><td>1988-04-25</td><td><a href="http://data.gbif.org/occurrences/145105276">http://data.gbif.org/occurrences/145105276</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6897</td><td>1988-04-25</td><td><a href="http://data.gbif.org/occurrences/240520197">http://data.gbif.org/occurrences/240520197</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-86.817,20.767,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>31806</td><td>1978-04-14</td><td><a href="http://data.gbif.org/occurrences/199233253">http://data.gbif.org/occurrences/199233253</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-60.5495,11.3246,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>24288</td><td>1961-05-24</td><td><a href="http://data.gbif.org/occurrences/96434714">http://data.gbif.org/occurrences/96434714</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-59.5975,13.319445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17020</td><td>1957-11-18</td><td><a href="http://data.gbif.org/occurrences/198322209">http://data.gbif.org/occurrences/198322209</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.01833,24.73444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>6350</td><td>1963-06-23</td><td><a href="http://data.gbif.org/occurrences/207921737">http://data.gbif.org/occurrences/207921737</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-64.75,32.333332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>79309</td><td>1965-09-18</td><td><a href="http://data.gbif.org/occurrences/198322684">http://data.gbif.org/occurrences/198322684</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-78.77889,9.600833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6897</td><td>1988-04-25</td><td><a href="http://data.gbif.org/occurrences/46409637">http://data.gbif.org/occurrences/46409637</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-86.8167,20.7667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18529</td><td>1958-05-28</td><td><a href="http://data.gbif.org/occurrences/198322228">http://data.gbif.org/occurrences/198322228</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.125,24.70889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogilbia cayorum (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>345330.5251564</td><td>1994-04-12</td><td><a href="http://data.gbif.org/occurrences/150028980">http://data.gbif.org/occurrences/150028980</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00345330</td><td>1994-04-12</td><td><a href="http://data.gbif.org/occurrences/189166161">http://data.gbif.org/occurrences/189166161</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>345330</td><td>1994-04-12</td><td><a href="http://data.gbif.org/occurrences/241349569">http://data.gbif.org/occurrences/241349569</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.0583,23.0367,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Dinematichthys cayorum</name>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5133</td><td>1957-06-22</td><td><a href="http://data.gbif.org/occurrences/80786404">http://data.gbif.org/occurrences/80786404</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.1,18.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5128</td><td>1957-06-18</td><td><a href="http://data.gbif.org/occurrences/80786162">http://data.gbif.org/occurrences/80786162</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.8333,17.8833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>7760</td><td>1964-11-21</td><td><a href="http://data.gbif.org/occurrences/80787107">http://data.gbif.org/occurrences/80787107</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-67.0333,17.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>20998</td><td>1939-04-03</td><td><a href="http://data.gbif.org/occurrences/80787164">http://data.gbif.org/occurrences/80787164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.675,8.89444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5118</td><td>1959-12-08</td><td><a href="http://data.gbif.org/occurrences/80785897">http://data.gbif.org/occurrences/80785897</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5119</td><td>1959-12-08</td><td><a href="http://data.gbif.org/occurrences/80785902">http://data.gbif.org/occurrences/80785902</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5120</td><td>1959-12-08</td><td><a href="http://data.gbif.org/occurrences/80785906">http://data.gbif.org/occurrences/80785906</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.3333,18.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>20999</td><td>1939-04-26</td><td><a href="http://data.gbif.org/occurrences/80787169">http://data.gbif.org/occurrences/80787169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.6903,8.89389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>6905-9</td><td>1966-03-15</td><td><a href="http://data.gbif.org/occurrences/80787038">http://data.gbif.org/occurrences/80787038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-82.8,9.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>21000</td><td>1939-04-27</td><td><a href="http://data.gbif.org/occurrences/80787175">http://data.gbif.org/occurrences/80787175</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.6917,8.89528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5121</td><td>1958-06-14</td><td><a href="http://data.gbif.org/occurrences/80785911">http://data.gbif.org/occurrences/80785911</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5122</td><td>1960-07-11</td><td><a href="http://data.gbif.org/occurrences/80785913">http://data.gbif.org/occurrences/80785913</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5123</td><td>1960-07-10</td><td><a href="http://data.gbif.org/occurrences/80785924">http://data.gbif.org/occurrences/80785924</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5124</td><td>1961-08-07</td><td><a href="http://data.gbif.org/occurrences/80785970">http://data.gbif.org/occurrences/80785970</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5125</td><td>1958-06-11</td><td><a href="http://data.gbif.org/occurrences/80786021">http://data.gbif.org/occurrences/80786021</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.3,18.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5131</td><td>1959-12-10</td><td><a href="http://data.gbif.org/occurrences/80786313">http://data.gbif.org/occurrences/80786313</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.3667,18.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>6568-30</td><td>1965-07-12</td><td><a href="http://data.gbif.org/occurrences/80787013">http://data.gbif.org/occurrences/80787013</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-67.1667,17.9167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5126</td><td>1959-04-20</td><td><a href="http://data.gbif.org/occurrences/80786067">http://data.gbif.org/occurrences/80786067</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5127</td><td>1959-04-19</td><td><a href="http://data.gbif.org/occurrences/80786110">http://data.gbif.org/occurrences/80786110</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.9833,17.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6367</td><td>1952-11-19</td><td><a href="http://data.gbif.org/occurrences/198184699">http://data.gbif.org/occurrences/198184699</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-81.125,24.70889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5132</td><td>1959-04-21</td><td><a href="http://data.gbif.org/occurrences/80786349">http://data.gbif.org/occurrences/80786349</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-77.5,17.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5130</td><td>1957-06-15</td><td><a href="http://data.gbif.org/occurrences/80786257">http://data.gbif.org/occurrences/80786257</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.7667,17.9167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Dinematichthys cayorum</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>5129</td><td>1957-06-18</td><td><a href="http://data.gbif.org/occurrences/80786217">http://data.gbif.org/occurrences/80786217</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-76.8167,17.9333,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

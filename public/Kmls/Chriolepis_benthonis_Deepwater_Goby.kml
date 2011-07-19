@@ -180,13 +180,29 @@ All usage of these data must be in accordance with the GBIF Data Use Agreement -
   </IconStyle>
  </Style> 
  <Folder>
-  <name>Coryphopterus punctipectophorus</name>
+  <name>Chriolepis benthonis</name>
   <Placemark>
-   <name>Coryphopterus punctipectophorus (3 records)</name>
-   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>315530.5207175</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/149757916">http://data.gbif.org/occurrences/149757916</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00315530</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/188798546">http://data.gbif.org/occurrences/188798546</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>315530</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/241206321">http://data.gbif.org/occurrences/241206321</a></td></tr></table></p>]]></description>
-   <styleUrl>#gbifIcon5</styleUrl>
+   <name>Chriolepis benthonis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00047641</td><td></td><td><a href="http://data.gbif.org/occurrences/188759377">http://data.gbif.org/occurrences/188759377</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
    <Point>
-    <coordinates>-77.4167,33.5383,0</coordinates>
+    <coordinates>-89.0,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Chriolepis benthonis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>47641.5011442</td><td></td><td><a href="http://data.gbif.org/occurrences/149717204">http://data.gbif.org/occurrences/149717204</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-89.2,23.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Chriolepis benthonis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>47641</td><td></td><td><a href="http://data.gbif.org/occurrences/241194387">http://data.gbif.org/occurrences/241194387</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-89.167,23.217,0</coordinates>
    </Point>
   </Placemark>
  </Folder>

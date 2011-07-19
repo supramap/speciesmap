@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces Dulceacuícolas Mexicanos de la Escuela Nacional de Ciencias Biológicas, IPN (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2501">http://data.gbif.org/datasets/resource/2501</a>, 2011-06-13)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-13)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-13)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-13)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Ctenogobius claytonii</name>
+  <Placemark>
+   <name>Ctenogobius claytonii</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6802</td><td>1988-07-02</td><td><a href="http://data.gbif.org/occurrences/148505492">http://data.gbif.org/occurrences/148505492</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.0525,18.1725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ctenogobius claytonii</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 36363</td><td>1974-11-19</td><td><a href="http://data.gbif.org/occurrences/188808760">http://data.gbif.org/occurrences/188808760</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-59.5567,13.2492,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ctenogobius claytonii</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>36363</td><td>1974-11-19</td><td><a href="http://data.gbif.org/occurrences/45121347">http://data.gbif.org/occurrences/45121347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-59.556667,13.2491665,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ctenogobius claytonii</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>48261</td><td>1972-07-22</td><td><a href="http://data.gbif.org/occurrences/45121126">http://data.gbif.org/occurrences/45121126</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-60.966667,14.063889,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Gobionellus claytoni</name>
+  <Placemark>
+   <name>Gobionellus claytoni</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2844 / 8561 / T027</td><td>1966-05-26</td><td><a href="http://data.gbif.org/occurrences/145355842">http://data.gbif.org/occurrences/145355842</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.4,18.496,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gobionellus claytoni</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3008 / 8352 / T027</td><td>1964-01-04</td><td><a href="http://data.gbif.org/occurrences/145355788">http://data.gbif.org/occurrences/145355788</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-93.119,18.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gobionellus claytoni</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2107 / 8572 / T027</td><td>1963-02-24</td><td><a href="http://data.gbif.org/occurrences/145355848">http://data.gbif.org/occurrences/145355848</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-95.648,18.604,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-03)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-03)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-03)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-03)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-03)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-03)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-03)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Prionotus paralatus</name>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4498</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411943">http://data.gbif.org/occurrences/46411943</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0186,21.2336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7136</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/46412303">http://data.gbif.org/occurrences/46412303</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.2167,21.9056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7205</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109062">http://data.gbif.org/occurrences/145109062</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7205</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522158">http://data.gbif.org/occurrences/240522158</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.483,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7103</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145108961">http://data.gbif.org/occurrences/145108961</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7103</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240522060">http://data.gbif.org/occurrences/240522060</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.585,24.302,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7157</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/145108933">http://data.gbif.org/occurrences/145108933</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7157</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/240522032">http://data.gbif.org/occurrences/240522032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.317,22.184,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7192</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/46412375">http://data.gbif.org/occurrences/46412375</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3853,23.6672,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7147</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/145108923">http://data.gbif.org/occurrences/145108923</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7147</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/240522022">http://data.gbif.org/occurrences/240522022</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.352,23.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358243.5267639</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/150098020">http://data.gbif.org/occurrences/150098020</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358243</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/241384455">http://data.gbif.org/occurrences/241384455</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7725,29.3476,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>48874</td><td></td><td><a href="http://data.gbif.org/occurrences/35284386">http://data.gbif.org/occurrences/35284386</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.1333,28.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7129</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46412295">http://data.gbif.org/occurrences/46412295</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4342,22.4506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6443</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145108796">http://data.gbif.org/occurrences/145108796</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6443</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240521918">http://data.gbif.org/occurrences/240521918</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-91.436,19.252,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7136</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145109074">http://data.gbif.org/occurrences/145109074</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7136</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/240522170">http://data.gbif.org/occurrences/240522170</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.217,21.906,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 57531</td><td>1989-06-01</td><td><a href="http://data.gbif.org/occurrences/189265404">http://data.gbif.org/occurrences/189265404</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.0833,30.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7084</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/46412238">http://data.gbif.org/occurrences/46412238</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6358,25.3336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7205</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412392">http://data.gbif.org/occurrences/46412392</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4833,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2837</td><td>1950-05-27</td><td><a href="http://data.gbif.org/occurrences/198345840">http://data.gbif.org/occurrences/198345840</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-93.725,27.96667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7149</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/46412319">http://data.gbif.org/occurrences/46412319</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3692,23.2842,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7212</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412400">http://data.gbif.org/occurrences/46412400</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.7358,22.6669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7131</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/46412297">http://data.gbif.org/occurrences/46412297</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3517,22.1839,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155070.5046975</td><td>1938-04-21</td><td><a href="http://data.gbif.org/occurrences/150098026">http://data.gbif.org/occurrences/150098026</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155072.5046977</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/150098028">http://data.gbif.org/occurrences/150098028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.2,27.4083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7550</td><td>1988-08-18</td><td><a href="http://data.gbif.org/occurrences/145108911">http://data.gbif.org/occurrences/145108911</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7550</td><td>1988-08-18</td><td><a href="http://data.gbif.org/occurrences/240522010">http://data.gbif.org/occurrences/240522010</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.7,21.536,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7081</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/145108939">http://data.gbif.org/occurrences/145108939</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7081</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/240522038">http://data.gbif.org/occurrences/240522038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.4,25.718,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155070</td><td>1938-04-21</td><td><a href="http://data.gbif.org/occurrences/189265410">http://data.gbif.org/occurrences/189265410</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.0,27.4083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358244.5267640</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/150098015">http://data.gbif.org/occurrences/150098015</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358244</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/241384323">http://data.gbif.org/occurrences/241384323</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7322,29.3514,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2654</td><td>1950-11-27</td><td><a href="http://data.gbif.org/occurrences/198345818">http://data.gbif.org/occurrences/198345818</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.35,27.53333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2849</td><td>1950-05-23</td><td><a href="http://data.gbif.org/occurrences/198345847">http://data.gbif.org/occurrences/198345847</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.81667,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7113</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145108972">http://data.gbif.org/occurrences/145108972</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7113</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522071">http://data.gbif.org/occurrences/240522071</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.367,23.718,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7163</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/145109010">http://data.gbif.org/occurrences/145109010</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7163</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/240522106">http://data.gbif.org/occurrences/240522106</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.652,25.334,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155073.5046978</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/150098029">http://data.gbif.org/occurrences/150098029</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.608,27.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00196771</td><td></td><td><a href="http://data.gbif.org/occurrences/189265415">http://data.gbif.org/occurrences/189265415</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-92.3417,28.0944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4410</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108646">http://data.gbif.org/occurrences/145108646</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4410</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521764">http://data.gbif.org/occurrences/240521764</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.051,21.019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157669.5146723</td><td>1950-11-27</td><td><a href="http://data.gbif.org/occurrences/150098030">http://data.gbif.org/occurrences/150098030</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.3,27.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7098</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/145108956">http://data.gbif.org/occurrences/145108956</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7098</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/240522055">http://data.gbif.org/occurrences/240522055</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.036,24.635,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358243</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/189265421">http://data.gbif.org/occurrences/189265421</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7744,29.3533,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>395221</td><td>2006-10-14</td><td><a href="http://data.gbif.org/occurrences/241384344">http://data.gbif.org/occurrences/241384344</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.375,27.0697,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7126</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145108987">http://data.gbif.org/occurrences/145108987</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7126</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240522086">http://data.gbif.org/occurrences/240522086</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.402,23.036,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7196</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109053">http://data.gbif.org/occurrences/145109053</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7196</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522149">http://data.gbif.org/occurrences/240522149</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.467,23.336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7168</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/46412344">http://data.gbif.org/occurrences/46412344</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.2336,25.3347,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7151</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/46412322">http://data.gbif.org/occurrences/46412322</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.385,22.9522,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358242.5267638</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/150098018">http://data.gbif.org/occurrences/150098018</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358242</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/241384203">http://data.gbif.org/occurrences/241384203</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7792,29.3492,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155073</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/241384192">http://data.gbif.org/occurrences/241384192</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6083,27.683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7119</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145108978">http://data.gbif.org/occurrences/145108978</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7119</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522077">http://data.gbif.org/occurrences/240522077</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.452,23.267,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2682</td><td>1950-11-27</td><td><a href="http://data.gbif.org/occurrences/198345820">http://data.gbif.org/occurrences/198345820</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.13333,27.36667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>14568</td><td>2004-06-30</td><td><a href="http://data.gbif.org/occurrences/148509216">http://data.gbif.org/occurrences/148509216</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-91.7728,22.2303,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2832</td><td>1950-06-14</td><td><a href="http://data.gbif.org/occurrences/198345836">http://data.gbif.org/occurrences/198345836</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-86.96667,29.78333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186470</td><td>1953-11-01</td><td><a href="http://data.gbif.org/occurrences/198346674">http://data.gbif.org/occurrences/198346674</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.36667,29.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7092</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/46412248">http://data.gbif.org/occurrences/46412248</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0847,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7094</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/145108952">http://data.gbif.org/occurrences/145108952</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7094</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/240522051">http://data.gbif.org/occurrences/240522051</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.819,25.035,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7113</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412276">http://data.gbif.org/occurrences/46412276</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3669,23.7181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3955</td><td></td><td><a href="http://data.gbif.org/occurrences/176214361">http://data.gbif.org/occurrences/176214361</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3956</td><td></td><td><a href="http://data.gbif.org/occurrences/176214362">http://data.gbif.org/occurrences/176214362</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29689</td><td></td><td><a href="http://data.gbif.org/occurrences/190570238">http://data.gbif.org/occurrences/190570238</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.6097,29.1433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P11149</td><td>1999-03-10</td><td><a href="http://data.gbif.org/occurrences/145109233">http://data.gbif.org/occurrences/145109233</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P11149</td><td>1999-03-10</td><td><a href="http://data.gbif.org/occurrences/240522321">http://data.gbif.org/occurrences/240522321</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.813,18.614,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7107</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145108966">http://data.gbif.org/occurrences/145108966</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7107</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240522065">http://data.gbif.org/occurrences/240522065</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.217,24.001,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>898</td><td>1982-06-05</td><td><a href="http://data.gbif.org/occurrences/46412649">http://data.gbif.org/occurrences/46412649</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.4925,22.9847,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7171</td><td>1990-11-23</td><td><a href="http://data.gbif.org/occurrences/145109019">http://data.gbif.org/occurrences/145109019</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7171</td><td>1990-11-23</td><td><a href="http://data.gbif.org/occurrences/240522115">http://data.gbif.org/occurrences/240522115</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.401,24.984,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>86149.5027717</td><td>1917-03-02</td><td><a href="http://data.gbif.org/occurrences/150097991">http://data.gbif.org/occurrences/150097991</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.7,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2839</td><td>1950-05-25</td><td><a href="http://data.gbif.org/occurrences/198345841">http://data.gbif.org/occurrences/198345841</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.40833,27.51667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7208</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109030">http://data.gbif.org/occurrences/145109030</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7208</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522126">http://data.gbif.org/occurrences/240522126</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.402,22.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358217.5267605</td><td>1997-08-06</td><td><a href="http://data.gbif.org/occurrences/150098017">http://data.gbif.org/occurrences/150098017</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358217</td><td>1997-08-06</td><td><a href="http://data.gbif.org/occurrences/241384161">http://data.gbif.org/occurrences/241384161</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7447,29.3471,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7138</td><td>1990-04-10</td><td><a href="http://data.gbif.org/occurrences/145108914">http://data.gbif.org/occurrences/145108914</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7138</td><td>1990-04-10</td><td><a href="http://data.gbif.org/occurrences/240522013">http://data.gbif.org/occurrences/240522013</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.319,25.735,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155071</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/189265411">http://data.gbif.org/occurrences/189265411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-95.3417,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6443</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46412158">http://data.gbif.org/occurrences/46412158</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-91.4358,19.2525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7095</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/145108953">http://data.gbif.org/occurrences/145108953</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7095</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/240522052">http://data.gbif.org/occurrences/240522052</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.618,24.969,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358244</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/189265422">http://data.gbif.org/occurrences/189265422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7289,29.3531,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7092</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/145108951">http://data.gbif.org/occurrences/145108951</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7092</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/240522050">http://data.gbif.org/occurrences/240522050</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.085,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7171</td><td>1990-11-23</td><td><a href="http://data.gbif.org/occurrences/46412349">http://data.gbif.org/occurrences/46412349</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4014,24.9842,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7125</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412291">http://data.gbif.org/occurrences/46412291</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4686,22.9681,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7125</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145108986">http://data.gbif.org/occurrences/145108986</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7125</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522085">http://data.gbif.org/occurrences/240522085</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.469,22.968,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7117</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412280">http://data.gbif.org/occurrences/46412280</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3842,23.2508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358242</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/189265420">http://data.gbif.org/occurrences/189265420</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7761,29.3458,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7208</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412395">http://data.gbif.org/occurrences/46412395</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4019,22.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7203</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412389">http://data.gbif.org/occurrences/46412389</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.6833,22.9858,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>151939.5046426</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/150098025">http://data.gbif.org/occurrences/150098025</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>151939</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/241384195">http://data.gbif.org/occurrences/241384195</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.5333,26.5667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7135</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/46412301">http://data.gbif.org/occurrences/46412301</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.2839,21.9083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4329</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145108616">http://data.gbif.org/occurrences/145108616</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4329</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240521738">http://data.gbif.org/occurrences/240521738</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.119,21.552,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82474</td><td>1973-04-02</td><td><a href="http://data.gbif.org/occurrences/198346369">http://data.gbif.org/occurrences/198346369</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.03333,28.48333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7163</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/46412338">http://data.gbif.org/occurrences/46412338</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6517,25.3336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>86149</td><td>1917-03-02</td><td><a href="http://data.gbif.org/occurrences/241384320">http://data.gbif.org/occurrences/241384320</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.667,28.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155073</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/189265413">http://data.gbif.org/occurrences/189265413</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.5083,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18843</td><td>1957-11-15</td><td><a href="http://data.gbif.org/occurrences/198346142">http://data.gbif.org/occurrences/198346142</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-48.8,2.516667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4410</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411919">http://data.gbif.org/occurrences/46411919</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0511,21.0192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 83301</td><td>1976-08-28</td><td><a href="http://data.gbif.org/occurrences/189265424">http://data.gbif.org/occurrences/189265424</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.1,29.8667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155072</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/189265412">http://data.gbif.org/occurrences/189265412</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.0,28.175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>57756</td><td></td><td><a href="http://data.gbif.org/occurrences/35284737">http://data.gbif.org/occurrences/35284737</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.4517,28.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7166</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/46412342">http://data.gbif.org/occurrences/46412342</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.9169,25.3333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7138</td><td>1990-04-10</td><td><a href="http://data.gbif.org/occurrences/46412305">http://data.gbif.org/occurrences/46412305</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.9008,25.6681,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358245.5267641</td><td>1997-08-09</td><td><a href="http://data.gbif.org/occurrences/150098016">http://data.gbif.org/occurrences/150098016</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358245</td><td>1997-08-09</td><td><a href="http://data.gbif.org/occurrences/241384355">http://data.gbif.org/occurrences/241384355</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.9786,29.3899,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7126</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46412292">http://data.gbif.org/occurrences/46412292</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4025,23.0356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7168</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/145109016">http://data.gbif.org/occurrences/145109016</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7168</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/240522112">http://data.gbif.org/occurrences/240522112</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.234,25.335,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7131</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145108992">http://data.gbif.org/occurrences/145108992</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7131</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/240522091">http://data.gbif.org/occurrences/240522091</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.352,22.184,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7166</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/145109014">http://data.gbif.org/occurrences/145109014</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7166</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/240522110">http://data.gbif.org/occurrences/240522110</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.917,25.333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187743</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198346684">http://data.gbif.org/occurrences/198346684</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.03194,28.66611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7102</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/46412262">http://data.gbif.org/occurrences/46412262</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.5008,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>57531</td><td>1989-06-01</td><td><a href="http://data.gbif.org/occurrences/96450296">http://data.gbif.org/occurrences/96450296</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.083336,30.666666,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7184</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/145109043">http://data.gbif.org/occurrences/145109043</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7184</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/240522139">http://data.gbif.org/occurrences/240522139</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.367,24.002,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7135</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145109073">http://data.gbif.org/occurrences/145109073</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7135</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/240522169">http://data.gbif.org/occurrences/240522169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.284,21.908,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7081</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/46412234">http://data.gbif.org/occurrences/46412234</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.4,25.7178,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7129</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145108990">http://data.gbif.org/occurrences/145108990</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7129</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240522089">http://data.gbif.org/occurrences/240522089</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.434,22.451,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7157</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/46412329">http://data.gbif.org/occurrences/46412329</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3169,22.1844,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82482</td><td>1973-04-02</td><td><a href="http://data.gbif.org/occurrences/198346370">http://data.gbif.org/occurrences/198346370</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.08334,28.51667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>394926</td><td>2006-10-14</td><td><a href="http://data.gbif.org/occurrences/241384295">http://data.gbif.org/occurrences/241384295</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.4661,27.2664,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7174</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/145109023">http://data.gbif.org/occurrences/145109023</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7176</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/145109037">http://data.gbif.org/occurrences/145109037</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7174</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/240522119">http://data.gbif.org/occurrences/240522119</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7176</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/240522133">http://data.gbif.org/occurrences/240522133</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.602,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4329</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46411897">http://data.gbif.org/occurrences/46411897</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.1189,21.5519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7109</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46412270">http://data.gbif.org/occurrences/46412270</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3525,24.0342,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7176</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/46412356">http://data.gbif.org/occurrences/46412356</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6025,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7103</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46412263">http://data.gbif.org/occurrences/46412263</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.5847,24.3019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4498</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108667">http://data.gbif.org/occurrences/145108667</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4498</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521786">http://data.gbif.org/occurrences/240521786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.019,21.234,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7192</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/145109050">http://data.gbif.org/occurrences/145109050</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7192</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/240522146">http://data.gbif.org/occurrences/240522146</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.385,23.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187762</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198346686">http://data.gbif.org/occurrences/198346686</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-89.96083,28.65055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7212</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109032">http://data.gbif.org/occurrences/145109032</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7212</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522128">http://data.gbif.org/occurrences/240522128</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.736,22.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7152</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/145108929">http://data.gbif.org/occurrences/145108929</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7152</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/240522028">http://data.gbif.org/occurrences/240522028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.484,22.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7193</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412377">http://data.gbif.org/occurrences/46412377</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3683,23.3356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7149</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/145108926">http://data.gbif.org/occurrences/145108926</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7149</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/240522025">http://data.gbif.org/occurrences/240522025</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.369,23.284,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7174</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/46412353">http://data.gbif.org/occurrences/46412353</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6025,25.0003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155072</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/241384406">http://data.gbif.org/occurrences/241384406</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.7,28.175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2835</td><td>1950-05-24</td><td><a href="http://data.gbif.org/occurrences/198345838">http://data.gbif.org/occurrences/198345838</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.8,27.86667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4518</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108673">http://data.gbif.org/occurrences/145108673</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4518</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521791">http://data.gbif.org/occurrences/240521791</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.034,21.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7127</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145108988">http://data.gbif.org/occurrences/145108988</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7127</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240522087">http://data.gbif.org/occurrences/240522087</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.483,22.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6494</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145108805">http://data.gbif.org/occurrences/145108805</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6494</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240521926">http://data.gbif.org/occurrences/240521926</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-92.217,20.001,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155070</td><td>1938-04-21</td><td><a href="http://data.gbif.org/occurrences/241384121">http://data.gbif.org/occurrences/241384121</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.217,27.4083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12887</td><td>1954-06-05</td><td><a href="http://data.gbif.org/occurrences/198346044">http://data.gbif.org/occurrences/198346044</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.28333,27.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7115</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145108974">http://data.gbif.org/occurrences/145108974</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7115</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522073">http://data.gbif.org/occurrences/240522073</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.333,23.652,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7193</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109051">http://data.gbif.org/occurrences/145109051</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7193</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522147">http://data.gbif.org/occurrences/240522147</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.368,23.336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358217</td><td>1997-08-06</td><td><a href="http://data.gbif.org/occurrences/189265419">http://data.gbif.org/occurrences/189265419</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.7381,29.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7151</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/145108928">http://data.gbif.org/occurrences/145108928</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7151</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/240522027">http://data.gbif.org/occurrences/240522027</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.385,22.952,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155071</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/241384245">http://data.gbif.org/occurrences/241384245</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-95.3417,27.983,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00151939</td><td>1939-02-04</td><td><a href="http://data.gbif.org/occurrences/189265409">http://data.gbif.org/occurrences/189265409</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.0,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7107</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46412268">http://data.gbif.org/occurrences/46412268</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.2169,24.0011,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7127</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46412293">http://data.gbif.org/occurrences/46412293</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4833,22.4683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10595</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/198345993">http://data.gbif.org/occurrences/198345993</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.9,26.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7203</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145109060">http://data.gbif.org/occurrences/145109060</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7203</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240522156">http://data.gbif.org/occurrences/240522156</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.683,22.986,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157669</td><td>1950-11-27</td><td><a href="http://data.gbif.org/occurrences/241384326">http://data.gbif.org/occurrences/241384326</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.283,27.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7184</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/46412365">http://data.gbif.org/occurrences/46412365</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3669,24.0025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7109</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145108967">http://data.gbif.org/occurrences/145108967</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7109</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240522066">http://data.gbif.org/occurrences/240522066</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.352,24.034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7084</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/145108942">http://data.gbif.org/occurrences/145108942</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7084</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/240522041">http://data.gbif.org/occurrences/240522041</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.636,25.334,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7095</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/46412252">http://data.gbif.org/occurrences/46412252</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6181,24.9689,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7155</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/46412326">http://data.gbif.org/occurrences/46412326</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4189,22.3525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4427</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108650">http://data.gbif.org/occurrences/145108650</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4427</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521766">http://data.gbif.org/occurrences/240521766</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.036,21.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7102</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/145108960">http://data.gbif.org/occurrences/145108960</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7102</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/240522059">http://data.gbif.org/occurrences/240522059</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.501,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7152</td><td>1990-04-14</td><td><a href="http://data.gbif.org/occurrences/46412323">http://data.gbif.org/occurrences/46412323</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4842,22.6669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7115</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412278">http://data.gbif.org/occurrences/46412278</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3333,23.6519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7162</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/46412337">http://data.gbif.org/occurrences/46412337</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.6356,25.6692,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6494</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46412172">http://data.gbif.org/occurrences/46412172</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-92.2169,20.0006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82463</td><td>1973-04-02</td><td><a href="http://data.gbif.org/occurrences/198346368">http://data.gbif.org/occurrences/198346368</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.005,28.46667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7196</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46412381">http://data.gbif.org/occurrences/46412381</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4672,23.3358,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6402</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145108787">http://data.gbif.org/occurrences/145108787</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6402</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240521909">http://data.gbif.org/occurrences/240521909</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-91.551,19.952,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6402</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46412151">http://data.gbif.org/occurrences/46412151</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-91.5506,19.9525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7155</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/145108922">http://data.gbif.org/occurrences/145108922</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7155</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/240522021">http://data.gbif.org/occurrences/240522021</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.419,22.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4518</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411952">http://data.gbif.org/occurrences/46411952</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0339,21.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7162</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/145109009">http://data.gbif.org/occurrences/145109009</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7162</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/240522105">http://data.gbif.org/occurrences/240522105</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.636,25.669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7147</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/46412317">http://data.gbif.org/occurrences/46412317</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.3517,23.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>196771.5149043</td><td></td><td><a href="http://data.gbif.org/occurrences/150097969">http://data.gbif.org/occurrences/150097969</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>196771</td><td></td><td><a href="http://data.gbif.org/occurrences/241384362">http://data.gbif.org/occurrences/241384362</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-90.7681,28.2922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11149</td><td>1999-03-10</td><td><a href="http://data.gbif.org/occurrences/46411480">http://data.gbif.org/occurrences/46411480</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.8128,18.6142,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7117</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145108976">http://data.gbif.org/occurrences/145108976</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7117</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522075">http://data.gbif.org/occurrences/240522075</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.384,23.251,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7550</td><td>1988-08-18</td><td><a href="http://data.gbif.org/occurrences/46412484">http://data.gbif.org/occurrences/46412484</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.7003,21.5356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358245</td><td>1997-08-09</td><td><a href="http://data.gbif.org/occurrences/189265423">http://data.gbif.org/occurrences/189265423</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.9711,29.3897,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10629</td><td>1954-06-03</td><td><a href="http://data.gbif.org/occurrences/198345998">http://data.gbif.org/occurrences/198345998</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.66666,26.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2024</td><td>1950-11-21</td><td><a href="http://data.gbif.org/occurrences/198345786">http://data.gbif.org/occurrences/198345786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-94.65,28.03333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7098</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/46412256">http://data.gbif.org/occurrences/46412256</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0358,24.635,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7094</td><td>1989-09-10</td><td><a href="http://data.gbif.org/occurrences/46412250">http://data.gbif.org/occurrences/46412250</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-96.8189,25.0353,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P898</td><td>1982-06-05</td><td><a href="http://data.gbif.org/occurrences/145108218">http://data.gbif.org/occurrences/145108218</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P898</td><td>1982-06-05</td><td><a href="http://data.gbif.org/occurrences/240521525">http://data.gbif.org/occurrences/240521525</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.492,22.985,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155071.5046976</td><td>1939-01-22</td><td><a href="http://data.gbif.org/occurrences/150098027">http://data.gbif.org/occurrences/150098027</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-95.3417,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7119</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412283">http://data.gbif.org/occurrences/46412283</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.4517,23.2672,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27050</td><td></td><td><a href="http://data.gbif.org/occurrences/199236974">http://data.gbif.org/occurrences/199236974</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-87.2833,29.7667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus paralatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4427</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411924">http://data.gbif.org/occurrences/46411924</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0356,21.3,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-03)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-03)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-03)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-03)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-03)<br/><br/>University of Minnesota Bell Museum of Natural History, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1008">http://data.gbif.org/datasets/resource/1008</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Prionotus maculatus</name>
+  <Placemark>
+   <name>Prionotus maculatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>57765</td><td></td><td><a href="http://data.gbif.org/occurrences/35284792">http://data.gbif.org/occurrences/35284792</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-81.9583,14.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus maculatus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>111593.5036477</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/150097957">http://data.gbif.org/occurrences/150097957</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>111594.5036478</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/150097958">http://data.gbif.org/occurrences/150097958</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>111593</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/241384293">http://data.gbif.org/occurrences/241384293</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>111594</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/241384294">http://data.gbif.org/occurrences/241384294</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.5333,28.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus maculatus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>13212</td><td>1954-03-21</td><td><a href="http://data.gbif.org/occurrences/198346068">http://data.gbif.org/occurrences/198346068</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.5,29.83333,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Prionotus longispinosus</name>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12925</td><td>1954-06-02</td><td><a href="http://data.gbif.org/occurrences/198346046">http://data.gbif.org/occurrences/198346046</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.75,26.21667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12882</td><td>1954-06-15</td><td><a href="http://data.gbif.org/occurrences/198346041">http://data.gbif.org/occurrences/198346041</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.8,29.36667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>13195</td><td>1954-03-21</td><td><a href="http://data.gbif.org/occurrences/198346064">http://data.gbif.org/occurrences/198346064</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-86.5,29.83333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>395203</td><td>2006-10-15</td><td><a href="http://data.gbif.org/occurrences/241384479">http://data.gbif.org/occurrences/241384479</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-96.5269,27.3278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196795</td><td>2003-06-11</td><td><a href="http://data.gbif.org/occurrences/198346716">http://data.gbif.org/occurrences/198346716</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.03796,29.3564,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3953</td><td></td><td><a href="http://data.gbif.org/occurrences/176214359">http://data.gbif.org/occurrences/176214359</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3954</td><td></td><td><a href="http://data.gbif.org/occurrences/176214360">http://data.gbif.org/occurrences/176214360</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29688</td><td></td><td><a href="http://data.gbif.org/occurrences/190570200">http://data.gbif.org/occurrences/190570200</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.6097,29.1433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>13017</td><td>1955-08-30</td><td><a href="http://data.gbif.org/occurrences/198346056">http://data.gbif.org/occurrences/198346056</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-89.53333,28.69167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>39773</td><td>1993-08-10</td><td><a href="http://data.gbif.org/occurrences/48213264">http://data.gbif.org/occurrences/48213264</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-87.8319,29.8758,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00111593</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/189265346">http://data.gbif.org/occurrences/189265346</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187724</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198346681">http://data.gbif.org/occurrences/198346681</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.21306,28.63417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 28340</td><td>1997-09-11</td><td><a href="http://data.gbif.org/occurrences/189265344">http://data.gbif.org/occurrences/189265344</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.8836,29.3181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>41233</td><td>1992-08-12</td><td><a href="http://data.gbif.org/occurrences/48212020">http://data.gbif.org/occurrences/48212020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.2303,29.9681,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187742</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198346683">http://data.gbif.org/occurrences/198346683</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-90.03194,28.66611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28215</td><td>1962-08-18</td><td><a href="http://data.gbif.org/occurrences/198346214">http://data.gbif.org/occurrences/198346214</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.88139,30.38861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 28341</td><td>1997-09-11</td><td><a href="http://data.gbif.org/occurrences/189265343">http://data.gbif.org/occurrences/189265343</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.6886,29.1594,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>5191</td><td></td><td><a href="http://data.gbif.org/occurrences/176214003">http://data.gbif.org/occurrences/176214003</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>30171</td><td></td><td><a href="http://data.gbif.org/occurrences/190570151">http://data.gbif.org/occurrences/190570151</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-95.4115,28.0372,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00111594</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/189265347">http://data.gbif.org/occurrences/189265347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-91.5333,28.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 29834</td><td>1999-06-06</td><td><a href="http://data.gbif.org/occurrences/189265342">http://data.gbif.org/occurrences/189265342</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.6042,29.9744,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>13234</td><td>1950-06-29</td><td><a href="http://data.gbif.org/occurrences/198346070">http://data.gbif.org/occurrences/198346070</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-88.11667,30.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus longispinosus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27049</td><td></td><td><a href="http://data.gbif.org/occurrences/199236802">http://data.gbif.org/occurrences/199236802</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon12</styleUrl>
+   <Point>
+    <coordinates>-87.2833,29.7667,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

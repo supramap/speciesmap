@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces Dulceacuícolas Mexicanos de la Escuela Nacional de Ciencias Biológicas, IPN (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2501">http://data.gbif.org/datasets/resource/2501</a>, 2011-06-13)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-13)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-13)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-13)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-13)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Citharichthys abbotti</name>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3055</td><td>1964-05-18</td><td><a href="http://data.gbif.org/occurrences/145354960">http://data.gbif.org/occurrences/145354960</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-97.442,21.077,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 21880</td><td>1968-08-17</td><td><a href="http://data.gbif.org/occurrences/188768421">http://data.gbif.org/occurrences/188768421</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-96.1,19.0922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 4943</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/188768409">http://data.gbif.org/occurrences/188768409</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 4517</td><td>1969-06-17</td><td><a href="http://data.gbif.org/occurrences/188768411">http://data.gbif.org/occurrences/188768411</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2733</td><td>1968-05-06</td><td><a href="http://data.gbif.org/occurrences/188768412">http://data.gbif.org/occurrences/188768412</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-96.0,19.0922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>203738.5063328</td><td>1968-06-10</td><td><a href="http://data.gbif.org/occurrences/149734907">http://data.gbif.org/occurrences/149734907</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00203738</td><td>1968-06-10</td><td><a href="http://data.gbif.org/occurrences/188768426">http://data.gbif.org/occurrences/188768426</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>203738</td><td>1968-06-10</td><td><a href="http://data.gbif.org/occurrences/241200762">http://data.gbif.org/occurrences/241200762</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-92.4542,18.6958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P534</td><td>1976-05-20</td><td><a href="http://data.gbif.org/occurrences/145100579">http://data.gbif.org/occurrences/145100579</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P534</td><td>1976-05-20</td><td><a href="http://data.gbif.org/occurrences/240515084">http://data.gbif.org/occurrences/240515084</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-95.011,18.552,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2759</td><td>1968-08-06</td><td><a href="http://data.gbif.org/occurrences/188768420">http://data.gbif.org/occurrences/188768420</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-94.4172,18.1225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2802</td><td>1968-09-06</td><td><a href="http://data.gbif.org/occurrences/188768413">http://data.gbif.org/occurrences/188768413</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-91.8625,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>534</td><td>1976-05-20</td><td><a href="http://data.gbif.org/occurrences/46403590">http://data.gbif.org/occurrences/46403590</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-95.0114,18.5525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 4937</td><td>1970-01-05</td><td><a href="http://data.gbif.org/occurrences/188768408">http://data.gbif.org/occurrences/188768408</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-96.1106,19.0972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 4470</td><td>1969-04-06</td><td><a href="http://data.gbif.org/occurrences/188768410">http://data.gbif.org/occurrences/188768410</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-88.0444,15.7653,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Citharichthys abbotti (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>203737.5063327</td><td>1968-06-07</td><td><a href="http://data.gbif.org/occurrences/149734906">http://data.gbif.org/occurrences/149734906</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00203737</td><td>1968-06-07</td><td><a href="http://data.gbif.org/occurrences/188768425">http://data.gbif.org/occurrences/188768425</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>203737</td><td>1968-06-07</td><td><a href="http://data.gbif.org/occurrences/241200730">http://data.gbif.org/occurrences/241200730</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon7</styleUrl>
+   <Point>
+    <coordinates>-95.7853,18.7917,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

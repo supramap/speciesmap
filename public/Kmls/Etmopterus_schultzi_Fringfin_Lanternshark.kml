@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, The Deepwater Program: Northern Gulf of Mexico Continental Slope Habitat and Benthic Ecology - DgoMB: Fish (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/383">http://data.gbif.org/datasets/resource/383</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, iziko South African Museum - Shark Collection (AfrOBIS) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/412">http://data.gbif.org/datasets/resource/412</a>, 2011-06-20)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>OZCAM (Online Zoological Collections of Australian Museums) Provider, Australian Museum provider for OZCAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9105">http://data.gbif.org/datasets/resource/9105</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Etmopterus schultzi</name>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220426</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/241240762">http://data.gbif.org/occurrences/241240762</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.6,7.767,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186813</td><td>1989-07-24</td><td><a href="http://data.gbif.org/occurrences/198207032">http://data.gbif.org/occurrences/198207032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.86667,28.64167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>186084.5055142</td><td></td><td><a href="http://data.gbif.org/occurrences/149818673">http://data.gbif.org/occurrences/149818673</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00186084</td><td></td><td><a href="http://data.gbif.org/occurrences/188899707">http://data.gbif.org/occurrences/188899707</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>186084</td><td></td><td><a href="http://data.gbif.org/occurrences/241240383">http://data.gbif.org/occurrences/241240383</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-83.3583,24.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220446</td><td>1969-11-17</td><td><a href="http://data.gbif.org/occurrences/241240674">http://data.gbif.org/occurrences/241240674</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.067,7.333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220428.5078982</td><td>1963-10-09</td><td><a href="http://data.gbif.org/occurrences/149818552">http://data.gbif.org/occurrences/149818552</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-67.8,10.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158151</td><td></td><td><a href="http://data.gbif.org/occurrences/188899699">http://data.gbif.org/occurrences/188899699</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220385.5078939</td><td>1969-03-15</td><td><a href="http://data.gbif.org/occurrences/149818595">http://data.gbif.org/occurrences/149818595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.9,27.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220445.5078999</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/149818600">http://data.gbif.org/occurrences/149818600</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.4,18.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6904</td><td>1952-09-19</td><td><a href="http://data.gbif.org/occurrences/198205520">http://data.gbif.org/occurrences/198205520</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.4,29.01667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>371648.5284959</td><td>1969-06-16</td><td><a href="http://data.gbif.org/occurrences/149818720">http://data.gbif.org/occurrences/149818720</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.1,27.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220383</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/241240294">http://data.gbif.org/occurrences/241240294</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.55,29.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004168</td><td>1951-02-18</td><td><a href="http://data.gbif.org/occurrences/25121037">http://data.gbif.org/occurrences/25121037</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.9333,29.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>39547-1</td><td>1963-08-07</td><td><a href="http://data.gbif.org/occurrences/81184289">http://data.gbif.org/occurrences/81184289</a></td></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>39547-2</td><td>1963-08-07</td><td><a href="http://data.gbif.org/occurrences/81184292">http://data.gbif.org/occurrences/81184292</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>85633</td><td>1963-08-07</td><td><a href="http://data.gbif.org/occurrences/198206498">http://data.gbif.org/occurrences/198206498</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-83.6,24.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220391</td><td>1970-06-02</td><td><a href="http://data.gbif.org/occurrences/188899722">http://data.gbif.org/occurrences/188899722</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.0,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220423</td><td>1963-10-21</td><td><a href="http://data.gbif.org/occurrences/241240719">http://data.gbif.org/occurrences/241240719</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-64.417,11.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220419</td><td>1962-10-03</td><td><a href="http://data.gbif.org/occurrences/241240711">http://data.gbif.org/occurrences/241240711</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.4,11.817,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004164</td><td>1955-03-03</td><td><a href="http://data.gbif.org/occurrences/25121033">http://data.gbif.org/occurrences/25121033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.7167,29.2833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220425</td><td>1968-12-05</td><td><a href="http://data.gbif.org/occurrences/241240725">http://data.gbif.org/occurrences/241240725</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-73.433,11.583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220405.5078959</td><td>1964-03-10</td><td><a href="http://data.gbif.org/occurrences/149818597">http://data.gbif.org/occurrences/149818597</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.8,28.2417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004171</td><td>1952-08-18</td><td><a href="http://data.gbif.org/occurrences/25121040">http://data.gbif.org/occurrences/25121040</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.3,29.6083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004143</td><td>1952-04-16</td><td><a href="http://data.gbif.org/occurrences/25121012">http://data.gbif.org/occurrences/25121012</a></td></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>38161</td><td></td><td><a href="http://data.gbif.org/occurrences/328431562">http://data.gbif.org/occurrences/328431562</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.9833,27.6833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40057</td><td></td><td><a href="http://data.gbif.org/occurrences/328431299">http://data.gbif.org/occurrences/328431299</a></td></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40058</td><td></td><td><a href="http://data.gbif.org/occurrences/328431301">http://data.gbif.org/occurrences/328431301</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.6,7.76667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220436.5078990</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/149818542">http://data.gbif.org/occurrences/149818542</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.0,28.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220405</td><td>1964-03-10</td><td><a href="http://data.gbif.org/occurrences/188899736">http://data.gbif.org/occurrences/188899736</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.0,28.2417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>371648</td><td>1969-06-16</td><td><a href="http://data.gbif.org/occurrences/241240516">http://data.gbif.org/occurrences/241240516</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.067,27.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 56857</td><td>1978-10-29</td><td><a href="http://data.gbif.org/occurrences/188899764">http://data.gbif.org/occurrences/188899764</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-9.1,28.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220381</td><td>1962-08-08</td><td><a href="http://data.gbif.org/occurrences/241240271">http://data.gbif.org/occurrences/241240271</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.783,29.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220424.5078978</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/149818591">http://data.gbif.org/occurrences/149818591</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220424</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/241240492">http://data.gbif.org/occurrences/241240492</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.3,11.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004140</td><td>1952-04-18</td><td><a href="http://data.gbif.org/occurrences/25121009">http://data.gbif.org/occurrences/25121009</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.1117,26.975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158144</td><td>1955-03-13</td><td><a href="http://data.gbif.org/occurrences/241240682">http://data.gbif.org/occurrences/241240682</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.05,29.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004157</td><td>1956-05-18</td><td><a href="http://data.gbif.org/occurrences/25121026">http://data.gbif.org/occurrences/25121026</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.15,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220444</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/241240612">http://data.gbif.org/occurrences/241240612</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.4,7.55,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220444.5078998</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/149818592">http://data.gbif.org/occurrences/149818592</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.4,7.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220425.5078979</td><td>1968-12-05</td><td><a href="http://data.gbif.org/occurrences/149818598">http://data.gbif.org/occurrences/149818598</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-73.4,11.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220399</td><td>1963-10-08</td><td><a href="http://data.gbif.org/occurrences/241240606">http://data.gbif.org/occurrences/241240606</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-68.417,11.433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158142</td><td></td><td><a href="http://data.gbif.org/occurrences/241240751">http://data.gbif.org/occurrences/241240751</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.55,29.017,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>14748</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/198205641">http://data.gbif.org/occurrences/198205641</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.31667,29.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40236</td><td></td><td><a href="http://data.gbif.org/occurrences/328431321">http://data.gbif.org/occurrences/328431321</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.6667,7.73333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220377</td><td>1962-09-02</td><td><a href="http://data.gbif.org/occurrences/241240599">http://data.gbif.org/occurrences/241240599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.55,29.317,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186821</td><td>1989-07-24</td><td><a href="http://data.gbif.org/occurrences/198207033">http://data.gbif.org/occurrences/198207033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.875,28.64167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004144</td><td>1956-05-06</td><td><a href="http://data.gbif.org/occurrences/25121013">http://data.gbif.org/occurrences/25121013</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.0833,27.7167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160850</td><td>1951-02-18</td><td><a href="http://data.gbif.org/occurrences/188899701">http://data.gbif.org/occurrences/188899701</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158144.5047421</td><td>1955-03-13</td><td><a href="http://data.gbif.org/occurrences/149818725">http://data.gbif.org/occurrences/149818725</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220418</td><td>1969-03-21</td><td><a href="http://data.gbif.org/occurrences/241240579">http://data.gbif.org/occurrences/241240579</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.267,26.833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220425</td><td>1968-12-05</td><td><a href="http://data.gbif.org/occurrences/188899744">http://data.gbif.org/occurrences/188899744</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-73.0,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220400.5078954</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/149818563">http://data.gbif.org/occurrences/149818563</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.2,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220440</td><td>1969-06-20</td><td><a href="http://data.gbif.org/occurrences/241240752">http://data.gbif.org/occurrences/241240752</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.35,28.283,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220387.5078941</td><td>1961-02-09</td><td><a href="http://data.gbif.org/occurrences/149818545">http://data.gbif.org/occurrences/149818545</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220380.5078934</td><td>1962-12-17</td><td><a href="http://data.gbif.org/occurrences/149818561">http://data.gbif.org/occurrences/149818561</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220381.5078935</td><td>1962-08-08</td><td><a href="http://data.gbif.org/occurrences/149818571">http://data.gbif.org/occurrences/149818571</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220380</td><td>1962-12-17</td><td><a href="http://data.gbif.org/occurrences/241240609">http://data.gbif.org/occurrences/241240609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.8,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220428</td><td>1963-10-09</td><td><a href="http://data.gbif.org/occurrences/241240287">http://data.gbif.org/occurrences/241240287</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-67.8,10.833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004149</td><td>1951-06-07</td><td><a href="http://data.gbif.org/occurrences/25121018">http://data.gbif.org/occurrences/25121018</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.7417,28.8833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220379</td><td>1964-02-21</td><td><a href="http://data.gbif.org/occurrences/241240262">http://data.gbif.org/occurrences/241240262</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.275,28.017,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220435</td><td>1964-02-22</td><td><a href="http://data.gbif.org/occurrences/241240741">http://data.gbif.org/occurrences/241240741</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.467,27.917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220395</td><td>1969-06-18</td><td><a href="http://data.gbif.org/occurrences/188899726">http://data.gbif.org/occurrences/188899726</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.0,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160851</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/188899702">http://data.gbif.org/occurrences/188899702</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160855</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/188899703">http://data.gbif.org/occurrences/188899703</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160858</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/188899706">http://data.gbif.org/occurrences/188899706</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.875,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220392.5078946</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/149818578">http://data.gbif.org/occurrences/149818578</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.1,18.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>41910</td><td></td><td><a href="http://data.gbif.org/occurrences/328431519">http://data.gbif.org/occurrences/328431519</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-62.9833,11.5833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220404.5078958</td><td>1969-11-18</td><td><a href="http://data.gbif.org/occurrences/149818590">http://data.gbif.org/occurrences/149818590</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.3,7.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220435</td><td>1964-02-22</td><td><a href="http://data.gbif.org/occurrences/188899752">http://data.gbif.org/occurrences/188899752</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.0,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220382.5078936</td><td>1964-01-28</td><td><a href="http://data.gbif.org/occurrences/149818574">http://data.gbif.org/occurrences/149818574</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.3,26.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220393.5078947</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/149818581">http://data.gbif.org/occurrences/149818581</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.6,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220378</td><td>1969-05-14</td><td><a href="http://data.gbif.org/occurrences/188899709">http://data.gbif.org/occurrences/188899709</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220403</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/188899734">http://data.gbif.org/occurrences/188899734</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220426</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/188899745">http://data.gbif.org/occurrences/188899745</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220439</td><td>1969-05-15</td><td><a href="http://data.gbif.org/occurrences/188899756">http://data.gbif.org/occurrences/188899756</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.0,7.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220383.5078937</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/149818580">http://data.gbif.org/occurrences/149818580</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158142.5047419</td><td></td><td><a href="http://data.gbif.org/occurrences/149818734">http://data.gbif.org/occurrences/149818734</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.5,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220436</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/188899753">http://data.gbif.org/occurrences/188899753</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220440</td><td>1969-06-20</td><td><a href="http://data.gbif.org/occurrences/188899757">http://data.gbif.org/occurrences/188899757</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220392</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/188899723">http://data.gbif.org/occurrences/188899723</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220441</td><td>1969-11-22</td><td><a href="http://data.gbif.org/occurrences/241240727">http://data.gbif.org/occurrences/241240727</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.533,7.633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220395.5078949</td><td>1969-06-18</td><td><a href="http://data.gbif.org/occurrences/149818596">http://data.gbif.org/occurrences/149818596</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.1,27.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>38162</td><td></td><td><a href="http://data.gbif.org/occurrences/328431564">http://data.gbif.org/occurrences/328431564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.1167,26.9833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220378</td><td>1969-05-14</td><td><a href="http://data.gbif.org/occurrences/241240645">http://data.gbif.org/occurrences/241240645</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.083,7.817,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220394</td><td>1964-05-19</td><td><a href="http://data.gbif.org/occurrences/241240780">http://data.gbif.org/occurrences/241240780</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.4417,11.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220421.5078975</td><td>1969-11-20</td><td><a href="http://data.gbif.org/occurrences/149818569">http://data.gbif.org/occurrences/149818569</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220441.5078995</td><td>1969-11-22</td><td><a href="http://data.gbif.org/occurrences/149818570">http://data.gbif.org/occurrences/149818570</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.5,7.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220399</td><td>1963-10-08</td><td><a href="http://data.gbif.org/occurrences/188899730">http://data.gbif.org/occurrences/188899730</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-68.0,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220423</td><td>1963-10-21</td><td><a href="http://data.gbif.org/occurrences/188899742">http://data.gbif.org/occurrences/188899742</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-64.0,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004151</td><td>1952-09-19</td><td><a href="http://data.gbif.org/occurrences/25121020">http://data.gbif.org/occurrences/25121020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.4,29.0167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P11177</td><td>1999-03-12</td><td><a href="http://data.gbif.org/occurrences/145102350">http://data.gbif.org/occurrences/145102350</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P11177</td><td>1999-03-12</td><td><a href="http://data.gbif.org/occurrences/240516729">http://data.gbif.org/occurrences/240516729</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.537,18.798,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1955.5.11.3</td><td></td><td><a href="http://data.gbif.org/occurrences/188899692">http://data.gbif.org/occurrences/188899692</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220382</td><td>1964-01-28</td><td><a href="http://data.gbif.org/occurrences/188899713">http://data.gbif.org/occurrences/188899713</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220418</td><td>1969-03-21</td><td><a href="http://data.gbif.org/occurrences/188899737">http://data.gbif.org/occurrences/188899737</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220427</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/188899746">http://data.gbif.org/occurrences/188899746</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.0,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220428</td><td>1963-10-09</td><td><a href="http://data.gbif.org/occurrences/188899747">http://data.gbif.org/occurrences/188899747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-67.0,10.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004152</td><td>1954-06-15</td><td><a href="http://data.gbif.org/occurrences/25121021">http://data.gbif.org/occurrences/25121021</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.5833,29.0333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004160</td><td>1952-09-19</td><td><a href="http://data.gbif.org/occurrences/25121029">http://data.gbif.org/occurrences/25121029</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.3433,29.2067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220427.5078981</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/149818546">http://data.gbif.org/occurrences/149818546</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.2,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220442</td><td>1962-07-29</td><td><a href="http://data.gbif.org/occurrences/241240611">http://data.gbif.org/occurrences/241240611</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.65,28.8583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220446.5079000</td><td>1969-11-17</td><td><a href="http://data.gbif.org/occurrences/149818616">http://data.gbif.org/occurrences/149818616</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.1,7.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220436</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/241240449">http://data.gbif.org/occurrences/241240449</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.983,28.833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220395</td><td>1969-06-18</td><td><a href="http://data.gbif.org/occurrences/241240382">http://data.gbif.org/occurrences/241240382</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.1,27.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>OZCAM (Online Zoological Collections of Australian Museums) Provider</td><td>AM</td><td>Ichthyology</td><td>IB.3734</td><td></td><td><a href="http://data.gbif.org/occurrences/223321110">http://data.gbif.org/occurrences/223321110</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.0,27.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>39753</td><td></td><td><a href="http://data.gbif.org/occurrences/328431819">http://data.gbif.org/occurrences/328431819</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0833,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220391.5078945</td><td>1970-06-02</td><td><a href="http://data.gbif.org/occurrences/149818572">http://data.gbif.org/occurrences/149818572</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.3,23.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220404</td><td>1969-11-18</td><td><a href="http://data.gbif.org/occurrences/241240502">http://data.gbif.org/occurrences/241240502</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.267,7.433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004167</td><td>1955-03-03</td><td><a href="http://data.gbif.org/occurrences/25121036">http://data.gbif.org/occurrences/25121036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.8,29.3833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220445</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/241240273">http://data.gbif.org/occurrences/241240273</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.433,18.933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (9 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160849</td><td>1951-02-17</td><td><a href="http://data.gbif.org/occurrences/188899700">http://data.gbif.org/occurrences/188899700</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160856</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/188899704">http://data.gbif.org/occurrences/188899704</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160857</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/188899705">http://data.gbif.org/occurrences/188899705</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220377</td><td>1962-09-02</td><td><a href="http://data.gbif.org/occurrences/188899708">http://data.gbif.org/occurrences/188899708</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220380</td><td>1962-12-17</td><td><a href="http://data.gbif.org/occurrences/188899711">http://data.gbif.org/occurrences/188899711</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220381</td><td>1962-08-08</td><td><a href="http://data.gbif.org/occurrences/188899712">http://data.gbif.org/occurrences/188899712</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220384</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/188899715">http://data.gbif.org/occurrences/188899715</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220387</td><td>1961-02-09</td><td><a href="http://data.gbif.org/occurrences/188899718">http://data.gbif.org/occurrences/188899718</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220400</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/188899731">http://data.gbif.org/occurrences/188899731</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004142</td><td>1952-04-11</td><td><a href="http://data.gbif.org/occurrences/25121011">http://data.gbif.org/occurrences/25121011</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.17,27.5717,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220405</td><td>1964-03-10</td><td><a href="http://data.gbif.org/occurrences/241240490">http://data.gbif.org/occurrences/241240490</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.833,28.2417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158151</td><td></td><td><a href="http://data.gbif.org/occurrences/241240434">http://data.gbif.org/occurrences/241240434</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.767,28.333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220402</td><td>1969-06-25</td><td><a href="http://data.gbif.org/occurrences/241240300">http://data.gbif.org/occurrences/241240300</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.267,29.067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004150</td><td>1951-09-07</td><td><a href="http://data.gbif.org/occurrences/25121019">http://data.gbif.org/occurrences/25121019</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.7083,28.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220393</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/241240626">http://data.gbif.org/occurrences/241240626</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.617,28.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220391</td><td>1970-06-02</td><td><a href="http://data.gbif.org/occurrences/241240574">http://data.gbif.org/occurrences/241240574</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.3,23.417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004148</td><td>1951-01-27</td><td><a href="http://data.gbif.org/occurrences/25121017">http://data.gbif.org/occurrences/25121017</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.05,28.6833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004145</td><td>1951-09-29</td><td><a href="http://data.gbif.org/occurrences/25121014">http://data.gbif.org/occurrences/25121014</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.15,27.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40662</td><td></td><td><a href="http://data.gbif.org/occurrences/328431374">http://data.gbif.org/occurrences/328431374</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.3333,29.05,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220394.5078948</td><td>1964-05-19</td><td><a href="http://data.gbif.org/occurrences/149818589">http://data.gbif.org/occurrences/149818589</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.4417,11.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004147</td><td>1951-09-29</td><td><a href="http://data.gbif.org/occurrences/25121016">http://data.gbif.org/occurrences/25121016</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-84.9833,27.8167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>39754</td><td></td><td><a href="http://data.gbif.org/occurrences/328431821">http://data.gbif.org/occurrences/328431821</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.5833,27.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220440.5078994</td><td>1969-06-20</td><td><a href="http://data.gbif.org/occurrences/149818566">http://data.gbif.org/occurrences/149818566</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.3,28.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220434.5078988</td><td>1970-06-09</td><td><a href="http://data.gbif.org/occurrences/149818593">http://data.gbif.org/occurrences/149818593</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.9,19.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (15 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004169</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/25121038">http://data.gbif.org/occurrences/25121038</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160851.5047927</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/149818736">http://data.gbif.org/occurrences/149818736</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160855.5047931</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/149818759">http://data.gbif.org/occurrences/149818759</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160856.5047932</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/149818760">http://data.gbif.org/occurrences/149818760</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160857.5047933</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/149818761">http://data.gbif.org/occurrences/149818761</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160858.5047934</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/149818762">http://data.gbif.org/occurrences/149818762</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160849.5047925</td><td>1951-02-17</td><td><a href="http://data.gbif.org/occurrences/149818764">http://data.gbif.org/occurrences/149818764</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160850.5047926</td><td>1951-02-18</td><td><a href="http://data.gbif.org/occurrences/149818766">http://data.gbif.org/occurrences/149818766</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160856</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/241240268">http://data.gbif.org/occurrences/241240268</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160855</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/241240317">http://data.gbif.org/occurrences/241240317</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160858</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/241240318">http://data.gbif.org/occurrences/241240318</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160857</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/241240329">http://data.gbif.org/occurrences/241240329</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160849</td><td>1951-02-17</td><td><a href="http://data.gbif.org/occurrences/241240399">http://data.gbif.org/occurrences/241240399</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160851</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/241240569">http://data.gbif.org/occurrences/241240569</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160850</td><td>1951-02-18</td><td><a href="http://data.gbif.org/occurrences/241240747">http://data.gbif.org/occurrences/241240747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.3167,29.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004161</td><td>1956-05-16</td><td><a href="http://data.gbif.org/occurrences/25121030">http://data.gbif.org/occurrences/25121030</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.9667,29.2167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220445</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/188899762">http://data.gbif.org/occurrences/188899762</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220382</td><td>1964-01-28</td><td><a href="http://data.gbif.org/occurrences/241240692">http://data.gbif.org/occurrences/241240692</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.3,26.917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220421</td><td>1969-11-20</td><td><a href="http://data.gbif.org/occurrences/241240328">http://data.gbif.org/occurrences/241240328</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.517,7.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220397</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/188899728">http://data.gbif.org/occurrences/188899728</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220419</td><td>1962-10-03</td><td><a href="http://data.gbif.org/occurrences/188899738">http://data.gbif.org/occurrences/188899738</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220424</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/188899743">http://data.gbif.org/occurrences/188899743</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.0,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004170</td><td>1956-02-18</td><td><a href="http://data.gbif.org/occurrences/25121039">http://data.gbif.org/occurrences/25121039</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.1167,29.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220418.5078972</td><td>1969-03-21</td><td><a href="http://data.gbif.org/occurrences/149818551">http://data.gbif.org/occurrences/149818551</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.3,26.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220420</td><td>1963-12-07</td><td><a href="http://data.gbif.org/occurrences/188899739">http://data.gbif.org/occurrences/188899739</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.0,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220442.5078996</td><td>1962-07-29</td><td><a href="http://data.gbif.org/occurrences/149818577">http://data.gbif.org/occurrences/149818577</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.7,28.8583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220399.5078953</td><td>1963-10-08</td><td><a href="http://data.gbif.org/occurrences/149818556">http://data.gbif.org/occurrences/149818556</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-68.4,11.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220442</td><td>1962-07-29</td><td><a href="http://data.gbif.org/occurrences/188899759">http://data.gbif.org/occurrences/188899759</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0,28.8583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220426.5078980</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/149818541">http://data.gbif.org/occurrences/149818541</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.6,7.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220439.5078993</td><td>1969-05-15</td><td><a href="http://data.gbif.org/occurrences/149818559">http://data.gbif.org/occurrences/149818559</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.4,7.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004146</td><td>1951-09-29</td><td><a href="http://data.gbif.org/occurrences/25121015">http://data.gbif.org/occurrences/25121015</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-85.0333,27.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158142</td><td></td><td><a href="http://data.gbif.org/occurrences/188899697">http://data.gbif.org/occurrences/188899697</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158144</td><td>1955-03-13</td><td><a href="http://data.gbif.org/occurrences/188899698">http://data.gbif.org/occurrences/188899698</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220383</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/188899714">http://data.gbif.org/occurrences/188899714</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220388</td><td>1962-08-22</td><td><a href="http://data.gbif.org/occurrences/188899719">http://data.gbif.org/occurrences/188899719</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220396</td><td>1962-10-23</td><td><a href="http://data.gbif.org/occurrences/188899727">http://data.gbif.org/occurrences/188899727</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220402</td><td>1969-06-25</td><td><a href="http://data.gbif.org/occurrences/188899733">http://data.gbif.org/occurrences/188899733</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220422</td><td>1963-12-11</td><td><a href="http://data.gbif.org/occurrences/188899741">http://data.gbif.org/occurrences/188899741</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220433</td><td>1969-02-25</td><td><a href="http://data.gbif.org/occurrences/188899750">http://data.gbif.org/occurrences/188899750</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11177</td><td>1999-03-12</td><td><a href="http://data.gbif.org/occurrences/46404377">http://data.gbif.org/occurrences/46404377</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.5367,18.7983,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220378.5078932</td><td>1969-05-14</td><td><a href="http://data.gbif.org/occurrences/149818548">http://data.gbif.org/occurrences/149818548</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.1,7.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220392</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/241240425">http://data.gbif.org/occurrences/241240425</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.083,18.883,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220388</td><td>1962-08-22</td><td><a href="http://data.gbif.org/occurrences/241240420">http://data.gbif.org/occurrences/241240420</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.283,29.133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (9 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220389</td><td>1969-11-24</td><td><a href="http://data.gbif.org/occurrences/188899720">http://data.gbif.org/occurrences/188899720</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220398</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/188899729">http://data.gbif.org/occurrences/188899729</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220404</td><td>1969-11-18</td><td><a href="http://data.gbif.org/occurrences/188899735">http://data.gbif.org/occurrences/188899735</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220421</td><td>1969-11-20</td><td><a href="http://data.gbif.org/occurrences/188899740">http://data.gbif.org/occurrences/188899740</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220437</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/188899754">http://data.gbif.org/occurrences/188899754</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220438</td><td>1969-11-25</td><td><a href="http://data.gbif.org/occurrences/188899755">http://data.gbif.org/occurrences/188899755</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220441</td><td>1969-11-22</td><td><a href="http://data.gbif.org/occurrences/188899758">http://data.gbif.org/occurrences/188899758</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220444</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/188899761">http://data.gbif.org/occurrences/188899761</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220446</td><td>1969-11-17</td><td><a href="http://data.gbif.org/occurrences/188899763">http://data.gbif.org/occurrences/188899763</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.0,7.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004153</td><td>1951-09-06</td><td><a href="http://data.gbif.org/occurrences/25121022">http://data.gbif.org/occurrences/25121022</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.4667,29.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004156</td><td>1956-05-19</td><td><a href="http://data.gbif.org/occurrences/25121025">http://data.gbif.org/occurrences/25121025</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.2667,29.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>39745</td><td></td><td><a href="http://data.gbif.org/occurrences/328431782">http://data.gbif.org/occurrences/328431782</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.2333,29.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220423.5078977</td><td>1963-10-21</td><td><a href="http://data.gbif.org/occurrences/149818583">http://data.gbif.org/occurrences/149818583</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-64.4,11.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220403.5078957</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/149818582">http://data.gbif.org/occurrences/149818582</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.7,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220420.5078974</td><td>1963-12-07</td><td><a href="http://data.gbif.org/occurrences/149818564">http://data.gbif.org/occurrences/149818564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.6,23.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220437.5078991</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/149818547">http://data.gbif.org/occurrences/149818547</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.0,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220439</td><td>1969-05-15</td><td><a href="http://data.gbif.org/occurrences/241240456">http://data.gbif.org/occurrences/241240456</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.383,7.85,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004159</td><td>1956-05-18</td><td><a href="http://data.gbif.org/occurrences/25121028">http://data.gbif.org/occurrences/25121028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.9833,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>189199</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198207050">http://data.gbif.org/occurrences/198207050</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.67778,28.52417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187785</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198207035">http://data.gbif.org/occurrences/198207035</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.80722,28.60556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220435.5078989</td><td>1964-02-22</td><td><a href="http://data.gbif.org/occurrences/149818599">http://data.gbif.org/occurrences/149818599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.5,27.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220398</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/241240429">http://data.gbif.org/occurrences/241240429</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.7,7.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220433</td><td>1969-02-25</td><td><a href="http://data.gbif.org/occurrences/241240519">http://data.gbif.org/occurrences/241240519</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.217,29.133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220403</td><td>1957-11-07</td><td><a href="http://data.gbif.org/occurrences/241240670">http://data.gbif.org/occurrences/241240670</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-54.667,7.733,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>TAMU                                              </td><td>DGoMB</td><td>1 MT1139</td><td></td><td><a href="http://data.gbif.org/occurrences/24692762">http://data.gbif.org/occurrences/24692762</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.8619,28.5722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220377.5078931</td><td>1962-09-02</td><td><a href="http://data.gbif.org/occurrences/149818544">http://data.gbif.org/occurrences/149818544</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.5,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220385</td><td>1969-03-15</td><td><a href="http://data.gbif.org/occurrences/241240464">http://data.gbif.org/occurrences/241240464</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.9,27.417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220384.5078938</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/149818588">http://data.gbif.org/occurrences/149818588</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.0,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>75048.5024108</td><td></td><td><a href="http://data.gbif.org/occurrences/149818677">http://data.gbif.org/occurrences/149818677</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00075048</td><td></td><td><a href="http://data.gbif.org/occurrences/188899694">http://data.gbif.org/occurrences/188899694</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>75048</td><td></td><td><a href="http://data.gbif.org/occurrences/241240374">http://data.gbif.org/occurrences/241240374</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.2667,29.0542,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220434</td><td>1970-06-09</td><td><a href="http://data.gbif.org/occurrences/241240565">http://data.gbif.org/occurrences/241240565</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.917,19.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220396</td><td>1962-10-23</td><td><a href="http://data.gbif.org/occurrences/241240768">http://data.gbif.org/occurrences/241240768</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.333,29.05,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220443.5078997</td><td>1964-05-18</td><td><a href="http://data.gbif.org/occurrences/149818585">http://data.gbif.org/occurrences/149818585</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220443</td><td>1964-05-18</td><td><a href="http://data.gbif.org/occurrences/188899760">http://data.gbif.org/occurrences/188899760</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220443</td><td>1964-05-18</td><td><a href="http://data.gbif.org/occurrences/241240491">http://data.gbif.org/occurrences/241240491</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.475,11.18,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004158</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/25121027">http://data.gbif.org/occurrences/25121027</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>113381.5036891</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/149818661">http://data.gbif.org/occurrences/149818661</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157832.5047303</td><td></td><td><a href="http://data.gbif.org/occurrences/149818665">http://data.gbif.org/occurrences/149818665</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00113381</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/188899695">http://data.gbif.org/occurrences/188899695</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00157832</td><td></td><td><a href="http://data.gbif.org/occurrences/188899696">http://data.gbif.org/occurrences/188899696</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157832</td><td></td><td><a href="http://data.gbif.org/occurrences/241240407">http://data.gbif.org/occurrences/241240407</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>113381</td><td>1951-02-24</td><td><a href="http://data.gbif.org/occurrences/241240745">http://data.gbif.org/occurrences/241240745</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.875,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220389</td><td>1969-11-24</td><td><a href="http://data.gbif.org/occurrences/241240477">http://data.gbif.org/occurrences/241240477</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.85,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220419.5078973</td><td>1962-10-03</td><td><a href="http://data.gbif.org/occurrences/149818557">http://data.gbif.org/occurrences/149818557</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.4,11.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220401</td><td>1962-08-26</td><td><a href="http://data.gbif.org/occurrences/188899732">http://data.gbif.org/occurrences/188899732</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.1083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004163</td><td>1955-03-04</td><td><a href="http://data.gbif.org/occurrences/25121032">http://data.gbif.org/occurrences/25121032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.35,29.2667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220400</td><td>1970-02-05</td><td><a href="http://data.gbif.org/occurrences/241240276">http://data.gbif.org/occurrences/241240276</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.15,29.183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220393</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/188899724">http://data.gbif.org/occurrences/188899724</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220420</td><td>1963-12-07</td><td><a href="http://data.gbif.org/occurrences/241240322">http://data.gbif.org/occurrences/241240322</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.617,23.067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220390.5078944</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/149818562">http://data.gbif.org/occurrences/149818562</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220390</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/188899721">http://data.gbif.org/occurrences/188899721</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220390</td><td>1962-08-25</td><td><a href="http://data.gbif.org/occurrences/241240522">http://data.gbif.org/occurrences/241240522</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.725,28.925,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220427</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/241240742">http://data.gbif.org/occurrences/241240742</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.233,26.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220429.5078983</td><td>1964-02-23</td><td><a href="http://data.gbif.org/occurrences/149818558">http://data.gbif.org/occurrences/149818558</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220429</td><td>1964-02-23</td><td><a href="http://data.gbif.org/occurrences/188899748">http://data.gbif.org/occurrences/188899748</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220429</td><td>1964-02-23</td><td><a href="http://data.gbif.org/occurrences/241240513">http://data.gbif.org/occurrences/241240513</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.7417,27.6417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220430</td><td>1957-09-16</td><td><a href="http://data.gbif.org/occurrences/188899749">http://data.gbif.org/occurrences/188899749</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-82.0,16.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40162</td><td></td><td><a href="http://data.gbif.org/occurrences/328431314">http://data.gbif.org/occurrences/328431314</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-82.4833,16.65,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004141</td><td>1952-04-18</td><td><a href="http://data.gbif.org/occurrences/25121010">http://data.gbif.org/occurrences/25121010</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.28,27.0233,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>TAMU                                              </td><td>DGoMB</td><td>1 S35140</td><td></td><td><a href="http://data.gbif.org/occurrences/24692861">http://data.gbif.org/occurrences/24692861</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.0294,29.3758,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220438</td><td>1969-11-25</td><td><a href="http://data.gbif.org/occurrences/241240686">http://data.gbif.org/occurrences/241240686</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.783,7.733,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220386</td><td>1964-10-04</td><td><a href="http://data.gbif.org/occurrences/241240659">http://data.gbif.org/occurrences/241240659</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.35,12.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220387</td><td>1961-02-09</td><td><a href="http://data.gbif.org/occurrences/241240600">http://data.gbif.org/occurrences/241240600</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.783,29.183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220385</td><td>1969-03-15</td><td><a href="http://data.gbif.org/occurrences/188899716">http://data.gbif.org/occurrences/188899716</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.0,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220434</td><td>1970-06-09</td><td><a href="http://data.gbif.org/occurrences/188899751">http://data.gbif.org/occurrences/188899751</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.0,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220379.5078933</td><td>1964-02-21</td><td><a href="http://data.gbif.org/occurrences/149818554">http://data.gbif.org/occurrences/149818554</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220379</td><td>1964-02-21</td><td><a href="http://data.gbif.org/occurrences/188899710">http://data.gbif.org/occurrences/188899710</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.275,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004154</td><td>1951-09-06</td><td><a href="http://data.gbif.org/occurrences/25121023">http://data.gbif.org/occurrences/25121023</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.5,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004162</td><td>1952-09-18</td><td><a href="http://data.gbif.org/occurrences/25121031">http://data.gbif.org/occurrences/25121031</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.9833,29.225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220396.5078950</td><td>1962-10-23</td><td><a href="http://data.gbif.org/occurrences/149818540">http://data.gbif.org/occurrences/149818540</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220388.5078942</td><td>1962-08-22</td><td><a href="http://data.gbif.org/occurrences/149818549">http://data.gbif.org/occurrences/149818549</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220402.5078956</td><td>1969-06-25</td><td><a href="http://data.gbif.org/occurrences/149818575">http://data.gbif.org/occurrences/149818575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.3,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220433.5078987</td><td>1969-02-25</td><td><a href="http://data.gbif.org/occurrences/149818584">http://data.gbif.org/occurrences/149818584</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.2,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220422.5078976</td><td>1963-12-11</td><td><a href="http://data.gbif.org/occurrences/149818576">http://data.gbif.org/occurrences/149818576</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220422</td><td>1963-12-11</td><td><a href="http://data.gbif.org/occurrences/241240444">http://data.gbif.org/occurrences/241240444</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.1,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27367</td><td>1992-03-31</td><td><a href="http://data.gbif.org/occurrences/188899693">http://data.gbif.org/occurrences/188899693</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.5261,29.0819,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004166</td><td>1951-02-17</td><td><a href="http://data.gbif.org/occurrences/25121035">http://data.gbif.org/occurrences/25121035</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.4167,29.3833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220430.5078984</td><td>1957-09-16</td><td><a href="http://data.gbif.org/occurrences/149818565">http://data.gbif.org/occurrences/149818565</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220430</td><td>1957-09-16</td><td><a href="http://data.gbif.org/occurrences/241240534">http://data.gbif.org/occurrences/241240534</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-82.6,16.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220401.5078955</td><td>1962-08-26</td><td><a href="http://data.gbif.org/occurrences/149818568">http://data.gbif.org/occurrences/149818568</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220401</td><td>1962-08-26</td><td><a href="http://data.gbif.org/occurrences/241240310">http://data.gbif.org/occurrences/241240310</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.3333,29.1083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>40660</td><td></td><td><a href="http://data.gbif.org/occurrences/328431373">http://data.gbif.org/occurrences/328431373</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-83.55,24.4333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158151.5047428</td><td></td><td><a href="http://data.gbif.org/occurrences/149818733">http://data.gbif.org/occurrences/149818733</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.8,28.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187770</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198207034">http://data.gbif.org/occurrences/198207034</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-89.88333,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>61996</td><td></td><td><a href="http://data.gbif.org/occurrences/328432088">http://data.gbif.org/occurrences/328432088</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.6,27.9333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220437</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/241240448">http://data.gbif.org/occurrences/241240448</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.983,7.733,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004165</td><td>1951-04-28</td><td><a href="http://data.gbif.org/occurrences/25121034">http://data.gbif.org/occurrences/25121034</a></td></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>38080</td><td></td><td><a href="http://data.gbif.org/occurrences/328431549">http://data.gbif.org/occurrences/328431549</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.4167,29.3333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220386.5078940</td><td>1964-10-04</td><td><a href="http://data.gbif.org/occurrences/149818539">http://data.gbif.org/occurrences/149818539</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.3,12.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220394</td><td>1964-05-19</td><td><a href="http://data.gbif.org/occurrences/188899725">http://data.gbif.org/occurrences/188899725</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.4417,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-004155</td><td>1959-06-03</td><td><a href="http://data.gbif.org/occurrences/25121024">http://data.gbif.org/occurrences/25121024</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.1833,29.1167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00220386</td><td>1964-10-04</td><td><a href="http://data.gbif.org/occurrences/188899717">http://data.gbif.org/occurrences/188899717</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.0,12.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220384</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/241240461">http://data.gbif.org/occurrences/241240461</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.05,29.283,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220438.5078992</td><td>1969-11-25</td><td><a href="http://data.gbif.org/occurrences/149818553">http://data.gbif.org/occurrences/149818553</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.8,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220398.5078952</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/149818550">http://data.gbif.org/occurrences/149818550</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.7,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220389.5078943</td><td>1969-11-24</td><td><a href="http://data.gbif.org/occurrences/149818555">http://data.gbif.org/occurrences/149818555</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-53.9,7.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220397.5078951</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/149818543">http://data.gbif.org/occurrences/149818543</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.2,11.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Etmopterus schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>220397</td><td>1963-10-04</td><td><a href="http://data.gbif.org/occurrences/241240292">http://data.gbif.org/occurrences/241240292</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-69.217,11.717,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

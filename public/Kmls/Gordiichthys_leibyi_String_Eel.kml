@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Atlantic Reference Centre (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/341">http://data.gbif.org/datasets/resource/341</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Gordiichthys leibyi</name>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>263571</td><td>1982-06-25</td><td><a href="http://data.gbif.org/occurrences/241261422">http://data.gbif.org/occurrences/241261422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-80.167,28.833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41598</td><td>2004-06-14</td><td><a href="http://data.gbif.org/occurrences/199211864">http://data.gbif.org/occurrences/199211864</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-76.4354,33.5848,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>ARC</td><td>ARC</td><td>8601003</td><td>1981-10-08</td><td><a href="http://data.gbif.org/occurrences/17474470">http://data.gbif.org/occurrences/17474470</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-63.9833,43.8167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41162</td><td>2001-08-23</td><td><a href="http://data.gbif.org/occurrences/199212449">http://data.gbif.org/occurrences/199212449</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-74.783,35.4986,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00263571</td><td>1982-06-25</td><td><a href="http://data.gbif.org/occurrences/219058874">http://data.gbif.org/occurrences/219058874</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-80.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41467</td><td>2000-07-23</td><td><a href="http://data.gbif.org/occurrences/199211703">http://data.gbif.org/occurrences/199211703</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-74.7749,35.5006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41387</td><td>2000-07-21</td><td><a href="http://data.gbif.org/occurrences/199211788">http://data.gbif.org/occurrences/199211788</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-74.7667,35.51,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41403</td><td>2000-07-21</td><td><a href="http://data.gbif.org/occurrences/199212575">http://data.gbif.org/occurrences/199212575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-74.7603,35.5276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>168427</td><td></td><td><a href="http://data.gbif.org/occurrences/328444258">http://data.gbif.org/occurrences/328444258</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-66.4,38.3833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 51162</td><td>1982-06-25</td><td><a href="http://data.gbif.org/occurrences/219058876">http://data.gbif.org/occurrences/219058876</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-80.1667,28.8333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>263571.5122014</td><td>1982-06-25</td><td><a href="http://data.gbif.org/occurrences/149859855">http://data.gbif.org/occurrences/149859855</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-80.2,28.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gordiichthys leibyi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 52671</td><td>1974-06-04</td><td><a href="http://data.gbif.org/occurrences/219058875">http://data.gbif.org/occurrences/219058875</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon14</styleUrl>
+   <Point>
+    <coordinates>-8.05833,29.8,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

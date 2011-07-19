@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-06-03)<br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-06-03)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-03)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-06-03)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-03)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-03)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-03)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Adinia xenica</name>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>1395</td><td>1951-08-11</td><td><a href="http://data.gbif.org/occurrences/198154496">http://data.gbif.org/occurrences/198154496</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.23055,29.28722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81391</td><td>1967-12-01</td><td><a href="http://data.gbif.org/occurrences/198155167">http://data.gbif.org/occurrences/198155167</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.92861,29.27806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138581</td><td>1984-11-24</td><td><a href="http://data.gbif.org/occurrences/198155291">http://data.gbif.org/occurrences/198155291</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143491</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198155313">http://data.gbif.org/occurrences/198155313</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.82389,30.40222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143780</td><td>1985-08-25</td><td><a href="http://data.gbif.org/occurrences/198155316">http://data.gbif.org/occurrences/198155316</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.28722,30.36083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>46297</td><td>1891-12-04</td><td><a href="http://data.gbif.org/occurrences/241131864">http://data.gbif.org/occurrences/241131864</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-94.8452,29.3679,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20961</td><td>1959-08-12</td><td><a href="http://data.gbif.org/occurrences/198154720">http://data.gbif.org/occurrences/198154720</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-81.98944,26.48917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44588</td><td>1967-04-01</td><td><a href="http://data.gbif.org/occurrences/198155036">http://data.gbif.org/occurrences/198155036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.67973,29.86555,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>19161</td><td>1958-05-10</td><td><a href="http://data.gbif.org/occurrences/198154701">http://data.gbif.org/occurrences/198154701</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.20084,29.465,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41211</td><td>1966-05-06</td><td><a href="http://data.gbif.org/occurrences/198155013">http://data.gbif.org/occurrences/198155013</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-87.03919,30.35175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143471</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198155311">http://data.gbif.org/occurrences/198155311</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.90417,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107312</td><td>1972-02-16</td><td><a href="http://data.gbif.org/occurrences/198155257">http://data.gbif.org/occurrences/198155257</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.69222,29.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.006018</td><td>1969-01-07</td><td><a href="http://data.gbif.org/occurrences/202555826">http://data.gbif.org/occurrences/202555826</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.275,30.083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>159616</td><td>1980-06-25</td><td><a href="http://data.gbif.org/occurrences/198155329">http://data.gbif.org/occurrences/198155329</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.44583,29.09278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>46317</td><td>1967-04-29</td><td><a href="http://data.gbif.org/occurrences/198155044">http://data.gbif.org/occurrences/198155044</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-85.28472,30.14222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>14</td><td>1951-05-19</td><td><a href="http://data.gbif.org/occurrences/198154493">http://data.gbif.org/occurrences/198154493</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.23556,29.31222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8476</td><td>1953-11-17</td><td><a href="http://data.gbif.org/occurrences/198154547">http://data.gbif.org/occurrences/198154547</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-80.50305,25.03167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11251</td><td>1956-03-02</td><td><a href="http://data.gbif.org/occurrences/198154623">http://data.gbif.org/occurrences/198154623</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11275</td><td>1956-03-10</td><td><a href="http://data.gbif.org/occurrences/198154624">http://data.gbif.org/occurrences/198154624</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11906</td><td>1956-03-24</td><td><a href="http://data.gbif.org/occurrences/198154628">http://data.gbif.org/occurrences/198154628</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17309</td><td>1958-02-24</td><td><a href="http://data.gbif.org/occurrences/198154674">http://data.gbif.org/occurrences/198154674</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20011</td><td>1959-04-16</td><td><a href="http://data.gbif.org/occurrences/198154703">http://data.gbif.org/occurrences/198154703</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.85639,30.155,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (6 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150556</td><td>1987-11-01</td><td><a href="http://data.gbif.org/occurrences/198155322">http://data.gbif.org/occurrences/198155322</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150725</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/198155323">http://data.gbif.org/occurrences/198155323</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150858</td><td>1987-12-05</td><td><a href="http://data.gbif.org/occurrences/198155324">http://data.gbif.org/occurrences/198155324</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>151068</td><td>1987-12-22</td><td><a href="http://data.gbif.org/occurrences/198155325">http://data.gbif.org/occurrences/198155325</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>153594</td><td>1988-09-30</td><td><a href="http://data.gbif.org/occurrences/198155326">http://data.gbif.org/occurrences/198155326</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>153610</td><td>1988-09-30</td><td><a href="http://data.gbif.org/occurrences/198155327">http://data.gbif.org/occurrences/198155327</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.45139,29.36028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>79206</td><td>1977-02-02</td><td><a href="http://data.gbif.org/occurrences/46497886">http://data.gbif.org/occurrences/46497886</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-81.49555,24.66341,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71209</td><td>1970-12-04</td><td><a href="http://data.gbif.org/occurrences/198155103">http://data.gbif.org/occurrences/198155103</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77579</td><td>1970-12-04</td><td><a href="http://data.gbif.org/occurrences/198155127">http://data.gbif.org/occurrences/198155127</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.85333,29.79278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26978</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188576788">http://data.gbif.org/occurrences/188576788</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.7997,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17827</td><td>1958-02-24</td><td><a href="http://data.gbif.org/occurrences/198154677">http://data.gbif.org/occurrences/198154677</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18388</td><td>1958-05-30</td><td><a href="http://data.gbif.org/occurrences/198154684">http://data.gbif.org/occurrences/198154684</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-82.75222,27.83861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>100956</td><td>1977-02-06</td><td><a href="http://data.gbif.org/occurrences/198155238">http://data.gbif.org/occurrences/198155238</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.12695,30.26083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>61013</td><td>1969-11-16</td><td><a href="http://data.gbif.org/occurrences/198155070">http://data.gbif.org/occurrences/198155070</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.02084,29.22694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124840</td><td>1927-01-04</td><td><a href="http://data.gbif.org/occurrences/241131870">http://data.gbif.org/occurrences/241131870</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-97.0745,27.8661,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147780</td><td>1985-12-04</td><td><a href="http://data.gbif.org/occurrences/198155321">http://data.gbif.org/occurrences/198155321</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.49695,30.20833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138494</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198155289">http://data.gbif.org/occurrences/198155289</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.39917,30.36611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>46559</td><td>1984-10-06</td><td><a href="http://data.gbif.org/occurrences/96375294">http://data.gbif.org/occurrences/96375294</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.089165,30.22139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143707</td><td>1985-08-12</td><td><a href="http://data.gbif.org/occurrences/198155314">http://data.gbif.org/occurrences/198155314</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.37028,30.35139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17048</td><td></td><td><a href="http://data.gbif.org/occurrences/190533623">http://data.gbif.org/occurrences/190533623</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-97.0791,27.8617,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1638</td><td></td><td><a href="http://data.gbif.org/occurrences/176208076">http://data.gbif.org/occurrences/176208076</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1641</td><td></td><td><a href="http://data.gbif.org/occurrences/176208078">http://data.gbif.org/occurrences/176208078</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29753</td><td></td><td><a href="http://data.gbif.org/occurrences/190533859">http://data.gbif.org/occurrences/190533859</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-95.1,29.03,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36159</td><td>1962-01-21</td><td><a href="http://data.gbif.org/occurrences/198154963">http://data.gbif.org/occurrences/198154963</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-80.80833,24.81167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19570</td><td></td><td><a href="http://data.gbif.org/occurrences/190533663">http://data.gbif.org/occurrences/190533663</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.5116,29.9154,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107326</td><td>1972-02-02</td><td><a href="http://data.gbif.org/occurrences/198155258">http://data.gbif.org/occurrences/198155258</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.83417,29.38305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77653</td><td>1970-06-08</td><td><a href="http://data.gbif.org/occurrences/198155131">http://data.gbif.org/occurrences/198155131</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.86333,29.85778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11565</td><td>1956-04-20</td><td><a href="http://data.gbif.org/occurrences/198154626">http://data.gbif.org/occurrences/198154626</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.72389,30.17139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142427</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198155296">http://data.gbif.org/occurrences/198155296</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142749</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198155301">http://data.gbif.org/occurrences/198155301</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.84306,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>188451</td><td>1969-06-10</td><td><a href="http://data.gbif.org/occurrences/198155424">http://data.gbif.org/occurrences/198155424</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.82333,29.93833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200354</td><td>1999-12-01</td><td><a href="http://data.gbif.org/occurrences/198155456">http://data.gbif.org/occurrences/198155456</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>91.335,29.398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 46559</td><td>1984-10-06</td><td><a href="http://data.gbif.org/occurrences/188576787">http://data.gbif.org/occurrences/188576787</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.0892,30.2214,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>186722</td><td>1998-10-16</td><td><a href="http://data.gbif.org/occurrences/198155422">http://data.gbif.org/occurrences/198155422</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>188387</td><td>1998-11-07</td><td><a href="http://data.gbif.org/occurrences/198155423">http://data.gbif.org/occurrences/198155423</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.44083,29.35695,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8684</td><td>1954-03-28</td><td><a href="http://data.gbif.org/occurrences/198154557">http://data.gbif.org/occurrences/198154557</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.83334,29.86667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76139</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198155117">http://data.gbif.org/occurrences/198155117</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76378</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155120">http://data.gbif.org/occurrences/198155120</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76568</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155121">http://data.gbif.org/occurrences/198155121</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76772</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155122">http://data.gbif.org/occurrences/198155122</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77585</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198155128">http://data.gbif.org/occurrences/198155128</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77592</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198155129">http://data.gbif.org/occurrences/198155129</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77923</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198155135">http://data.gbif.org/occurrences/198155135</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77951</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155136">http://data.gbif.org/occurrences/198155136</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.86555,29.84972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19448</td><td></td><td><a href="http://data.gbif.org/occurrences/190533661">http://data.gbif.org/occurrences/190533661</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.1125,30.0183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>12826</td><td></td><td><a href="http://data.gbif.org/occurrences/190533529">http://data.gbif.org/occurrences/190533529</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-82.6414,27.9067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.007511</td><td>1971-06-03</td><td><a href="http://data.gbif.org/occurrences/202555825">http://data.gbif.org/occurrences/202555825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-87.532,30.279,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7634</td><td>1953-11-15</td><td><a href="http://data.gbif.org/occurrences/198154537">http://data.gbif.org/occurrences/198154537</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-82.12778,26.59694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>46294</td><td>1967-04-29</td><td><a href="http://data.gbif.org/occurrences/198155043">http://data.gbif.org/occurrences/198155043</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-85.30527,29.75028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.007510</td><td>1971-06-07</td><td><a href="http://data.gbif.org/occurrences/202555834">http://data.gbif.org/occurrences/202555834</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-94.951,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130125</td><td>1981-12-09</td><td><a href="http://data.gbif.org/occurrences/198155285">http://data.gbif.org/occurrences/198155285</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.24445,30.34139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45354</td><td>1967-04-06</td><td><a href="http://data.gbif.org/occurrences/198155040">http://data.gbif.org/occurrences/198155040</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.94778,29.98083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142459</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198155297">http://data.gbif.org/occurrences/198155297</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142800</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198155305">http://data.gbif.org/occurrences/198155305</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143477</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198155312">http://data.gbif.org/occurrences/198155312</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.82472,30.40195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17357</td><td>1957-08-15</td><td><a href="http://data.gbif.org/occurrences/198154675">http://data.gbif.org/occurrences/198154675</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>19109</td><td>1957-11-30</td><td><a href="http://data.gbif.org/occurrences/198154699">http://data.gbif.org/occurrences/198154699</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.21445,29.46139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (10 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71224</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198155104">http://data.gbif.org/occurrences/198155104</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71992</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198155106">http://data.gbif.org/occurrences/198155106</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76312</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155118">http://data.gbif.org/occurrences/198155118</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77493</td><td>1971-01-22</td><td><a href="http://data.gbif.org/occurrences/198155123">http://data.gbif.org/occurrences/198155123</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77508</td><td>1971-01-22</td><td><a href="http://data.gbif.org/occurrences/198155124">http://data.gbif.org/occurrences/198155124</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77517</td><td>1971-01-22</td><td><a href="http://data.gbif.org/occurrences/198155125">http://data.gbif.org/occurrences/198155125</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77533</td><td>1971-01-22</td><td><a href="http://data.gbif.org/occurrences/198155126">http://data.gbif.org/occurrences/198155126</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77638</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198155130">http://data.gbif.org/occurrences/198155130</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77968</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198155137">http://data.gbif.org/occurrences/198155137</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78257</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198155141">http://data.gbif.org/occurrences/198155141</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.86333,29.7775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18589</td><td>1958-05-24</td><td><a href="http://data.gbif.org/occurrences/198154689">http://data.gbif.org/occurrences/198154689</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.76195,29.78778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>7467</td><td></td><td><a href="http://data.gbif.org/occurrences/190533437">http://data.gbif.org/occurrences/190533437</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-95.3092,28.9533,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6984</td><td>1953-10-23</td><td><a href="http://data.gbif.org/occurrences/198154532">http://data.gbif.org/occurrences/198154532</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15313</td><td>1956-10-28</td><td><a href="http://data.gbif.org/occurrences/198154649">http://data.gbif.org/occurrences/198154649</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.84417,30.22305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20216</td><td></td><td><a href="http://data.gbif.org/occurrences/190533674">http://data.gbif.org/occurrences/190533674</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-95.2929,28.956,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>160248</td><td>1980-02-05</td><td><a href="http://data.gbif.org/occurrences/198155331">http://data.gbif.org/occurrences/198155331</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.47111,29.11611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>63139</td><td>1970-06-08</td><td><a href="http://data.gbif.org/occurrences/198155075">http://data.gbif.org/occurrences/198155075</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77694</td><td>1971-09-25</td><td><a href="http://data.gbif.org/occurrences/198155132">http://data.gbif.org/occurrences/198155132</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.86195,29.85139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45848</td><td>1967-04-22</td><td><a href="http://data.gbif.org/occurrences/198155041">http://data.gbif.org/occurrences/198155041</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>46372</td><td>1967-04-22</td><td><a href="http://data.gbif.org/occurrences/198155045">http://data.gbif.org/occurrences/198155045</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-85.26472,29.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23624</td><td>1960-08-13</td><td><a href="http://data.gbif.org/occurrences/198154774">http://data.gbif.org/occurrences/198154774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.94639,29.27555,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71414</td><td>1962-04-14</td><td><a href="http://data.gbif.org/occurrences/198155105">http://data.gbif.org/occurrences/198155105</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.95444,29.25972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0343.1</td><td>1977-06-19</td><td><a href="http://data.gbif.org/occurrences/17583794">http://data.gbif.org/occurrences/17583794</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0343.1</td><td>1977-06-19</td><td><a href="http://data.gbif.org/occurrences/78308782">http://data.gbif.org/occurrences/78308782</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.75,29.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26994</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188576791">http://data.gbif.org/occurrences/188576791</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.7947,30.395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17060</td><td></td><td><a href="http://data.gbif.org/occurrences/190533624">http://data.gbif.org/occurrences/190533624</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-97.1721,27.6798,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27679</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188576789">http://data.gbif.org/occurrences/188576789</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26986</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188576790">http://data.gbif.org/occurrences/188576790</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.7975,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>47175</td><td>1967-05-19</td><td><a href="http://data.gbif.org/occurrences/198155047">http://data.gbif.org/occurrences/198155047</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.94,30.00556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19342</td><td></td><td><a href="http://data.gbif.org/occurrences/190533660">http://data.gbif.org/occurrences/190533660</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.7789,30.3819,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>1413</td><td>1951-05-19</td><td><a href="http://data.gbif.org/occurrences/198154497">http://data.gbif.org/occurrences/198154497</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.21111,29.25194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15056</td><td>1957-02-03</td><td><a href="http://data.gbif.org/occurrences/198154648">http://data.gbif.org/occurrences/198154648</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43570</td><td>1967-02-12</td><td><a href="http://data.gbif.org/occurrences/198155033">http://data.gbif.org/occurrences/198155033</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>115525</td><td>1979-05-23</td><td><a href="http://data.gbif.org/occurrences/198155273">http://data.gbif.org/occurrences/198155273</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.04278,29.20306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8266</td><td>1954-03-28</td><td><a href="http://data.gbif.org/occurrences/198154544">http://data.gbif.org/occurrences/198154544</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.81667,88.85,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107350</td><td>1972-11-17</td><td><a href="http://data.gbif.org/occurrences/198155259">http://data.gbif.org/occurrences/198155259</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164123</td><td>1972-02-21</td><td><a href="http://data.gbif.org/occurrences/198155340">http://data.gbif.org/occurrences/198155340</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164427</td><td>1972-08-31</td><td><a href="http://data.gbif.org/occurrences/198155344">http://data.gbif.org/occurrences/198155344</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164760</td><td>1973-11-15</td><td><a href="http://data.gbif.org/occurrences/198155346">http://data.gbif.org/occurrences/198155346</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164821</td><td>1974-03-14</td><td><a href="http://data.gbif.org/occurrences/198155347">http://data.gbif.org/occurrences/198155347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.66889,29.06472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>40569</td><td>1966-04-07</td><td><a href="http://data.gbif.org/occurrences/198155005">http://data.gbif.org/occurrences/198155005</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-85.2175,29.69306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102391</td><td>1977-06-11</td><td><a href="http://data.gbif.org/occurrences/198155243">http://data.gbif.org/occurrences/198155243</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-87.73666,30.24139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138594</td><td>1984-11-24</td><td><a href="http://data.gbif.org/occurrences/198155292">http://data.gbif.org/occurrences/198155292</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.80917,30.39305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67841</td><td>1971-03-05</td><td><a href="http://data.gbif.org/occurrences/198155092">http://data.gbif.org/occurrences/198155092</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.80417,29.38528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37217</td><td>1965-02-07</td><td><a href="http://data.gbif.org/occurrences/198154975">http://data.gbif.org/occurrences/198154975</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.95444,29.41556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6165</td><td>1953-03-29</td><td><a href="http://data.gbif.org/occurrences/198154512">http://data.gbif.org/occurrences/198154512</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.025,29.275,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77807</td><td>1971-11-14</td><td><a href="http://data.gbif.org/occurrences/198155133">http://data.gbif.org/occurrences/198155133</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.87945,29.89389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10865</td><td>1954-07-10</td><td><a href="http://data.gbif.org/occurrences/198154617">http://data.gbif.org/occurrences/198154617</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11195</td><td>1956-02-13</td><td><a href="http://data.gbif.org/occurrences/198154622">http://data.gbif.org/occurrences/198154622</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>56662</td><td>1968-10-11</td><td><a href="http://data.gbif.org/occurrences/198155066">http://data.gbif.org/occurrences/198155066</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>56669</td><td>1968-10-11</td><td><a href="http://data.gbif.org/occurrences/198155067">http://data.gbif.org/occurrences/198155067</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>99997</td><td>1976-10-23</td><td><a href="http://data.gbif.org/occurrences/198155237">http://data.gbif.org/occurrences/198155237</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138573</td><td>1984-11-24</td><td><a href="http://data.gbif.org/occurrences/198155290">http://data.gbif.org/occurrences/198155290</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142784</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198155303">http://data.gbif.org/occurrences/198155303</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27003</td><td>1996-11-07</td><td><a href="http://data.gbif.org/occurrences/188576792">http://data.gbif.org/occurrences/188576792</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.7922,30.395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>183003</td><td>1979-07-03</td><td><a href="http://data.gbif.org/occurrences/198155412">http://data.gbif.org/occurrences/198155412</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-90.19055,29.24861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77895</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198155134">http://data.gbif.org/occurrences/198155134</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.82333,29.87139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15335</td><td>1957-01-21</td><td><a href="http://data.gbif.org/occurrences/198154650">http://data.gbif.org/occurrences/198154650</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.41583,29.38806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>49901</td><td>1966-12-19</td><td><a href="http://data.gbif.org/occurrences/198155055">http://data.gbif.org/occurrences/198155055</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.83305,29.79445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142494</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198155299">http://data.gbif.org/occurrences/198155299</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.85445,30.42444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2272</td><td>1951-11-10</td><td><a href="http://data.gbif.org/occurrences/198154502">http://data.gbif.org/occurrences/198154502</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-84.34194,29.9475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>115520</td><td>1979-05-23</td><td><a href="http://data.gbif.org/occurrences/198155272">http://data.gbif.org/occurrences/198155272</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.92861,29.28389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17917</td><td>1958-01-27</td><td><a href="http://data.gbif.org/occurrences/198154683">http://data.gbif.org/occurrences/198154683</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-82.69083,27.70139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14930</td><td></td><td><a href="http://data.gbif.org/occurrences/190533576">http://data.gbif.org/occurrences/190533576</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.6874,30.2445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17413</td><td></td><td><a href="http://data.gbif.org/occurrences/190533629">http://data.gbif.org/occurrences/190533629</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19589</td><td></td><td><a href="http://data.gbif.org/occurrences/190533665">http://data.gbif.org/occurrences/190533665</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-83.0288,29.1602,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>14518</td><td>1956-11-23</td><td><a href="http://data.gbif.org/occurrences/198154645">http://data.gbif.org/occurrences/198154645</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-88.13583,30.31139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Adinia xenica</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107439</td><td>1972-12-15</td><td><a href="http://data.gbif.org/occurrences/198155261">http://data.gbif.org/occurrences/198155261</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon19</styleUrl>
+   <Point>
+    <coordinates>-89.95417,29.26528,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

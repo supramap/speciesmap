@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-06-20)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Calamus arctifrons</name>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>76132</td><td>1993-03-26</td><td><a href="http://data.gbif.org/occurrences/46507310">http://data.gbif.org/occurrences/46507310</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-83.0519,29.2847,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>6862-1</td><td>1965-01-06</td><td><a href="http://data.gbif.org/occurrences/79942108">http://data.gbif.org/occurrences/79942108</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-84.9,29.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>3137</td><td>1957-02-16</td><td><a href="http://data.gbif.org/occurrences/79942067">http://data.gbif.org/occurrences/79942067</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-83.15,28.4167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>3136</td><td>1957-02-16</td><td><a href="http://data.gbif.org/occurrences/79942066">http://data.gbif.org/occurrences/79942066</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-83.1833,28.5833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158566.5312865</td><td>1952-04-15</td><td><a href="http://data.gbif.org/occurrences/208537473">http://data.gbif.org/occurrences/208537473</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158566</td><td>1952-04-15</td><td><a href="http://data.gbif.org/occurrences/241171563">http://data.gbif.org/occurrences/241171563</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-94.71,28.48,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>6762-2</td><td>1965-05-07</td><td><a href="http://data.gbif.org/occurrences/79942106">http://data.gbif.org/occurrences/79942106</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-83.5333,29.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Calamus arctifrons</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16530</td><td>1951-04-04</td><td><a href="http://data.gbif.org/occurrences/198168934">http://data.gbif.org/occurrences/198168934</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon5</styleUrl>
+   <Point>
+    <coordinates>-91.81667,28.68333,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

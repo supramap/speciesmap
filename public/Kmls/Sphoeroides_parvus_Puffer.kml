@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-13)<br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-06-13)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2011-06-13)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-13)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-13)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-13)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-13)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-13)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-13)<br/><br/>University of Minnesota Bell Museum of Natural History, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1008">http://data.gbif.org/datasets/resource/1008</a>, 2011-06-13)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-13)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Sphoeroides parvus</name>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22573</td><td>1959-12-12</td><td><a href="http://data.gbif.org/occurrences/198350464">http://data.gbif.org/occurrences/198350464</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.92555,29.27972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9487</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/145114173">http://data.gbif.org/occurrences/145114173</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9487</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/240523174">http://data.gbif.org/occurrences/240523174</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.701,22.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67856</td><td>1971-03-05</td><td><a href="http://data.gbif.org/occurrences/198350606">http://data.gbif.org/occurrences/198350606</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.81139,29.38833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>197953</td><td>1989-07-14</td><td><a href="http://data.gbif.org/occurrences/198351060">http://data.gbif.org/occurrences/198351060</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.15938,29.12965,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9418</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145114162">http://data.gbif.org/occurrences/145114162</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9418</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240523163">http://data.gbif.org/occurrences/240523163</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.483,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7948</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145113997">http://data.gbif.org/occurrences/145113997</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7948</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240523002">http://data.gbif.org/occurrences/240523002</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.585,24.302,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9345</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/46414750">http://data.gbif.org/occurrences/46414750</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.3853,23.6672,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>63106</td><td>1970-04-25</td><td><a href="http://data.gbif.org/occurrences/198350586">http://data.gbif.org/occurrences/198350586</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>91917</td><td>1969-10-05</td><td><a href="http://data.gbif.org/occurrences/198350685">http://data.gbif.org/occurrences/198350685</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.95417,29.265,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>118650</td><td></td><td><a href="http://data.gbif.org/occurrences/241423268">http://data.gbif.org/occurrences/241423268</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>31054</td><td></td><td><a href="http://data.gbif.org/occurrences/241423270">http://data.gbif.org/occurrences/241423270</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.8134,29.2877,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143794</td><td>1985-08-25</td><td><a href="http://data.gbif.org/occurrences/198350782">http://data.gbif.org/occurrences/198350782</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.28722,30.36083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143153</td><td>1985-10-25</td><td><a href="http://data.gbif.org/occurrences/198350773">http://data.gbif.org/occurrences/198350773</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.90417,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156520</td><td>1938-11-11</td><td><a href="http://data.gbif.org/occurrences/241423014">http://data.gbif.org/occurrences/241423014</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.567,28.717,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>100572</td><td>1963-10-08</td><td><a href="http://data.gbif.org/occurrences/198350712">http://data.gbif.org/occurrences/198350712</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.52972,30.19083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>1703</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/46413375">http://data.gbif.org/occurrences/46413375</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-93.55,22.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8219</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46414679">http://data.gbif.org/occurrences/46414679</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.4342,22.4506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>54989</td><td>1968-10-22</td><td><a href="http://data.gbif.org/occurrences/198350565">http://data.gbif.org/occurrences/198350565</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.55444,29.32444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>91888</td><td>1973-06-29</td><td><a href="http://data.gbif.org/occurrences/46638327">http://data.gbif.org/occurrences/46638327</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-84.87778,9.806667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164335</td><td>1972-06-07</td><td><a href="http://data.gbif.org/occurrences/198350851">http://data.gbif.org/occurrences/198350851</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.89306,29.18472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156521.5321276</td><td>1938-05-22</td><td><a href="http://data.gbif.org/occurrences/172651804">http://data.gbif.org/occurrences/172651804</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156521</td><td>1938-05-22</td><td><a href="http://data.gbif.org/occurrences/241422956">http://data.gbif.org/occurrences/241422956</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.4083,30.1417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9319</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/46414747">http://data.gbif.org/occurrences/46414747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.635,23.9689,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9473</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/46414775">http://data.gbif.org/occurrences/46414775</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.7678,22.3517,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92593</td><td>1969-04-23</td><td><a href="http://data.gbif.org/occurrences/198350697">http://data.gbif.org/occurrences/198350697</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107364</td><td>1972-04-26</td><td><a href="http://data.gbif.org/occurrences/198350719">http://data.gbif.org/occurrences/198350719</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.69556,29.45861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158524</td><td>1954-05-16</td><td><a href="http://data.gbif.org/occurrences/241423033">http://data.gbif.org/occurrences/241423033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-93.333,18.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9418</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46414766">http://data.gbif.org/occurrences/46414766</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.4833,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>4978</td><td></td><td><a href="http://data.gbif.org/occurrences/176215593">http://data.gbif.org/occurrences/176215593</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-75.1467,35.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9447</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46414771">http://data.gbif.org/occurrences/46414771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.7358,22.6669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>93610.5321448</td><td></td><td><a href="http://data.gbif.org/occurrences/172651773">http://data.gbif.org/occurrences/172651773</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>73580</td><td>1891-11-29</td><td><a href="http://data.gbif.org/occurrences/241423263">http://data.gbif.org/occurrences/241423263</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>93610</td><td></td><td><a href="http://data.gbif.org/occurrences/241423265">http://data.gbif.org/occurrences/241423265</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.3992,27.7613,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9381</td><td>1954-11-05</td><td><a href="http://data.gbif.org/occurrences/198350281">http://data.gbif.org/occurrences/198350281</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.91666,30.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158524.5321281</td><td>1954-05-16</td><td><a href="http://data.gbif.org/occurrences/172651751">http://data.gbif.org/occurrences/172651751</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-93.3,18.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P11265</td><td>1999-03-17</td><td><a href="http://data.gbif.org/occurrences/145114299">http://data.gbif.org/occurrences/145114299</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P11265</td><td>1999-03-17</td><td><a href="http://data.gbif.org/occurrences/240523271">http://data.gbif.org/occurrences/240523271</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.636,19.606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156474.5321373</td><td>1938-07-10</td><td><a href="http://data.gbif.org/occurrences/172651812">http://data.gbif.org/occurrences/172651812</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156474</td><td>1938-07-10</td><td><a href="http://data.gbif.org/occurrences/241423122">http://data.gbif.org/occurrences/241423122</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.7083,28.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10927</td><td>1996-12-08</td><td><a href="http://data.gbif.org/occurrences/46413135">http://data.gbif.org/occurrences/46413135</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10927</td><td>1996-12-08</td><td><a href="http://data.gbif.org/occurrences/145114249">http://data.gbif.org/occurrences/145114249</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10927</td><td>1996-12-08</td><td><a href="http://data.gbif.org/occurrences/240523241">http://data.gbif.org/occurrences/240523241</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.72,24.27,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155993</td><td>1926-12-01</td><td><a href="http://data.gbif.org/occurrences/241423269">http://data.gbif.org/occurrences/241423269</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.0745,27.8661,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8063</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145114119">http://data.gbif.org/occurrences/145114119</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8063</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240523121">http://data.gbif.org/occurrences/240523121</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.367,23.718,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143704</td><td>1985-08-12</td><td><a href="http://data.gbif.org/occurrences/198350777">http://data.gbif.org/occurrences/198350777</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.39917,30.36611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9875</td><td>1955-06-09</td><td><a href="http://data.gbif.org/occurrences/198350291">http://data.gbif.org/occurrences/198350291</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.8775,30.24861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107375</td><td>1972-12-15</td><td><a href="http://data.gbif.org/occurrences/198350720">http://data.gbif.org/occurrences/198350720</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164275</td><td>1972-05-31</td><td><a href="http://data.gbif.org/occurrences/198350844">http://data.gbif.org/occurrences/198350844</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164306</td><td>1972-05-31</td><td><a href="http://data.gbif.org/occurrences/198350847">http://data.gbif.org/occurrences/198350847</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.96222,29.26194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107426</td><td>1970-11-21</td><td><a href="http://data.gbif.org/occurrences/198350722">http://data.gbif.org/occurrences/198350722</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.93611,29.15972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143776</td><td>1985-08-25</td><td><a href="http://data.gbif.org/occurrences/198350781">http://data.gbif.org/occurrences/198350781</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.28722,30.33306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164247</td><td>1972-05-25</td><td><a href="http://data.gbif.org/occurrences/198350842">http://data.gbif.org/occurrences/198350842</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164610</td><td>1973-05-24</td><td><a href="http://data.gbif.org/occurrences/198350858">http://data.gbif.org/occurrences/198350858</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.66111,29.05833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4455</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46414048">http://data.gbif.org/occurrences/46414048</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.3336,21.2847,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92502</td><td>1970-02-24</td><td><a href="http://data.gbif.org/occurrences/198350695">http://data.gbif.org/occurrences/198350695</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163710</td><td>1970-06-06</td><td><a href="http://data.gbif.org/occurrences/198350819">http://data.gbif.org/occurrences/198350819</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164316</td><td>1972-06-07</td><td><a href="http://data.gbif.org/occurrences/198350848">http://data.gbif.org/occurrences/198350848</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.88472,29.18472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163815</td><td>1970-11-21</td><td><a href="http://data.gbif.org/occurrences/198350823">http://data.gbif.org/occurrences/198350823</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.89167,29.19167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>196792</td><td>1989-07-14</td><td><a href="http://data.gbif.org/occurrences/198351056">http://data.gbif.org/occurrences/198351056</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.175,29.1183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8646</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/46414697">http://data.gbif.org/occurrences/46414697</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.6667,24.9686,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>159629</td><td>1980-06-24</td><td><a href="http://data.gbif.org/occurrences/198350798">http://data.gbif.org/occurrences/198350798</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.455,29.14,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4527</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/46414075">http://data.gbif.org/occurrences/46414075</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.5014,22.0336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9381</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/46414758">http://data.gbif.org/occurrences/46414758</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.6853,23.3192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158531</td><td>1951-08-26</td><td><a href="http://data.gbif.org/occurrences/241423200">http://data.gbif.org/occurrences/241423200</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.467,20.083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.009548</td><td>1937-04-10</td><td><a href="http://data.gbif.org/occurrences/202574481">http://data.gbif.org/occurrences/202574481</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.717,29.117,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10696</td><td>2000-08-17</td><td><a href="http://data.gbif.org/occurrences/46413080">http://data.gbif.org/occurrences/46413080</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.4808,20.0944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4455</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145113635">http://data.gbif.org/occurrences/145113635</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4455</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240522774">http://data.gbif.org/occurrences/240522774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.334,21.285,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P3204</td><td>1985-11-08</td><td><a href="http://data.gbif.org/occurrences/145113304">http://data.gbif.org/occurrences/145113304</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P3204</td><td>1985-11-08</td><td><a href="http://data.gbif.org/occurrences/240522596">http://data.gbif.org/occurrences/240522596</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.394,20.997,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4311</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145113531">http://data.gbif.org/occurrences/145113531</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4311</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240522715">http://data.gbif.org/occurrences/240522715</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.336,21.633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>129987</td><td>1981-06-26</td><td><a href="http://data.gbif.org/occurrences/198350742">http://data.gbif.org/occurrences/198350742</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130121</td><td>1981-09-25</td><td><a href="http://data.gbif.org/occurrences/198350744">http://data.gbif.org/occurrences/198350744</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130371</td><td>1982-03-19</td><td><a href="http://data.gbif.org/occurrences/198350745">http://data.gbif.org/occurrences/198350745</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.24445,30.34139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156475.5321378</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/172651814">http://data.gbif.org/occurrences/172651814</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156475</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/241422910">http://data.gbif.org/occurrences/241422910</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.375,28.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142490</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198350766">http://data.gbif.org/occurrences/198350766</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142830</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198350769">http://data.gbif.org/occurrences/198350769</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142993</td><td>1985-10-11</td><td><a href="http://data.gbif.org/occurrences/198350771">http://data.gbif.org/occurrences/198350771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.82472,30.40195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136455</td><td>1984-06-17</td><td><a href="http://data.gbif.org/occurrences/198350752">http://data.gbif.org/occurrences/198350752</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137696</td><td>1984-09-13</td><td><a href="http://data.gbif.org/occurrences/198350756">http://data.gbif.org/occurrences/198350756</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.32166,30.31889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8063</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46414650">http://data.gbif.org/occurrences/46414650</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.3669,23.7181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>7388</td><td></td><td><a href="http://data.gbif.org/occurrences/241423274">http://data.gbif.org/occurrences/241423274</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.4872,28.5118,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158531.5321918</td><td>1951-08-26</td><td><a href="http://data.gbif.org/occurrences/172651810">http://data.gbif.org/occurrences/172651810</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.5,20.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>5160</td><td></td><td><a href="http://data.gbif.org/occurrences/176215560">http://data.gbif.org/occurrences/176215560</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>30183</td><td></td><td><a href="http://data.gbif.org/occurrences/190573048">http://data.gbif.org/occurrences/190573048</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.668,27.6288,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>64814</td><td>1970-10-09</td><td><a href="http://data.gbif.org/occurrences/198350591">http://data.gbif.org/occurrences/198350591</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>66096</td><td>1970-08-28</td><td><a href="http://data.gbif.org/occurrences/198350592">http://data.gbif.org/occurrences/198350592</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>66114</td><td>1970-07-30</td><td><a href="http://data.gbif.org/occurrences/198350593">http://data.gbif.org/occurrences/198350593</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>66171</td><td>1970-08-28</td><td><a href="http://data.gbif.org/occurrences/198350594">http://data.gbif.org/occurrences/198350594</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.85389,30.15333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67578</td><td>1971-03-05</td><td><a href="http://data.gbif.org/occurrences/198350604">http://data.gbif.org/occurrences/198350604</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67778</td><td>1971-03-05</td><td><a href="http://data.gbif.org/occurrences/198350605">http://data.gbif.org/occurrences/198350605</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92330</td><td>1969-04-23</td><td><a href="http://data.gbif.org/occurrences/198350693">http://data.gbif.org/occurrences/198350693</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.71306,29.45778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4472</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145113638">http://data.gbif.org/occurrences/145113638</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4472</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240522776">http://data.gbif.org/occurrences/240522776</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.267,21.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10783</td><td>1996-08-04</td><td><a href="http://data.gbif.org/occurrences/145114237">http://data.gbif.org/occurrences/145114237</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10783</td><td>1996-08-04</td><td><a href="http://data.gbif.org/occurrences/240523233">http://data.gbif.org/occurrences/240523233</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.81,24.53,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>19038</td><td>1957-04-28</td><td><a href="http://data.gbif.org/occurrences/198350433">http://data.gbif.org/occurrences/198350433</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-93.34861,29.80389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156491.5321376</td><td>1938-01-23</td><td><a href="http://data.gbif.org/occurrences/172651823">http://data.gbif.org/occurrences/172651823</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156491</td><td>1938-01-23</td><td><a href="http://data.gbif.org/occurrences/241422980">http://data.gbif.org/occurrences/241422980</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.2833,29.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156490</td><td>1938-05-12</td><td><a href="http://data.gbif.org/occurrences/241423053">http://data.gbif.org/occurrences/241423053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.0417,28.65,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156517</td><td>1938-05-12</td><td><a href="http://data.gbif.org/occurrences/241422944">http://data.gbif.org/occurrences/241422944</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.767,28.6583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9473</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/145114171">http://data.gbif.org/occurrences/145114171</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9473</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/240523172">http://data.gbif.org/occurrences/240523172</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.768,22.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10943</td><td>1996-12-09</td><td><a href="http://data.gbif.org/occurrences/145114254">http://data.gbif.org/occurrences/145114254</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10943</td><td>1996-12-09</td><td><a href="http://data.gbif.org/occurrences/240523244">http://data.gbif.org/occurrences/240523244</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.78,24.53,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83954</td><td>1969-04-21</td><td><a href="http://data.gbif.org/occurrences/198350656">http://data.gbif.org/occurrences/198350656</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107506</td><td>1972-05-05</td><td><a href="http://data.gbif.org/occurrences/198350723">http://data.gbif.org/occurrences/198350723</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163738</td><td>1970-07-22</td><td><a href="http://data.gbif.org/occurrences/198350821">http://data.gbif.org/occurrences/198350821</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.80417,29.38528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4230</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46413941">http://data.gbif.org/occurrences/46413941</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.4839,21.8506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10696</td><td>2000-08-17</td><td><a href="http://data.gbif.org/occurrences/145114225">http://data.gbif.org/occurrences/145114225</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10696</td><td>2000-08-17</td><td><a href="http://data.gbif.org/occurrences/240523225">http://data.gbif.org/occurrences/240523225</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.481,20.094,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164613</td><td>1973-05-24</td><td><a href="http://data.gbif.org/occurrences/198350859">http://data.gbif.org/occurrences/198350859</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.67973,29.04,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9319</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/145114144">http://data.gbif.org/occurrences/145114144</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9319</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/240523145">http://data.gbif.org/occurrences/240523145</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.635,23.969,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9431</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46414767">http://data.gbif.org/occurrences/46414767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.6833,22.9858,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82241</td><td>1973-03-29</td><td><a href="http://data.gbif.org/occurrences/198350636">http://data.gbif.org/occurrences/198350636</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.025,28.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142510</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198350767">http://data.gbif.org/occurrences/198350767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.85445,30.42444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>27232</td><td></td><td><a href="http://data.gbif.org/occurrences/190573023">http://data.gbif.org/occurrences/190573023</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-95.1669,29.1689,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4375</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46414006">http://data.gbif.org/occurrences/46414006</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.2858,21.3692,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>188373</td><td>1999-11-25</td><td><a href="http://data.gbif.org/occurrences/198351033">http://data.gbif.org/occurrences/198351033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.17611,30.35083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82327</td><td>1973-03-31</td><td><a href="http://data.gbif.org/occurrences/198350643">http://data.gbif.org/occurrences/198350643</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.59,28.64333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8659</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/145114063">http://data.gbif.org/occurrences/145114063</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8659</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/240523066">http://data.gbif.org/occurrences/240523066</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.819,24.651,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143752</td><td>1985-08-25</td><td><a href="http://data.gbif.org/occurrences/198350780">http://data.gbif.org/occurrences/198350780</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.31277,30.36056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8659</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/46414698">http://data.gbif.org/occurrences/46414698</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.8192,24.6506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82341</td><td>1973-04-01</td><td><a href="http://data.gbif.org/occurrences/198350644">http://data.gbif.org/occurrences/198350644</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.785,28.54,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11265</td><td>1999-03-17</td><td><a href="http://data.gbif.org/occurrences/46413236">http://data.gbif.org/occurrences/46413236</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.6364,19.6058,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7744</td><td>1989-09-08</td><td><a href="http://data.gbif.org/occurrences/46414609">http://data.gbif.org/occurrences/46414609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.0833,25.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>85622</td><td>1955-08-30</td><td><a href="http://data.gbif.org/occurrences/198350665">http://data.gbif.org/occurrences/198350665</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.62833,30.14611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137907</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198350760">http://data.gbif.org/occurrences/198350760</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.82389,30.40222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P5993</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/145113769">http://data.gbif.org/occurrences/145113769</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P5993</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/240522851">http://data.gbif.org/occurrences/240522851</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.717,19.151,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10770</td><td>1996-08-03</td><td><a href="http://data.gbif.org/occurrences/46413102">http://data.gbif.org/occurrences/46413102</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.69,24.4897,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130112</td><td>1981-09-25</td><td><a href="http://data.gbif.org/occurrences/198350743">http://data.gbif.org/occurrences/198350743</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.27306,30.3575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>39825</td><td>1994-12-07</td><td><a href="http://data.gbif.org/occurrences/48216927">http://data.gbif.org/occurrences/48216927</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.2331,30.0925,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>89018</td><td>1974-07-19</td><td><a href="http://data.gbif.org/occurrences/198350669">http://data.gbif.org/occurrences/198350669</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92154</td><td>1975-01-06</td><td><a href="http://data.gbif.org/occurrences/198350689">http://data.gbif.org/occurrences/198350689</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102994</td><td>1977-07-18</td><td><a href="http://data.gbif.org/occurrences/198350714">http://data.gbif.org/occurrences/198350714</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>111495</td><td>1979-01-06</td><td><a href="http://data.gbif.org/occurrences/198350732">http://data.gbif.org/occurrences/198350732</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>122346</td><td>1981-07-16</td><td><a href="http://data.gbif.org/occurrences/198350739">http://data.gbif.org/occurrences/198350739</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.44083,30.36695,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120084.5321451</td><td>1941-07-08</td><td><a href="http://data.gbif.org/occurrences/172651776">http://data.gbif.org/occurrences/172651776</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120084</td><td>1941-07-08</td><td><a href="http://data.gbif.org/occurrences/241423258">http://data.gbif.org/occurrences/241423258</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155842</td><td>1926-11-19</td><td><a href="http://data.gbif.org/occurrences/241423264">http://data.gbif.org/occurrences/241423264</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.0508,27.84,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>41231</td><td>1992-03-25</td><td><a href="http://data.gbif.org/occurrences/48216865">http://data.gbif.org/occurrences/48216865</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.7986,29.9219,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (6 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>63757</td><td>1969-07-22</td><td><a href="http://data.gbif.org/occurrences/198350588">http://data.gbif.org/occurrences/198350588</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92909</td><td>1969-04-21</td><td><a href="http://data.gbif.org/occurrences/198350698">http://data.gbif.org/occurrences/198350698</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163521</td><td>1969-04-21</td><td><a href="http://data.gbif.org/occurrences/198350813">http://data.gbif.org/occurrences/198350813</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164173</td><td>1972-05-05</td><td><a href="http://data.gbif.org/occurrences/198350839">http://data.gbif.org/occurrences/198350839</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164364</td><td>1972-07-26</td><td><a href="http://data.gbif.org/occurrences/198350854">http://data.gbif.org/occurrences/198350854</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164570</td><td>1973-05-08</td><td><a href="http://data.gbif.org/occurrences/198350857">http://data.gbif.org/occurrences/198350857</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.77306,29.39889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4311</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46413981">http://data.gbif.org/occurrences/46413981</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.3358,21.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P1703</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/145112945">http://data.gbif.org/occurrences/145112945</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P1703</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/240522440">http://data.gbif.org/occurrences/240522440</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.167,21.333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7920</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46414630">http://data.gbif.org/occurrences/46414630</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.5008,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156526.5321375</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/172651815">http://data.gbif.org/occurrences/172651815</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156526</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/241423120">http://data.gbif.org/occurrences/241423120</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.4,28.325,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>57527</td><td>1989-06-01</td><td><a href="http://data.gbif.org/occurrences/96458178">http://data.gbif.org/occurrences/96458178</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.083336,30.666666,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156524.5321369</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/172651813">http://data.gbif.org/occurrences/172651813</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156524</td><td>1938-07-12</td><td><a href="http://data.gbif.org/occurrences/241423155">http://data.gbif.org/occurrences/241423155</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.7417,28.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8219</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145114076">http://data.gbif.org/occurrences/145114076</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8219</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240523078">http://data.gbif.org/occurrences/240523078</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.434,22.451,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4375</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145113578">http://data.gbif.org/occurrences/145113578</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4375</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240522744">http://data.gbif.org/occurrences/240522744</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.286,21.369,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P3699</td><td>1986-11-19</td><td><a href="http://data.gbif.org/occurrences/145113447">http://data.gbif.org/occurrences/145113447</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P3699</td><td>1986-11-19</td><td><a href="http://data.gbif.org/occurrences/240522667">http://data.gbif.org/occurrences/240522667</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.117,18.617,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7744</td><td>1989-09-08</td><td><a href="http://data.gbif.org/occurrences/145114047">http://data.gbif.org/occurrences/145114047</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7744</td><td>1989-09-08</td><td><a href="http://data.gbif.org/occurrences/240523051">http://data.gbif.org/occurrences/240523051</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.083,25.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136440</td><td>1984-06-17</td><td><a href="http://data.gbif.org/occurrences/198350751">http://data.gbif.org/occurrences/198350751</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137682</td><td>1984-09-13</td><td><a href="http://data.gbif.org/occurrences/198350755">http://data.gbif.org/occurrences/198350755</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>140444</td><td>1985-05-01</td><td><a href="http://data.gbif.org/occurrences/198350762">http://data.gbif.org/occurrences/198350762</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142853</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198350770">http://data.gbif.org/occurrences/198350770</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143670</td><td>1985-08-06</td><td><a href="http://data.gbif.org/occurrences/198350776">http://data.gbif.org/occurrences/198350776</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.29111,30.31611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>7182</td><td></td><td><a href="http://data.gbif.org/occurrences/241423256">http://data.gbif.org/occurrences/241423256</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.9558,27.9884,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7948</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46414636">http://data.gbif.org/occurrences/46414636</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.5847,24.3019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156522.5321377</td><td>1938-03-28</td><td><a href="http://data.gbif.org/occurrences/172651822">http://data.gbif.org/occurrences/172651822</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156522</td><td>1938-03-28</td><td><a href="http://data.gbif.org/occurrences/241423036">http://data.gbif.org/occurrences/241423036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.275,28.7083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>160280</td><td>1980-04-24</td><td><a href="http://data.gbif.org/occurrences/198350803">http://data.gbif.org/occurrences/198350803</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.46972,29.09444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>72998</td><td>1971-11-18</td><td><a href="http://data.gbif.org/occurrences/198350615">http://data.gbif.org/occurrences/198350615</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.91139,29.29694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9345</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/145114146">http://data.gbif.org/occurrences/145114146</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9345</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/240523147">http://data.gbif.org/occurrences/240523147</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.385,23.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4472</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46414053">http://data.gbif.org/occurrences/46414053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.2672,21.2003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>46545</td><td>1984-10-06</td><td><a href="http://data.gbif.org/occurrences/96456769">http://data.gbif.org/occurrences/96456769</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.089165,30.22139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>105518</td><td>1978-01-06</td><td><a href="http://data.gbif.org/occurrences/198350715">http://data.gbif.org/occurrences/198350715</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.37583,30.41195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17044</td><td></td><td><a href="http://data.gbif.org/occurrences/190572597">http://data.gbif.org/occurrences/190572597</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.0791,27.8617,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4527</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/145113474">http://data.gbif.org/occurrences/145113474</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4527</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/240522681">http://data.gbif.org/occurrences/240522681</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.501,22.034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164320</td><td>1972-06-07</td><td><a href="http://data.gbif.org/occurrences/198350849">http://data.gbif.org/occurrences/198350849</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.90556,29.19028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9447</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145114167">http://data.gbif.org/occurrences/145114167</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9447</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240523168">http://data.gbif.org/occurrences/240523168</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.736,22.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10770</td><td>1996-08-03</td><td><a href="http://data.gbif.org/occurrences/145114235">http://data.gbif.org/occurrences/145114235</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10770</td><td>1996-08-03</td><td><a href="http://data.gbif.org/occurrences/240523232">http://data.gbif.org/occurrences/240523232</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.69,24.49,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92553</td><td>1969-04-22</td><td><a href="http://data.gbif.org/occurrences/198350696">http://data.gbif.org/occurrences/198350696</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107531</td><td>1973-07-24</td><td><a href="http://data.gbif.org/occurrences/198350724">http://data.gbif.org/occurrences/198350724</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163721</td><td>1970-07-21</td><td><a href="http://data.gbif.org/occurrences/198350820">http://data.gbif.org/occurrences/198350820</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.83417,29.38305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137882</td><td>1984-10-08</td><td><a href="http://data.gbif.org/occurrences/198350758">http://data.gbif.org/occurrences/198350758</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142406</td><td>1985-09-13</td><td><a href="http://data.gbif.org/occurrences/198350763">http://data.gbif.org/occurrences/198350763</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142419</td><td>1985-09-13</td><td><a href="http://data.gbif.org/occurrences/198350764">http://data.gbif.org/occurrences/198350764</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142452</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198350765">http://data.gbif.org/occurrences/198350765</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142781</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198350768">http://data.gbif.org/occurrences/198350768</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143019</td><td>1985-10-11</td><td><a href="http://data.gbif.org/occurrences/198350772">http://data.gbif.org/occurrences/198350772</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143177</td><td>1985-10-25</td><td><a href="http://data.gbif.org/occurrences/198350774">http://data.gbif.org/occurrences/198350774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.84306,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17326</td><td></td><td><a href="http://data.gbif.org/occurrences/190572616">http://data.gbif.org/occurrences/190572616</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.3212,30.3173,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143734</td><td>1985-08-12</td><td><a href="http://data.gbif.org/occurrences/198350779">http://data.gbif.org/occurrences/198350779</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.33305,30.34,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9381</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/145114154">http://data.gbif.org/occurrences/145114154</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9381</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/240523155">http://data.gbif.org/occurrences/240523155</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.685,23.319,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10678</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/145114221">http://data.gbif.org/occurrences/145114221</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10688</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/145114223">http://data.gbif.org/occurrences/145114223</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10678</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/240523221">http://data.gbif.org/occurrences/240523221</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10688</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/240523223">http://data.gbif.org/occurrences/240523223</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.622,19.793,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>3204</td><td>1985-11-08</td><td><a href="http://data.gbif.org/occurrences/46413805">http://data.gbif.org/occurrences/46413805</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.3942,20.9969,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 009548</td><td>1937-04-10</td><td><a href="http://data.gbif.org/occurrences/350200782">http://data.gbif.org/occurrences/350200782</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.7167,29.1167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>160261</td><td>1980-05-22</td><td><a href="http://data.gbif.org/occurrences/198350802">http://data.gbif.org/occurrences/198350802</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.47111,29.11611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10678</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/46413069">http://data.gbif.org/occurrences/46413069</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10688</td><td>2000-08-16</td><td><a href="http://data.gbif.org/occurrences/46413073">http://data.gbif.org/occurrences/46413073</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.6225,19.7928,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9431</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145114163">http://data.gbif.org/occurrences/145114163</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9431</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240523164">http://data.gbif.org/occurrences/240523164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.683,22.986,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163627</td><td>1969-11-22</td><td><a href="http://data.gbif.org/occurrences/198350817">http://data.gbif.org/occurrences/198350817</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.6875,29.03472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137381</td><td>1984-09-13</td><td><a href="http://data.gbif.org/occurrences/198350754">http://data.gbif.org/occurrences/198350754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.24389,30.73611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82302</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198350642">http://data.gbif.org/occurrences/198350642</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.92,28.42833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20082</td><td></td><td><a href="http://data.gbif.org/occurrences/190572754">http://data.gbif.org/occurrences/190572754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-95.1342,29.0794,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>124351</td><td>1982-01-08</td><td><a href="http://data.gbif.org/occurrences/198350740">http://data.gbif.org/occurrences/198350740</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>146999</td><td>1986-10-31</td><td><a href="http://data.gbif.org/occurrences/198350786">http://data.gbif.org/occurrences/198350786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.37666,30.4175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67380</td><td>1964-07-07</td><td><a href="http://data.gbif.org/occurrences/198350603">http://data.gbif.org/occurrences/198350603</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163958</td><td>1971-06-06</td><td><a href="http://data.gbif.org/occurrences/198350829">http://data.gbif.org/occurrences/198350829</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.67555,29.28861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17312</td><td></td><td><a href="http://data.gbif.org/occurrences/190572615">http://data.gbif.org/occurrences/190572615</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.8939,30.4145,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156005</td><td>1926-09-20</td><td><a href="http://data.gbif.org/occurrences/241423260">http://data.gbif.org/occurrences/241423260</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.1586,27.7614,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7920</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145113983">http://data.gbif.org/occurrences/145113983</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7920</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240522988">http://data.gbif.org/occurrences/240522988</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.501,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>91905</td><td>1969-07-19</td><td><a href="http://data.gbif.org/occurrences/198350684">http://data.gbif.org/occurrences/198350684</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.04278,29.20306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8646</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/145114062">http://data.gbif.org/occurrences/145114062</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8646</td><td>1990-04-12</td><td><a href="http://data.gbif.org/occurrences/240523065">http://data.gbif.org/occurrences/240523065</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-96.667,24.969,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82353</td><td>1973-04-01</td><td><a href="http://data.gbif.org/occurrences/198350645">http://data.gbif.org/occurrences/198350645</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.76667,28.51667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143391</td><td>1985-11-15</td><td><a href="http://data.gbif.org/occurrences/198350775">http://data.gbif.org/occurrences/198350775</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.80917,30.39305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156527.5321279</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/172651802">http://data.gbif.org/occurrences/172651802</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156527</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/241423087">http://data.gbif.org/occurrences/241423087</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-94.45,29.3083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>39881</td><td>1994-12-07</td><td><a href="http://data.gbif.org/occurrences/48217967">http://data.gbif.org/occurrences/48217967</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.2328,30.0892,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92179</td><td>1972-10-21</td><td><a href="http://data.gbif.org/occurrences/198350690">http://data.gbif.org/occurrences/198350690</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156525.5321280</td><td>1938-05-11</td><td><a href="http://data.gbif.org/occurrences/172651803">http://data.gbif.org/occurrences/172651803</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.0,29.0417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4230</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145113503">http://data.gbif.org/occurrences/145113503</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4230</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240522698">http://data.gbif.org/occurrences/240522698</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.484,21.851,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>3699</td><td>1986-11-19</td><td><a href="http://data.gbif.org/occurrences/46413869">http://data.gbif.org/occurrences/46413869</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.1167,18.6167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10915</td><td>1996-12-06</td><td><a href="http://data.gbif.org/occurrences/46413129">http://data.gbif.org/occurrences/46413129</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10915</td><td>1996-12-06</td><td><a href="http://data.gbif.org/occurrences/145114247">http://data.gbif.org/occurrences/145114247</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10915</td><td>1996-12-06</td><td><a href="http://data.gbif.org/occurrences/240523239">http://data.gbif.org/occurrences/240523239</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.76,24.19,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143721</td><td>1985-08-12</td><td><a href="http://data.gbif.org/occurrences/198350778">http://data.gbif.org/occurrences/198350778</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.35667,30.36444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10943</td><td>1996-12-09</td><td><a href="http://data.gbif.org/occurrences/46413146">http://data.gbif.org/occurrences/46413146</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.7797,24.53,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94980</td><td>1975-07-27</td><td><a href="http://data.gbif.org/occurrences/198350699">http://data.gbif.org/occurrences/198350699</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102972</td><td>1977-07-18</td><td><a href="http://data.gbif.org/occurrences/198350713">http://data.gbif.org/occurrences/198350713</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136132</td><td>1984-07-12</td><td><a href="http://data.gbif.org/occurrences/198350750">http://data.gbif.org/occurrences/198350750</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>145988</td><td>1986-07-20</td><td><a href="http://data.gbif.org/occurrences/198350785">http://data.gbif.org/occurrences/198350785</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>152799</td><td>1988-07-02</td><td><a href="http://data.gbif.org/occurrences/198350791">http://data.gbif.org/occurrences/198350791</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-87.45055,30.36695,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9487</td><td>1990-12-03</td><td><a href="http://data.gbif.org/occurrences/46414777">http://data.gbif.org/occurrences/46414777</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.7008,22.1669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>159646</td><td>1980-11-19</td><td><a href="http://data.gbif.org/occurrences/198350799">http://data.gbif.org/occurrences/198350799</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.52084,29.09833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>156525</td><td>1938-05-11</td><td><a href="http://data.gbif.org/occurrences/241422936">http://data.gbif.org/occurrences/241422936</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-92.017,29.0417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1985-1123</td><td></td><td><a href="http://data.gbif.org/occurrences/93308036">http://data.gbif.org/occurrences/93308036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-88.0,30.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>5993</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/46414340">http://data.gbif.org/occurrences/46414340</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-91.7172,19.1508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155835</td><td></td><td><a href="http://data.gbif.org/occurrences/241423259">http://data.gbif.org/occurrences/241423259</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155992</td><td>1926-11-11</td><td><a href="http://data.gbif.org/occurrences/241423267">http://data.gbif.org/occurrences/241423267</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.268,27.7785,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10783</td><td>1996-08-04</td><td><a href="http://data.gbif.org/occurrences/46413103">http://data.gbif.org/occurrences/46413103</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-97.8097,24.53,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92302</td><td>1969-02-23</td><td><a href="http://data.gbif.org/occurrences/198350691">http://data.gbif.org/occurrences/198350691</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107295</td><td>1970-02-21</td><td><a href="http://data.gbif.org/occurrences/198350718">http://data.gbif.org/occurrences/198350718</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-90.65694,29.04167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Sphoeroides parvus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107406</td><td>1972-05-31</td><td><a href="http://data.gbif.org/occurrences/198350721">http://data.gbif.org/occurrences/198350721</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon6</styleUrl>
+   <Point>
+    <coordinates>-89.95417,29.26528,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

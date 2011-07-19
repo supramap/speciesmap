@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces Dulceacuícolas Mexicanos de la Escuela Nacional de Ciencias Biológicas, IPN (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2501">http://data.gbif.org/datasets/resource/2501</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-06-20)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-20)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-20)<br/><br/>Zoologisches Forschungsinstitut und Museum Alexander Koenig, ZFMK Hymenoptera collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1840">http://data.gbif.org/datasets/resource/1840</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Floridichthys carpio</name>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 3638</td><td>1968-06-13</td><td><a href="http://data.gbif.org/occurrences/188911265">http://data.gbif.org/occurrences/188911265</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-90.0,19.5583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20295</td><td>1959-07-07</td><td><a href="http://data.gbif.org/occurrences/198205739">http://data.gbif.org/occurrences/198205739</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.9275,25.1375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20612</td><td>1959-07-06</td><td><a href="http://data.gbif.org/occurrences/198205753">http://data.gbif.org/occurrences/198205753</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.22945,26.80361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20960</td><td>1959-08-12</td><td><a href="http://data.gbif.org/occurrences/198205758">http://data.gbif.org/occurrences/198205758</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.98944,26.48917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5102 / 6937 / T027</td><td>1989-05-14</td><td><a href="http://data.gbif.org/occurrences/145355643">http://data.gbif.org/occurrences/145355643</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5120 / 7066 / T027</td><td>1989-11-27</td><td><a href="http://data.gbif.org/occurrences/145355662">http://data.gbif.org/occurrences/145355662</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5146 / 7209 / T027</td><td>1989-07-21</td><td><a href="http://data.gbif.org/occurrences/145355700">http://data.gbif.org/occurrences/145355700</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.932,21.578,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5090 / 6867 / T027</td><td>1989-07-21</td><td><a href="http://data.gbif.org/occurrences/145355635">http://data.gbif.org/occurrences/145355635</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5106 / 6989 / T027</td><td>1989-05-15</td><td><a href="http://data.gbif.org/occurrences/145355648">http://data.gbif.org/occurrences/145355648</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5124 / 7105 / T027</td><td>1989-12-01</td><td><a href="http://data.gbif.org/occurrences/145355664">http://data.gbif.org/occurrences/145355664</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.126,21.596,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 013653</td><td>1941-05-18</td><td><a href="http://data.gbif.org/occurrences/350174447">http://data.gbif.org/occurrences/350174447</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.2583,26.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5128 / 7142 / T027</td><td>1989-05-09</td><td><a href="http://data.gbif.org/occurrences/145355679">http://data.gbif.org/occurrences/145355679</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5134 / 7161 / T027</td><td>1989-05-10</td><td><a href="http://data.gbif.org/occurrences/145355684">http://data.gbif.org/occurrences/145355684</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5145 / 7199 / T027</td><td>1989-07-17</td><td><a href="http://data.gbif.org/occurrences/145355698">http://data.gbif.org/occurrences/145355698</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.155,21.578,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44225</td><td>1967-03-07</td><td><a href="http://data.gbif.org/occurrences/198206019">http://data.gbif.org/occurrences/198206019</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.36945,24.66972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18360</td><td>1958-05-25</td><td><a href="http://data.gbif.org/occurrences/198205707">http://data.gbif.org/occurrences/198205707</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-83.04278,29.13361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1976-0172.1</td><td>1976-01-29</td><td><a href="http://data.gbif.org/occurrences/17600868">http://data.gbif.org/occurrences/17600868</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1976-0172.1</td><td>1976-01-29</td><td><a href="http://data.gbif.org/occurrences/78324965">http://data.gbif.org/occurrences/78324965</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.717,24.567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44259</td><td>1967-03-08</td><td><a href="http://data.gbif.org/occurrences/198206020">http://data.gbif.org/occurrences/198206020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.77458,24.56589,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.017030</td><td>1971-06-03</td><td><a href="http://data.gbif.org/occurrences/202563473">http://data.gbif.org/occurrences/202563473</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.863,26.366,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44002</td><td>1967-03-04</td><td><a href="http://data.gbif.org/occurrences/198206015">http://data.gbif.org/occurrences/198206015</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.125,24.70889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9748</td><td>1955-04-07</td><td><a href="http://data.gbif.org/occurrences/198205581">http://data.gbif.org/occurrences/198205581</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27790</td><td>1964-10-21</td><td><a href="http://data.gbif.org/occurrences/198205864">http://data.gbif.org/occurrences/198205864</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.65611,28.56722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5119 / 7062 / T027</td><td>1989-10-01</td><td><a href="http://data.gbif.org/occurrences/145355661">http://data.gbif.org/occurrences/145355661</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5127 / 7138 / T027</td><td>1989-12-05</td><td><a href="http://data.gbif.org/occurrences/145355677">http://data.gbif.org/occurrences/145355677</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.651,21.495,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>678</td><td>1978-07-12</td><td><a href="http://data.gbif.org/occurrences/46405944">http://data.gbif.org/occurrences/46405944</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.6667,18.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27880</td><td>1998-02-01</td><td><a href="http://data.gbif.org/occurrences/199209876">http://data.gbif.org/occurrences/199209876</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-83.5894,29.8033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P479</td><td>1974-09-19</td><td><a href="http://data.gbif.org/occurrences/145101584">http://data.gbif.org/occurrences/145101584</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P479</td><td>1974-09-19</td><td><a href="http://data.gbif.org/occurrences/240516905">http://data.gbif.org/occurrences/240516905</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-86.79,21.087,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 013216</td><td>1941-04-30</td><td><a href="http://data.gbif.org/occurrences/350174514">http://data.gbif.org/occurrences/350174514</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.0786,26.4972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5087 / 6827 / T027</td><td>1989-07-21</td><td><a href="http://data.gbif.org/occurrences/145355634">http://data.gbif.org/occurrences/145355634</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5100 / 6918 / T027</td><td>1989-01-30</td><td><a href="http://data.gbif.org/occurrences/145355641">http://data.gbif.org/occurrences/145355641</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.999,21.589,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6890</td><td>1988-04-22</td><td><a href="http://data.gbif.org/occurrences/46405955">http://data.gbif.org/occurrences/46405955</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6890</td><td>1988-04-22</td><td><a href="http://data.gbif.org/occurrences/145102186">http://data.gbif.org/occurrences/145102186</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6890</td><td>1988-04-22</td><td><a href="http://data.gbif.org/occurrences/240517374">http://data.gbif.org/occurrences/240517374</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.6,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8701</td><td>1953-11-14</td><td><a href="http://data.gbif.org/occurrences/198205555">http://data.gbif.org/occurrences/198205555</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-83.64325,29.87875,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1979-0641.3</td><td>1977-11-24</td><td><a href="http://data.gbif.org/occurrences/17601019">http://data.gbif.org/occurrences/17601019</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1979-0641.3</td><td>1977-11-24</td><td><a href="http://data.gbif.org/occurrences/78325175">http://data.gbif.org/occurrences/78325175</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-84.317,29.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0063.4</td><td>1988-03-12</td><td><a href="http://data.gbif.org/occurrences/17601515">http://data.gbif.org/occurrences/17601515</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0063.4</td><td>1988-03-12</td><td><a href="http://data.gbif.org/occurrences/78326015">http://data.gbif.org/occurrences/78326015</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.0,26.417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>479</td><td>1974-09-19</td><td><a href="http://data.gbif.org/occurrences/46405553">http://data.gbif.org/occurrences/46405553</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-86.8056,21.1003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19657</td><td></td><td><a href="http://data.gbif.org/occurrences/190546596">http://data.gbif.org/occurrences/190546596</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.3728,24.6922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5999</td><td>1952-11-18</td><td><a href="http://data.gbif.org/occurrences/198205500">http://data.gbif.org/occurrences/198205500</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.26056,25.67417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27640</td><td>1998-05-12</td><td><a href="http://data.gbif.org/occurrences/199209461">http://data.gbif.org/occurrences/199209461</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.3501,27.5376,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2947</td><td>1985-03-28</td><td><a href="http://data.gbif.org/occurrences/145101844">http://data.gbif.org/occurrences/145101844</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2947</td><td>1985-03-28</td><td><a href="http://data.gbif.org/occurrences/240517134">http://data.gbif.org/occurrences/240517134</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.579,19.769,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 013797</td><td>1939-04-04</td><td><a href="http://data.gbif.org/occurrences/350173351">http://data.gbif.org/occurrences/350173351</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 013763</td><td>1939-04-02</td><td><a href="http://data.gbif.org/occurrences/350174076">http://data.gbif.org/occurrences/350174076</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 012652</td><td>1938-07-19</td><td><a href="http://data.gbif.org/occurrences/350174508">http://data.gbif.org/occurrences/350174508</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 013758</td><td>1939-04-02</td><td><a href="http://data.gbif.org/occurrences/350174561">http://data.gbif.org/occurrences/350174561</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.2222,26.6092,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21943</td><td>1959-08-17</td><td><a href="http://data.gbif.org/occurrences/198205783">http://data.gbif.org/occurrences/198205783</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.07858,26.453583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>29225</td><td>1999-10-03</td><td><a href="http://data.gbif.org/occurrences/199209283">http://data.gbif.org/occurrences/199209283</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.1413,25.8096,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>30434</td><td>2001-07-19</td><td><a href="http://data.gbif.org/occurrences/199209937">http://data.gbif.org/occurrences/199209937</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.4221,27.7569,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7639</td><td>1953-11-15</td><td><a href="http://data.gbif.org/occurrences/198205531">http://data.gbif.org/occurrences/198205531</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20584</td><td>1959-07-09</td><td><a href="http://data.gbif.org/occurrences/198205749">http://data.gbif.org/occurrences/198205749</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.12778,26.59694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1887-0395</td><td></td><td><a href="http://data.gbif.org/occurrences/93245752">http://data.gbif.org/occurrences/93245752</a></td></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1887-0396</td><td></td><td><a href="http://data.gbif.org/occurrences/93245753">http://data.gbif.org/occurrences/93245753</a></td></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1887-0397</td><td></td><td><a href="http://data.gbif.org/occurrences/93245754">http://data.gbif.org/occurrences/93245754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.833,24.567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19576</td><td></td><td><a href="http://data.gbif.org/occurrences/190546582">http://data.gbif.org/occurrences/190546582</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.9312,25.1373,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 8744</td><td>1970-09-05</td><td><a href="http://data.gbif.org/occurrences/188911268">http://data.gbif.org/occurrences/188911268</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-86.7522,21.2217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5095 / 6880 / T027</td><td>1989-07-24</td><td><a href="http://data.gbif.org/occurrences/145355638">http://data.gbif.org/occurrences/145355638</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.136,21.541,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>250</td><td></td><td><a href="http://data.gbif.org/occurrences/176211627">http://data.gbif.org/occurrences/176211627</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.0667,16.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Zoologisches Forschungsinstitut und Museum Alexander Koenig</td><td>ZFMK_HYMENOPT</td><td>ZFMK Hymenoptera collection</td><td>ZFMK_HYM_2010_96</td><td></td><td><a href="http://data.gbif.org/occurrences/345736272">http://data.gbif.org/occurrences/345736272</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>7.44972,49.7831,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2854</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/145101812">http://data.gbif.org/occurrences/145101812</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2882</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/145101813">http://data.gbif.org/occurrences/145101813</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2854</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/240517102">http://data.gbif.org/occurrences/240517102</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2882</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/240517103">http://data.gbif.org/occurrences/240517103</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.478,20.003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 3495</td><td>1968-06-16</td><td><a href="http://data.gbif.org/occurrences/188911264">http://data.gbif.org/occurrences/188911264</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-86.7522,21.23,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1887-0395</td><td></td><td><a href="http://data.gbif.org/occurrences/188911255">http://data.gbif.org/occurrences/188911255</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1887-0396</td><td></td><td><a href="http://data.gbif.org/occurrences/188911256">http://data.gbif.org/occurrences/188911256</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1887-0397</td><td></td><td><a href="http://data.gbif.org/occurrences/188911257">http://data.gbif.org/occurrences/188911257</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.8333,24.5667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7704</td><td>1953-11-15</td><td><a href="http://data.gbif.org/occurrences/198205534">http://data.gbif.org/occurrences/198205534</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.6375,27.70694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8464</td><td>1953-11-17</td><td><a href="http://data.gbif.org/occurrences/198205547">http://data.gbif.org/occurrences/198205547</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.4525,25.0875,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P678</td><td>1978-07-12</td><td><a href="http://data.gbif.org/occurrences/145101611">http://data.gbif.org/occurrences/145101611</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P678</td><td>1978-07-12</td><td><a href="http://data.gbif.org/occurrences/240516918">http://data.gbif.org/occurrences/240516918</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.667,18.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.013216</td><td>1941-04-30</td><td><a href="http://data.gbif.org/occurrences/202563375">http://data.gbif.org/occurrences/202563375</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.079,26.497,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43983</td><td>1967-03-04</td><td><a href="http://data.gbif.org/occurrences/198206012">http://data.gbif.org/occurrences/198206012</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164889</td><td>1976-07-20</td><td><a href="http://data.gbif.org/occurrences/198206984">http://data.gbif.org/occurrences/198206984</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.62444,24.93111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5104 / 6944 / T027</td><td>1989-05-14</td><td><a href="http://data.gbif.org/occurrences/145355644">http://data.gbif.org/occurrences/145355644</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5116 / 7048 / T027</td><td>1989-09-29</td><td><a href="http://data.gbif.org/occurrences/145355658">http://data.gbif.org/occurrences/145355658</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.746,21.505,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>29010</td><td>2000-01-24</td><td><a href="http://data.gbif.org/occurrences/199209489">http://data.gbif.org/occurrences/199209489</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-80.1986,25.7459,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5113 / 7029 / T027</td><td>1989-09-28</td><td><a href="http://data.gbif.org/occurrences/145355657">http://data.gbif.org/occurrences/145355657</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.078,21.587,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 017030</td><td>1971-06-03</td><td><a href="http://data.gbif.org/occurrences/350174770">http://data.gbif.org/occurrences/350174770</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.8631,26.3656,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5097</td><td>1989-11-30</td><td><a href="http://data.gbif.org/occurrences/145355639">http://data.gbif.org/occurrences/145355639</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5105 / 6948 / T027</td><td>1989-05-15</td><td><a href="http://data.gbif.org/occurrences/145355646">http://data.gbif.org/occurrences/145355646</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5105 / 6984 / T027</td><td>1989-05-15</td><td><a href="http://data.gbif.org/occurrences/145355647">http://data.gbif.org/occurrences/145355647</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5111 / 7007 / T027</td><td>1989-09-28</td><td><a href="http://data.gbif.org/occurrences/145355654">http://data.gbif.org/occurrences/145355654</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5111 / 7019 / T027</td><td>1989-09-28</td><td><a href="http://data.gbif.org/occurrences/145355655">http://data.gbif.org/occurrences/145355655</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.214,21.491,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.013653</td><td>1941-05-18</td><td><a href="http://data.gbif.org/occurrences/202563376">http://data.gbif.org/occurrences/202563376</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.258,26.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>6534</td><td></td><td><a href="http://data.gbif.org/occurrences/176211113">http://data.gbif.org/occurrences/176211113</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>6535</td><td></td><td><a href="http://data.gbif.org/occurrences/176211114">http://data.gbif.org/occurrences/176211114</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>6536</td><td></td><td><a href="http://data.gbif.org/occurrences/176211115">http://data.gbif.org/occurrences/176211115</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>35360</td><td></td><td><a href="http://data.gbif.org/occurrences/190545432">http://data.gbif.org/occurrences/190545432</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.689,24.5655,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18464</td><td>1958-05-26</td><td><a href="http://data.gbif.org/occurrences/198205711">http://data.gbif.org/occurrences/198205711</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.28333,26.81667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12535</td><td>1956-04-28</td><td><a href="http://data.gbif.org/occurrences/198205617">http://data.gbif.org/occurrences/198205617</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.66028,28.83222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2947</td><td>1985-03-28</td><td><a href="http://data.gbif.org/occurrences/46405282">http://data.gbif.org/occurrences/46405282</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.5794,19.7686,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17034</td><td>1957-11-18</td><td><a href="http://data.gbif.org/occurrences/198205672">http://data.gbif.org/occurrences/198205672</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.01833,24.73444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2598 / 7281 / T027</td><td>1965-05-30</td><td><a href="http://data.gbif.org/occurrences/145355705">http://data.gbif.org/occurrences/145355705</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-90.689,19.355,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44275</td><td>1967-03-07</td><td><a href="http://data.gbif.org/occurrences/198206024">http://data.gbif.org/occurrences/198206024</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-81.38695,24.66639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0361.6</td><td>1977-09-01</td><td><a href="http://data.gbif.org/occurrences/17601003">http://data.gbif.org/occurrences/17601003</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1978-0361.6</td><td>1977-09-01</td><td><a href="http://data.gbif.org/occurrences/78325150">http://data.gbif.org/occurrences/78325150</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.167,26.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2854</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/46405251">http://data.gbif.org/occurrences/46405251</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2882</td><td>1985-01-16</td><td><a href="http://data.gbif.org/occurrences/46405260">http://data.gbif.org/occurrences/46405260</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-87.4775,20.0028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Floridichthys carpio (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.013758</td><td>1939-04-02</td><td><a href="http://data.gbif.org/occurrences/202563377">http://data.gbif.org/occurrences/202563377</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.013763</td><td>1939-04-02</td><td><a href="http://data.gbif.org/occurrences/202563378">http://data.gbif.org/occurrences/202563378</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.013797</td><td>1939-04-04</td><td><a href="http://data.gbif.org/occurrences/202563379">http://data.gbif.org/occurrences/202563379</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.012652</td><td>1938-07-19</td><td><a href="http://data.gbif.org/occurrences/202563380">http://data.gbif.org/occurrences/202563380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-82.222,26.609,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

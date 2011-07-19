@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-05-16)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Atlantic Reference Centre (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/341">http://data.gbif.org/datasets/resource/341</a>, 2011-05-16)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Heteroconger luteolus</name>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>98125</td><td></td><td><a href="http://data.gbif.org/occurrences/34891306">http://data.gbif.org/occurrences/34891306</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-77.05,32.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41611</td><td>2004-06-16</td><td><a href="http://data.gbif.org/occurrences/199212335">http://data.gbif.org/occurrences/199212335</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-75.8881,34.1942,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41522</td><td>2000-07-24</td><td><a href="http://data.gbif.org/occurrences/199212334">http://data.gbif.org/occurrences/199212334</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.775,35.4983,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41192</td><td>2001-08-24</td><td><a href="http://data.gbif.org/occurrences/199211886">http://data.gbif.org/occurrences/199211886</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7374,35.5137,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41564</td><td>2000-07-26</td><td><a href="http://data.gbif.org/occurrences/199212825">http://data.gbif.org/occurrences/199212825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7963,35.5048,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41309</td><td>1999-08-06</td><td><a href="http://data.gbif.org/occurrences/199211546">http://data.gbif.org/occurrences/199211546</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7994,35.5032,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.3025</td><td></td><td><a href="http://data.gbif.org/occurrences/219061607">http://data.gbif.org/occurrences/219061607</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-22.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41222</td><td>2001-08-24</td><td><a href="http://data.gbif.org/occurrences/199211761">http://data.gbif.org/occurrences/199211761</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7248,35.5208,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>ARC</td><td>ARC</td><td>18107</td><td>1988-10-22</td><td><a href="http://data.gbif.org/occurrences/17476012">http://data.gbif.org/occurrences/17476012</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-62.2167,41.45,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>345238.5251468</td><td>1997-05-07</td><td><a href="http://data.gbif.org/occurrences/149882582">http://data.gbif.org/occurrences/149882582</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00345238</td><td>1997-05-07</td><td><a href="http://data.gbif.org/occurrences/219061608">http://data.gbif.org/occurrences/219061608</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>345238</td><td>1997-05-07</td><td><a href="http://data.gbif.org/occurrences/241274949">http://data.gbif.org/occurrences/241274949</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-80.0617,26.3019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41619</td><td>2001-09-20</td><td><a href="http://data.gbif.org/occurrences/199212835">http://data.gbif.org/occurrences/199212835</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7664,35.5089,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41275</td><td>1999-08-03</td><td><a href="http://data.gbif.org/occurrences/199211682">http://data.gbif.org/occurrences/199211682</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7382,35.5277,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41304</td><td>1999-08-06</td><td><a href="http://data.gbif.org/occurrences/199211241">http://data.gbif.org/occurrences/199211241</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7738,35.516,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>94788</td><td></td><td><a href="http://data.gbif.org/occurrences/34891188">http://data.gbif.org/occurrences/34891188</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-78.0,32.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>62294</td><td></td><td><a href="http://data.gbif.org/occurrences/34890330">http://data.gbif.org/occurrences/34890330</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-73.9117,36.905,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41231</td><td>2001-08-27</td><td><a href="http://data.gbif.org/occurrences/199212030">http://data.gbif.org/occurrences/199212030</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7573,35.4955,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>62280</td><td></td><td><a href="http://data.gbif.org/occurrences/34890326">http://data.gbif.org/occurrences/34890326</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-73.675,36.8333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Heteroconger luteolus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41308</td><td>1999-08-06</td><td><a href="http://data.gbif.org/occurrences/199212537">http://data.gbif.org/occurrences/199212537</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-74.7796,35.5132,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>

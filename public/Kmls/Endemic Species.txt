@@ -1,0 +1,79 @@
+Parmaturus campechiensis Campeche Catshark
+Mustelus sinusmexicanus Gulf Smoothhound
+Anacanthobatis folirostris Leaf-nose Leg Skate
+Dipturus oleseni N/A
+Dipturus oregoli N/A
+Leucoraja lentiginosa Speckled Skate
+Ophichthus omorgmus Dottedline Snake Eel
+Ophichthus rex Keoghfish
+Heteroconger luteolus Yellow Garden Eel
+Alosa alabamae Alabama Shad
+Alosa chrysochloris Green Herring
+Brevoortia gunteri Finescale Menhaden
+Brevoortia patronus Mossbunker
+Eustomias leptobolus 細真巨口魚
+Stemonosudis bullisi
+Coryphaenoides mexicanus Mexican Grenadier
+
+Gunterichthys longipenis Gold Brotula
+Saccogaster rhamphidognatha
+Opsanus pardus Leopard Toefish
+Sanopus reticulatus Reticulated Toadfish
+Ogcocephalus pantostictus Spotted Batfish
+Oneirodes bradburyae 0 occurences
+Atherinella schultzi Chimalapa Silverside
+Menidia clarkhubbsi Texas Silverside
+Menidia colei Golden Silverside
+Menidia conchorum Key Silverside
+Adinia xenica Diamond Killifish
+Fundulus jenkinsi Saltmarsh Topminnow
+Fundulus persimilis Yucatan Killifish
+Fundulus pulvereus Bayou Killifish
+Gambusia yucatana Yucatan Gambusia
+Syngnathus affinis Texas Pipefish
+Prionotus longispinosus Bigeye Searobin
+Prionotus martis Barred Searobin
+Prionotus paralatus Mexican Searobin
+Cynosdon arenarius
+Chasmodes longimaxilla
+Hypleurochilus caudovittalus
+Hypleurochilus multifilis
+Chriolepis vespa
+Ctenogobius claytonii
+Gobiosoma longipala
+Microdesmus lanceolatus
+Citharichthys abbotti
+Sphoeroides parvus
+
+Monopenchelys acuta Redface Moray
+Gordiichthys ergodes Irksome Eel
+Gordiichthys leibyi String Eel
+Ijimaia antillarum Jellynose
+Neoopisthopterus cubanus Cuban Longfin Herring
+Floridichthys carpio Goldspotted Killifish
+Garmanella pulchra Snakeskin Killifish
+Jordanella floridae American Flagfish
+Fundulus grandis Gulf Killifish
+Atractosteus spatula Gemfish
+Lepisosteus oculatus Spotted Gar
+Ogcocephalus pantostictus Spotted Batfish
+Ogilbia cayorum Key Brotlid
+Lupinoblennius nicholsi Highfin Blenny
+Hyperoglyphe bythites Black Driftfish
+Bollmannia communis Ragged Goby
+Bollmannia eigenmanni Shelf Goby
+Chriolepis benthonis Deepwater Goby
+Coryphopterus punctipectophorus Spotted Goby
+Varicus marilynae Orangebelly Goby
+Halichoeres burekae
+Calamus arctifrons Porgy
+Calamus campechanus Campeche Porgy
+Exechodontes daidaleus 迷鰧
+Lycenchelys bullisi 布氏蛇綿鳚
+Gymnachirus texae Fringed Sole
+Trichopsetta ventralis Sash Flounder
+Sphoeroides spengleri Bandtail Puffer
+Raja texana Roundel Skate
+Etmopterus schultzi Fringfin Lanternshark
+Eptatretus mino  小黏盲鰻
+Eptatretus springeri Gulf Hagfish

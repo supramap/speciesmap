@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces Dulceacuícolas Mexicanos de la Escuela Nacional de Ciencias Biológicas, IPN (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2501">http://data.gbif.org/datasets/resource/2501</a>, 2011-06-03)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-03)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Atherinella schultzi</name>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3942 / 5890 / T027</td><td>1973-05-20</td><td><a href="http://data.gbif.org/occurrences/145352536">http://data.gbif.org/occurrences/145352536</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.538,17.27,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3952 / 8855 / T027</td><td>1973-05-19</td><td><a href="http://data.gbif.org/occurrences/145352887">http://data.gbif.org/occurrences/145352887</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.047,17.099,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2631 / 8818 / T027</td><td>1965-06-25</td><td><a href="http://data.gbif.org/occurrences/145352880">http://data.gbif.org/occurrences/145352880</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.717,17.737,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2780 / 6155 / T027</td><td>1966-04-04</td><td><a href="http://data.gbif.org/occurrences/145352572">http://data.gbif.org/occurrences/145352572</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.519,17.664,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P224 / 3806 / T027</td><td>1950-05-14</td><td><a href="http://data.gbif.org/occurrences/145352279">http://data.gbif.org/occurrences/145352279</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P224 / 7352 / T027</td><td>1950-05-14</td><td><a href="http://data.gbif.org/occurrences/145352673">http://data.gbif.org/occurrences/145352673</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.885,16.919,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P5390</td><td>1976-10-23</td><td><a href="http://data.gbif.org/occurrences/145352763">http://data.gbif.org/occurrences/145352763</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.99,18.488,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2318 / 5957 / T027</td><td>1964-07-10</td><td><a href="http://data.gbif.org/occurrences/145352546">http://data.gbif.org/occurrences/145352546</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.056,17.198,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3953 / 5888 / T027</td><td>1973-05-20</td><td><a href="http://data.gbif.org/occurrences/145352534">http://data.gbif.org/occurrences/145352534</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.547,17.351,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2704 / 6153 / T027</td><td>1965-12-13</td><td><a href="http://data.gbif.org/occurrences/145352570">http://data.gbif.org/occurrences/145352570</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.128,17.504,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2524 / 6151 / T027</td><td>1965-04-16</td><td><a href="http://data.gbif.org/occurrences/145352568">http://data.gbif.org/occurrences/145352568</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.565,17.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2779 / 6154 / T027</td><td>1966-04-04</td><td><a href="http://data.gbif.org/occurrences/145352571">http://data.gbif.org/occurrences/145352571</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.594,17.27,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2501 / 7529 / T027</td><td>1965-03-08</td><td><a href="http://data.gbif.org/occurrences/145352696">http://data.gbif.org/occurrences/145352696</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.481,17.901,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>592</td><td>1966-02-08</td><td><a href="http://data.gbif.org/occurrences/46400826">http://data.gbif.org/occurrences/46400826</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.1283,18.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2745 / 3453 / T027</td><td>1966-02-08</td><td><a href="http://data.gbif.org/occurrences/145352265">http://data.gbif.org/occurrences/145352265</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.33,18.099,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P225 / 3807 / T027</td><td>1950-05-24</td><td><a href="http://data.gbif.org/occurrences/145352280">http://data.gbif.org/occurrences/145352280</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P227 / 3808 / T027</td><td>1950-05-26</td><td><a href="http://data.gbif.org/occurrences/145352281">http://data.gbif.org/occurrences/145352281</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.785,16.91,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2600 / 6088 / T027</td><td>1965-05-31</td><td><a href="http://data.gbif.org/occurrences/145352557">http://data.gbif.org/occurrences/145352557</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.924,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2493 / 5956 / T027</td><td>1965-02-26</td><td><a href="http://data.gbif.org/occurrences/145352545">http://data.gbif.org/occurrences/145352545</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.038,18.031,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P10618</td><td>1992-05-22</td><td><a href="http://data.gbif.org/occurrences/145099218">http://data.gbif.org/occurrences/145099218</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P10618</td><td>1992-05-22</td><td><a href="http://data.gbif.org/occurrences/240513950">http://data.gbif.org/occurrences/240513950</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-96.141,17.934,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8987</td><td>1990-05-03</td><td><a href="http://data.gbif.org/occurrences/46401190">http://data.gbif.org/occurrences/46401190</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.0167,16.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10618</td><td>1992-05-22</td><td><a href="http://data.gbif.org/occurrences/46399993">http://data.gbif.org/occurrences/46399993</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-96.1411,17.9344,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2755 / 3452 / T027</td><td>1966-02-09</td><td><a href="http://data.gbif.org/occurrences/145352264">http://data.gbif.org/occurrences/145352264</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.066,16.876,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2574 / 6152 / T027</td><td>1965-05-21</td><td><a href="http://data.gbif.org/occurrences/145352569">http://data.gbif.org/occurrences/145352569</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.623,17.721,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P999 / 2452 / T027</td><td>1966-04-07</td><td><a href="http://data.gbif.org/occurrences/145352080">http://data.gbif.org/occurrences/145352080</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.585,17.234,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2581 / 8854 / T027</td><td>1965-05-22</td><td><a href="http://data.gbif.org/occurrences/145352886">http://data.gbif.org/occurrences/145352886</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.726,17.748,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3902 / 5887 / T027</td><td>1976-05-23</td><td><a href="http://data.gbif.org/occurrences/145352533">http://data.gbif.org/occurrences/145352533</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.67,17.201,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P214 / 7353 / T027</td><td>1950-04-29</td><td><a href="http://data.gbif.org/occurrences/145352674">http://data.gbif.org/occurrences/145352674</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.074,16.884,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8987</td><td>1990-05-03</td><td><a href="http://data.gbif.org/occurrences/145099014">http://data.gbif.org/occurrences/145099014</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8987</td><td>1990-05-03</td><td><a href="http://data.gbif.org/occurrences/240513836">http://data.gbif.org/occurrences/240513836</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.017,16.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P880 / 2453 / T027</td><td>1963-05-27</td><td><a href="http://data.gbif.org/occurrences/145352081">http://data.gbif.org/occurrences/145352081</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.953,17.591,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2125 / 2466 / T027</td><td>1963-05-30</td><td><a href="http://data.gbif.org/occurrences/145352094">http://data.gbif.org/occurrences/145352094</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2125 / 5955 / T027</td><td>1963-05-30</td><td><a href="http://data.gbif.org/occurrences/145352544">http://data.gbif.org/occurrences/145352544</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.141,18.135,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P217 / 7354 / T027</td><td>1950-05-16</td><td><a href="http://data.gbif.org/occurrences/145352675">http://data.gbif.org/occurrences/145352675</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.714,16.91,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P998 / 2454 / T027</td><td>1966-04-07</td><td><a href="http://data.gbif.org/occurrences/145352082">http://data.gbif.org/occurrences/145352082</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.566,17.347,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2687 / 6156 / T027</td><td>1965-12-09</td><td><a href="http://data.gbif.org/occurrences/145352573">http://data.gbif.org/occurrences/145352573</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.519,17.512,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2302</td><td>1978-08-25</td><td><a href="http://data.gbif.org/occurrences/145098776">http://data.gbif.org/occurrences/145098776</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2302</td><td>1978-08-25</td><td><a href="http://data.gbif.org/occurrences/240513674">http://data.gbif.org/occurrences/240513674</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.261,18.731,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P1522</td><td>1957-03-27</td><td><a href="http://data.gbif.org/occurrences/145352854">http://data.gbif.org/occurrences/145352854</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-99.0,0.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P226 / 7356 / T027</td><td>1950-05-14</td><td><a href="http://data.gbif.org/occurrences/145352677">http://data.gbif.org/occurrences/145352677</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.802,16.889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2302</td><td>1978-08-25</td><td><a href="http://data.gbif.org/occurrences/46400347">http://data.gbif.org/occurrences/46400347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.2606,18.7314,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P3903</td><td>1973-05-23</td><td><a href="http://data.gbif.org/occurrences/145352535">http://data.gbif.org/occurrences/145352535</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.671,17.234,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P220 / 7355 / T027</td><td>1950-05-06</td><td><a href="http://data.gbif.org/occurrences/145352676">http://data.gbif.org/occurrences/145352676</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P213 / 7358 / T027</td><td>1950-05-02</td><td><a href="http://data.gbif.org/occurrences/145352678">http://data.gbif.org/occurrences/145352678</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.17,16.924,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atherinella schultzi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P592</td><td>1966-02-08</td><td><a href="http://data.gbif.org/occurrences/145098470">http://data.gbif.org/occurrences/145098470</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P592</td><td>1966-02-08</td><td><a href="http://data.gbif.org/occurrences/240513410">http://data.gbif.org/occurrences/240513410</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.128,18.183,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

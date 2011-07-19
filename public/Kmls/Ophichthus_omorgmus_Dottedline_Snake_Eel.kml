@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
 <Document xmlns="http://earth.google.com/kml/2.1">
  <name>GBIF Data Portal Occurrence Search</name>
  <open>true</open>
@@ -8,7 +7,7 @@
 This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
 					
 All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
-<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>
 -
 </description>
  <Style id="gbifIcon1">
@@ -179,16 +178,4 @@ All usage of these data must be in accordance with the GBIF Data Use Agreement -
    </Icon>
   </IconStyle>
  </Style> 
- <Folder>
-  <name>Coryphopterus punctipectophorus</name>
-  <Placemark>
-   <name>Coryphopterus punctipectophorus (3 records)</name>
-   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>315530.5207175</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/149757916">http://data.gbif.org/occurrences/149757916</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00315530</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/188798546">http://data.gbif.org/occurrences/188798546</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>315530</td><td>1980-08-14</td><td><a href="http://data.gbif.org/occurrences/241206321">http://data.gbif.org/occurrences/241206321</a></td></tr></table></p>]]></description>
-   <styleUrl>#gbifIcon5</styleUrl>
-   <Point>
-    <coordinates>-77.4167,33.5383,0</coordinates>
-   </Point>
-  </Placemark>
- </Folder>
 </Document>
-</kml>

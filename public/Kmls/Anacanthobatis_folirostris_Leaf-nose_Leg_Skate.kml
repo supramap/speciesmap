@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-05-16)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-05-16)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, iziko South African Museum - Shark Collection (AfrOBIS) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/412">http://data.gbif.org/datasets/resource/412</a>, 2011-05-16)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-05-16)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Anacanthobatis folirostris</name>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>38085</td><td></td><td><a href="http://data.gbif.org/occurrences/34506356">http://data.gbif.org/occurrences/34506356</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.6667,28.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222409</td><td>1962-10-27</td><td><a href="http://data.gbif.org/occurrences/241140690">http://data.gbif.org/occurrences/241140690</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.575,29.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222443</td><td>1970-02-04</td><td><a href="http://data.gbif.org/occurrences/241140504">http://data.gbif.org/occurrences/241140504</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.433,28.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222430.5080980</td><td>1970-02-08</td><td><a href="http://data.gbif.org/occurrences/149635395">http://data.gbif.org/occurrences/149635395</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.6,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000142</td><td>1951-06-07</td><td><a href="http://data.gbif.org/occurrences/25117039">http://data.gbif.org/occurrences/25117039</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7417,28.8833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000175</td><td>1956-06-20</td><td><a href="http://data.gbif.org/occurrences/25117072">http://data.gbif.org/occurrences/25117072</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.1667,29.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188097</td><td>1962-10-26</td><td><a href="http://data.gbif.org/occurrences/241140609">http://data.gbif.org/occurrences/241140609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.533,29.0583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158972</td><td></td><td><a href="http://data.gbif.org/occurrences/241140555">http://data.gbif.org/occurrences/241140555</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.217,29.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000134</td><td>1951-09-29</td><td><a href="http://data.gbif.org/occurrences/25117031">http://data.gbif.org/occurrences/25117031</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-85.15,27.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222431.5080981</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/149635415">http://data.gbif.org/occurrences/149635415</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.1,18.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9865</td><td>1991-06-26</td><td><a href="http://data.gbif.org/occurrences/145098080">http://data.gbif.org/occurrences/145098080</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9865</td><td>1991-06-26</td><td><a href="http://data.gbif.org/occurrences/240512982">http://data.gbif.org/occurrences/240512982</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.9,22.533,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160837</td><td></td><td><a href="http://data.gbif.org/occurrences/241140510">http://data.gbif.org/occurrences/241140510</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.75,29.483,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9865</td><td>1991-06-26</td><td><a href="http://data.gbif.org/occurrences/46399879">http://data.gbif.org/occurrences/46399879</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.9,22.5333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000147</td><td>1951-09-06</td><td><a href="http://data.gbif.org/occurrences/25117044">http://data.gbif.org/occurrences/25117044</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5167,29.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000133</td><td>1956-05-07</td><td><a href="http://data.gbif.org/occurrences/25117030">http://data.gbif.org/occurrences/25117030</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.5833,27.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000176</td><td>1956-02-19</td><td><a href="http://data.gbif.org/occurrences/25117073">http://data.gbif.org/occurrences/25117073</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.9,29.5167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000131</td><td>1952-04-17</td><td><a href="http://data.gbif.org/occurrences/25117028">http://data.gbif.org/occurrences/25117028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.0483,27.445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222443</td><td>1970-02-04</td><td><a href="http://data.gbif.org/occurrences/188598935">http://data.gbif.org/occurrences/188598935</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222431</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/188598932">http://data.gbif.org/occurrences/188598932</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000170</td><td>1955-03-04</td><td><a href="http://data.gbif.org/occurrences/25117067">http://data.gbif.org/occurrences/25117067</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.35,29.2667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42427</td><td></td><td><a href="http://data.gbif.org/occurrences/34506399">http://data.gbif.org/occurrences/34506399</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000167</td><td>1956-06-22</td><td><a href="http://data.gbif.org/occurrences/25117064">http://data.gbif.org/occurrences/25117064</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000169</td><td>1956-06-25</td><td><a href="http://data.gbif.org/occurrences/25117066">http://data.gbif.org/occurrences/25117066</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.9333,29.2167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222442</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/241140368">http://data.gbif.org/occurrences/241140368</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.517,29.433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000173</td><td>1956-02-19</td><td><a href="http://data.gbif.org/occurrences/25117070">http://data.gbif.org/occurrences/25117070</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.9167,29.4833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000137</td><td>1956-05-06</td><td><a href="http://data.gbif.org/occurrences/25117034">http://data.gbif.org/occurrences/25117034</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000138</td><td>1956-05-06</td><td><a href="http://data.gbif.org/occurrences/25117035">http://data.gbif.org/occurrences/25117035</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.9167,27.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>37394</td><td></td><td><a href="http://data.gbif.org/occurrences/34506353">http://data.gbif.org/occurrences/34506353</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.9833,27.6833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222428</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/241140675">http://data.gbif.org/occurrences/241140675</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.233,26.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000141</td><td>1955-03-11</td><td><a href="http://data.gbif.org/occurrences/25117038">http://data.gbif.org/occurrences/25117038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.1833,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000153</td><td>1956-06-24</td><td><a href="http://data.gbif.org/occurrences/25117050">http://data.gbif.org/occurrences/25117050</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000154</td><td>1956-06-26</td><td><a href="http://data.gbif.org/occurrences/25117051">http://data.gbif.org/occurrences/25117051</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.1167,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000155</td><td>1957-09-24</td><td><a href="http://data.gbif.org/occurrences/25117052">http://data.gbif.org/occurrences/25117052</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.3667,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000136</td><td>1952-04-16</td><td><a href="http://data.gbif.org/occurrences/25117033">http://data.gbif.org/occurrences/25117033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.9717,27.7783,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222409.5080959</td><td>1962-10-27</td><td><a href="http://data.gbif.org/occurrences/149635407">http://data.gbif.org/occurrences/149635407</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222409</td><td>1962-10-27</td><td><a href="http://data.gbif.org/occurrences/188598929">http://data.gbif.org/occurrences/188598929</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.575,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157977</td><td></td><td><a href="http://data.gbif.org/occurrences/241140452">http://data.gbif.org/occurrences/241140452</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.05,29.183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>37396</td><td></td><td><a href="http://data.gbif.org/occurrences/34506354">http://data.gbif.org/occurrences/34506354</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.9667,27.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000177</td><td></td><td><a href="http://data.gbif.org/occurrences/25117074">http://data.gbif.org/occurrences/25117074</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5,29.0167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152811</td><td>1950-11-28</td><td><a href="http://data.gbif.org/occurrences/241140477">http://data.gbif.org/occurrences/241140477</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.033,27.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222441</td><td>1969-06-23</td><td><a href="http://data.gbif.org/occurrences/241140549">http://data.gbif.org/occurrences/241140549</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.133,29.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000171</td><td>1956-02-18</td><td><a href="http://data.gbif.org/occurrences/25117068">http://data.gbif.org/occurrences/25117068</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.1167,29.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000174</td><td>1954-03-22</td><td><a href="http://data.gbif.org/occurrences/25117071">http://data.gbif.org/occurrences/25117071</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.9333,29.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000152</td><td>1956-02-16</td><td><a href="http://data.gbif.org/occurrences/25117049">http://data.gbif.org/occurrences/25117049</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0833,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222428</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/188598930">http://data.gbif.org/occurrences/188598930</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.0,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000156</td><td>1957-09-25</td><td><a href="http://data.gbif.org/occurrences/25117053">http://data.gbif.org/occurrences/25117053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.1833,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000165</td><td>1952-09-19</td><td><a href="http://data.gbif.org/occurrences/25117062">http://data.gbif.org/occurrences/25117062</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.3433,29.2067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42951</td><td></td><td><a href="http://data.gbif.org/occurrences/34506409">http://data.gbif.org/occurrences/34506409</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5167,29.0667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000146</td><td>1954-06-15</td><td><a href="http://data.gbif.org/occurrences/25117043">http://data.gbif.org/occurrences/25117043</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5833,29.0333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000163</td><td>1952-09-18</td><td><a href="http://data.gbif.org/occurrences/25117060">http://data.gbif.org/occurrences/25117060</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0833,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222428.5080978</td><td>1969-03-18</td><td><a href="http://data.gbif.org/occurrences/149635416">http://data.gbif.org/occurrences/149635416</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.2,26.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000149</td><td>1951-09-06</td><td><a href="http://data.gbif.org/occurrences/25117046">http://data.gbif.org/occurrences/25117046</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160839.5047915</td><td></td><td><a href="http://data.gbif.org/occurrences/149635401">http://data.gbif.org/occurrences/149635401</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160839</td><td></td><td><a href="http://data.gbif.org/occurrences/241140411">http://data.gbif.org/occurrences/241140411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000157</td><td>1955-02-26</td><td><a href="http://data.gbif.org/occurrences/25117054">http://data.gbif.org/occurrences/25117054</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000158</td><td>1956-06-22</td><td><a href="http://data.gbif.org/occurrences/25117055">http://data.gbif.org/occurrences/25117055</a></td></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000161</td><td>1957-09-24</td><td><a href="http://data.gbif.org/occurrences/25117058">http://data.gbif.org/occurrences/25117058</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.05,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000178</td><td>1950-09-23</td><td><a href="http://data.gbif.org/occurrences/25117075">http://data.gbif.org/occurrences/25117075</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5667,29.0333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000135</td><td></td><td><a href="http://data.gbif.org/occurrences/25117032">http://data.gbif.org/occurrences/25117032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.9333,27.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42432</td><td></td><td><a href="http://data.gbif.org/occurrences/34506400">http://data.gbif.org/occurrences/34506400</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.7167,29.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000143</td><td>1951-09-12</td><td><a href="http://data.gbif.org/occurrences/25117040">http://data.gbif.org/occurrences/25117040</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.6667,28.9417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222441.5080991</td><td>1969-06-23</td><td><a href="http://data.gbif.org/occurrences/149635396">http://data.gbif.org/occurrences/149635396</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.1,29.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000159</td><td>1956-06-23</td><td><a href="http://data.gbif.org/occurrences/25117056">http://data.gbif.org/occurrences/25117056</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0333,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158855.5047529</td><td></td><td><a href="http://data.gbif.org/occurrences/149635390">http://data.gbif.org/occurrences/149635390</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158855</td><td></td><td><a href="http://data.gbif.org/occurrences/241140432">http://data.gbif.org/occurrences/241140432</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.5,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000160</td><td>1957-09-24</td><td><a href="http://data.gbif.org/occurrences/25117057">http://data.gbif.org/occurrences/25117057</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.1167,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00152546</td><td>1950-09-23</td><td><a href="http://data.gbif.org/occurrences/188598917">http://data.gbif.org/occurrences/188598917</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00157977</td><td></td><td><a href="http://data.gbif.org/occurrences/188598920">http://data.gbif.org/occurrences/188598920</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158971</td><td></td><td><a href="http://data.gbif.org/occurrences/188598922">http://data.gbif.org/occurrences/188598922</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158972</td><td></td><td><a href="http://data.gbif.org/occurrences/188598923">http://data.gbif.org/occurrences/188598923</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160839</td><td></td><td><a href="http://data.gbif.org/occurrences/188598926">http://data.gbif.org/occurrences/188598926</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42469</td><td></td><td><a href="http://data.gbif.org/occurrences/34506402">http://data.gbif.org/occurrences/34506402</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.1,29.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160837.5047913</td><td></td><td><a href="http://data.gbif.org/occurrences/149635400">http://data.gbif.org/occurrences/149635400</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.8,29.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>378491</td><td>1969-06-19</td><td><a href="http://data.gbif.org/occurrences/241140382">http://data.gbif.org/occurrences/241140382</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-85.217,27.883,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000140</td><td></td><td><a href="http://data.gbif.org/occurrences/25117037">http://data.gbif.org/occurrences/25117037</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.6,27.9333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42439</td><td></td><td><a href="http://data.gbif.org/occurrences/34506401">http://data.gbif.org/occurrences/34506401</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.1333,29.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000132</td><td>1956-05-06</td><td><a href="http://data.gbif.org/occurrences/25117029">http://data.gbif.org/occurrences/25117029</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.9667,27.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000166</td><td>1960-07-17</td><td><a href="http://data.gbif.org/occurrences/25117063">http://data.gbif.org/occurrences/25117063</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.8917,29.2083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00152811</td><td></td><td><a href="http://data.gbif.org/occurrences/188598918">http://data.gbif.org/occurrences/188598918</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.0,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222431</td><td>1970-06-05</td><td><a href="http://data.gbif.org/occurrences/241140635">http://data.gbif.org/occurrences/241140635</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.083,18.883,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000130</td><td>1954-06-04</td><td><a href="http://data.gbif.org/occurrences/25117027">http://data.gbif.org/occurrences/25117027</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.3333,26.7667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000148</td><td>1951-09-06</td><td><a href="http://data.gbif.org/occurrences/25117045">http://data.gbif.org/occurrences/25117045</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.4667,29.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188097.5055510</td><td></td><td><a href="http://data.gbif.org/occurrences/149635386">http://data.gbif.org/occurrences/149635386</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00188097</td><td></td><td><a href="http://data.gbif.org/occurrences/188598927">http://data.gbif.org/occurrences/188598927</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5333,29.0583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>378491.5294625</td><td>1969-06-19</td><td><a href="http://data.gbif.org/occurrences/149635360">http://data.gbif.org/occurrences/149635360</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-85.2,27.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152811.5046560</td><td>1950-11-28</td><td><a href="http://data.gbif.org/occurrences/149635413">http://data.gbif.org/occurrences/149635413</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.0,27.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222443.5080993</td><td>1970-02-04</td><td><a href="http://data.gbif.org/occurrences/149635404">http://data.gbif.org/occurrences/149635404</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.4,28.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000162</td><td>1951-06-21</td><td><a href="http://data.gbif.org/occurrences/25117059">http://data.gbif.org/occurrences/25117059</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.125,29.1917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000172</td><td>1955-03-03</td><td><a href="http://data.gbif.org/occurrences/25117069">http://data.gbif.org/occurrences/25117069</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.8667,29.4833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000145</td><td>1955-09-08</td><td><a href="http://data.gbif.org/occurrences/25117042">http://data.gbif.org/occurrences/25117042</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.55,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222430</td><td>1970-02-08</td><td><a href="http://data.gbif.org/occurrences/241140403">http://data.gbif.org/occurrences/241140403</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.6,29.283,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160837</td><td></td><td><a href="http://data.gbif.org/occurrences/188598925">http://data.gbif.org/occurrences/188598925</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00204616</td><td>1969-06-24</td><td><a href="http://data.gbif.org/occurrences/188598928">http://data.gbif.org/occurrences/188598928</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222441</td><td>1969-06-23</td><td><a href="http://data.gbif.org/occurrences/188598933">http://data.gbif.org/occurrences/188598933</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000151</td><td>1956-06-23</td><td><a href="http://data.gbif.org/occurrences/25117048">http://data.gbif.org/occurrences/25117048</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.2,29.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158971</td><td></td><td><a href="http://data.gbif.org/occurrences/241140355">http://data.gbif.org/occurrences/241140355</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.3,29.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000144</td><td>1951-09-07</td><td><a href="http://data.gbif.org/occurrences/25117041">http://data.gbif.org/occurrences/25117041</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160834.5047910</td><td></td><td><a href="http://data.gbif.org/occurrences/149635399">http://data.gbif.org/occurrences/149635399</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00160834</td><td></td><td><a href="http://data.gbif.org/occurrences/188598924">http://data.gbif.org/occurrences/188598924</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>160834</td><td></td><td><a href="http://data.gbif.org/occurrences/241140662">http://data.gbif.org/occurrences/241140662</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.675,28.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42954</td><td></td><td><a href="http://data.gbif.org/occurrences/34506411">http://data.gbif.org/occurrences/34506411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.2833,29.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158855</td><td></td><td><a href="http://data.gbif.org/occurrences/188598921">http://data.gbif.org/occurrences/188598921</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222430</td><td>1970-02-08</td><td><a href="http://data.gbif.org/occurrences/188598931">http://data.gbif.org/occurrences/188598931</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222442</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/188598934">http://data.gbif.org/occurrences/188598934</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157977.5047339</td><td></td><td><a href="http://data.gbif.org/occurrences/149635394">http://data.gbif.org/occurrences/149635394</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000150</td><td>1955-03-04</td><td><a href="http://data.gbif.org/occurrences/25117047">http://data.gbif.org/occurrences/25117047</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.4167,29.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158971.5047567</td><td></td><td><a href="http://data.gbif.org/occurrences/149635388">http://data.gbif.org/occurrences/149635388</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.3,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000139</td><td>1951-11-18</td><td><a href="http://data.gbif.org/occurrences/25117036">http://data.gbif.org/occurrences/25117036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-94.65,27.8083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222442.5080992</td><td>1969-02-27</td><td><a href="http://data.gbif.org/occurrences/149635397">http://data.gbif.org/occurrences/149635397</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-86.5,29.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000168</td><td>1956-06-23</td><td><a href="http://data.gbif.org/occurrences/25117065">http://data.gbif.org/occurrences/25117065</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.9,29.2167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158972.5047568</td><td></td><td><a href="http://data.gbif.org/occurrences/149635389">http://data.gbif.org/occurrences/149635389</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.2,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157720.5047242</td><td></td><td><a href="http://data.gbif.org/occurrences/149635384">http://data.gbif.org/occurrences/149635384</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00157720</td><td></td><td><a href="http://data.gbif.org/occurrences/188598919">http://data.gbif.org/occurrences/188598919</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>157720</td><td></td><td><a href="http://data.gbif.org/occurrences/241140414">http://data.gbif.org/occurrences/241140414</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.845,29.245,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Anacanthobatis folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-000164</td><td>1957-09-24</td><td><a href="http://data.gbif.org/occurrences/25117061">http://data.gbif.org/occurrences/25117061</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.0333,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Springeria folirostris</name>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152546</td><td>1950-09-23</td><td><a href="http://data.gbif.org/occurrences/241423771">http://data.gbif.org/occurrences/241423771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.567,29.033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>204616</td><td>1969-06-24</td><td><a href="http://data.gbif.org/occurrences/241424029">http://data.gbif.org/occurrences/241424029</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-87.917,29.233,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>204616.5064202</td><td>1969-06-24</td><td><a href="http://data.gbif.org/occurrences/150202954">http://data.gbif.org/occurrences/150202954</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-87.9,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10953</td><td>1954-06-15</td><td><a href="http://data.gbif.org/occurrences/198350306">http://data.gbif.org/occurrences/198350306</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.58334,29.03333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>37160</td><td></td><td><a href="http://data.gbif.org/occurrences/35401862">http://data.gbif.org/occurrences/35401862</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.5,29.0167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6821</td><td>1952-09-19</td><td><a href="http://data.gbif.org/occurrences/198350229">http://data.gbif.org/occurrences/198350229</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.34333,29.20667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>187771</td><td>1998-08-01</td><td><a href="http://data.gbif.org/occurrences/198351026">http://data.gbif.org/occurrences/198351026</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-89.88333,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152546.5046528</td><td>1950-09-23</td><td><a href="http://data.gbif.org/occurrences/150202952">http://data.gbif.org/occurrences/150202952</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.6,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>168027</td><td></td><td><a href="http://data.gbif.org/occurrences/328463857">http://data.gbif.org/occurrences/328463857</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-90.6,27.9333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Springeria folirostris</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6832</td><td>1952-09-18</td><td><a href="http://data.gbif.org/occurrences/198350231">http://data.gbif.org/occurrences/198350231</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon3</styleUrl>
+   <Point>
+    <coordinates>-88.08334,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Royal Ontario Museum, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/660">http://data.gbif.org/datasets/resource/660</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Rabula acuta</name>
+  <Placemark>
+   <name>Rabula acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>157919</td><td></td><td><a href="http://data.gbif.org/occurrences/35308767">http://data.gbif.org/occurrences/35308767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon17</styleUrl>
+   <Point>
+    <coordinates>-64.05,32.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Rabula acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>36146</td><td>1974-08-15</td><td><a href="http://data.gbif.org/occurrences/96451567">http://data.gbif.org/occurrences/96451567</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon17</styleUrl>
+   <Point>
+    <coordinates>-59.6425,13.189445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Rabula acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>36515</td><td>1969-12-04</td><td><a href="http://data.gbif.org/occurrences/96451568">http://data.gbif.org/occurrences/96451568</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon17</styleUrl>
+   <Point>
+    <coordinates>-79.0,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Monopenchelys acuta</name>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Royal Ontario Museum</td><td>ROM                                               </td><td>Ichthyology</td><td>60019</td><td>1989-12-10</td><td><a href="http://data.gbif.org/occurrences/96424731">http://data.gbif.org/occurrences/96424731</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-149.925,-17.516666,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00259890</td><td>1982-05-14</td><td><a href="http://data.gbif.org/occurrences/189117609">http://data.gbif.org/occurrences/189117609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>178.0,-18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>387847.5309335</td><td>2006-01-06</td><td><a href="http://data.gbif.org/occurrences/149979781">http://data.gbif.org/occurrences/149979781</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>387847</td><td>2006-01-06</td><td><a href="http://data.gbif.org/occurrences/241322707">http://data.gbif.org/occurrences/241322707</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-63.1958,17.41,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 36515</td><td>1969-12-04</td><td><a href="http://data.gbif.org/occurrences/189117603">http://data.gbif.org/occurrences/189117603</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-79.0,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00312841</td><td>1968-09-06</td><td><a href="http://data.gbif.org/occurrences/189117611">http://data.gbif.org/occurrences/189117611</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00312842</td><td>1971-08-26</td><td><a href="http://data.gbif.org/occurrences/189117612">http://data.gbif.org/occurrences/189117612</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-64.0,32.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>312841.5201607</td><td>1968-09-06</td><td><a href="http://data.gbif.org/occurrences/149979777">http://data.gbif.org/occurrences/149979777</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-64.3,32.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>360331.5270751</td><td>1999-05-04</td><td><a href="http://data.gbif.org/occurrences/149979704">http://data.gbif.org/occurrences/149979704</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>360331</td><td>1999-05-04</td><td><a href="http://data.gbif.org/occurrences/241322665">http://data.gbif.org/occurrences/241322665</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-75.0106,18.4114,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>397446</td><td>2006-01-12</td><td><a href="http://data.gbif.org/occurrences/241322581">http://data.gbif.org/occurrences/241322581</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-63.2272,17.5125,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>259890</td><td>1982-05-14</td><td><a href="http://data.gbif.org/occurrences/241322876">http://data.gbif.org/occurrences/241322876</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>178.483,-18.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>312841</td><td>1968-09-06</td><td><a href="http://data.gbif.org/occurrences/241322600">http://data.gbif.org/occurrences/241322600</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-64.283,32.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>71423</td><td></td><td><a href="http://data.gbif.org/occurrences/35096222">http://data.gbif.org/occurrences/35096222</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-66.5167,37.0333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (15 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.786</td><td></td><td><a href="http://data.gbif.org/occurrences/189117587">http://data.gbif.org/occurrences/189117587</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.787</td><td></td><td><a href="http://data.gbif.org/occurrences/189117588">http://data.gbif.org/occurrences/189117588</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.788</td><td></td><td><a href="http://data.gbif.org/occurrences/189117589">http://data.gbif.org/occurrences/189117589</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.789</td><td></td><td><a href="http://data.gbif.org/occurrences/189117590">http://data.gbif.org/occurrences/189117590</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.783</td><td></td><td><a href="http://data.gbif.org/occurrences/189117591">http://data.gbif.org/occurrences/189117591</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.785</td><td></td><td><a href="http://data.gbif.org/occurrences/189117592">http://data.gbif.org/occurrences/189117592</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.784</td><td></td><td><a href="http://data.gbif.org/occurrences/189117593">http://data.gbif.org/occurrences/189117593</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.779</td><td></td><td><a href="http://data.gbif.org/occurrences/189117594">http://data.gbif.org/occurrences/189117594</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.780</td><td></td><td><a href="http://data.gbif.org/occurrences/189117595">http://data.gbif.org/occurrences/189117595</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.781</td><td></td><td><a href="http://data.gbif.org/occurrences/189117596">http://data.gbif.org/occurrences/189117596</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.782</td><td></td><td><a href="http://data.gbif.org/occurrences/189117597">http://data.gbif.org/occurrences/189117597</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.775</td><td></td><td><a href="http://data.gbif.org/occurrences/189117598">http://data.gbif.org/occurrences/189117598</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.776</td><td></td><td><a href="http://data.gbif.org/occurrences/189117599">http://data.gbif.org/occurrences/189117599</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.777</td><td></td><td><a href="http://data.gbif.org/occurrences/189117600">http://data.gbif.org/occurrences/189117600</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>BMNH 1994.11.1.778</td><td></td><td><a href="http://data.gbif.org/occurrences/189117601">http://data.gbif.org/occurrences/189117601</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-25.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>388344.5310634</td><td>2006-01-14</td><td><a href="http://data.gbif.org/occurrences/149979764">http://data.gbif.org/occurrences/149979764</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>388344</td><td>2006-01-14</td><td><a href="http://data.gbif.org/occurrences/241322644">http://data.gbif.org/occurrences/241322644</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-63.2501,17.3461,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>62276</td><td></td><td><a href="http://data.gbif.org/occurrences/35096208">http://data.gbif.org/occurrences/35096208</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-65.7317,39.2783,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>71420</td><td></td><td><a href="http://data.gbif.org/occurrences/35096219">http://data.gbif.org/occurrences/35096219</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-69.7667,19.8667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>71421</td><td></td><td><a href="http://data.gbif.org/occurrences/35096220">http://data.gbif.org/occurrences/35096220</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-65.2,36.9167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>312842</td><td>1971-08-26</td><td><a href="http://data.gbif.org/occurrences/241322683">http://data.gbif.org/occurrences/241322683</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-64.05,32.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>71422</td><td></td><td><a href="http://data.gbif.org/occurrences/35096221">http://data.gbif.org/occurrences/35096221</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-66.4083,36.7417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>233946.5092458</td><td>1976-04-18</td><td><a href="http://data.gbif.org/occurrences/149979699">http://data.gbif.org/occurrences/149979699</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>233946</td><td>1976-04-18</td><td><a href="http://data.gbif.org/occurrences/241322315">http://data.gbif.org/occurrences/241322315</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>56.6,-10.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>312842.5201608</td><td>1971-08-26</td><td><a href="http://data.gbif.org/occurrences/149979778">http://data.gbif.org/occurrences/149979778</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-64.0,32.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>342095.5247050</td><td>1995-05-10</td><td><a href="http://data.gbif.org/occurrences/149979753">http://data.gbif.org/occurrences/149979753</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00342095</td><td>1995-05-10</td><td><a href="http://data.gbif.org/occurrences/189117613">http://data.gbif.org/occurrences/189117613</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>342095</td><td>1995-05-10</td><td><a href="http://data.gbif.org/occurrences/241322903">http://data.gbif.org/occurrences/241322903</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>57.3444,-20.3611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>95598</td><td></td><td><a href="http://data.gbif.org/occurrences/35096945">http://data.gbif.org/occurrences/35096945</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-75.0,34.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>ROM 36146</td><td>1974-08-15</td><td><a href="http://data.gbif.org/occurrences/189117602">http://data.gbif.org/occurrences/189117602</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-59.6425,13.1894,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>95596</td><td></td><td><a href="http://data.gbif.org/occurrences/35096940">http://data.gbif.org/occurrences/35096940</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-79.7333,26.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>41577</td><td>2003-08-21</td><td><a href="http://data.gbif.org/occurrences/199222435">http://data.gbif.org/occurrences/199222435</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-76.5132,33.5485,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>259890.5118341</td><td>1982-05-14</td><td><a href="http://data.gbif.org/occurrences/149979759">http://data.gbif.org/occurrences/149979759</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>178.5,-18.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Monopenchelys acuta</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>95597</td><td></td><td><a href="http://data.gbif.org/occurrences/35096942">http://data.gbif.org/occurrences/35096942</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-77.3667,32.0,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

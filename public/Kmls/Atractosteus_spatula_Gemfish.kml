@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Ictiológica del Río Bravo en México (UANL) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/11121">http://data.gbif.org/datasets/resource/11121</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces Dulceacuícolas Mexicanos de la Escuela Nacional de Ciencias Biológicas, IPN (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2501">http://data.gbif.org/datasets/resource/2501</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Marine Science Institute, UCSB, Paleobiology Database (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/563">http://data.gbif.org/datasets/resource/563</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Sam Noble Oklahoma Museum of Natural History, Fish Specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9162">http://data.gbif.org/datasets/resource/9162</a>, 2011-06-20)<br/><br/>The Swedish Museum of Natural History (NRM), NRM-Fishes (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1023">http://data.gbif.org/datasets/resource/1023</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Lepisosteus spatula</name>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>118641</td><td>1973-10-25</td><td><a href="http://data.gbif.org/occurrences/198240791">http://data.gbif.org/occurrences/198240791</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.94945,30.25889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87371</td><td>1974-01-11</td><td><a href="http://data.gbif.org/occurrences/198240740">http://data.gbif.org/occurrences/198240740</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.25584,29.25194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120061</td><td>1935-03-03</td><td><a href="http://data.gbif.org/occurrences/241298517">http://data.gbif.org/occurrences/241298517</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-94.8452,29.3679,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>42471</td><td></td><td><a href="http://data.gbif.org/occurrences/241298521">http://data.gbif.org/occurrences/241298521</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-100.678,29.3671,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22288</td><td>1956-06-01</td><td><a href="http://data.gbif.org/occurrences/198240553">http://data.gbif.org/occurrences/198240553</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-94.06861,29.91361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>25709</td><td>1961-09-14</td><td><a href="http://data.gbif.org/occurrences/198240578">http://data.gbif.org/occurrences/198240578</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.91472,30.58222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44532</td><td>1966-06-29</td><td><a href="http://data.gbif.org/occurrences/198240695">http://data.gbif.org/occurrences/198240695</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-87.76527,31.36333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28477</td><td>1962-06-06</td><td><a href="http://data.gbif.org/occurrences/198240605">http://data.gbif.org/occurrences/198240605</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28504</td><td>1962-04-01</td><td><a href="http://data.gbif.org/occurrences/198240606">http://data.gbif.org/occurrences/198240606</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.67278,30.24472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83159</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198240735">http://data.gbif.org/occurrences/198240735</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.36806,30.05778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22981</td><td>1960-02-06</td><td><a href="http://data.gbif.org/occurrences/198240560">http://data.gbif.org/occurrences/198240560</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-85.56416,30.32944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45267</td><td>1967-04-16</td><td><a href="http://data.gbif.org/occurrences/198240696">http://data.gbif.org/occurrences/198240696</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.08722,30.35917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12650</td><td>1954-05-28</td><td><a href="http://data.gbif.org/occurrences/198240533">http://data.gbif.org/occurrences/198240533</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.92722,30.09167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6569</td><td>1953-08-06</td><td><a href="http://data.gbif.org/occurrences/198240495">http://data.gbif.org/occurrences/198240495</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8190</td><td>1954-03-07</td><td><a href="http://data.gbif.org/occurrences/198240500">http://data.gbif.org/occurrences/198240500</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.85639,30.155,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2094</td><td>1950-06-14</td><td><a href="http://data.gbif.org/occurrences/198240481">http://data.gbif.org/occurrences/198240481</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.36139,31.52389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83151</td><td>1966-05-11</td><td><a href="http://data.gbif.org/occurrences/198240734">http://data.gbif.org/occurrences/198240734</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.06167,30.03389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>112114</td><td>1979-03-23</td><td><a href="http://data.gbif.org/occurrences/198240775">http://data.gbif.org/occurrences/198240775</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-94.18056,30.79639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37122</td><td>1960-11-21</td><td><a href="http://data.gbif.org/occurrences/198240666">http://data.gbif.org/occurrences/198240666</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-85.89278,30.45139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200041</td><td>2005-06-17</td><td><a href="http://data.gbif.org/occurrences/198241097">http://data.gbif.org/occurrences/198241097</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.336,29.44,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>115606</td><td>1979-06-15</td><td><a href="http://data.gbif.org/occurrences/198240781">http://data.gbif.org/occurrences/198240781</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.47722,29.81917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>183910</td><td>1997-06-14</td><td><a href="http://data.gbif.org/occurrences/198241074">http://data.gbif.org/occurrences/198241074</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.39889,31.28667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87360</td><td>1974-04-14</td><td><a href="http://data.gbif.org/occurrences/198240739">http://data.gbif.org/occurrences/198240739</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.94139,29.56528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>163780</td><td>1970-09-30</td><td><a href="http://data.gbif.org/occurrences/198240815">http://data.gbif.org/occurrences/198240815</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.4125,30.02056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8619</td><td>1954-05-17</td><td><a href="http://data.gbif.org/occurrences/198240502">http://data.gbif.org/occurrences/198240502</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.27167,30.33556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>124963</td><td>1982-03-25</td><td><a href="http://data.gbif.org/occurrences/198240795">http://data.gbif.org/occurrences/198240795</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.44305,31.31278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lepisosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23598</td><td>1960-03-20</td><td><a href="http://data.gbif.org/occurrences/198240567">http://data.gbif.org/occurrences/198240567</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.88695,29.93056,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Atractosteus spatula</name>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7068</td><td>1984-07-08</td><td><a href="http://data.gbif.org/occurrences/188645561">http://data.gbif.org/occurrences/188645561</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-87.9833,30.2667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>32368</td><td>1965-07-15</td><td><a href="http://data.gbif.org/occurrences/234774147">http://data.gbif.org/occurrences/234774147</a></td></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>32367</td><td>1965-07-15</td><td><a href="http://data.gbif.org/occurrences/234774146">http://data.gbif.org/occurrences/234774146</a></td></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>32366</td><td>1965-07-15</td><td><a href="http://data.gbif.org/occurrences/234774145">http://data.gbif.org/occurrences/234774145</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>96.938,33.984,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>18663</td><td>287889</td><td></td><td><a href="http://data.gbif.org/occurrences/35639935">http://data.gbif.org/occurrences/35639935</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-93.4,31.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>19659</td><td></td><td><a href="http://data.gbif.org/occurrences/234774032">http://data.gbif.org/occurrences/234774032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>97.1682,34.239,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P268</td><td>1966-12-02</td><td><a href="http://data.gbif.org/occurrences/145098293">http://data.gbif.org/occurrences/145098293</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P268</td><td>1966-12-02</td><td><a href="http://data.gbif.org/occurrences/240513263">http://data.gbif.org/occurrences/240513263</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>97.733,21.533,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>268</td><td>1966-12-02</td><td><a href="http://data.gbif.org/occurrences/46400388">http://data.gbif.org/occurrences/46400388</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-97.7333,21.5333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>20400</td><td>533376</td><td></td><td><a href="http://data.gbif.org/occurrences/35641175">http://data.gbif.org/occurrences/35641175</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-82.5,27.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>44493</td><td>2006-07-14</td><td><a href="http://data.gbif.org/occurrences/199195028">http://data.gbif.org/occurrences/199195028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-90.3361,30.294,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>44502</td><td></td><td><a href="http://data.gbif.org/occurrences/199195551">http://data.gbif.org/occurrences/199195551</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-91.4581,31.4706,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>58089</td><td>558942</td><td></td><td><a href="http://data.gbif.org/occurrences/35641274">http://data.gbif.org/occurrences/35641274</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-80.8114,27.8303,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Sweden</td><td>NRM</td><td>NRM-Fish</td><td>19821</td><td></td><td><a href="http://data.gbif.org/occurrences/51223">http://data.gbif.org/occurrences/51223</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-97.8667,22.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Sam Noble Oklahoma Museum of Natural History</td><td>OKMNH</td><td>Fish</td><td>47722</td><td>1993-06-16</td><td><a href="http://data.gbif.org/occurrences/234774318">http://data.gbif.org/occurrences/234774318</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>94.73,35.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>44491</td><td>2006-07-14</td><td><a href="http://data.gbif.org/occurrences/199195349">http://data.gbif.org/occurrences/199195349</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-90.3983,30.2785,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula (16 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7065</td><td>1983-07-04</td><td><a href="http://data.gbif.org/occurrences/188645539">http://data.gbif.org/occurrences/188645539</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7077</td><td>1984-08-17</td><td><a href="http://data.gbif.org/occurrences/188645540">http://data.gbif.org/occurrences/188645540</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7084</td><td>1985-07-21</td><td><a href="http://data.gbif.org/occurrences/188645546">http://data.gbif.org/occurrences/188645546</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7083</td><td>1985-07-17</td><td><a href="http://data.gbif.org/occurrences/188645547">http://data.gbif.org/occurrences/188645547</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7082</td><td>1985-07-14</td><td><a href="http://data.gbif.org/occurrences/188645548">http://data.gbif.org/occurrences/188645548</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7080</td><td>1984-09-09</td><td><a href="http://data.gbif.org/occurrences/188645550">http://data.gbif.org/occurrences/188645550</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7078</td><td>1984-08-17</td><td><a href="http://data.gbif.org/occurrences/188645552">http://data.gbif.org/occurrences/188645552</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7076</td><td>1984-07-15</td><td><a href="http://data.gbif.org/occurrences/188645553">http://data.gbif.org/occurrences/188645553</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7075</td><td>1984-07-15</td><td><a href="http://data.gbif.org/occurrences/188645554">http://data.gbif.org/occurrences/188645554</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7074</td><td>1984-07-14</td><td><a href="http://data.gbif.org/occurrences/188645555">http://data.gbif.org/occurrences/188645555</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7073</td><td>1984-07-14</td><td><a href="http://data.gbif.org/occurrences/188645556">http://data.gbif.org/occurrences/188645556</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7072</td><td>1984-07-12</td><td><a href="http://data.gbif.org/occurrences/188645557">http://data.gbif.org/occurrences/188645557</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7071</td><td>1984-07-11</td><td><a href="http://data.gbif.org/occurrences/188645558">http://data.gbif.org/occurrences/188645558</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7070</td><td>1984-07-11</td><td><a href="http://data.gbif.org/occurrences/188645559">http://data.gbif.org/occurrences/188645559</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7069</td><td>1984-07-11</td><td><a href="http://data.gbif.org/occurrences/188645560">http://data.gbif.org/occurrences/188645560</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>IGFA 1073-7079</td><td>1984-08-19</td><td><a href="http://data.gbif.org/occurrences/188645564">http://data.gbif.org/occurrences/188645564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-87.9167,30.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>22452</td><td></td><td><a href="http://data.gbif.org/occurrences/190534830">http://data.gbif.org/occurrences/190534830</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-96.9913,28.1278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>FCB-UANL</td><td>UANL</td><td>UANL-4179</td><td>1981-12-18</td><td><a href="http://data.gbif.org/occurrences/235966763">http://data.gbif.org/occurrences/235966763</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-99.111,26.426,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>18554</td><td>520603</td><td></td><td><a href="http://data.gbif.org/occurrences/35641059">http://data.gbif.org/occurrences/35641059</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-82.52,29.55,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCB-IPN-P</td><td>P2814 / 2696 / T027</td><td>1966-06-03</td><td><a href="http://data.gbif.org/occurrences/145352189">http://data.gbif.org/occurrences/145352189</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-99.088,23.034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula (15 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18535</td><td></td><td><a href="http://data.gbif.org/occurrences/190534692">http://data.gbif.org/occurrences/190534692</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18536</td><td></td><td><a href="http://data.gbif.org/occurrences/190534693">http://data.gbif.org/occurrences/190534693</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18537</td><td></td><td><a href="http://data.gbif.org/occurrences/190534694">http://data.gbif.org/occurrences/190534694</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18538</td><td></td><td><a href="http://data.gbif.org/occurrences/190534695">http://data.gbif.org/occurrences/190534695</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18539</td><td></td><td><a href="http://data.gbif.org/occurrences/190534696">http://data.gbif.org/occurrences/190534696</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18540</td><td></td><td><a href="http://data.gbif.org/occurrences/190534697">http://data.gbif.org/occurrences/190534697</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18541</td><td></td><td><a href="http://data.gbif.org/occurrences/190534698">http://data.gbif.org/occurrences/190534698</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18542</td><td></td><td><a href="http://data.gbif.org/occurrences/190534699">http://data.gbif.org/occurrences/190534699</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18543</td><td></td><td><a href="http://data.gbif.org/occurrences/190534700">http://data.gbif.org/occurrences/190534700</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18544</td><td></td><td><a href="http://data.gbif.org/occurrences/190534701">http://data.gbif.org/occurrences/190534701</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18545</td><td></td><td><a href="http://data.gbif.org/occurrences/190534702">http://data.gbif.org/occurrences/190534702</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18546</td><td></td><td><a href="http://data.gbif.org/occurrences/190534703">http://data.gbif.org/occurrences/190534703</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18547</td><td></td><td><a href="http://data.gbif.org/occurrences/190534704">http://data.gbif.org/occurrences/190534704</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18548</td><td></td><td><a href="http://data.gbif.org/occurrences/190534705">http://data.gbif.org/occurrences/190534705</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>18563</td><td></td><td><a href="http://data.gbif.org/occurrences/190534711">http://data.gbif.org/occurrences/190534711</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-94.7387,29.8895,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>20440</td><td>533669</td><td></td><td><a href="http://data.gbif.org/occurrences/35641178">http://data.gbif.org/occurrences/35641178</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-82.8,27.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Atractosteus spatula</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>18284</td><td>287002</td><td></td><td><a href="http://data.gbif.org/occurrences/35639927">http://data.gbif.org/occurrences/35639927</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon16</styleUrl>
+   <Point>
+    <coordinates>-100.03,42.78,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

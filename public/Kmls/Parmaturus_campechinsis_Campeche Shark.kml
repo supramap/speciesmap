@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-05-16)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Ictioplancton de las lagunas Madre y Almagre, Tamaulipas, y laguna de Tampamachoco, Veracruz, México (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2503">http://data.gbif.org/datasets/resource/2503</a>, 2011-05-16)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-05-16)<br/><br/>Los Angeles County Museum of Natural History, Vertebrate specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1795">http://data.gbif.org/datasets/resource/1795</a>, 2011-05-16)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-05-16)<br/><br/>TELDAP, Biodiversity Research Museum, Academia Sinica, Taiwan (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/9093">http://data.gbif.org/datasets/resource/9093</a>, 2011-05-16)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-05-16)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-05-16)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Hippocampus zosterae</name>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11018</td><td>1996-08-13</td><td><a href="http://data.gbif.org/occurrences/46406604">http://data.gbif.org/occurrences/46406604</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.6997,21.9097,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76607</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198221976">http://data.gbif.org/occurrences/198221976</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78000</td><td>1971-11-14</td><td><a href="http://data.gbif.org/occurrences/198221988">http://data.gbif.org/occurrences/198221988</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.83556,29.85972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10984</td><td>1996-08-12</td><td><a href="http://data.gbif.org/occurrences/46406595">http://data.gbif.org/occurrences/46406595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.3797,21.4697,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10938</td><td>1996-12-08</td><td><a href="http://data.gbif.org/occurrences/46406586">http://data.gbif.org/occurrences/46406586</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.69,24.4897,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>385169.5303715</td><td>1967-10-12</td><td><a href="http://data.gbif.org/occurrences/149883830">http://data.gbif.org/occurrences/149883830</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.2,25.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10842</td><td>1996-08-06</td><td><a href="http://data.gbif.org/occurrences/46406575">http://data.gbif.org/occurrences/46406575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.5,25.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>385169</td><td>1967-10-12</td><td><a href="http://data.gbif.org/occurrences/241276752">http://data.gbif.org/occurrences/241276752</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.167,25.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>TELDAP</td><td>ASIZ</td><td>ASIZP0060924</td><td>060924</td><td>2001-08-12</td><td><a href="http://data.gbif.org/occurrences/218768787">http://data.gbif.org/occurrences/218768787</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>121.9,24.94,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>28984</td><td>1999-10-06</td><td><a href="http://data.gbif.org/occurrences/199211093">http://data.gbif.org/occurrences/199211093</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-82.8279,27.9168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36340</td><td>1962-01-25</td><td><a href="http://data.gbif.org/occurrences/198221847">http://data.gbif.org/occurrences/198221847</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.15889,25.72944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18213</td><td>1958-05-23</td><td><a href="http://data.gbif.org/occurrences/198221734">http://data.gbif.org/occurrences/198221734</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-86.63111,30.403168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>73241</td><td>1901-11-21</td><td><a href="http://data.gbif.org/occurrences/241276815">http://data.gbif.org/occurrences/241276815</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.4514,29.3833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>594</td><td>1976-08-20</td><td><a href="http://data.gbif.org/occurrences/46407237">http://data.gbif.org/occurrences/46407237</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-91.5319,18.7931,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>16336</td><td></td><td><a href="http://data.gbif.org/occurrences/190549121">http://data.gbif.org/occurrences/190549121</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.3889,27.7956,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>134311.5303638</td><td>1902-01-15</td><td><a href="http://data.gbif.org/occurrences/149883770">http://data.gbif.org/occurrences/149883770</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>134311</td><td>1902-01-15</td><td><a href="http://data.gbif.org/occurrences/241276864">http://data.gbif.org/occurrences/241276864</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.2625,28.575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36142</td><td>1962-01-21</td><td><a href="http://data.gbif.org/occurrences/198221837">http://data.gbif.org/occurrences/198221837</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.59333,24.96333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12829</td><td>1954-07-07</td><td><a href="http://data.gbif.org/occurrences/198221665">http://data.gbif.org/occurrences/198221665</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.87583,29.71417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124855</td><td>1926-10-25</td><td><a href="http://data.gbif.org/occurrences/241277045">http://data.gbif.org/occurrences/241277045</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124856</td><td>1926-10-20</td><td><a href="http://data.gbif.org/occurrences/241277046">http://data.gbif.org/occurrences/241277046</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124858</td><td></td><td><a href="http://data.gbif.org/occurrences/241277047">http://data.gbif.org/occurrences/241277047</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124857</td><td>1927-04-03</td><td><a href="http://data.gbif.org/occurrences/241277049">http://data.gbif.org/occurrences/241277049</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>124854</td><td>1926-11-10</td><td><a href="http://data.gbif.org/occurrences/241277051">http://data.gbif.org/occurrences/241277051</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.0745,27.8661,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>73241.5303562</td><td>1901-11-21</td><td><a href="http://data.gbif.org/occurrences/149883786">http://data.gbif.org/occurrences/149883786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.451,29.383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>470</td><td>1971-10-13</td><td><a href="http://data.gbif.org/occurrences/46407092">http://data.gbif.org/occurrences/46407092</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-86.8056,21.1003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>185732</td><td>1963-06-10</td><td><a href="http://data.gbif.org/occurrences/198222400">http://data.gbif.org/occurrences/198222400</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-85.40444,29.76722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>1622-A</td><td>1997-10-24</td><td><a href="http://data.gbif.org/occurrences/145361333">http://data.gbif.org/occurrences/145361333</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.775,24.54,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>188449</td><td>1969-06-10</td><td><a href="http://data.gbif.org/occurrences/198222411">http://data.gbif.org/occurrences/198222411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.82333,29.93833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10741</td><td>1996-08-03</td><td><a href="http://data.gbif.org/occurrences/46406567">http://data.gbif.org/occurrences/46406567</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.75,24.42,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11033</td><td>1996-08-13</td><td><a href="http://data.gbif.org/occurrences/46406606">http://data.gbif.org/occurrences/46406606</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.73,21.9597,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 421 / L070</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145361144">http://data.gbif.org/occurrences/145361144</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.7,24.527,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43338</td><td>1966-06-15</td><td><a href="http://data.gbif.org/occurrences/198221879">http://data.gbif.org/occurrences/198221879</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-85.72997,30.118528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 2000-0048.1</td><td>1977-02-21</td><td><a href="http://data.gbif.org/occurrences/17606090">http://data.gbif.org/occurrences/17606090</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 2000-0048.1</td><td>1977-02-21</td><td><a href="http://data.gbif.org/occurrences/78269241">http://data.gbif.org/occurrences/78269241</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.117,27.867,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>73242.5303564</td><td>1902-01-17</td><td><a href="http://data.gbif.org/occurrences/149883744">http://data.gbif.org/occurrences/149883744</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>73242</td><td>1902-01-17</td><td><a href="http://data.gbif.org/occurrences/241276513">http://data.gbif.org/occurrences/241276513</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.0,28.7583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1887-0515</td><td></td><td><a href="http://data.gbif.org/occurrences/93258033">http://data.gbif.org/occurrences/93258033</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-87.2,30.383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>68304</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198221954">http://data.gbif.org/occurrences/198221954</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77867</td><td>1970-07-10</td><td><a href="http://data.gbif.org/occurrences/198221985">http://data.gbif.org/occurrences/198221985</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78287</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198221991">http://data.gbif.org/occurrences/198221991</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.86333,29.7775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>1621-A</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145361145">http://data.gbif.org/occurrences/145361145</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.693,24.58,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11937</td><td>1955-08-16</td><td><a href="http://data.gbif.org/occurrences/198221646">http://data.gbif.org/occurrences/198221646</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.03278,29.13445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8462</td><td>1953-11-17</td><td><a href="http://data.gbif.org/occurrences/198221563">http://data.gbif.org/occurrences/198221563</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.4525,25.0875,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20318</td><td>1959-07-05</td><td><a href="http://data.gbif.org/occurrences/198221757">http://data.gbif.org/occurrences/198221757</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-82.67889,27.69417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164886</td><td>1976-07-20</td><td><a href="http://data.gbif.org/occurrences/198222297">http://data.gbif.org/occurrences/198222297</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-80.62444,24.93111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>176169.5303655</td><td>1954-03-20</td><td><a href="http://data.gbif.org/occurrences/149883760">http://data.gbif.org/occurrences/149883760</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.8,24.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 615 / L070</td><td>1997-10-23</td><td><a href="http://data.gbif.org/occurrences/145361332">http://data.gbif.org/occurrences/145361332</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.755,24.235,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>176169</td><td>1954-03-20</td><td><a href="http://data.gbif.org/occurrences/241276601">http://data.gbif.org/occurrences/241276601</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.75,24.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>132627</td><td>1927-03-16</td><td><a href="http://data.gbif.org/occurrences/241277050">http://data.gbif.org/occurrences/241277050</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.1026,27.8998,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67642</td><td>1970-06-07</td><td><a href="http://data.gbif.org/occurrences/198221952">http://data.gbif.org/occurrences/198221952</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77911</td><td>1971-09-25</td><td><a href="http://data.gbif.org/occurrences/198221986">http://data.gbif.org/occurrences/198221986</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.84695,29.86056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 424 / L070</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145361147">http://data.gbif.org/occurrences/145361147</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.687,24.86,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8859</td><td>1954-03-27</td><td><a href="http://data.gbif.org/occurrences/198221569">http://data.gbif.org/occurrences/198221569</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.88084,29.86444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 423 / L070</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145361146">http://data.gbif.org/occurrences/145361146</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.645,24.813,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8533</td><td>1954-03-28</td><td><a href="http://data.gbif.org/occurrences/198221565">http://data.gbif.org/occurrences/198221565</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.85,29.85,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18482</td><td>1958-05-26</td><td><a href="http://data.gbif.org/occurrences/198221741">http://data.gbif.org/occurrences/198221741</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-82.28333,26.81667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77856</td><td>1970-06-07</td><td><a href="http://data.gbif.org/occurrences/198221984">http://data.gbif.org/occurrences/198221984</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.83028,29.89944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67386</td><td>1970-12-04</td><td><a href="http://data.gbif.org/occurrences/198221951">http://data.gbif.org/occurrences/198221951</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77741</td><td>1971-09-25</td><td><a href="http://data.gbif.org/occurrences/198221980">http://data.gbif.org/occurrences/198221980</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77927</td><td>1971-09-26</td><td><a href="http://data.gbif.org/occurrences/198221987">http://data.gbif.org/occurrences/198221987</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.82166,29.96194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17525</td><td>1958-01-28</td><td><a href="http://data.gbif.org/occurrences/198221722">http://data.gbif.org/occurrences/198221722</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-82.21972,26.803333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>48378</td><td>1967-05-20</td><td><a href="http://data.gbif.org/occurrences/198221916">http://data.gbif.org/occurrences/198221916</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-89.97417,29.24278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>131142</td><td>1901-11-21</td><td><a href="http://data.gbif.org/occurrences/241276935">http://data.gbif.org/occurrences/241276935</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.617,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>10971</td><td>1996-12-10</td><td><a href="http://data.gbif.org/occurrences/46406593">http://data.gbif.org/occurrences/46406593</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-97.69,24.68,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76589</td><td>1971-09-25</td><td><a href="http://data.gbif.org/occurrences/198221975">http://data.gbif.org/occurrences/198221975</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-88.83861,29.84583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36232</td><td>1962-01-22</td><td><a href="http://data.gbif.org/occurrences/198221838">http://data.gbif.org/occurrences/198221838</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-81.30805,24.65306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Los Angeles County Museum of Natural History</td><td>LACM                                              </td><td>Fishes</td><td>30767-1</td><td>1969-05-25</td><td><a href="http://data.gbif.org/occurrences/81465252">http://data.gbif.org/occurrences/81465252</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-118.697,34.0236,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus zosterae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>131142.5303631</td><td>1901-11-21</td><td><a href="http://data.gbif.org/occurrences/149883747">http://data.gbif.org/occurrences/149883747</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-83.6,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Hippocampus regulus</name>
+  <Placemark>
+   <name>Hippocampus regulus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9131</td><td>1954-08-26</td><td><a href="http://data.gbif.org/occurrences/198221576">http://data.gbif.org/occurrences/198221576</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.85,29.86667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus regulus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>92950</td><td></td><td><a href="http://data.gbif.org/occurrences/241277048">http://data.gbif.org/occurrences/241277048</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-97.0745,27.8661,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Hippocampus regulus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8961</td><td>1954-03-28</td><td><a href="http://data.gbif.org/occurrences/198221570">http://data.gbif.org/occurrences/198221570</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon11</styleUrl>
+   <Point>
+    <coordinates>-88.85,29.85,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>

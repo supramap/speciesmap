@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Ictioplancton de las lagunas Madre y Almagre, Tamaulipas, y laguna de Tampamachoco, Veracruz, México (ENCB, IPN) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2503">http://data.gbif.org/datasets/resource/2503</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>Senckenberg, Collection Pisces SMF (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8301">http://data.gbif.org/datasets/resource/8301</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>Zoologisches Forschungsinstitut und Museum Alexander Koenig, ZFMK Hymenoptera collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1840">http://data.gbif.org/datasets/resource/1840</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Lupinoblennius nicholsi</name>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 212 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360969">http://data.gbif.org/occurrences/145360969</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 223 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360980">http://data.gbif.org/occurrences/145360980</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.352,21.018,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>3411-A</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360962">http://data.gbif.org/occurrences/145360962</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 213 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360970">http://data.gbif.org/occurrences/145360970</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 218 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360975">http://data.gbif.org/occurrences/145360975</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.349,21.006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 381 / L070</td><td>1990-04-27</td><td><a href="http://data.gbif.org/occurrences/145361105">http://data.gbif.org/occurrences/145361105</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.7,24.527,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>22071</td><td>1978-10-10</td><td><a href="http://data.gbif.org/occurrences/207876133">http://data.gbif.org/occurrences/207876133</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-74.0,11.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 513 / L070</td><td>1998-05-03</td><td><a href="http://data.gbif.org/occurrences/145361233">http://data.gbif.org/occurrences/145361233</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.837,24.433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>12348</td><td>1964-02-06</td><td><a href="http://data.gbif.org/occurrences/207876137">http://data.gbif.org/occurrences/207876137</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-82.566666,27.316668,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 517 / L070</td><td>1998-07-30</td><td><a href="http://data.gbif.org/occurrences/145361237">http://data.gbif.org/occurrences/145361237</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.708,24.403,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 380 / L070</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145361104">http://data.gbif.org/occurrences/145361104</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.693,24.58,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Zoologisches Forschungsinstitut und Museum Alexander Koenig</td><td>ZFMK_HYMENOPT</td><td>ZFMK Hymenoptera collection</td><td>ZFMK_HYM_2010_96</td><td></td><td><a href="http://data.gbif.org/occurrences/345739210">http://data.gbif.org/occurrences/345739210</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>7.44972,49.7831,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 203 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360960">http://data.gbif.org/occurrences/145360960</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 210 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360967">http://data.gbif.org/occurrences/145360967</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 217 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360974">http://data.gbif.org/occurrences/145360974</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.35,21.019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>8250</td><td>1959-03-11</td><td><a href="http://data.gbif.org/occurrences/207876135">http://data.gbif.org/occurrences/207876135</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-80.666664,27.333334,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 204 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360961">http://data.gbif.org/occurrences/145360961</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 211 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360968">http://data.gbif.org/occurrences/145360968</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 222 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360979">http://data.gbif.org/occurrences/145360979</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 224 / L070</td><td>1988-08-11</td><td><a href="http://data.gbif.org/occurrences/145360981">http://data.gbif.org/occurrences/145360981</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.355,21.032,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>3422-A</td><td>1998-05-02</td><td><a href="http://data.gbif.org/occurrences/145361230">http://data.gbif.org/occurrences/145361230</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.715,24.278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 516 / L070</td><td>1998-07-30</td><td><a href="http://data.gbif.org/occurrences/145361236">http://data.gbif.org/occurrences/145361236</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.714,24.278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P280</td><td>1967-06-25</td><td><a href="http://data.gbif.org/occurrences/145103676">http://data.gbif.org/occurrences/145103676</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P280</td><td>1967-06-25</td><td><a href="http://data.gbif.org/occurrences/240518820">http://data.gbif.org/occurrences/240518820</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>97.65,21.633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2887</td><td>1968-06-06</td><td><a href="http://data.gbif.org/occurrences/189061824">http://data.gbif.org/occurrences/189061824</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>96.0,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 515 / L070</td><td>1998-05-03</td><td><a href="http://data.gbif.org/occurrences/145361235">http://data.gbif.org/occurrences/145361235</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.853,24.463,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 511 / L070</td><td>1998-05-02</td><td><a href="http://data.gbif.org/occurrences/145361231">http://data.gbif.org/occurrences/145361231</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.727,24.441,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>445</td><td>1972-05-23</td><td><a href="http://data.gbif.org/occurrences/46408034">http://data.gbif.org/occurrences/46408034</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P445</td><td>1972-05-23</td><td><a href="http://data.gbif.org/occurrences/145103707">http://data.gbif.org/occurrences/145103707</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P445</td><td>1972-05-23</td><td><a href="http://data.gbif.org/occurrences/240518858">http://data.gbif.org/occurrences/240518858</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-95.85,18.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>517</td><td>1976-05-22</td><td><a href="http://data.gbif.org/occurrences/46408112">http://data.gbif.org/occurrences/46408112</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-95.0114,18.5525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2873</td><td>1968-05-06</td><td><a href="http://data.gbif.org/occurrences/189061823">http://data.gbif.org/occurrences/189061823</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 4936</td><td>1970-01-05</td><td><a href="http://data.gbif.org/occurrences/189061828">http://data.gbif.org/occurrences/189061828</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-96.1106,19.0972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 206 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360963">http://data.gbif.org/occurrences/145360963</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 214 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360971">http://data.gbif.org/occurrences/145360971</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 219 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360976">http://data.gbif.org/occurrences/145360976</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.349,20.986,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>3421-A</td><td>1990-04-27</td><td><a href="http://data.gbif.org/occurrences/145361106">http://data.gbif.org/occurrences/145361106</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.67,24.664,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 209 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360966">http://data.gbif.org/occurrences/145360966</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 220 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360977">http://data.gbif.org/occurrences/145360977</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 225 / L070</td><td>1988-08-11</td><td><a href="http://data.gbif.org/occurrences/145360982">http://data.gbif.org/occurrences/145360982</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.342,20.976,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 514 / L070</td><td>1998-05-03</td><td><a href="http://data.gbif.org/occurrences/145361234">http://data.gbif.org/occurrences/145361234</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.85,24.447,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 207 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360964">http://data.gbif.org/occurrences/145360964</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 215 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360972">http://data.gbif.org/occurrences/145360972</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 221 / L070</td><td>1988-06-07</td><td><a href="http://data.gbif.org/occurrences/145360978">http://data.gbif.org/occurrences/145360978</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.331,20.969,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P608</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/145103643">http://data.gbif.org/occurrences/145103643</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P608</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/240518759">http://data.gbif.org/occurrences/240518759</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>97.867,22.167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 512 / L070</td><td>1998-05-03</td><td><a href="http://data.gbif.org/occurrences/145361232">http://data.gbif.org/occurrences/145361232</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.75,24.454,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 202 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360959">http://data.gbif.org/occurrences/145360959</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.342,20.989,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 383 / L070</td><td>1990-04-28</td><td><a href="http://data.gbif.org/occurrences/145361107">http://data.gbif.org/occurrences/145361107</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.647,24.676,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>326788.5222226</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/149956300">http://data.gbif.org/occurrences/149956300</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.8542,22.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>608</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/46408221">http://data.gbif.org/occurrences/46408221</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.8333,22.0833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P517</td><td>1976-05-22</td><td><a href="http://data.gbif.org/occurrences/145103700">http://data.gbif.org/occurrences/145103700</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P517</td><td>1976-05-22</td><td><a href="http://data.gbif.org/occurrences/240518851">http://data.gbif.org/occurrences/240518851</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-95.011,18.552,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Senckenberg</td><td>SMF</td><td>Collection Pisces</td><td>12091</td><td>1957-01-21</td><td><a href="http://data.gbif.org/occurrences/207876136">http://data.gbif.org/occurrences/207876136</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-82.183334,26.933332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 509 / L070</td><td>1997-10-23</td><td><a href="http://data.gbif.org/occurrences/145361229">http://data.gbif.org/occurrences/145361229</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.831,24.54,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>280</td><td>1967-06-25</td><td><a href="http://data.gbif.org/occurrences/46407860">http://data.gbif.org/occurrences/46407860</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.65,21.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 208 / L070</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/145360965">http://data.gbif.org/occurrences/145360965</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 216 / L070</td><td>1988-02-11</td><td><a href="http://data.gbif.org/occurrences/145360973">http://data.gbif.org/occurrences/145360973</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>ENCBECOL</td><td>0 / 226 / L070</td><td>1988-08-11</td><td><a href="http://data.gbif.org/occurrences/145360983">http://data.gbif.org/occurrences/145360983</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.325,20.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 2818</td><td>1968-03-06</td><td><a href="http://data.gbif.org/occurrences/189061826">http://data.gbif.org/occurrences/189061826</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00326788</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/189061832">http://data.gbif.org/occurrences/189061832</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.8542,22.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Lupinoblennius nicholsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>326788</td><td>1968-06-03</td><td><a href="http://data.gbif.org/occurrences/241308892">http://data.gbif.org/occurrences/241308892</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-97.8542,22.183,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

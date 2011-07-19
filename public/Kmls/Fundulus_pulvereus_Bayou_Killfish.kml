@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-03)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-03)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-03)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Fundulus pulvereus</name>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>19042</td><td>1957-04-29</td><td><a href="http://data.gbif.org/occurrences/198210840">http://data.gbif.org/occurrences/198210840</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.34472,30.00167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81393</td><td>1967-12-01</td><td><a href="http://data.gbif.org/occurrences/198212099">http://data.gbif.org/occurrences/198212099</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.92861,29.27806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11404</td><td>1956-05-23</td><td><a href="http://data.gbif.org/occurrences/198210656">http://data.gbif.org/occurrences/198210656</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.34139,30.0525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138529</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198213471">http://data.gbif.org/occurrences/198213471</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138546</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198213472">http://data.gbif.org/occurrences/198213472</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.01,30.44722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>14886</td><td>1956-10-20</td><td><a href="http://data.gbif.org/occurrences/198210771">http://data.gbif.org/occurrences/198210771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.42194,30.10778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11524</td><td>1956-05-23</td><td><a href="http://data.gbif.org/occurrences/198210665">http://data.gbif.org/occurrences/198210665</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-91.33,30.66028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200282</td><td>1999-12-01</td><td><a href="http://data.gbif.org/occurrences/198214423">http://data.gbif.org/occurrences/198214423</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>91.336,29.407,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11254</td><td>1956-03-02</td><td><a href="http://data.gbif.org/occurrences/198210654">http://data.gbif.org/occurrences/198210654</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17306</td><td>1958-02-24</td><td><a href="http://data.gbif.org/occurrences/198210813">http://data.gbif.org/occurrences/198210813</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20015</td><td>1959-04-16</td><td><a href="http://data.gbif.org/occurrences/198210854">http://data.gbif.org/occurrences/198210854</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.85639,30.155,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27733</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188916318">http://data.gbif.org/occurrences/188916318</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27036</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188916321">http://data.gbif.org/occurrences/188916321</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7533,30.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150729</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/198213809">http://data.gbif.org/occurrences/198213809</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.45139,29.36028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>140412</td><td>1985-05-01</td><td><a href="http://data.gbif.org/occurrences/198213543">http://data.gbif.org/occurrences/198213543</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.23666,30.38194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26980</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188916327">http://data.gbif.org/occurrences/188916327</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7997,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143643</td><td>1985-08-06</td><td><a href="http://data.gbif.org/occurrences/198213641">http://data.gbif.org/occurrences/198213641</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.27889,30.31889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27576</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188916319">http://data.gbif.org/occurrences/188916319</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27554</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188916320">http://data.gbif.org/occurrences/188916320</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7722,30.4025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200087</td><td>2002-12-11</td><td><a href="http://data.gbif.org/occurrences/198214421">http://data.gbif.org/occurrences/198214421</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200191</td><td>2003-01-16</td><td><a href="http://data.gbif.org/occurrences/198214422">http://data.gbif.org/occurrences/198214422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-91.336,29.44,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21829</td><td>1957-12-20</td><td><a href="http://data.gbif.org/occurrences/198210891">http://data.gbif.org/occurrences/198210891</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.9525,29.79639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92112</td><td>1975-01-05</td><td><a href="http://data.gbif.org/occurrences/198212401">http://data.gbif.org/occurrences/198212401</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.325,30.42111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22184</td><td>1958-12-05</td><td><a href="http://data.gbif.org/occurrences/198210896">http://data.gbif.org/occurrences/198210896</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.92528,29.865,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>198095</td><td>2004-02-17</td><td><a href="http://data.gbif.org/occurrences/198214412">http://data.gbif.org/occurrences/198214412</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>90.15654,29.84383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147784</td><td>1985-12-04</td><td><a href="http://data.gbif.org/occurrences/198213752">http://data.gbif.org/occurrences/198213752</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.49695,30.20833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138498</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198213470">http://data.gbif.org/occurrences/198213470</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.39917,30.36611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11416</td><td>1956-05-23</td><td><a href="http://data.gbif.org/occurrences/198210657">http://data.gbif.org/occurrences/198210657</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-93.57944,29.7575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11429</td><td>1956-05-25</td><td><a href="http://data.gbif.org/occurrences/198210659">http://data.gbif.org/occurrences/198210659</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-91.90444,29.96445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44916</td><td>1967-04-06</td><td><a href="http://data.gbif.org/occurrences/198211271">http://data.gbif.org/occurrences/198211271</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.94,30.00639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143347</td><td>1985-11-15</td><td><a href="http://data.gbif.org/occurrences/198213632">http://data.gbif.org/occurrences/198213632</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.02417,30.44528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1737</td><td></td><td><a href="http://data.gbif.org/occurrences/176211555">http://data.gbif.org/occurrences/176211555</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>25766</td><td></td><td><a href="http://data.gbif.org/occurrences/190548038">http://data.gbif.org/occurrences/190548038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-92.7,29.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>182385</td><td>1997-01-30</td><td><a href="http://data.gbif.org/occurrences/198214210">http://data.gbif.org/occurrences/198214210</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.38583,30.03528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164096</td><td>1972-02-11</td><td><a href="http://data.gbif.org/occurrences/198214034">http://data.gbif.org/occurrences/198214034</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164186</td><td>1972-05-10</td><td><a href="http://data.gbif.org/occurrences/198214036">http://data.gbif.org/occurrences/198214036</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164521</td><td>1973-02-14</td><td><a href="http://data.gbif.org/occurrences/198214037">http://data.gbif.org/occurrences/198214037</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.20111,29.09667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20727</td><td></td><td><a href="http://data.gbif.org/occurrences/190547924">http://data.gbif.org/occurrences/190547924</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-96.8678,28.4762,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>182417</td><td>1997-02-18</td><td><a href="http://data.gbif.org/occurrences/198214211">http://data.gbif.org/occurrences/198214211</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>184581</td><td>1997-08-21</td><td><a href="http://data.gbif.org/occurrences/198214237">http://data.gbif.org/occurrences/198214237</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.37417,30.04611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199994</td><td>2005-10-19</td><td><a href="http://data.gbif.org/occurrences/198214420">http://data.gbif.org/occurrences/198214420</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>91.312,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142753</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198213617">http://data.gbif.org/occurrences/198213617</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.84306,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20228</td><td></td><td><a href="http://data.gbif.org/occurrences/190547891">http://data.gbif.org/occurrences/190547891</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-97.0436,28.1081,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>182681</td><td>1997-05-01</td><td><a href="http://data.gbif.org/occurrences/198214212">http://data.gbif.org/occurrences/198214212</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.36945,30.04528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11531</td><td>1956-05-24</td><td><a href="http://data.gbif.org/occurrences/198210667">http://data.gbif.org/occurrences/198210667</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-92.29806,29.83167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>182190</td><td>1996-12-23</td><td><a href="http://data.gbif.org/occurrences/198214206">http://data.gbif.org/occurrences/198214206</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>184509</td><td>1997-05-20</td><td><a href="http://data.gbif.org/occurrences/198214234">http://data.gbif.org/occurrences/198214234</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.36389,30.02222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11456</td><td>1956-05-23</td><td><a href="http://data.gbif.org/occurrences/198210663">http://data.gbif.org/occurrences/198210663</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-92.73917,29.71194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8797</td><td>1954-06-29</td><td><a href="http://data.gbif.org/occurrences/198210612">http://data.gbif.org/occurrences/198210612</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.90722,30.11528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76143</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198211969">http://data.gbif.org/occurrences/198211969</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76383</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198211972">http://data.gbif.org/occurrences/198211972</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76572</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198211976">http://data.gbif.org/occurrences/198211976</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76776</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198211980">http://data.gbif.org/occurrences/198211980</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77588</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198212007">http://data.gbif.org/occurrences/198212007</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77595</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198212008">http://data.gbif.org/occurrences/198212008</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77926</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198212010">http://data.gbif.org/occurrences/198212010</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77955</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198212011">http://data.gbif.org/occurrences/198212011</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.86555,29.84972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>7280</td><td>1952-01-26</td><td><a href="http://data.gbif.org/occurrences/198210572">http://data.gbif.org/occurrences/198210572</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-91.9,29.88528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19453</td><td></td><td><a href="http://data.gbif.org/occurrences/190547859">http://data.gbif.org/occurrences/190547859</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.1125,30.0183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164862</td><td>1974-09-26</td><td><a href="http://data.gbif.org/occurrences/198214041">http://data.gbif.org/occurrences/198214041</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.65083,29.30667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27067</td><td>1996-09-23</td><td><a href="http://data.gbif.org/occurrences/188916325">http://data.gbif.org/occurrences/188916325</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.6256,30.3939,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130129</td><td>1981-12-09</td><td><a href="http://data.gbif.org/occurrences/198213200">http://data.gbif.org/occurrences/198213200</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.24445,30.34139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143481</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198213636">http://data.gbif.org/occurrences/198213636</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.82472,30.40195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>20209</td><td></td><td><a href="http://data.gbif.org/occurrences/190547889">http://data.gbif.org/occurrences/190547889</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.0474,29.4562,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71997</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198211885">http://data.gbif.org/occurrences/198211885</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>75374</td><td>1970-07-09</td><td><a href="http://data.gbif.org/occurrences/198211950">http://data.gbif.org/occurrences/198211950</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76328</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198211971">http://data.gbif.org/occurrences/198211971</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.86333,29.7775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27061</td><td>1996-09-23</td><td><a href="http://data.gbif.org/occurrences/188916326">http://data.gbif.org/occurrences/188916326</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.6472,30.4022,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6985</td><td>1953-10-23</td><td><a href="http://data.gbif.org/occurrences/198210562">http://data.gbif.org/occurrences/198210562</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15312</td><td>1956-10-28</td><td><a href="http://data.gbif.org/occurrences/198210786">http://data.gbif.org/occurrences/198210786</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.84417,30.22305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45208</td><td>1967-04-08</td><td><a href="http://data.gbif.org/occurrences/198211277">http://data.gbif.org/occurrences/198211277</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.41055,30.02111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8112</td><td>1954-02-19</td><td><a href="http://data.gbif.org/occurrences/198210602">http://data.gbif.org/occurrences/198210602</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.88333,30.11667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45849</td><td>1967-04-22</td><td><a href="http://data.gbif.org/occurrences/198211299">http://data.gbif.org/occurrences/198211299</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-85.26472,29.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27031</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188916323">http://data.gbif.org/occurrences/188916323</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7719,30.3967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8804</td><td>1954-06-29</td><td><a href="http://data.gbif.org/occurrences/198210613">http://data.gbif.org/occurrences/198210613</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.92722,30.09167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11444</td><td>1956-05-20</td><td><a href="http://data.gbif.org/occurrences/198210661">http://data.gbif.org/occurrences/198210661</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.08722,30.35917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26993</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188916328">http://data.gbif.org/occurrences/188916328</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7947,30.395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27088</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188916324">http://data.gbif.org/occurrences/188916324</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7975,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16010</td><td>1957-07-16</td><td><a href="http://data.gbif.org/occurrences/198210800">http://data.gbif.org/occurrences/198210800</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.0125,30.4475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>47179</td><td>1967-05-19</td><td><a href="http://data.gbif.org/occurrences/198211337">http://data.gbif.org/occurrences/198211337</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.94,30.00556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>134699</td><td>1984-04-07</td><td><a href="http://data.gbif.org/occurrences/198213346">http://data.gbif.org/occurrences/198213346</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.6275,30.20833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44192</td><td>1967-03-17</td><td><a href="http://data.gbif.org/occurrences/198211249">http://data.gbif.org/occurrences/198211249</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.93528,30.66667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>115528</td><td>1979-05-23</td><td><a href="http://data.gbif.org/occurrences/198212820">http://data.gbif.org/occurrences/198212820</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.04278,29.20306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>1630</td><td></td><td><a href="http://data.gbif.org/occurrences/176211270">http://data.gbif.org/occurrences/176211270</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29743</td><td></td><td><a href="http://data.gbif.org/occurrences/190547397">http://data.gbif.org/occurrences/190547397</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.08,29.12,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8265</td><td>1954-03-28</td><td><a href="http://data.gbif.org/occurrences/198210605">http://data.gbif.org/occurrences/198210605</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.81667,88.85,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164824</td><td>1974-03-14</td><td><a href="http://data.gbif.org/occurrences/198214039">http://data.gbif.org/occurrences/198214039</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.66889,29.06472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>14253</td><td>1953-04-04</td><td><a href="http://data.gbif.org/occurrences/198210753">http://data.gbif.org/occurrences/198210753</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.715,29.38278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17339</td><td></td><td><a href="http://data.gbif.org/occurrences/190547792">http://data.gbif.org/occurrences/190547792</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.5723,30.3719,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102384</td><td>1977-06-11</td><td><a href="http://data.gbif.org/occurrences/198212616">http://data.gbif.org/occurrences/198212616</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.73666,30.24139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138598</td><td>1984-11-24</td><td><a href="http://data.gbif.org/occurrences/198213476">http://data.gbif.org/occurrences/198213476</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.80917,30.39305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164640</td><td>1973-07-24</td><td><a href="http://data.gbif.org/occurrences/198214038">http://data.gbif.org/occurrences/198214038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.80417,29.38528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37134</td><td>1965-04-10</td><td><a href="http://data.gbif.org/occurrences/198211150">http://data.gbif.org/occurrences/198211150</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.95444,29.41556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77810</td><td>1971-11-14</td><td><a href="http://data.gbif.org/occurrences/198212009">http://data.gbif.org/occurrences/198212009</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.87945,29.89389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.006195</td><td>1969-09-01</td><td><a href="http://data.gbif.org/occurrences/202563083">http://data.gbif.org/occurrences/202563083</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.009,30.442,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11194</td><td>1956-02-13</td><td><a href="http://data.gbif.org/occurrences/198210649">http://data.gbif.org/occurrences/198210649</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137961</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198213451">http://data.gbif.org/occurrences/198213451</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36327</td><td>1961-09-16</td><td><a href="http://data.gbif.org/occurrences/198211135">http://data.gbif.org/occurrences/198211135</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.98833,29.23417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67385</td><td>1971-01-21</td><td><a href="http://data.gbif.org/occurrences/198211805">http://data.gbif.org/occurrences/198211805</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.82166,29.96194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>100803</td><td>1977-01-06</td><td><a href="http://data.gbif.org/occurrences/198212581">http://data.gbif.org/occurrences/198212581</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>124335</td><td>1982-01-07</td><td><a href="http://data.gbif.org/occurrences/198213077">http://data.gbif.org/occurrences/198213077</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>140177</td><td>1985-04-05</td><td><a href="http://data.gbif.org/occurrences/198213539">http://data.gbif.org/occurrences/198213539</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>146982</td><td>1986-10-30</td><td><a href="http://data.gbif.org/occurrences/198213745">http://data.gbif.org/occurrences/198213745</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.37444,30.4025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>49904</td><td>1966-12-19</td><td><a href="http://data.gbif.org/occurrences/198211387">http://data.gbif.org/occurrences/198211387</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.83305,29.79445,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>96874</td><td>1976-01-08</td><td><a href="http://data.gbif.org/occurrences/198212493">http://data.gbif.org/occurrences/198212493</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-87.32722,30.41833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>61387</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/198211652">http://data.gbif.org/occurrences/198211652</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.23083,30.37556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.006042</td><td>1969-01-01</td><td><a href="http://data.gbif.org/occurrences/202563160">http://data.gbif.org/occurrences/202563160</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-95.019,29.666,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11543</td><td>1956-05-25</td><td><a href="http://data.gbif.org/occurrences/198210668">http://data.gbif.org/occurrences/198210668</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-91.89361,29.93139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107273</td><td>1972-11-10</td><td><a href="http://data.gbif.org/occurrences/198212705">http://data.gbif.org/occurrences/198212705</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107473</td><td>1973-11-08</td><td><a href="http://data.gbif.org/occurrences/198212711">http://data.gbif.org/occurrences/198212711</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-89.20306,29.09861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>184508</td><td>1997-01-31</td><td><a href="http://data.gbif.org/occurrences/198214233">http://data.gbif.org/occurrences/198214233</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.35583,30.02056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>184550</td><td>1997-08-21</td><td><a href="http://data.gbif.org/occurrences/198214235">http://data.gbif.org/occurrences/198214235</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-90.36305,30.0225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus pulvereus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27023</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188916322">http://data.gbif.org/occurrences/188916322</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon23</styleUrl>
+   <Point>
+    <coordinates>-88.7722,30.4028,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Zygonectes pulvereus</name>
+  <Placemark>
+   <name>Zygonectes pulvereus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>45561</td><td>1891-11-16</td><td><a href="http://data.gbif.org/occurrences/241453129">http://data.gbif.org/occurrences/241453129</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>126758</td><td>1891-11-14</td><td><a href="http://data.gbif.org/occurrences/241453130">http://data.gbif.org/occurrences/241453130</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon9</styleUrl>
+   <Point>
+    <coordinates>-95.0881,29.4397,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Zygonectes funduloides</name>
+  <Placemark>
+   <name>Zygonectes funduloides</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>45563</td><td>1891-11-13</td><td><a href="http://data.gbif.org/occurrences/241453131">http://data.gbif.org/occurrences/241453131</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon24</styleUrl>
+   <Point>
+    <coordinates>-95.0881,29.4397,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

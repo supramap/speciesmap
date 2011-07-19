@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Marine Science Institute, UCSB, Paleobiology Database (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/563">http://data.gbif.org/datasets/resource/563</a>, 2011-06-20)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-20)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Raja texana</name>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2626</td><td>1986-02-01</td><td><a href="http://data.gbif.org/occurrences/145108425">http://data.gbif.org/occurrences/145108425</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2626</td><td>1986-02-01</td><td><a href="http://data.gbif.org/occurrences/240521609">http://data.gbif.org/occurrences/240521609</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.35,21.918,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27351</td><td>1994-10-29</td><td><a href="http://data.gbif.org/occurrences/189298976">http://data.gbif.org/occurrences/189298976</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.6531,28.6994,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7490</td><td>1988-08-16</td><td><a href="http://data.gbif.org/occurrences/145108845">http://data.gbif.org/occurrences/145108845</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7490</td><td>1988-08-16</td><td><a href="http://data.gbif.org/occurrences/240521953">http://data.gbif.org/occurrences/240521953</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.334,18.634,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>36583</td><td></td><td><a href="http://data.gbif.org/occurrences/199237173">http://data.gbif.org/occurrences/199237173</a></td></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>30376</td><td></td><td><a href="http://data.gbif.org/occurrences/199237038">http://data.gbif.org/occurrences/199237038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.11,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P5986</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/145108729">http://data.gbif.org/occurrences/145108729</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P5986</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/240521847">http://data.gbif.org/occurrences/240521847</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.717,19.151,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P5922</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/145108715">http://data.gbif.org/occurrences/145108715</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P5922</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/240521833">http://data.gbif.org/occurrences/240521833</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.434,19.302,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>1698</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/46411673">http://data.gbif.org/occurrences/46411673</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>1790</td><td>1983-07-12</td><td><a href="http://data.gbif.org/occurrences/46411689">http://data.gbif.org/occurrences/46411689</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.55,22.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155731.5047015</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/150113195">http://data.gbif.org/occurrences/150113195</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155731</td><td></td><td><a href="http://data.gbif.org/occurrences/189299001">http://data.gbif.org/occurrences/189299001</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155731</td><td>1938-07-13</td><td><a href="http://data.gbif.org/occurrences/241395315">http://data.gbif.org/occurrences/241395315</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.225,28.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6437</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145108794">http://data.gbif.org/occurrences/145108794</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6437</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240521916">http://data.gbif.org/occurrences/240521916</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.436,19.252,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7892</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145108867">http://data.gbif.org/occurrences/145108867</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7892</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240521973">http://data.gbif.org/occurrences/240521973</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.118,24.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7296</td><td>1988-08-13</td><td><a href="http://data.gbif.org/occurrences/46412422">http://data.gbif.org/occurrences/46412422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.9858,19.5858,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222433.5080983</td><td>1970-06-07</td><td><a href="http://data.gbif.org/occurrences/150113227">http://data.gbif.org/occurrences/150113227</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.7,18.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7713</td><td>1995-03-24</td><td><a href="http://data.gbif.org/occurrences/46412493">http://data.gbif.org/occurrences/46412493</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7716</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/46412495">http://data.gbif.org/occurrences/46412495</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7718</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/46412496">http://data.gbif.org/occurrences/46412496</a></td></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7723</td><td>1995-04-11</td><td><a href="http://data.gbif.org/occurrences/46412497">http://data.gbif.org/occurrences/46412497</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.7833,18.7833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>5922</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/46412082">http://data.gbif.org/occurrences/46412082</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.4339,19.3019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P1698</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/145108239">http://data.gbif.org/occurrences/145108239</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P1698</td><td>1982-06-15</td><td><a href="http://data.gbif.org/occurrences/240521530">http://data.gbif.org/occurrences/240521530</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.167,21.333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8281</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/46412595">http://data.gbif.org/occurrences/46412595</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.2842,21.9519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>125834.5040661</td><td></td><td><a href="http://data.gbif.org/occurrences/150113217">http://data.gbif.org/occurrences/150113217</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>125834</td><td></td><td><a href="http://data.gbif.org/occurrences/241395587">http://data.gbif.org/occurrences/241395587</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.3992,27.7613,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7892</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46412535">http://data.gbif.org/occurrences/46412535</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.1183,24.6853,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4479</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108661">http://data.gbif.org/occurrences/145108661</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4479</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521781">http://data.gbif.org/occurrences/240521781</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.185,21.218,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42003</td><td></td><td><a href="http://data.gbif.org/occurrences/35313689">http://data.gbif.org/occurrences/35313689</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-80.7167,24.7167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2787</td><td>1951-11-19</td><td><a href="http://data.gbif.org/occurrences/198346801">http://data.gbif.org/occurrences/198346801</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.84167,29.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4250</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46411879">http://data.gbif.org/occurrences/46411879</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.2675,21.8022,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4289</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46411889">http://data.gbif.org/occurrences/46411889</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.3025,21.6192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4271</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46411882">http://data.gbif.org/occurrences/46411882</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.4011,21.7344,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>180169</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198347833">http://data.gbif.org/occurrences/198347833</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>180171</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198347834">http://data.gbif.org/occurrences/198347834</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.21667,28.81667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8058</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145109128">http://data.gbif.org/occurrences/145109128</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8058</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240522221">http://data.gbif.org/occurrences/240522221</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.367,23.718,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4465</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411930">http://data.gbif.org/occurrences/46411930</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.2672,21.2003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2518</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/145108442">http://data.gbif.org/occurrences/145108442</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2518</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/240521619">http://data.gbif.org/occurrences/240521619</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.752,21.918,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2626</td><td>1986-02-01</td><td><a href="http://data.gbif.org/occurrences/46411774">http://data.gbif.org/occurrences/46411774</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.35,21.9181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 009543</td><td>1937-03-20</td><td><a href="http://data.gbif.org/occurrences/350197149">http://data.gbif.org/occurrences/350197149</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.1833,29.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14646</td><td></td><td><a href="http://data.gbif.org/occurrences/190570842">http://data.gbif.org/occurrences/190570842</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.6333,29.9,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9214</td><td>1990-11-26</td><td><a href="http://data.gbif.org/occurrences/46412673">http://data.gbif.org/occurrences/46412673</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.0686,25.6844,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4383</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145108639">http://data.gbif.org/occurrences/145108639</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4383</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240521758">http://data.gbif.org/occurrences/240521758</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.167,21.336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (8 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7713</td><td>1995-03-24</td><td><a href="http://data.gbif.org/occurrences/145109335">http://data.gbif.org/occurrences/145109335</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7716</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/145109337">http://data.gbif.org/occurrences/145109337</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7718</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/145109338">http://data.gbif.org/occurrences/145109338</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7723</td><td>1995-04-11</td><td><a href="http://data.gbif.org/occurrences/145109339">http://data.gbif.org/occurrences/145109339</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7713</td><td>1995-03-24</td><td><a href="http://data.gbif.org/occurrences/240522401">http://data.gbif.org/occurrences/240522401</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7716</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/240522403">http://data.gbif.org/occurrences/240522403</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7718</td><td>1995-04-09</td><td><a href="http://data.gbif.org/occurrences/240522404">http://data.gbif.org/occurrences/240522404</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7723</td><td>1995-04-11</td><td><a href="http://data.gbif.org/occurrences/240522405">http://data.gbif.org/occurrences/240522405</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.783,18.783,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7490</td><td>1988-08-16</td><td><a href="http://data.gbif.org/occurrences/46412466">http://data.gbif.org/occurrences/46412466</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.3336,18.6344,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8281</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145109100">http://data.gbif.org/occurrences/145109100</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8281</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/240522196">http://data.gbif.org/occurrences/240522196</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.284,21.952,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>55001</td><td>1966-06-25</td><td><a href="http://data.gbif.org/occurrences/198347346">http://data.gbif.org/occurrences/198347346</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-80.17389,25.71305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155722.5047013</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/150113194">http://data.gbif.org/occurrences/150113194</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155722</td><td></td><td><a href="http://data.gbif.org/occurrences/189299000">http://data.gbif.org/occurrences/189299000</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155722</td><td>1939-01-23</td><td><a href="http://data.gbif.org/occurrences/241395241">http://data.gbif.org/occurrences/241395241</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.2917,27.7333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158416.5047451</td><td></td><td><a href="http://data.gbif.org/occurrences/150113211">http://data.gbif.org/occurrences/150113211</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158416</td><td></td><td><a href="http://data.gbif.org/occurrences/189299003">http://data.gbif.org/occurrences/189299003</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158416</td><td></td><td><a href="http://data.gbif.org/occurrences/241395441">http://data.gbif.org/occurrences/241395441</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-82.5,24.7583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8037</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145109134">http://data.gbif.org/occurrences/145109134</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8037</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240522225">http://data.gbif.org/occurrences/240522225</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.667,23.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4289</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145108677">http://data.gbif.org/occurrences/145108677</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4289</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240521794">http://data.gbif.org/occurrences/240521794</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.302,21.619,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4512</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108671">http://data.gbif.org/occurrences/145108671</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4512</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521789">http://data.gbif.org/occurrences/240521789</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.034,21.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8177</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145109107">http://data.gbif.org/occurrences/145109107</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8177</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240522202">http://data.gbif.org/occurrences/240522202</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.483,22.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12917</td><td>1954-06-02</td><td><a href="http://data.gbif.org/occurrences/198346918">http://data.gbif.org/occurrences/198346918</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.75,26.21667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5394</td><td>1952-08-10</td><td><a href="http://data.gbif.org/occurrences/198346825">http://data.gbif.org/occurrences/198346825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.93,29.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4250</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145108601">http://data.gbif.org/occurrences/145108601</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4250</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240521723">http://data.gbif.org/occurrences/240521723</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.268,21.802,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2547</td><td>1985-04-27</td><td><a href="http://data.gbif.org/occurrences/46411759">http://data.gbif.org/occurrences/46411759</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.8675,22.1189,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8058</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46412561">http://data.gbif.org/occurrences/46412561</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.3669,23.7181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8177</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46412582">http://data.gbif.org/occurrences/46412582</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.4833,22.4683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16200</td><td>1957-06-24</td><td><a href="http://data.gbif.org/occurrences/198346968">http://data.gbif.org/occurrences/198346968</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-90.91666,28.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2547</td><td>1985-04-27</td><td><a href="http://data.gbif.org/occurrences/145108462">http://data.gbif.org/occurrences/145108462</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2547</td><td>1985-04-27</td><td><a href="http://data.gbif.org/occurrences/240521630">http://data.gbif.org/occurrences/240521630</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.868,22.119,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8037</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46412556">http://data.gbif.org/occurrences/46412556</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.6669,23.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158034.5047378</td><td></td><td><a href="http://data.gbif.org/occurrences/150113207">http://data.gbif.org/occurrences/150113207</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.8,27.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4383</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46411912">http://data.gbif.org/occurrences/46411912</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.1672,21.3356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7296</td><td>1988-08-13</td><td><a href="http://data.gbif.org/occurrences/145108881">http://data.gbif.org/occurrences/145108881</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7296</td><td>1988-08-13</td><td><a href="http://data.gbif.org/occurrences/240521985">http://data.gbif.org/occurrences/240521985</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.986,19.586,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6454</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145108800">http://data.gbif.org/occurrences/145108800</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6454</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240521921">http://data.gbif.org/occurrences/240521921</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.883,19.719,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.009543</td><td>1937-03-20</td><td><a href="http://data.gbif.org/occurrences/202572167">http://data.gbif.org/occurrences/202572167</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.183,29.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6437</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46412156">http://data.gbif.org/occurrences/46412156</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.4358,19.2525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4465</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145108657">http://data.gbif.org/occurrences/145108657</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4465</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240521777">http://data.gbif.org/occurrences/240521777</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.267,21.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155653.5047011</td><td>1938-04-20</td><td><a href="http://data.gbif.org/occurrences/150113193">http://data.gbif.org/occurrences/150113193</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.925,27.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158034</td><td></td><td><a href="http://data.gbif.org/occurrences/189299002">http://data.gbif.org/occurrences/189299002</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.0,27.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4479</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411934">http://data.gbif.org/occurrences/46411934</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.185,21.2183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4512</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46411949">http://data.gbif.org/occurrences/46411949</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.0339,21.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>84162</td><td></td><td><a href="http://data.gbif.org/occurrences/241395588">http://data.gbif.org/occurrences/241395588</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-95.3629,29.7625,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42454</td><td></td><td><a href="http://data.gbif.org/occurrences/35313732">http://data.gbif.org/occurrences/35313732</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.8833,28.35,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155653</td><td></td><td><a href="http://data.gbif.org/occurrences/189298999">http://data.gbif.org/occurrences/189298999</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.925,27.7667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>4180</td><td>1952-11-21</td><td><a href="http://data.gbif.org/occurrences/198346809">http://data.gbif.org/occurrences/198346809</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.36278,29.48667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155636.5047008</td><td>1938-05-10</td><td><a href="http://data.gbif.org/occurrences/150113197">http://data.gbif.org/occurrences/150113197</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155636</td><td></td><td><a href="http://data.gbif.org/occurrences/189298998">http://data.gbif.org/occurrences/189298998</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155636</td><td>1938-05-10</td><td><a href="http://data.gbif.org/occurrences/241395228">http://data.gbif.org/occurrences/241395228</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.2583,29.1667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4222</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46411874">http://data.gbif.org/occurrences/46411874</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.4839,21.8506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1992-1275</td><td></td><td><a href="http://data.gbif.org/occurrences/93298821">http://data.gbif.org/occurrences/93298821</a></td></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1992-1276</td><td></td><td><a href="http://data.gbif.org/occurrences/93298822">http://data.gbif.org/occurrences/93298822</a></td></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1992-1277</td><td></td><td><a href="http://data.gbif.org/occurrences/93298824">http://data.gbif.org/occurrences/93298824</a></td></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1992-1278</td><td></td><td><a href="http://data.gbif.org/occurrences/93298825">http://data.gbif.org/occurrences/93298825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.1,29.4,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155653</td><td>1938-04-20</td><td><a href="http://data.gbif.org/occurrences/241395232">http://data.gbif.org/occurrences/241395232</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.925,27.767,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4222</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145108597">http://data.gbif.org/occurrences/145108597</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4222</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240521720">http://data.gbif.org/occurrences/240521720</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.484,21.851,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6578</td><td>1952-08-10</td><td><a href="http://data.gbif.org/occurrences/198346830">http://data.gbif.org/occurrences/198346830</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.86667,29.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155635</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/241395551">http://data.gbif.org/occurrences/241395551</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.733,27.725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9214</td><td>1990-11-26</td><td><a href="http://data.gbif.org/occurrences/145109130">http://data.gbif.org/occurrences/145109130</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9214</td><td>1990-11-26</td><td><a href="http://data.gbif.org/occurrences/240522223">http://data.gbif.org/occurrences/240522223</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.069,25.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>155635.5047007</td><td>1938-04-22</td><td><a href="http://data.gbif.org/occurrences/150113196">http://data.gbif.org/occurrences/150113196</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00155635</td><td></td><td><a href="http://data.gbif.org/occurrences/189298997">http://data.gbif.org/occurrences/189298997</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.7333,27.725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2601</td><td>1985-04-30</td><td><a href="http://data.gbif.org/occurrences/145108460">http://data.gbif.org/occurrences/145108460</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2601</td><td>1985-04-30</td><td><a href="http://data.gbif.org/occurrences/240521629">http://data.gbif.org/occurrences/240521629</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.734,23.133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>222433</td><td>1970-06-07</td><td><a href="http://data.gbif.org/occurrences/241395452">http://data.gbif.org/occurrences/241395452</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.717,18.633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>83826</td><td>779595</td><td></td><td><a href="http://data.gbif.org/occurrences/181623286">http://data.gbif.org/occurrences/181623286</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.515,30.1683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P1790</td><td>1983-07-12</td><td><a href="http://data.gbif.org/occurrences/145108251">http://data.gbif.org/occurrences/145108251</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P1790</td><td>1983-07-12</td><td><a href="http://data.gbif.org/occurrences/240521536">http://data.gbif.org/occurrences/240521536</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.264,19.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3915</td><td></td><td><a href="http://data.gbif.org/occurrences/176214409">http://data.gbif.org/occurrences/176214409</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3916</td><td></td><td><a href="http://data.gbif.org/occurrences/176214410">http://data.gbif.org/occurrences/176214410</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29665</td><td></td><td><a href="http://data.gbif.org/occurrences/190571243">http://data.gbif.org/occurrences/190571243</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-88.4167,29.282,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00222433</td><td>1970-06-07</td><td><a href="http://data.gbif.org/occurrences/189299005">http://data.gbif.org/occurrences/189299005</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-93.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2601</td><td>1985-04-30</td><td><a href="http://data.gbif.org/occurrences/46411772">http://data.gbif.org/occurrences/46411772</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-87.7342,23.1333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>5986</td><td>1987-03-19</td><td><a href="http://data.gbif.org/occurrences/46412099">http://data.gbif.org/occurrences/46412099</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.7172,19.1508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82313</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198347467">http://data.gbif.org/occurrences/198347467</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-92.33,29.02,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>42445</td><td></td><td><a href="http://data.gbif.org/occurrences/35313721">http://data.gbif.org/occurrences/35313721</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.8083,28.4417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16543</td><td>1957-06-25</td><td><a href="http://data.gbif.org/occurrences/198346976">http://data.gbif.org/occurrences/198346976</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.33334,28.46667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6454</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46412163">http://data.gbif.org/occurrences/46412163</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-91.8833,19.7186,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158034</td><td>1950-11-26</td><td><a href="http://data.gbif.org/occurrences/241395466">http://data.gbif.org/occurrences/241395466</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-96.75,27.633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4271</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145108608">http://data.gbif.org/occurrences/145108608</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4271</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240521730">http://data.gbif.org/occurrences/240521730</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-97.401,21.734,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Raja texana</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2518</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/46411753">http://data.gbif.org/occurrences/46411753</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-86.7519,21.9183,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

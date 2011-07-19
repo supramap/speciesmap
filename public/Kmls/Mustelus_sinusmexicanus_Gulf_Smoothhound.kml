@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-05-16)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, iziko South African Museum - Shark Collection (AfrOBIS) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/412">http://data.gbif.org/datasets/resource/412</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Mustelus sinusmexicanus</name>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158585</td><td>1951-02-27</td><td><a href="http://data.gbif.org/occurrences/189126677">http://data.gbif.org/occurrences/189126677</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.2583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007729</td><td>1957-06-28</td><td><a href="http://data.gbif.org/occurrences/25124448">http://data.gbif.org/occurrences/25124448</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.4167,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007725</td><td>1970-06-09</td><td><a href="http://data.gbif.org/occurrences/25124444">http://data.gbif.org/occurrences/25124444</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.6,18.6833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16544</td><td>1957-06-28</td><td><a href="http://data.gbif.org/occurrences/198284408">http://data.gbif.org/occurrences/198284408</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.41666,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>180047</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198284942">http://data.gbif.org/occurrences/198284942</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-92.23333,28.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>179120</td><td></td><td><a href="http://data.gbif.org/occurrences/241326781">http://data.gbif.org/occurrences/241326781</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-97.0615,27.8305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007731</td><td>1951-02-27</td><td><a href="http://data.gbif.org/occurrences/25124450">http://data.gbif.org/occurrences/25124450</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158585.5047480</td><td>1951-02-27</td><td><a href="http://data.gbif.org/occurrences/149984709">http://data.gbif.org/occurrences/149984709</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158585</td><td>1951-02-27</td><td><a href="http://data.gbif.org/occurrences/241326330">http://data.gbif.org/occurrences/241326330</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.8,29.2583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>208345.5067891</td><td>1967-03-21</td><td><a href="http://data.gbif.org/occurrences/149984618">http://data.gbif.org/occurrences/149984618</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.1917,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82289</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198284749">http://data.gbif.org/occurrences/198284749</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.92,28.42833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007726</td><td>1970-06-11</td><td><a href="http://data.gbif.org/occurrences/25124445">http://data.gbif.org/occurrences/25124445</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.6167,18.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007728</td><td>1957-06-25</td><td><a href="http://data.gbif.org/occurrences/25124447">http://data.gbif.org/occurrences/25124447</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 14978</td><td>1957-06-25</td><td><a href="http://data.gbif.org/occurrences/189126683">http://data.gbif.org/occurrences/189126683</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-94.3333,28.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007724</td><td>1970-06-08</td><td><a href="http://data.gbif.org/occurrences/25124443">http://data.gbif.org/occurrences/25124443</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.7333,18.6333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00208345</td><td>1967-03-21</td><td><a href="http://data.gbif.org/occurrences/189126679">http://data.gbif.org/occurrences/189126679</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.1917,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007730</td><td>1967-03-21</td><td><a href="http://data.gbif.org/occurrences/25124449">http://data.gbif.org/occurrences/25124449</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>208345</td><td>1967-03-21</td><td><a href="http://data.gbif.org/occurrences/241326622">http://data.gbif.org/occurrences/241326622</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-88.1917,29.25,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007732</td><td>1968-01-25</td><td><a href="http://data.gbif.org/occurrences/25124451">http://data.gbif.org/occurrences/25124451</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-86.5833,29.55,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>116443</td><td>1940-03-24</td><td><a href="http://data.gbif.org/occurrences/241326782">http://data.gbif.org/occurrences/241326782</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-95.3704,28.9704,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82320</td><td>1973-03-31</td><td><a href="http://data.gbif.org/occurrences/198284750">http://data.gbif.org/occurrences/198284750</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-91.59,28.64333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Mustelus sinusmexicanus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>SAMS</td><td>SHARKS</td><td>SAMS-SHARKS-007727</td><td>1961-04-18</td><td><a href="http://data.gbif.org/occurrences/25124446">http://data.gbif.org/occurrences/25124446</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon2</styleUrl>
+   <Point>
+    <coordinates>-93.3333,28.1,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>

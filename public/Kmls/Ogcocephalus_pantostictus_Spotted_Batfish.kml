@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-06-20)<br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-06-20)<br/><br/>Museum of Comparative Zoology, Harvard University, MCZ Ichthyology Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/579">http://data.gbif.org/datasets/resource/579</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Ogcocephalus pantostictus</name>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188805.5055799</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/150028782">http://data.gbif.org/occurrences/150028782</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00188805</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/189165961">http://data.gbif.org/occurrences/189165961</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188805</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/241349599">http://data.gbif.org/occurrences/241349599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-94.525,29.3167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9377</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/145105385">http://data.gbif.org/occurrences/145105385</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9377</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/240520305">http://data.gbif.org/occurrences/240520305</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-97.685,23.319,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>118610.5038086</td><td>1940-08-11</td><td><a href="http://data.gbif.org/occurrences/150028856">http://data.gbif.org/occurrences/150028856</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>118610</td><td>1940-08-11</td><td><a href="http://data.gbif.org/occurrences/241349909">http://data.gbif.org/occurrences/241349909</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>179682</td><td>1940-08-11</td><td><a href="http://data.gbif.org/occurrences/241349910">http://data.gbif.org/occurrences/241349910</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120071</td><td></td><td><a href="http://data.gbif.org/occurrences/241349912">http://data.gbif.org/occurrences/241349912</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-94.8134,29.2877,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1977-0426.2</td><td>1977-06-25</td><td><a href="http://data.gbif.org/occurrences/17626631">http://data.gbif.org/occurrences/17626631</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1977-0426.2</td><td>1977-06-25</td><td><a href="http://data.gbif.org/occurrences/78287599">http://data.gbif.org/occurrences/78287599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-83.017,29.117,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2750</td><td>1950-12-14</td><td><a href="http://data.gbif.org/occurrences/198322046">http://data.gbif.org/occurrences/198322046</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-88.13333,30.21667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188758.5055773</td><td>1939-01-21</td><td><a href="http://data.gbif.org/occurrences/150028833">http://data.gbif.org/occurrences/150028833</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00188758</td><td>1939-01-21</td><td><a href="http://data.gbif.org/occurrences/189165954">http://data.gbif.org/occurrences/189165954</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188758</td><td>1939-01-21</td><td><a href="http://data.gbif.org/occurrences/241349539">http://data.gbif.org/occurrences/241349539</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-94.6417,29.2083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8682</td><td>1954-03-29</td><td><a href="http://data.gbif.org/occurrences/198322115">http://data.gbif.org/occurrences/198322115</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-88.86667,30.06667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188755.5055771</td><td>1938-05-11</td><td><a href="http://data.gbif.org/occurrences/150028831">http://data.gbif.org/occurrences/150028831</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00188755</td><td>1938-05-11</td><td><a href="http://data.gbif.org/occurrences/189165952">http://data.gbif.org/occurrences/189165952</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188755</td><td>1938-05-11</td><td><a href="http://data.gbif.org/occurrences/241349580">http://data.gbif.org/occurrences/241349580</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-91.8,28.9833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188800</td><td></td><td><a href="http://data.gbif.org/occurrences/241349906">http://data.gbif.org/occurrences/241349906</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-97.2083,26.0734,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120070.5038626</td><td>1941-07-08</td><td><a href="http://data.gbif.org/occurrences/150028818">http://data.gbif.org/occurrences/150028818</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>120070</td><td>1941-07-08</td><td><a href="http://data.gbif.org/occurrences/241349908">http://data.gbif.org/occurrences/241349908</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-97.0508,27.84,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188803.5055797</td><td>1958-05-03</td><td><a href="http://data.gbif.org/occurrences/150028779">http://data.gbif.org/occurrences/150028779</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00188803</td><td>1958-05-03</td><td><a href="http://data.gbif.org/occurrences/189165960">http://data.gbif.org/occurrences/189165960</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>188803</td><td>1938-05-03</td><td><a href="http://data.gbif.org/occurrences/241349678">http://data.gbif.org/occurrences/241349678</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-94.8417,29.175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>11749</td><td></td><td><a href="http://data.gbif.org/occurrences/35175332">http://data.gbif.org/occurrences/35175332</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-88.0833,30.6667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 64556</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/189165963">http://data.gbif.org/occurrences/189165963</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 23933</td><td>1938-05-09</td><td><a href="http://data.gbif.org/occurrences/189165964">http://data.gbif.org/occurrences/189165964</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-94.3833,29.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5451</td><td>1952-08-06</td><td><a href="http://data.gbif.org/occurrences/198322077">http://data.gbif.org/occurrences/198322077</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-81.51667,30.11667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum of Comparative Zoology, Harvard University</td><td>MCZ                                               </td><td>Fish</td><td>45080</td><td></td><td><a href="http://data.gbif.org/occurrences/35177778">http://data.gbif.org/occurrences/35177778</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-86.9167,30.1833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9377</td><td>1990-11-01</td><td><a href="http://data.gbif.org/occurrences/46409857">http://data.gbif.org/occurrences/46409857</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-97.6853,23.3192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Ogcocephalus pantostictus</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8258</td><td>1954-03-29</td><td><a href="http://data.gbif.org/occurrences/198322111">http://data.gbif.org/occurrences/198322111</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon1</styleUrl>
+   <Point>
+    <coordinates>-88.88333,30.0,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

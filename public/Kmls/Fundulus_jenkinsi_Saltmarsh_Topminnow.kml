@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-06-03)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-03)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-03)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-03)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-03)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Zygonectes jenkinsi</name>
+  <Placemark>
+   <name>Zygonectes jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>45562</td><td></td><td><a href="http://data.gbif.org/occurrences/241453128">http://data.gbif.org/occurrences/241453128</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon13</styleUrl>
+   <Point>
+    <coordinates>-94.8452,29.3679,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+ <Folder>
+  <name>Fundulus jenkinsi</name>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200277</td><td>2003-01-14</td><td><a href="http://data.gbif.org/occurrences/198209088">http://data.gbif.org/occurrences/198209088</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.342,29.446,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>1392</td><td>1951-08-11</td><td><a href="http://data.gbif.org/occurrences/198208176">http://data.gbif.org/occurrences/198208176</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-90.23055,29.28722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200023</td><td>2000-10-16</td><td><a href="http://data.gbif.org/occurrences/198209050">http://data.gbif.org/occurrences/198209050</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200043</td><td>2001-01-08</td><td><a href="http://data.gbif.org/occurrences/198209056">http://data.gbif.org/occurrences/198209056</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200046</td><td>2000-04-27</td><td><a href="http://data.gbif.org/occurrences/198209059">http://data.gbif.org/occurrences/198209059</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200049</td><td>2000-11-13</td><td><a href="http://data.gbif.org/occurrences/198209062">http://data.gbif.org/occurrences/198209062</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200052</td><td>2000-06-28</td><td><a href="http://data.gbif.org/occurrences/198209065">http://data.gbif.org/occurrences/198209065</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.326,29.466,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137888</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198208798">http://data.gbif.org/occurrences/198208798</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143494</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198208840">http://data.gbif.org/occurrences/198208840</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.82389,30.40222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164208</td><td>1972-05-11</td><td><a href="http://data.gbif.org/occurrences/198208921">http://data.gbif.org/occurrences/198208921</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164577</td><td>1973-05-16</td><td><a href="http://data.gbif.org/occurrences/198208928">http://data.gbif.org/occurrences/198208928</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164743</td><td>1973-11-07</td><td><a href="http://data.gbif.org/occurrences/198208931">http://data.gbif.org/occurrences/198208931</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.14861,29.04417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199916</td><td>2004-06-10</td><td><a href="http://data.gbif.org/occurrences/198209033">http://data.gbif.org/occurrences/198209033</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199934</td><td>2000-10-16</td><td><a href="http://data.gbif.org/occurrences/198209040">http://data.gbif.org/occurrences/198209040</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.326,29.466,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>129968</td><td>1981-06-26</td><td><a href="http://data.gbif.org/occurrences/198208776">http://data.gbif.org/occurrences/198208776</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130139</td><td>1981-12-09</td><td><a href="http://data.gbif.org/occurrences/198208780">http://data.gbif.org/occurrences/198208780</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.27306,30.3575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138528</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198208807">http://data.gbif.org/occurrences/198208807</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138544</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198208808">http://data.gbif.org/occurrences/198208808</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.01,30.44722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27052</td><td>1996-09-23</td><td><a href="http://data.gbif.org/occurrences/188915160">http://data.gbif.org/occurrences/188915160</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.6128,30.3922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200016</td><td>1999-12-01</td><td><a href="http://data.gbif.org/occurrences/198209046">http://data.gbif.org/occurrences/198209046</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.336,29.407,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199921</td><td>2003-02-13</td><td><a href="http://data.gbif.org/occurrences/198209035">http://data.gbif.org/occurrences/198209035</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200003</td><td>2005-02-15</td><td><a href="http://data.gbif.org/occurrences/198209044">http://data.gbif.org/occurrences/198209044</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200281</td><td>2003-03-20</td><td><a href="http://data.gbif.org/occurrences/198209089">http://data.gbif.org/occurrences/198209089</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.336,29.44,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27048</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188915165">http://data.gbif.org/occurrences/188915165</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7508,30.3797,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11252</td><td>1956-03-02</td><td><a href="http://data.gbif.org/occurrences/198208230">http://data.gbif.org/occurrences/198208230</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11279</td><td>1956-03-10</td><td><a href="http://data.gbif.org/occurrences/198208233">http://data.gbif.org/occurrences/198208233</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15574</td><td>1957-02-11</td><td><a href="http://data.gbif.org/occurrences/198208257">http://data.gbif.org/occurrences/198208257</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17308</td><td>1958-02-24</td><td><a href="http://data.gbif.org/occurrences/198208270">http://data.gbif.org/occurrences/198208270</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20004</td><td>1959-04-16</td><td><a href="http://data.gbif.org/occurrences/198208311">http://data.gbif.org/occurrences/198208311</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.85639,30.155,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27613</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188915152">http://data.gbif.org/occurrences/188915152</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27035</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188915168">http://data.gbif.org/occurrences/188915168</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7533,30.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81394</td><td>1968-03-02</td><td><a href="http://data.gbif.org/occurrences/198208623">http://data.gbif.org/occurrences/198208623</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.94361,29.27194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (9 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150185</td><td>1987-10-10</td><td><a href="http://data.gbif.org/occurrences/198208880">http://data.gbif.org/occurrences/198208880</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150558</td><td>1987-11-01</td><td><a href="http://data.gbif.org/occurrences/198208887">http://data.gbif.org/occurrences/198208887</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150728</td><td>1987-11-20</td><td><a href="http://data.gbif.org/occurrences/198208889">http://data.gbif.org/occurrences/198208889</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150861</td><td>1987-12-05</td><td><a href="http://data.gbif.org/occurrences/198208891">http://data.gbif.org/occurrences/198208891</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>151071</td><td>1987-12-22</td><td><a href="http://data.gbif.org/occurrences/198208895">http://data.gbif.org/occurrences/198208895</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>151150</td><td>1988-01-05</td><td><a href="http://data.gbif.org/occurrences/198208898">http://data.gbif.org/occurrences/198208898</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>151482</td><td>1988-03-04</td><td><a href="http://data.gbif.org/occurrences/198208901">http://data.gbif.org/occurrences/198208901</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>153574</td><td>1988-09-23</td><td><a href="http://data.gbif.org/occurrences/198208905">http://data.gbif.org/occurrences/198208905</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>153614</td><td>1988-09-30</td><td><a href="http://data.gbif.org/occurrences/198208909">http://data.gbif.org/occurrences/198208909</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.45139,29.36028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>140411</td><td>1985-05-01</td><td><a href="http://data.gbif.org/occurrences/198208818">http://data.gbif.org/occurrences/198208818</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.23666,30.38194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200118</td><td>2006-03-09</td><td><a href="http://data.gbif.org/occurrences/198209077">http://data.gbif.org/occurrences/198209077</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.301,29.474,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>71211</td><td>1970-12-04</td><td><a href="http://data.gbif.org/occurrences/198208530">http://data.gbif.org/occurrences/198208530</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.85333,29.79278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26975</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188915150">http://data.gbif.org/occurrences/188915150</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7997,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143642</td><td>1985-08-06</td><td><a href="http://data.gbif.org/occurrences/198208843">http://data.gbif.org/occurrences/198208843</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.27889,30.31889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199908</td><td>2004-11-03</td><td><a href="http://data.gbif.org/occurrences/198209029">http://data.gbif.org/occurrences/198209029</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.348,29.488,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27563</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915158">http://data.gbif.org/occurrences/188915158</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7722,30.4025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200040</td><td>2005-10-20</td><td><a href="http://data.gbif.org/occurrences/198209054">http://data.gbif.org/occurrences/198209054</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200236</td><td>2005-06-17</td><td><a href="http://data.gbif.org/occurrences/198209086">http://data.gbif.org/occurrences/198209086</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.336,29.44,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200038</td><td>2006-05-17</td><td><a href="http://data.gbif.org/occurrences/198209053">http://data.gbif.org/occurrences/198209053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.301,29.475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>126471</td><td>1891-11-14</td><td><a href="http://data.gbif.org/occurrences/241249590">http://data.gbif.org/occurrences/241249590</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-95.0881,29.4397,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200042</td><td>2000-08-24</td><td><a href="http://data.gbif.org/occurrences/198209055">http://data.gbif.org/occurrences/198209055</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200119</td><td>2005-05-20</td><td><a href="http://data.gbif.org/occurrences/198209078">http://data.gbif.org/occurrences/198209078</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.319,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147783</td><td>1985-12-04</td><td><a href="http://data.gbif.org/occurrences/198208867">http://data.gbif.org/occurrences/198208867</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.49695,30.20833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138497</td><td>1984-11-23</td><td><a href="http://data.gbif.org/occurrences/198208805">http://data.gbif.org/occurrences/198208805</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.39917,30.36611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200165</td><td>2006-04-20</td><td><a href="http://data.gbif.org/occurrences/198209080">http://data.gbif.org/occurrences/198209080</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.313,29.464,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200044</td><td>2000-08-23</td><td><a href="http://data.gbif.org/occurrences/198209057">http://data.gbif.org/occurrences/198209057</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200053</td><td>2000-10-18</td><td><a href="http://data.gbif.org/occurrences/198209066">http://data.gbif.org/occurrences/198209066</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200054</td><td>2000-02-02</td><td><a href="http://data.gbif.org/occurrences/198209067">http://data.gbif.org/occurrences/198209067</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200055</td><td>2001-01-10</td><td><a href="http://data.gbif.org/occurrences/198209068">http://data.gbif.org/occurrences/198209068</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.336,29.407,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143346</td><td>1985-11-15</td><td><a href="http://data.gbif.org/occurrences/198208833">http://data.gbif.org/occurrences/198208833</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.02417,30.44528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>133020</td><td>1983-10-23</td><td><a href="http://data.gbif.org/occurrences/198208783">http://data.gbif.org/occurrences/198208783</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.285,30.35667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143709</td><td>1985-08-12</td><td><a href="http://data.gbif.org/occurrences/198208845">http://data.gbif.org/occurrences/198208845</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.37028,30.35139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (5 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164095</td><td>1972-02-11</td><td><a href="http://data.gbif.org/occurrences/198208919">http://data.gbif.org/occurrences/198208919</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164393</td><td>1972-08-09</td><td><a href="http://data.gbif.org/occurrences/198208923">http://data.gbif.org/occurrences/198208923</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164520</td><td>1973-02-14</td><td><a href="http://data.gbif.org/occurrences/198208927">http://data.gbif.org/occurrences/198208927</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164583</td><td>1973-05-17</td><td><a href="http://data.gbif.org/occurrences/198208929">http://data.gbif.org/occurrences/198208929</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>167714</td><td>1973-08-08</td><td><a href="http://data.gbif.org/occurrences/198208934">http://data.gbif.org/occurrences/198208934</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.20111,29.09667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200183</td><td>2006-02-09</td><td><a href="http://data.gbif.org/occurrences/198209084">http://data.gbif.org/occurrences/198209084</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.313,29.464,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200174</td><td>2005-05-18</td><td><a href="http://data.gbif.org/occurrences/198209082">http://data.gbif.org/occurrences/198209082</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.312,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200091</td><td>2004-06-08</td><td><a href="http://data.gbif.org/occurrences/198209075">http://data.gbif.org/occurrences/198209075</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.332,29.442,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200045</td><td>2000-11-14</td><td><a href="http://data.gbif.org/occurrences/198209058">http://data.gbif.org/occurrences/198209058</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.311,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199907</td><td>2004-06-09</td><td><a href="http://data.gbif.org/occurrences/198209028">http://data.gbif.org/occurrences/198209028</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199914</td><td>2004-04-28</td><td><a href="http://data.gbif.org/occurrences/198209031">http://data.gbif.org/occurrences/198209031</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200071</td><td>2006-02-09</td><td><a href="http://data.gbif.org/occurrences/198209072">http://data.gbif.org/occurrences/198209072</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.312,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199930</td><td>2000-03-15</td><td><a href="http://data.gbif.org/occurrences/198209036">http://data.gbif.org/occurrences/198209036</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.311,29.467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>134344</td><td>1984-02-26</td><td><a href="http://data.gbif.org/occurrences/198208788">http://data.gbif.org/occurrences/198208788</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>134481</td><td>1984-03-18</td><td><a href="http://data.gbif.org/occurrences/198208790">http://data.gbif.org/occurrences/198208790</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>136744</td><td>1984-07-07</td><td><a href="http://data.gbif.org/occurrences/198208795">http://data.gbif.org/occurrences/198208795</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.425,30.32972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>147794</td><td>1985-05-25</td><td><a href="http://data.gbif.org/occurrences/198208869">http://data.gbif.org/occurrences/198208869</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.15472,29.045,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137931</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198208801">http://data.gbif.org/occurrences/198208801</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142752</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198208826">http://data.gbif.org/occurrences/198208826</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.84306,30.41222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15877</td><td>1957-07-17</td><td><a href="http://data.gbif.org/occurrences/198208260">http://data.gbif.org/occurrences/198208260</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.10056,30.51694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27658</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915157">http://data.gbif.org/occurrences/188915157</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27024</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915164">http://data.gbif.org/occurrences/188915164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7731,30.4006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199931</td><td>2000-08-23</td><td><a href="http://data.gbif.org/occurrences/198209037">http://data.gbif.org/occurrences/198209037</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200056</td><td>1999-12-01</td><td><a href="http://data.gbif.org/occurrences/198209069">http://data.gbif.org/occurrences/198209069</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.335,29.398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>76381</td><td>1971-11-13</td><td><a href="http://data.gbif.org/occurrences/198208560">http://data.gbif.org/occurrences/198208560</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.86555,29.84972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>14690</td><td></td><td><a href="http://data.gbif.org/occurrences/190546306">http://data.gbif.org/occurrences/190546306</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-90.583,29.5413,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26998</td><td>1996-11-07</td><td><a href="http://data.gbif.org/occurrences/188915172">http://data.gbif.org/occurrences/188915172</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7914,30.3972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27051</td><td>1996-09-23</td><td><a href="http://data.gbif.org/occurrences/188915161">http://data.gbif.org/occurrences/188915161</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.6256,30.3939,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130128</td><td>1981-12-09</td><td><a href="http://data.gbif.org/occurrences/198208778">http://data.gbif.org/occurrences/198208778</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>133034</td><td>1983-10-23</td><td><a href="http://data.gbif.org/occurrences/198208785">http://data.gbif.org/occurrences/198208785</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.24445,30.34139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142462</td><td>1985-09-20</td><td><a href="http://data.gbif.org/occurrences/198208824">http://data.gbif.org/occurrences/198208824</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142803</td><td>1985-10-04</td><td><a href="http://data.gbif.org/occurrences/198208829">http://data.gbif.org/occurrences/198208829</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142968</td><td>1985-10-11</td><td><a href="http://data.gbif.org/occurrences/198208831">http://data.gbif.org/occurrences/198208831</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143480</td><td>1985-12-06</td><td><a href="http://data.gbif.org/occurrences/198208838">http://data.gbif.org/occurrences/198208838</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.82472,30.40195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>17350</td><td>1957-08-15</td><td><a href="http://data.gbif.org/occurrences/198208272">http://data.gbif.org/occurrences/198208272</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>19104</td><td>1957-11-30</td><td><a href="http://data.gbif.org/occurrences/198208292">http://data.gbif.org/occurrences/198208292</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.21445,29.46139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>77494</td><td>1971-01-22</td><td><a href="http://data.gbif.org/occurrences/198208568">http://data.gbif.org/occurrences/198208568</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78260</td><td>1971-05-01</td><td><a href="http://data.gbif.org/occurrences/198208613">http://data.gbif.org/occurrences/198208613</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.86333,29.7775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27050</td><td>1996-09-23</td><td><a href="http://data.gbif.org/occurrences/188915162">http://data.gbif.org/occurrences/188915162</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.6472,30.4022,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200035</td><td>2006-05-18</td><td><a href="http://data.gbif.org/occurrences/198209052">http://data.gbif.org/occurrences/198209052</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200084</td><td>2000-10-17</td><td><a href="http://data.gbif.org/occurrences/198209074">http://data.gbif.org/occurrences/198209074</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200321</td><td>2006-03-07</td><td><a href="http://data.gbif.org/occurrences/198209091">http://data.gbif.org/occurrences/198209091</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.312,29.466,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16094</td><td>1957-08-02</td><td><a href="http://data.gbif.org/occurrences/198208263">http://data.gbif.org/occurrences/198208263</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.77167,30.38139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10815</td><td>1954-12-13</td><td><a href="http://data.gbif.org/occurrences/198208225">http://data.gbif.org/occurrences/198208225</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.72472,30.17667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200021</td><td>2000-02-02</td><td><a href="http://data.gbif.org/occurrences/198209048">http://data.gbif.org/occurrences/198209048</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200048</td><td>2000-10-17</td><td><a href="http://data.gbif.org/occurrences/198209061">http://data.gbif.org/occurrences/198209061</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200050</td><td>2000-06-29</td><td><a href="http://data.gbif.org/occurrences/198209063">http://data.gbif.org/occurrences/198209063</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.335,29.398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27698</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915154">http://data.gbif.org/occurrences/188915154</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27626</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915156">http://data.gbif.org/occurrences/188915156</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27028</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915167">http://data.gbif.org/occurrences/188915167</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7719,30.3967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200051</td><td>2000-06-29</td><td><a href="http://data.gbif.org/occurrences/198209064">http://data.gbif.org/occurrences/198209064</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.306,29.475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>17310</td><td></td><td><a href="http://data.gbif.org/occurrences/190546440">http://data.gbif.org/occurrences/190546440</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.8939,30.4145,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27049</td><td>1996-08-28</td><td><a href="http://data.gbif.org/occurrences/188915169">http://data.gbif.org/occurrences/188915169</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.6725,30.3714,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27532</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188915151">http://data.gbif.org/occurrences/188915151</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27707</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188915153">http://data.gbif.org/occurrences/188915153</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26988</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188915170">http://data.gbif.org/occurrences/188915170</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7947,30.395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 26982</td><td>1996-10-07</td><td><a href="http://data.gbif.org/occurrences/188915171">http://data.gbif.org/occurrences/188915171</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7975,30.3958,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15998</td><td>1957-07-16</td><td><a href="http://data.gbif.org/occurrences/198208262">http://data.gbif.org/occurrences/198208262</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>142372</td><td>1985-09-13</td><td><a href="http://data.gbif.org/occurrences/198208820">http://data.gbif.org/occurrences/198208820</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.0125,30.4475,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>10262</td><td>1932-02-28</td><td><a href="http://data.gbif.org/occurrences/46547567">http://data.gbif.org/occurrences/46547567</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-95.00061,29.582205,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8559</td><td>1953-11-13</td><td><a href="http://data.gbif.org/occurrences/198208213">http://data.gbif.org/occurrences/198208213</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-87.82417,30.41472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>134698</td><td>1984-04-07</td><td><a href="http://data.gbif.org/occurrences/198208791">http://data.gbif.org/occurrences/198208791</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.6275,30.20833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44204</td><td>1967-03-17</td><td><a href="http://data.gbif.org/occurrences/198208422">http://data.gbif.org/occurrences/198208422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-87.93528,30.66667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164500</td><td>1972-12-15</td><td><a href="http://data.gbif.org/occurrences/198208926">http://data.gbif.org/occurrences/198208926</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-90.04278,29.20306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>150268</td><td>1987-10-15</td><td><a href="http://data.gbif.org/occurrences/198208884">http://data.gbif.org/occurrences/198208884</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-87.35333,30.41972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>138597</td><td>1984-11-24</td><td><a href="http://data.gbif.org/occurrences/198208813">http://data.gbif.org/occurrences/198208813</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>143363</td><td>1985-11-15</td><td><a href="http://data.gbif.org/occurrences/198208834">http://data.gbif.org/occurrences/198208834</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.80917,30.39305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199915</td><td>2004-07-28</td><td><a href="http://data.gbif.org/occurrences/198209032">http://data.gbif.org/occurrences/198209032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.318,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200022</td><td>2000-10-16</td><td><a href="http://data.gbif.org/occurrences/198209049">http://data.gbif.org/occurrences/198209049</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200047</td><td>2000-08-24</td><td><a href="http://data.gbif.org/occurrences/198209060">http://data.gbif.org/occurrences/198209060</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.312,29.465,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200031</td><td>2006-02-08</td><td><a href="http://data.gbif.org/occurrences/198209051">http://data.gbif.org/occurrences/198209051</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.315,29.462,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>10869</td><td>1954-07-10</td><td><a href="http://data.gbif.org/occurrences/198208227">http://data.gbif.org/occurrences/198208227</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11198</td><td>1956-02-13</td><td><a href="http://data.gbif.org/occurrences/198208229">http://data.gbif.org/occurrences/198208229</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>56665</td><td>1968-10-11</td><td><a href="http://data.gbif.org/occurrences/198208484">http://data.gbif.org/occurrences/198208484</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137945</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198208803">http://data.gbif.org/occurrences/198208803</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199942</td><td>2004-11-04</td><td><a href="http://data.gbif.org/occurrences/198209042">http://data.gbif.org/occurrences/198209042</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.302,29.471,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27633</td><td>1996-11-07</td><td><a href="http://data.gbif.org/occurrences/188915155">http://data.gbif.org/occurrences/188915155</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27001</td><td>1996-11-07</td><td><a href="http://data.gbif.org/occurrences/188915173">http://data.gbif.org/occurrences/188915173</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7922,30.395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200083</td><td>2000-10-17</td><td><a href="http://data.gbif.org/occurrences/198209073">http://data.gbif.org/occurrences/198209073</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.3227,29.466183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199884</td><td>2004-09-29</td><td><a href="http://data.gbif.org/occurrences/198209026">http://data.gbif.org/occurrences/198209026</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.266,29.428,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>61386</td><td>1969-11-21</td><td><a href="http://data.gbif.org/occurrences/198208497">http://data.gbif.org/occurrences/198208497</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>130148</td><td>1981-12-09</td><td><a href="http://data.gbif.org/occurrences/198208781">http://data.gbif.org/occurrences/198208781</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.23083,30.37556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200057</td><td>1999-12-02</td><td><a href="http://data.gbif.org/occurrences/198209070">http://data.gbif.org/occurrences/198209070</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.33013,29.44637,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199932</td><td>2000-04-27</td><td><a href="http://data.gbif.org/occurrences/198209038">http://data.gbif.org/occurrences/198209038</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>199935</td><td>2000-10-17</td><td><a href="http://data.gbif.org/occurrences/198209041">http://data.gbif.org/occurrences/198209041</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>91.319,29.468,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37429</td><td>1961-08-15</td><td><a href="http://data.gbif.org/occurrences/198208378">http://data.gbif.org/occurrences/198208378</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-87.00083,30.52917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200250</td><td>2006-02-07</td><td><a href="http://data.gbif.org/occurrences/198209087">http://data.gbif.org/occurrences/198209087</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>200339</td><td>2006-05-17</td><td><a href="http://data.gbif.org/occurrences/198209092">http://data.gbif.org/occurrences/198209092</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-91.313,29.463,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107272</td><td>1972-11-10</td><td><a href="http://data.gbif.org/occurrences/198208677">http://data.gbif.org/occurrences/198208677</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>107472</td><td>1973-11-08</td><td><a href="http://data.gbif.org/occurrences/198208681">http://data.gbif.org/occurrences/198208681</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.20306,29.09861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27043</td><td>1996-08-26</td><td><a href="http://data.gbif.org/occurrences/188915166">http://data.gbif.org/occurrences/188915166</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7567,30.375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>137911</td><td>1984-10-09</td><td><a href="http://data.gbif.org/occurrences/198208800">http://data.gbif.org/occurrences/198208800</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.77,30.4075,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27017</td><td>1996-09-08</td><td><a href="http://data.gbif.org/occurrences/188915163">http://data.gbif.org/occurrences/188915163</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-88.7722,30.4028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Fundulus jenkinsi (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164485</td><td>1972-11-10</td><td><a href="http://data.gbif.org/occurrences/198208925">http://data.gbif.org/occurrences/198208925</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>164662</td><td>1973-08-08</td><td><a href="http://data.gbif.org/occurrences/198208930">http://data.gbif.org/occurrences/198208930</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon20</styleUrl>
+   <Point>
+    <coordinates>-89.14555,29.05056,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

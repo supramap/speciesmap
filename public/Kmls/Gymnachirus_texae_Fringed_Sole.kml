@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Comisión nacional para el conocimiento y uso de la biodiversidad, Colección Nacional de Peces del IBUNAM (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/2489">http://data.gbif.org/datasets/resource/2489</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Museum national d'histoire naturelle, Ichtyologie (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1507">http://data.gbif.org/datasets/resource/1507</a>, 2011-06-20)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>UNIBIO, IBUNAM, CNPE/Coleccion Nacional de Peces (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/783">http://data.gbif.org/datasets/resource/783</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Tissue Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/998">http://data.gbif.org/datasets/resource/998</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Gymnachirus texae</name>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4496</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46407069">http://data.gbif.org/occurrences/46407069</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.0186,21.2336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9414</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/145103351">http://data.gbif.org/occurrences/145103351</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9414</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/240517426">http://data.gbif.org/occurrences/240517426</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.483,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7921</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103225">http://data.gbif.org/occurrences/145103225</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7921</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517363">http://data.gbif.org/occurrences/240517363</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.585,24.302,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 27523</td><td>1996-07-29</td><td><a href="http://data.gbif.org/occurrences/188947566">http://data.gbif.org/occurrences/188947566</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.8356,30.3714,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9346</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/46407506">http://data.gbif.org/occurrences/46407506</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.3853,23.6672,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>30072</td><td></td><td><a href="http://data.gbif.org/occurrences/199211302">http://data.gbif.org/occurrences/199211302</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.11,28.5,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8731</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/145103320">http://data.gbif.org/occurrences/145103320</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8731</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/240517410">http://data.gbif.org/occurrences/240517410</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.352,23.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7887</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103214">http://data.gbif.org/occurrences/145103214</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7887</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517358">http://data.gbif.org/occurrences/240517358</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.118,24.685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7960</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103228">http://data.gbif.org/occurrences/145103228</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7960</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517364">http://data.gbif.org/occurrences/240517364</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.285,24.368,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8687</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/145103263">http://data.gbif.org/occurrences/145103263</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8687</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/240517380">http://data.gbif.org/occurrences/240517380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.334,24.334,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6671</td><td>1987-12-11</td><td><a href="http://data.gbif.org/occurrences/145103201">http://data.gbif.org/occurrences/145103201</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6671</td><td>1987-12-11</td><td><a href="http://data.gbif.org/occurrences/240517352">http://data.gbif.org/occurrences/240517352</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.985,18.968,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9414</td><td>1990-12-02</td><td><a href="http://data.gbif.org/occurrences/46407514">http://data.gbif.org/occurrences/46407514</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4833,23.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8266</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/46407427">http://data.gbif.org/occurrences/46407427</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.2842,21.9519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7725</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407380">http://data.gbif.org/occurrences/46407380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.0833,25.6669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3931</td><td></td><td><a href="http://data.gbif.org/occurrences/176211007">http://data.gbif.org/occurrences/176211007</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUIT</td><td>3932</td><td></td><td><a href="http://data.gbif.org/occurrences/176211008">http://data.gbif.org/occurrences/176211008</a></td></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>29675</td><td></td><td><a href="http://data.gbif.org/occurrences/190549721">http://data.gbif.org/occurrences/190549721</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.5035,29.2477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6854</td><td>1952-04-10</td><td><a href="http://data.gbif.org/occurrences/198220489">http://data.gbif.org/occurrences/198220489</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.355,28.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P11202</td><td>1999-03-13</td><td><a href="http://data.gbif.org/occurrences/145103529">http://data.gbif.org/occurrences/145103529</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P11202</td><td>1999-03-13</td><td><a href="http://data.gbif.org/occurrences/240517594">http://data.gbif.org/occurrences/240517594</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.528,18.766,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7887</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407389">http://data.gbif.org/occurrences/46407389</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.1183,24.6853,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158308</td><td>1954-05-16</td><td><a href="http://data.gbif.org/occurrences/241261349">http://data.gbif.org/occurrences/241261349</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.5,18.717,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4256</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46407053">http://data.gbif.org/occurrences/46407053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.2675,21.8022,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158296</td><td>1950-09-13</td><td><a href="http://data.gbif.org/occurrences/241261712">http://data.gbif.org/occurrences/241261712</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.6083,28.8883,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358229.5267615</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/149860500">http://data.gbif.org/occurrences/149860500</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>358229</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/241261571">http://data.gbif.org/occurrences/241261571</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-87.7322,29.3514,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4294</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/46407055">http://data.gbif.org/occurrences/46407055</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.3025,21.6192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8046</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145103324">http://data.gbif.org/occurrences/145103324</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8046</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240517414">http://data.gbif.org/occurrences/240517414</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.367,23.718,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2521</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/145102790">http://data.gbif.org/occurrences/145102790</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2521</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/240517040">http://data.gbif.org/occurrences/240517040</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.752,21.918,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4407</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145103027">http://data.gbif.org/occurrences/145103027</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4407</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240517206">http://data.gbif.org/occurrences/240517206</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.051,21.019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158296</td><td>1950-09-13</td><td><a href="http://data.gbif.org/occurrences/188947578">http://data.gbif.org/occurrences/188947578</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.6083,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4209</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/46407047">http://data.gbif.org/occurrences/46407047</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.5014,22.0336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8146</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145103306">http://data.gbif.org/occurrences/145103306</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8146</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240517404">http://data.gbif.org/occurrences/240517404</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.402,23.036,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2792</td><td>1950-09-18</td><td><a href="http://data.gbif.org/occurrences/198220433">http://data.gbif.org/occurrences/198220433</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.75,28.775,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9382</td><td>1990-11-02</td><td><a href="http://data.gbif.org/occurrences/145103347">http://data.gbif.org/occurrences/145103347</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9382</td><td>1990-11-02</td><td><a href="http://data.gbif.org/occurrences/240517425">http://data.gbif.org/occurrences/240517425</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.467,23.336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8000</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103329">http://data.gbif.org/occurrences/145103329</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8000</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517417">http://data.gbif.org/occurrences/240517417</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.602,23.967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8207</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145103282">http://data.gbif.org/occurrences/145103282</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8207</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240517388">http://data.gbif.org/occurrences/240517388</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.751,22.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5396</td><td>1952-08-10</td><td><a href="http://data.gbif.org/occurrences/198220452">http://data.gbif.org/occurrences/198220452</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.93,29.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158296.5167092</td><td>1950-09-13</td><td><a href="http://data.gbif.org/occurrences/149860504">http://data.gbif.org/occurrences/149860504</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.6083,28.888,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4256</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145102972">http://data.gbif.org/occurrences/145102972</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4256</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240517177">http://data.gbif.org/occurrences/240517177</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.268,21.802,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8104</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46407409">http://data.gbif.org/occurrences/46407409</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.6858,23.3344,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8046</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/46407404">http://data.gbif.org/occurrences/46407404</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.3669,23.7181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7833</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/145103205">http://data.gbif.org/occurrences/145103205</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7833</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/240517354">http://data.gbif.org/occurrences/240517354</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.819,25.035,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6512</td><td>1987-12-10</td><td><a href="http://data.gbif.org/occurrences/46407278">http://data.gbif.org/occurrences/46407278</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.6669,19.4836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158303</td><td>1950-09-12</td><td><a href="http://data.gbif.org/occurrences/188947579">http://data.gbif.org/occurrences/188947579</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6458</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/145103194">http://data.gbif.org/occurrences/145103194</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6458</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/240517345">http://data.gbif.org/occurrences/240517345</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.883,19.719,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82212</td><td>1973-03-28</td><td><a href="http://data.gbif.org/occurrences/198221020">http://data.gbif.org/occurrences/198221020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.96667,29.28833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6010</td><td>1987-03-20</td><td><a href="http://data.gbif.org/occurrences/145103171">http://data.gbif.org/occurrences/145103171</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6010</td><td>1987-03-20</td><td><a href="http://data.gbif.org/occurrences/240517312">http://data.gbif.org/occurrences/240517312</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.017,18.984,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82285</td><td>1973-03-30</td><td><a href="http://data.gbif.org/occurrences/198221028">http://data.gbif.org/occurrences/198221028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.10333,28.36667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Museum national d'histoire naturelle et Reseau des Herbiers de France</td><td>MNHN</td><td>IC</td><td>1966-0732</td><td>1959-12-14</td><td><a href="http://data.gbif.org/occurrences/93252796">http://data.gbif.org/occurrences/93252796</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>mnhn 1966-0732</td><td></td><td><a href="http://data.gbif.org/occurrences/188947559">http://data.gbif.org/occurrences/188947559</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.0,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2781</td><td>1950-09-14</td><td><a href="http://data.gbif.org/occurrences/198220432">http://data.gbif.org/occurrences/198220432</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.6,28.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00358229</td><td>1997-08-07</td><td><a href="http://data.gbif.org/occurrences/188947585">http://data.gbif.org/occurrences/188947585</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-87.7289,29.3531,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2503</td><td>1985-04-24</td><td><a href="http://data.gbif.org/occurrences/46406839">http://data.gbif.org/occurrences/46406839</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.8008,21.8517,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8125</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46407411">http://data.gbif.org/occurrences/46407411</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4686,22.9681,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8125</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/145103309">http://data.gbif.org/occurrences/145103309</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8125</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/240517406">http://data.gbif.org/occurrences/240517406</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.469,22.968,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4228</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/46407050">http://data.gbif.org/occurrences/46407050</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4839,21.8506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5412</td><td>1952-08-10</td><td><a href="http://data.gbif.org/occurrences/198220453">http://data.gbif.org/occurrences/198220453</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.86667,29.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16198</td><td>1957-06-24</td><td><a href="http://data.gbif.org/occurrences/198220647">http://data.gbif.org/occurrences/198220647</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-90.3,28.31667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8687</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/46407459">http://data.gbif.org/occurrences/46407459</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.3339,24.3339,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>GCRL 28250</td><td>1997-07-11</td><td><a href="http://data.gbif.org/occurrences/188947563">http://data.gbif.org/occurrences/188947563</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.6919,29.1103,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00158308</td><td>1954-05-16</td><td><a href="http://data.gbif.org/occurrences/188947580">http://data.gbif.org/occurrences/188947580</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.0,18.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4407</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46407060">http://data.gbif.org/occurrences/46407060</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.0511,21.0192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158303.5167102</td><td>1950-09-12</td><td><a href="http://data.gbif.org/occurrences/149860471">http://data.gbif.org/occurrences/149860471</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.9,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6512</td><td>1987-12-10</td><td><a href="http://data.gbif.org/occurrences/145103199">http://data.gbif.org/occurrences/145103199</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6512</td><td>1987-12-10</td><td><a href="http://data.gbif.org/occurrences/240517347">http://data.gbif.org/occurrences/240517347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.667,19.484,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6458</td><td>1987-12-09</td><td><a href="http://data.gbif.org/occurrences/46407270">http://data.gbif.org/occurrences/46407270</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-91.8833,19.7186,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158303</td><td>1950-09-12</td><td><a href="http://data.gbif.org/occurrences/241261762">http://data.gbif.org/occurrences/241261762</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.883,29.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P2503</td><td>1985-04-24</td><td><a href="http://data.gbif.org/occurrences/145102749">http://data.gbif.org/occurrences/145102749</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P2503</td><td>1985-04-24</td><td><a href="http://data.gbif.org/occurrences/240517015">http://data.gbif.org/occurrences/240517015</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.801,21.852,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7960</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407396">http://data.gbif.org/occurrences/46407396</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.2853,24.3681,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8146</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46407415">http://data.gbif.org/occurrences/46407415</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4025,23.0356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>286951.5167112</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/149860506">http://data.gbif.org/occurrences/149860506</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00286951</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/188947584">http://data.gbif.org/occurrences/188947584</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>286951</td><td>1939-01-30</td><td><a href="http://data.gbif.org/occurrences/241261793">http://data.gbif.org/occurrences/241261793</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.4167,27.2917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82201</td><td>1973-03-28</td><td><a href="http://data.gbif.org/occurrences/198221018">http://data.gbif.org/occurrences/198221018</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.87833,29.25833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6671</td><td>1987-12-11</td><td><a href="http://data.gbif.org/occurrences/46407291">http://data.gbif.org/occurrences/46407291</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.9847,18.9675,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7898</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407390">http://data.gbif.org/occurrences/46407390</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.5008,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82223</td><td>1973-03-28</td><td><a href="http://data.gbif.org/occurrences/198221022">http://data.gbif.org/occurrences/198221022</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.08334,28.94167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9260</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/145103332">http://data.gbif.org/occurrences/145103332</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9260</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/240517419">http://data.gbif.org/occurrences/240517419</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.602,25.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>11634</td><td>1956-05-20</td><td><a href="http://data.gbif.org/occurrences/198220599">http://data.gbif.org/occurrences/198220599</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.33334,29.26667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7921</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407393">http://data.gbif.org/occurrences/46407393</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.5847,24.3019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2696</td><td>1951-01-27</td><td><a href="http://data.gbif.org/occurrences/198220427">http://data.gbif.org/occurrences/198220427</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-83.68333,27.6,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4496</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145103033">http://data.gbif.org/occurrences/145103033</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4496</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240517211">http://data.gbif.org/occurrences/240517211</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.019,21.234,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P6381</td><td>1987-12-08</td><td><a href="http://data.gbif.org/occurrences/145103190">http://data.gbif.org/occurrences/145103190</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P6381</td><td>1987-12-08</td><td><a href="http://data.gbif.org/occurrences/240517340">http://data.gbif.org/occurrences/240517340</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.0,20.417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8000</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407400">http://data.gbif.org/occurrences/46407400</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.6017,23.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9346</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/145103342">http://data.gbif.org/occurrences/145103342</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9346</td><td>1990-12-01</td><td><a href="http://data.gbif.org/occurrences/240517423">http://data.gbif.org/occurrences/240517423</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.385,23.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>159554</td><td>1957-08-22</td><td><a href="http://data.gbif.org/occurrences/241261613">http://data.gbif.org/occurrences/241261613</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-85.817,29.067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>158308.5167103</td><td>1954-05-16</td><td><a href="http://data.gbif.org/occurrences/149860472">http://data.gbif.org/occurrences/149860472</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.5,18.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4209</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/145102945">http://data.gbif.org/occurrences/145102945</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4209</td><td>1986-02-16</td><td><a href="http://data.gbif.org/occurrences/240517146">http://data.gbif.org/occurrences/240517146</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.501,22.034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8266</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/145103291">http://data.gbif.org/occurrences/145103291</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8266</td><td>1989-09-14</td><td><a href="http://data.gbif.org/occurrences/240517392">http://data.gbif.org/occurrences/240517392</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.284,21.952,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9260</td><td>1990-11-28</td><td><a href="http://data.gbif.org/occurrences/46407499">http://data.gbif.org/occurrences/46407499</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.6025,25.0003,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7352</td><td>1988-08-14</td><td><a href="http://data.gbif.org/occurrences/46407347">http://data.gbif.org/occurrences/46407347</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.8175,18.6517,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4294</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/145103039">http://data.gbif.org/occurrences/145103039</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4294</td><td>1986-02-18</td><td><a href="http://data.gbif.org/occurrences/240517212">http://data.gbif.org/occurrences/240517212</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.302,21.619,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8021</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103326">http://data.gbif.org/occurrences/145103326</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8021</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517415">http://data.gbif.org/occurrences/240517415</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.667,23.684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7725</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103243">http://data.gbif.org/occurrences/145103243</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7725</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517372">http://data.gbif.org/occurrences/240517372</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.083,25.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8207</td><td>1989-09-13</td><td><a href="http://data.gbif.org/occurrences/46407422">http://data.gbif.org/occurrences/46407422</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.7506,22.3519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>159554.5167104</td><td>1957-08-22</td><td><a href="http://data.gbif.org/occurrences/149860507">http://data.gbif.org/occurrences/149860507</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-85.8,29.1,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>286949.5167107</td><td>1964-01-17</td><td><a href="http://data.gbif.org/occurrences/149860473">http://data.gbif.org/occurrences/149860473</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>286949</td><td>1964-01-17</td><td><a href="http://data.gbif.org/occurrences/241261361">http://data.gbif.org/occurrences/241261361</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.5,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8104</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/145103315">http://data.gbif.org/occurrences/145103315</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8104</td><td>1989-09-12</td><td><a href="http://data.gbif.org/occurrences/240517407">http://data.gbif.org/occurrences/240517407</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.686,23.334,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8021</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/46407402">http://data.gbif.org/occurrences/46407402</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.6669,23.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>67375</td><td>1964-07-07</td><td><a href="http://data.gbif.org/occurrences/198220947">http://data.gbif.org/occurrences/198220947</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-89.67555,29.28861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8797</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/46407467">http://data.gbif.org/occurrences/46407467</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4189,22.3525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4421</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/145103029">http://data.gbif.org/occurrences/145103029</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4421</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/240517207">http://data.gbif.org/occurrences/240517207</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.036,21.3,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7898</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/145103215">http://data.gbif.org/occurrences/145103215</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7898</td><td>1989-09-11</td><td><a href="http://data.gbif.org/occurrences/240517359">http://data.gbif.org/occurrences/240517359</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.501,24.7,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9218</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/46407497">http://data.gbif.org/occurrences/46407497</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.6356,25.6692,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00286949</td><td>1964-01-17</td><td><a href="http://data.gbif.org/occurrences/188947583">http://data.gbif.org/occurrences/188947583</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.0,28.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>11202</td><td>1999-03-13</td><td><a href="http://data.gbif.org/occurrences/46406628">http://data.gbif.org/occurrences/46406628</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-93.5278,18.7658,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>9382</td><td>1990-11-02</td><td><a href="http://data.gbif.org/occurrences/46407510">http://data.gbif.org/occurrences/46407510</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.4672,23.3358,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P8797</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/145103318">http://data.gbif.org/occurrences/145103318</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P8797</td><td>1990-04-15</td><td><a href="http://data.gbif.org/occurrences/240517409">http://data.gbif.org/occurrences/240517409</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.419,22.352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>8731</td><td>1990-04-13</td><td><a href="http://data.gbif.org/occurrences/46407461">http://data.gbif.org/occurrences/46407461</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.3517,23.6836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P9218</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/145103327">http://data.gbif.org/occurrences/145103327</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P9218</td><td>1990-11-27</td><td><a href="http://data.gbif.org/occurrences/240517416">http://data.gbif.org/occurrences/240517416</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.636,25.669,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6381</td><td>1987-12-08</td><td><a href="http://data.gbif.org/occurrences/46407266">http://data.gbif.org/occurrences/46407266</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.0003,20.4169,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P4228</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/145102969">http://data.gbif.org/occurrences/145102969</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P4228</td><td>1986-02-17</td><td><a href="http://data.gbif.org/occurrences/240517175">http://data.gbif.org/occurrences/240517175</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.484,21.851,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>6010</td><td>1987-03-20</td><td><a href="http://data.gbif.org/occurrences/46407241">http://data.gbif.org/occurrences/46407241</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.0172,18.9836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00159554</td><td>1957-08-22</td><td><a href="http://data.gbif.org/occurrences/188947581">http://data.gbif.org/occurrences/188947581</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-85.0,29.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>Not recorded</td><td>CNPE</td><td>IBUNAM-P7352</td><td>1988-08-14</td><td><a href="http://data.gbif.org/occurrences/145103212">http://data.gbif.org/occurrences/145103212</a></td></tr><tr><td>Comisión nacional para el conocimiento y uso de la biodiversidad</td><td>IBUNAM</td><td>IBUNAM-P</td><td>IBUNAM-P7352</td><td>1988-08-14</td><td><a href="http://data.gbif.org/occurrences/240517356">http://data.gbif.org/occurrences/240517356</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-92.818,18.652,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>7833</td><td>1989-09-09</td><td><a href="http://data.gbif.org/occurrences/46407385">http://data.gbif.org/occurrences/46407385</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-96.8189,25.0353,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>82250</td><td>1973-03-27</td><td><a href="http://data.gbif.org/occurrences/198221025">http://data.gbif.org/occurrences/198221025</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-88.89167,29.275,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>2521</td><td>1985-04-26</td><td><a href="http://data.gbif.org/occurrences/46406842">http://data.gbif.org/occurrences/46406842</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-86.7519,21.9183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Gymnachirus texae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>UNIBIO, IBUNAM</td><td>IBUNAM</td><td>CNPE</td><td>4421</td><td>1986-02-19</td><td><a href="http://data.gbif.org/occurrences/46407063">http://data.gbif.org/occurrences/46407063</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon8</styleUrl>
+   <Point>
+    <coordinates>-97.0356,21.3,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

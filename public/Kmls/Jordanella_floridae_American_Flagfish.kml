@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-06-20)<br/><br/>Cornell University Museum of Vertebrates, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/138">http://data.gbif.org/datasets/resource/138</a>, 2011-06-20)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-06-20)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-06-20)<br/><br/>Marine Science Institute, UCSB, Paleobiology Database (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/563">http://data.gbif.org/datasets/resource/563</a>, 2011-06-20)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-06-20)<br/><br/>The Swedish Museum of Natural History (NRM), NRM-Fishes (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1023">http://data.gbif.org/datasets/resource/1023</a>, 2011-06-20)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-06-20)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-06-20)<br/><br/>University of Minnesota Bell Museum of Natural History, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1008">http://data.gbif.org/datasets/resource/1008</a>, 2011-06-20)<br/><br/>Yale University Peabody Museum, Peabody Ichthyology DiGIR Service (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8139">http://data.gbif.org/datasets/resource/8139</a>, 2011-06-20)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Jordanella floridae</name>
+  <Placemark>
+   <name>Jordanella floridae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.006657</td><td>1943-04-01</td><td><a href="http://data.gbif.org/occurrences/202565428">http://data.gbif.org/occurrences/202565428</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.016897</td><td>1943-04-01</td><td><a href="http://data.gbif.org/occurrences/202565548">http://data.gbif.org/occurrences/202565548</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.418,26.418,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5053</td><td>1952-11-16</td><td><a href="http://data.gbif.org/occurrences/198232123">http://data.gbif.org/occurrences/198232123</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-83.55805,30.06583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18131</td><td>1958-04-05</td><td><a href="http://data.gbif.org/occurrences/198232245">http://data.gbif.org/occurrences/198232245</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.94283,29.001806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20738</td><td>1959-07-05</td><td><a href="http://data.gbif.org/occurrences/198232270">http://data.gbif.org/occurrences/198232270</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.16556,28.19306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19645</td><td></td><td><a href="http://data.gbif.org/occurrences/190551779">http://data.gbif.org/occurrences/190551779</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.797,25.2536,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27439</td><td>1995-01-19</td><td><a href="http://data.gbif.org/occurrences/199214646">http://data.gbif.org/occurrences/199214646</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.1583,27.575,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>9834</td><td>1954-09-09</td><td><a href="http://data.gbif.org/occurrences/198232160">http://data.gbif.org/occurrences/198232160</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.37666,28.94028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.020520</td><td>2007-12-28</td><td><a href="http://data.gbif.org/occurrences/202565575">http://data.gbif.org/occurrences/202565575</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.27137,27.30772,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27491</td><td>1995-09-07</td><td><a href="http://data.gbif.org/occurrences/199214266">http://data.gbif.org/occurrences/199214266</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.8819,27.2239,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18451</td><td>1957-10-12</td><td><a href="http://data.gbif.org/occurrences/198232246">http://data.gbif.org/occurrences/198232246</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.74722,28.04,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>19639</td><td></td><td><a href="http://data.gbif.org/occurrences/190551778">http://data.gbif.org/occurrences/190551778</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.8499,25.2154,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>228</td><td>1950-11-17</td><td><a href="http://data.gbif.org/occurrences/198232095">http://data.gbif.org/occurrences/198232095</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.62917,28.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36139</td><td>1962-01-20</td><td><a href="http://data.gbif.org/occurrences/198232475">http://data.gbif.org/occurrences/198232475</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.45267,26.192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>27811</td><td>1997-11-01</td><td><a href="http://data.gbif.org/occurrences/199214395">http://data.gbif.org/occurrences/199214395</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.784,29.3196,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6196</td><td>1953-06-09</td><td><a href="http://data.gbif.org/occurrences/198232131">http://data.gbif.org/occurrences/198232131</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.28278,28.85417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36369</td><td>1961-05-25</td><td><a href="http://data.gbif.org/occurrences/198232482">http://data.gbif.org/occurrences/198232482</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.96806,27.25472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 020520</td><td>2007-12-28</td><td><a href="http://data.gbif.org/occurrences/350180540">http://data.gbif.org/occurrences/350180540</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.27137,27.307716,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 016440</td><td>2006-06-10</td><td><a href="http://data.gbif.org/occurrences/350180100">http://data.gbif.org/occurrences/350180100</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.3055,27.381567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>3770</td><td>1951-11-14</td><td><a href="http://data.gbif.org/occurrences/198232116">http://data.gbif.org/occurrences/198232116</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.3525,28.08722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>29682</td><td>2000-01-26</td><td><a href="http://data.gbif.org/occurrences/199214338">http://data.gbif.org/occurrences/199214338</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.5212,25.3153,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15670</td><td>1957-06-29</td><td><a href="http://data.gbif.org/occurrences/198232221">http://data.gbif.org/occurrences/198232221</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.735,29.35361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0062.4</td><td>1988-03-11</td><td><a href="http://data.gbif.org/occurrences/17609029">http://data.gbif.org/occurrences/17609029</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0062.4</td><td>1988-03-11</td><td><a href="http://data.gbif.org/occurrences/78271571">http://data.gbif.org/occurrences/78271571</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.917,26.667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20619</td><td>1959-07-04</td><td><a href="http://data.gbif.org/occurrences/198232267">http://data.gbif.org/occurrences/198232267</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.64889,27.74028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>74663</td><td>1971-12-30</td><td><a href="http://data.gbif.org/occurrences/198233105">http://data.gbif.org/occurrences/198233105</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.49223,26.98611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>74656</td><td>1971-12-30</td><td><a href="http://data.gbif.org/occurrences/198233104">http://data.gbif.org/occurrences/198233104</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.43639,26.65306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>212</td><td>1950-11-11</td><td><a href="http://data.gbif.org/occurrences/198232094">http://data.gbif.org/occurrences/198232094</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.34528,28.07028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>29052</td><td>2000-01-26</td><td><a href="http://data.gbif.org/occurrences/199214421">http://data.gbif.org/occurrences/199214421</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.51,25.4742,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8550</td><td>1953-11-14</td><td><a href="http://data.gbif.org/occurrences/198232155">http://data.gbif.org/occurrences/198232155</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-83.85722,30.27306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>5186</td><td>1952-11-17</td><td><a href="http://data.gbif.org/occurrences/198232125">http://data.gbif.org/occurrences/198232125</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.15667,27.34361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>44039</td><td>2005-07-12</td><td><a href="http://data.gbif.org/occurrences/48189564">http://data.gbif.org/occurrences/48189564</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.9939,27.2978,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Cornell University Museum of Vertebrates</td><td>CU                                                </td><td>CUMV-Fish</td><td>73752</td><td>1993-03-24</td><td><a href="http://data.gbif.org/occurrences/46560935">http://data.gbif.org/occurrences/46560935</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.0419,29.2169,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20724</td><td>1959-07-09</td><td><a href="http://data.gbif.org/occurrences/198232269">http://data.gbif.org/occurrences/198232269</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.60111,26.27695,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Marine Science Institute, UCSB</td><td>PBDB</td><td>20440</td><td>533677</td><td></td><td><a href="http://data.gbif.org/occurrences/37718720">http://data.gbif.org/occurrences/37718720</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.8,27.8,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>12604</td><td>1956-05-12</td><td><a href="http://data.gbif.org/occurrences/198232194">http://data.gbif.org/occurrences/198232194</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.75166,28.90861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>GBIF-Sweden</td><td>NRM</td><td>NRM-Fish</td><td>30015</td><td>1893-02-14</td><td><a href="http://data.gbif.org/occurrences/82879">http://data.gbif.org/occurrences/82879</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>NRM 30015</td><td>1893-02-14</td><td><a href="http://data.gbif.org/occurrences/189013940">http://data.gbif.org/occurrences/189013940</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.407,28.291,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 016897</td><td>1943-04-01</td><td><a href="http://data.gbif.org/occurrences/350179955">http://data.gbif.org/occurrences/350179955</a></td></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>YPM ICH 006657</td><td>1943-04-01</td><td><a href="http://data.gbif.org/occurrences/350179956">http://data.gbif.org/occurrences/350179956</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-81.4175,26.4183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>44358</td><td>1967-03-07</td><td><a href="http://data.gbif.org/occurrences/198232631">http://data.gbif.org/occurrences/198232631</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.34011,27.387693,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Yale University Peabody Museum</td><td>YPM</td><td>ICH</td><td>ICH.016440</td><td>2006-06-10</td><td><a href="http://data.gbif.org/occurrences/202565549">http://data.gbif.org/occurrences/202565549</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-80.3055,27.38157,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Jordanella floridae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>6188</td><td>1953-06-10</td><td><a href="http://data.gbif.org/occurrences/198232130">http://data.gbif.org/occurrences/198232130</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon18</styleUrl>
+   <Point>
+    <coordinates>-82.58556,28.915,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>

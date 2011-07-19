@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-05-16)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-05-16)<br/><br/>North Carolina State Museum of Natural Sciences, North Carolina State Museum of Natural Sciences Fishes Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8099">http://data.gbif.org/datasets/resource/8099</a>, 2011-05-16)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-05-16)<br/><br/>University of Kansas Biodiversity Research Center, Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/995">http://data.gbif.org/datasets/resource/995</a>, 2011-05-16)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Alosa alabamae</name>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31450</td><td>1963-09-10</td><td><a href="http://data.gbif.org/occurrences/198154905">http://data.gbif.org/occurrences/198154905</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34197</td><td>1964-08-21</td><td><a href="http://data.gbif.org/occurrences/198154943">http://data.gbif.org/occurrences/198154943</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>48950</td><td>1967-11-27</td><td><a href="http://data.gbif.org/occurrences/198155053">http://data.gbif.org/occurrences/198155053</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.81973,30.53278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170596</td><td>1989-07-12</td><td><a href="http://data.gbif.org/occurrences/198155356">http://data.gbif.org/occurrences/198155356</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.0249,29.76075,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>30001</td><td>1963-09-11</td><td><a href="http://data.gbif.org/occurrences/198154851">http://data.gbif.org/occurrences/198154851</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.79111,30.49389,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>39462</td><td>1965-12-10</td><td><a href="http://data.gbif.org/occurrences/198155001">http://data.gbif.org/occurrences/198155001</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.83083,30.76805,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28509</td><td>1962-04-01</td><td><a href="http://data.gbif.org/occurrences/198154842">http://data.gbif.org/occurrences/198154842</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28519</td><td>1962-03-22</td><td><a href="http://data.gbif.org/occurrences/198154843">http://data.gbif.org/occurrences/198154843</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36999</td><td>1963-03-28</td><td><a href="http://data.gbif.org/occurrences/198154970">http://data.gbif.org/occurrences/198154970</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37009</td><td>1963-03-30</td><td><a href="http://data.gbif.org/occurrences/198154971">http://data.gbif.org/occurrences/198154971</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.67278,30.24472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170627</td><td>1989-07-18</td><td><a href="http://data.gbif.org/occurrences/198155358">http://data.gbif.org/occurrences/198155358</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.04165,29.770683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20833</td><td>1959-07-24</td><td><a href="http://data.gbif.org/occurrences/198154717">http://data.gbif.org/occurrences/198154717</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.89806,30.45555,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>26356</td><td>1962-07-12</td><td><a href="http://data.gbif.org/occurrences/198154826">http://data.gbif.org/occurrences/198154826</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.16722,31.92861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>198208</td><td>2004-07-22</td><td><a href="http://data.gbif.org/occurrences/198155455">http://data.gbif.org/occurrences/198155455</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82748,30.77351,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34138</td><td>1964-08-20</td><td><a href="http://data.gbif.org/occurrences/198154939">http://data.gbif.org/occurrences/198154939</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>99732</td><td>1976-10-14</td><td><a href="http://data.gbif.org/occurrences/198155236">http://data.gbif.org/occurrences/198155236</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82166,30.61917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>146655</td><td>1986-10-03</td><td><a href="http://data.gbif.org/occurrences/198155318">http://data.gbif.org/occurrences/198155318</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.7625,30.77972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>195397</td><td>2002-10-13</td><td><a href="http://data.gbif.org/occurrences/198155451">http://data.gbif.org/occurrences/198155451</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.56972,30.64222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22754</td><td>1959-10-27</td><td><a href="http://data.gbif.org/occurrences/198154750">http://data.gbif.org/occurrences/198154750</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.04361,30.38861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>29879</td><td>1962-05-06</td><td><a href="http://data.gbif.org/occurrences/198154849">http://data.gbif.org/occurrences/198154849</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.85861,30.70111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>26351</td><td>1962-07-12</td><td><a href="http://data.gbif.org/occurrences/198154825">http://data.gbif.org/occurrences/198154825</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.19806,31.94111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28041</td><td>1962-12-01</td><td><a href="http://data.gbif.org/occurrences/198154839">http://data.gbif.org/occurrences/198154839</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84194,31.21889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23286</td><td>1960-07-04</td><td><a href="http://data.gbif.org/occurrences/198154770">http://data.gbif.org/occurrences/198154770</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.52639,32.70694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>65428</td><td>1970-08-29</td><td><a href="http://data.gbif.org/occurrences/198155083">http://data.gbif.org/occurrences/198155083</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.515,31.55833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>28318</td><td>1962-10-18</td><td><a href="http://data.gbif.org/occurrences/198154841">http://data.gbif.org/occurrences/198154841</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82306,31.15583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20668</td><td>1959-07-23</td><td><a href="http://data.gbif.org/occurrences/198154714">http://data.gbif.org/occurrences/198154714</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94671</td><td>1975-02-25</td><td><a href="http://data.gbif.org/occurrences/198155217">http://data.gbif.org/occurrences/198155217</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.12167,30.39833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53274</td><td>1968-07-31</td><td><a href="http://data.gbif.org/occurrences/198155056">http://data.gbif.org/occurrences/198155056</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.53306,31.85306,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70761</td><td>1971-08-01</td><td><a href="http://data.gbif.org/occurrences/198155096">http://data.gbif.org/occurrences/198155096</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94316</td><td>1975-06-11</td><td><a href="http://data.gbif.org/occurrences/198155216">http://data.gbif.org/occurrences/198155216</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.43,31.92945,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22975</td><td>1960-05-17</td><td><a href="http://data.gbif.org/occurrences/198154758">http://data.gbif.org/occurrences/198154758</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.11861,30.39972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24487</td><td>1961-03-13</td><td><a href="http://data.gbif.org/occurrences/198154792">http://data.gbif.org/occurrences/198154792</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.902916,30.625168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20517</td><td>1959-06-17</td><td><a href="http://data.gbif.org/occurrences/198154712">http://data.gbif.org/occurrences/198154712</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.125275,30.418667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31392</td><td>1963-09-09</td><td><a href="http://data.gbif.org/occurrences/198154901">http://data.gbif.org/occurrences/198154901</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82528,30.64722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23159</td><td>1960-07-04</td><td><a href="http://data.gbif.org/occurrences/198154768">http://data.gbif.org/occurrences/198154768</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.93723,32.51305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36485</td><td>1961-12-04</td><td><a href="http://data.gbif.org/occurrences/198154967">http://data.gbif.org/occurrences/198154967</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.16556,30.39583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41733</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155020">http://data.gbif.org/occurrences/198155020</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.39944,31.94722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15953</td><td>1957-07-18</td><td><a href="http://data.gbif.org/occurrences/198154652">http://data.gbif.org/occurrences/198154652</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.10083,30.62806,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>15990</td><td>1957-07-19</td><td><a href="http://data.gbif.org/occurrences/198154653">http://data.gbif.org/occurrences/198154653</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.85445,31.01889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31472</td><td>1963-09-12</td><td><a href="http://data.gbif.org/occurrences/198154906">http://data.gbif.org/occurrences/198154906</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34298</td><td>1964-08-22</td><td><a href="http://data.gbif.org/occurrences/198154949">http://data.gbif.org/occurrences/198154949</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.74084,30.3975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170558</td><td>1989-06-22</td><td><a href="http://data.gbif.org/occurrences/198155351">http://data.gbif.org/occurrences/198155351</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.0335,30.416567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170654</td><td>1989-07-20</td><td><a href="http://data.gbif.org/occurrences/198155361">http://data.gbif.org/occurrences/198155361</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.02717,30.3747,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170548</td><td>1989-06-21</td><td><a href="http://data.gbif.org/occurrences/198155350">http://data.gbif.org/occurrences/198155350</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.94383,30.586367,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78650</td><td>1972-08-16</td><td><a href="http://data.gbif.org/occurrences/198155142">http://data.gbif.org/occurrences/198155142</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.515,31.55972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18877</td><td>1958-07-09</td><td><a href="http://data.gbif.org/occurrences/198154693">http://data.gbif.org/occurrences/198154693</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23272</td><td>1960-07-03</td><td><a href="http://data.gbif.org/occurrences/198154769">http://data.gbif.org/occurrences/198154769</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84666,31.23889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34144</td><td>1964-08-20</td><td><a href="http://data.gbif.org/occurrences/198154940">http://data.gbif.org/occurrences/198154940</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34638</td><td>1964-09-24</td><td><a href="http://data.gbif.org/occurrences/198154950">http://data.gbif.org/occurrences/198154950</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.83028,30.6175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>35217</td><td>1964-06-28</td><td><a href="http://data.gbif.org/occurrences/198154958">http://data.gbif.org/occurrences/198154958</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>35281</td><td>1964-06-28</td><td><a href="http://data.gbif.org/occurrences/198154960">http://data.gbif.org/occurrences/198154960</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.09333,32.31611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22911</td><td>1960-03-08</td><td><a href="http://data.gbif.org/occurrences/198154755">http://data.gbif.org/occurrences/198154755</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22915</td><td>1960-03-09</td><td><a href="http://data.gbif.org/occurrences/198154756">http://data.gbif.org/occurrences/198154756</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.17694,30.12139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>North Carolina State Museum of Natural Sciences</td><td>NCSM</td><td>Fish</td><td>45831</td><td>2007-03-31</td><td><a href="http://data.gbif.org/occurrences/199190418">http://data.gbif.org/occurrences/199190418</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.8602,30.703,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170643</td><td>1989-07-19</td><td><a href="http://data.gbif.org/occurrences/198155360">http://data.gbif.org/occurrences/198155360</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.08278,30.01333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31578</td><td>1963-06-13</td><td><a href="http://data.gbif.org/occurrences/198154908">http://data.gbif.org/occurrences/198154908</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31832</td><td>1963-11-15</td><td><a href="http://data.gbif.org/occurrences/198154911">http://data.gbif.org/occurrences/198154911</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34800</td><td>1964-10-17</td><td><a href="http://data.gbif.org/occurrences/198154955">http://data.gbif.org/occurrences/198154955</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>42099</td><td>1966-10-22</td><td><a href="http://data.gbif.org/occurrences/198155028">http://data.gbif.org/occurrences/198155028</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.84417,30.70222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81246</td><td>1972-04-22</td><td><a href="http://data.gbif.org/occurrences/198155165">http://data.gbif.org/occurrences/198155165</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.74583,30.67361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16128</td><td>1957-08-01</td><td><a href="http://data.gbif.org/occurrences/198154656">http://data.gbif.org/occurrences/198154656</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.04139,32.12917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>93898</td><td>1975-03-03</td><td><a href="http://data.gbif.org/occurrences/198155213">http://data.gbif.org/occurrences/198155213</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.149445,30.131666,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102773</td><td>1977-06-19</td><td><a href="http://data.gbif.org/occurrences/198155247">http://data.gbif.org/occurrences/198155247</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.84167,30.94972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45075</td><td>1967-04-01</td><td><a href="http://data.gbif.org/occurrences/198155038">http://data.gbif.org/occurrences/198155038</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.86916,30.62361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21122</td><td>1959-08-15</td><td><a href="http://data.gbif.org/occurrences/198154725">http://data.gbif.org/occurrences/198154725</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.89278,30.45139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31418</td><td>1963-09-10</td><td><a href="http://data.gbif.org/occurrences/198154903">http://data.gbif.org/occurrences/198154903</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34160</td><td>1964-08-21</td><td><a href="http://data.gbif.org/occurrences/198154941">http://data.gbif.org/occurrences/198154941</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38428</td><td>1965-08-28</td><td><a href="http://data.gbif.org/occurrences/198154986">http://data.gbif.org/occurrences/198154986</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.81917,30.59667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>293755.5174309</td><td>1960-12-01</td><td><a href="http://data.gbif.org/occurrences/149629514">http://data.gbif.org/occurrences/149629514</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>293755</td><td>1960-12-01</td><td><a href="http://data.gbif.org/occurrences/241134449">http://data.gbif.org/occurrences/241134449</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.2,30.2,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>72799</td><td>1971-10-04</td><td><a href="http://data.gbif.org/occurrences/198155107">http://data.gbif.org/occurrences/198155107</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>79678</td><td>1972-06-24</td><td><a href="http://data.gbif.org/occurrences/198155158">http://data.gbif.org/occurrences/198155158</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.55945,30.925,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>72866</td><td>1971-10-05</td><td><a href="http://data.gbif.org/occurrences/198155108">http://data.gbif.org/occurrences/198155108</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.53722,31.00972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31615</td><td>1963-06-14</td><td><a href="http://data.gbif.org/occurrences/198154909">http://data.gbif.org/occurrences/198154909</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>47055</td><td>1967-07-13</td><td><a href="http://data.gbif.org/occurrences/198155046">http://data.gbif.org/occurrences/198155046</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82972,30.77861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23156</td><td>1959-08-27</td><td><a href="http://data.gbif.org/occurrences/198154767">http://data.gbif.org/occurrences/198154767</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.075,30.39361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31405</td><td>1963-09-09</td><td><a href="http://data.gbif.org/occurrences/198154902">http://data.gbif.org/occurrences/198154902</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34113</td><td>1964-08-20</td><td><a href="http://data.gbif.org/occurrences/198154938">http://data.gbif.org/occurrences/198154938</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.61417,30.24444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31754</td><td>1963-09-11</td><td><a href="http://data.gbif.org/occurrences/198154910">http://data.gbif.org/occurrences/198154910</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34242</td><td>1964-08-22</td><td><a href="http://data.gbif.org/occurrences/198154946">http://data.gbif.org/occurrences/198154946</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>86711</td><td>1973-11-07</td><td><a href="http://data.gbif.org/occurrences/198155191">http://data.gbif.org/occurrences/198155191</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.80278,30.51639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00293755</td><td>1960-12-01</td><td><a href="http://data.gbif.org/occurrences/188585704">http://data.gbif.org/occurrences/188585704</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.0,30.0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27197</td><td>1962-08-28</td><td><a href="http://data.gbif.org/occurrences/198154832">http://data.gbif.org/occurrences/198154832</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.08806,31.55305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78229</td><td>1972-06-02</td><td><a href="http://data.gbif.org/occurrences/198155140">http://data.gbif.org/occurrences/198155140</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87888</td><td>1974-06-13</td><td><a href="http://data.gbif.org/occurrences/198155192">http://data.gbif.org/occurrences/198155192</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.42927,31.92945,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20864</td><td>1959-07-23</td><td><a href="http://data.gbif.org/occurrences/198154718">http://data.gbif.org/occurrences/198154718</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.13333,30.43028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>65421</td><td>1970-08-29</td><td><a href="http://data.gbif.org/occurrences/198155082">http://data.gbif.org/occurrences/198155082</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.49111,31.72528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>93907</td><td>1973-08-16</td><td><a href="http://data.gbif.org/occurrences/198155214">http://data.gbif.org/occurrences/198155214</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.8275,30.77528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41712</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155018">http://data.gbif.org/occurrences/198155018</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.41361,31.96944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>40908</td><td>1966-06-28</td><td><a href="http://data.gbif.org/occurrences/198155010">http://data.gbif.org/occurrences/198155010</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41696</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155016">http://data.gbif.org/occurrences/198155016</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.47166,32.00028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>79786</td><td>1972-06-24</td><td><a href="http://data.gbif.org/occurrences/198155159">http://data.gbif.org/occurrences/198155159</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.553314,30.947655,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23329</td><td>1960-07-07</td><td><a href="http://data.gbif.org/occurrences/198154771">http://data.gbif.org/occurrences/198154771</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86378,30.689388,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170587</td><td>1989-06-28</td><td><a href="http://data.gbif.org/occurrences/198155354">http://data.gbif.org/occurrences/198155354</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170725</td><td>1989-08-29</td><td><a href="http://data.gbif.org/occurrences/198155364">http://data.gbif.org/occurrences/198155364</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170761</td><td>1989-09-18</td><td><a href="http://data.gbif.org/occurrences/198155368">http://data.gbif.org/occurrences/198155368</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.178474,30.08825,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22558</td><td>1959-11-16</td><td><a href="http://data.gbif.org/occurrences/198154748">http://data.gbif.org/occurrences/198154748</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.20444,30.13056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>72952</td><td>1961-10-06</td><td><a href="http://data.gbif.org/occurrences/198155110">http://data.gbif.org/occurrences/198155110</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.43555,31.09472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45108</td><td>1967-04-08</td><td><a href="http://data.gbif.org/occurrences/198155039">http://data.gbif.org/occurrences/198155039</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>45902</td><td>1967-04-25</td><td><a href="http://data.gbif.org/occurrences/198155042">http://data.gbif.org/occurrences/198155042</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.86584,30.62111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41769</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155022">http://data.gbif.org/occurrences/198155022</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.69889,31.2375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>35266</td><td>1964-06-28</td><td><a href="http://data.gbif.org/occurrences/198154959">http://data.gbif.org/occurrences/198154959</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38188</td><td>1965-06-24</td><td><a href="http://data.gbif.org/occurrences/198154985">http://data.gbif.org/occurrences/198154985</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.88277,33.28444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70829</td><td>1971-08-03</td><td><a href="http://data.gbif.org/occurrences/198155099">http://data.gbif.org/occurrences/198155099</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.47111,31.72778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20876</td><td>1959-07-21</td><td><a href="http://data.gbif.org/occurrences/198154719">http://data.gbif.org/occurrences/198154719</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.14653,30.129,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23136</td><td>1960-05-14</td><td><a href="http://data.gbif.org/occurrences/198154765">http://data.gbif.org/occurrences/198154765</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.85445,31.23333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70863</td><td>1971-08-04</td><td><a href="http://data.gbif.org/occurrences/198155100">http://data.gbif.org/occurrences/198155100</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83374</td><td>1973-08-28</td><td><a href="http://data.gbif.org/occurrences/198155173">http://data.gbif.org/occurrences/198155173</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.51778,31.54833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>39251</td><td>1965-10-29</td><td><a href="http://data.gbif.org/occurrences/198154999">http://data.gbif.org/occurrences/198154999</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.73861,30.41361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31433</td><td>1963-09-11</td><td><a href="http://data.gbif.org/occurrences/198154904">http://data.gbif.org/occurrences/198154904</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.77583,30.47583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81233</td><td>1961-07-18</td><td><a href="http://data.gbif.org/occurrences/198155164">http://data.gbif.org/occurrences/198155164</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.56973,30.89056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23054</td><td>1960-04-13</td><td><a href="http://data.gbif.org/occurrences/198154763">http://data.gbif.org/occurrences/198154763</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23397</td><td>1960-03-18</td><td><a href="http://data.gbif.org/occurrences/198154773">http://data.gbif.org/occurrences/198154773</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.56416,30.32944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78135</td><td>1972-06-02</td><td><a href="http://data.gbif.org/occurrences/198155138">http://data.gbif.org/occurrences/198155138</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87901</td><td>1974-06-13</td><td><a href="http://data.gbif.org/occurrences/198155193">http://data.gbif.org/occurrences/198155193</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>94303</td><td>1975-06-11</td><td><a href="http://data.gbif.org/occurrences/198155215">http://data.gbif.org/occurrences/198155215</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45111,31.915,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>32073</td><td>1963-06-12</td><td><a href="http://data.gbif.org/occurrences/198154935">http://data.gbif.org/occurrences/198154935</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.13433,30.156166,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>122048</td><td>1981-07-08</td><td><a href="http://data.gbif.org/occurrences/198155282">http://data.gbif.org/occurrences/198155282</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82722,30.77583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>42064</td><td>1966-10-19</td><td><a href="http://data.gbif.org/occurrences/198155027">http://data.gbif.org/occurrences/198155027</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.75833,30.50583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170569</td><td>1989-06-23</td><td><a href="http://data.gbif.org/occurrences/198155352">http://data.gbif.org/occurrences/198155352</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170740</td><td>1989-09-05</td><td><a href="http://data.gbif.org/occurrences/198155365">http://data.gbif.org/occurrences/198155365</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170831</td><td>1989-11-23</td><td><a href="http://data.gbif.org/occurrences/198155369">http://data.gbif.org/occurrences/198155369</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.07902,30.251484,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34279</td><td>1964-08-22</td><td><a href="http://data.gbif.org/occurrences/198154948">http://data.gbif.org/occurrences/198154948</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81410</td><td>1972-11-15</td><td><a href="http://data.gbif.org/occurrences/198155168">http://data.gbif.org/occurrences/198155168</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>86533</td><td>1973-11-07</td><td><a href="http://data.gbif.org/occurrences/198155189">http://data.gbif.org/occurrences/198155189</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>96183</td><td>1975-10-24</td><td><a href="http://data.gbif.org/occurrences/198155232">http://data.gbif.org/occurrences/198155232</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.78694,30.48917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41974</td><td>1966-10-18</td><td><a href="http://data.gbif.org/occurrences/198155026">http://data.gbif.org/occurrences/198155026</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.8275,30.62194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>26346</td><td>1962-07-12</td><td><a href="http://data.gbif.org/occurrences/198154824">http://data.gbif.org/occurrences/198154824</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.195,31.95639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>30050</td><td>1963-11-02</td><td><a href="http://data.gbif.org/occurrences/198154852">http://data.gbif.org/occurrences/198154852</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53688</td><td>1968-10-04</td><td><a href="http://data.gbif.org/occurrences/198155060">http://data.gbif.org/occurrences/198155060</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>57903</td><td>1969-06-21</td><td><a href="http://data.gbif.org/occurrences/198155068">http://data.gbif.org/occurrences/198155068</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>65696</td><td>1970-09-30</td><td><a href="http://data.gbif.org/occurrences/198155084">http://data.gbif.org/occurrences/198155084</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.30444,31.50805,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23045</td><td>1960-04-28</td><td><a href="http://data.gbif.org/occurrences/198154762">http://data.gbif.org/occurrences/198154762</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38657</td><td>1965-06-13</td><td><a href="http://data.gbif.org/occurrences/198154989">http://data.gbif.org/occurrences/198154989</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>43065</td><td>1966-06-15</td><td><a href="http://data.gbif.org/occurrences/198155032">http://data.gbif.org/occurrences/198155032</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.16611,30.25889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34207</td><td>1964-08-21</td><td><a href="http://data.gbif.org/occurrences/198154944">http://data.gbif.org/occurrences/198154944</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34230</td><td>1964-08-21</td><td><a href="http://data.gbif.org/occurrences/198154945">http://data.gbif.org/occurrences/198154945</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>39227</td><td>1965-10-29</td><td><a href="http://data.gbif.org/occurrences/198154998">http://data.gbif.org/occurrences/198154998</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.81583,30.53028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27254</td><td>1962-08-30</td><td><a href="http://data.gbif.org/occurrences/198154834">http://data.gbif.org/occurrences/198154834</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.96167,31.35333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22902</td><td>1960-03-25</td><td><a href="http://data.gbif.org/occurrences/198154754">http://data.gbif.org/occurrences/198154754</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.57611,30.32139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>30098</td><td>1963-11-02</td><td><a href="http://data.gbif.org/occurrences/198154853">http://data.gbif.org/occurrences/198154853</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>35107</td><td>1964-06-26</td><td><a href="http://data.gbif.org/occurrences/198154957">http://data.gbif.org/occurrences/198154957</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.24167,32.66945,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>99719</td><td>1976-10-14</td><td><a href="http://data.gbif.org/occurrences/198155235">http://data.gbif.org/occurrences/198155235</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82166,30.60528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>39343</td><td>1965-12-10</td><td><a href="http://data.gbif.org/occurrences/198155000">http://data.gbif.org/occurrences/198155000</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82611,30.75667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53719</td><td>1968-10-05</td><td><a href="http://data.gbif.org/occurrences/198155061">http://data.gbif.org/occurrences/198155061</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.83278,32.22667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41817</td><td>1966-08-06</td><td><a href="http://data.gbif.org/occurrences/198155025">http://data.gbif.org/occurrences/198155025</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53334</td><td>1968-08-01</td><td><a href="http://data.gbif.org/occurrences/198155058">http://data.gbif.org/occurrences/198155058</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.56917,31.6625,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>55032</td><td>1968-11-13</td><td><a href="http://data.gbif.org/occurrences/198155063">http://data.gbif.org/occurrences/198155063</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.8125,30.52361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20563</td><td>1959-06-16</td><td><a href="http://data.gbif.org/occurrences/198154713">http://data.gbif.org/occurrences/198154713</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.13306,30.42222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31377</td><td>1963-09-09</td><td><a href="http://data.gbif.org/occurrences/198154900">http://data.gbif.org/occurrences/198154900</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.83694,30.67805,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27115</td><td>1962-08-29</td><td><a href="http://data.gbif.org/occurrences/198154830">http://data.gbif.org/occurrences/198154830</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.06389,31.47944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34772</td><td>1964-10-16</td><td><a href="http://data.gbif.org/occurrences/198154954">http://data.gbif.org/occurrences/198154954</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.82694,30.74055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>193227</td><td>2000-07-21</td><td><a href="http://data.gbif.org/occurrences/198155450">http://data.gbif.org/occurrences/198155450</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.68222,31.68139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34680</td><td>1964-09-25</td><td><a href="http://data.gbif.org/occurrences/198154951">http://data.gbif.org/occurrences/198154951</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.80722,30.58722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41708</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155017">http://data.gbif.org/occurrences/198155017</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87927</td><td>1974-06-13</td><td><a href="http://data.gbif.org/occurrences/198155195">http://data.gbif.org/occurrences/198155195</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45639,31.975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>36939</td><td>1961-10-24</td><td><a href="http://data.gbif.org/occurrences/198154969">http://data.gbif.org/occurrences/198154969</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-82.94639,29.57556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18855</td><td>1958-07-08</td><td><a href="http://data.gbif.org/occurrences/198154692">http://data.gbif.org/occurrences/198154692</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>35101</td><td>1964-06-26</td><td><a href="http://data.gbif.org/occurrences/198154956">http://data.gbif.org/occurrences/198154956</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.13972,32.95917,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70653</td><td>1971-08-02</td><td><a href="http://data.gbif.org/occurrences/198155094">http://data.gbif.org/occurrences/198155094</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>78223</td><td>1972-06-02</td><td><a href="http://data.gbif.org/occurrences/198155139">http://data.gbif.org/occurrences/198155139</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87940</td><td>1974-06-13</td><td><a href="http://data.gbif.org/occurrences/198155196">http://data.gbif.org/occurrences/198155196</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>108745</td><td>1978-08-07</td><td><a href="http://data.gbif.org/occurrences/198155267">http://data.gbif.org/occurrences/198155267</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.47222,31.99611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38552</td><td>1965-06-26</td><td><a href="http://data.gbif.org/occurrences/198154988">http://data.gbif.org/occurrences/198154988</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.48695,33.58528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16791</td><td>1957-10-30</td><td><a href="http://data.gbif.org/occurrences/198154661">http://data.gbif.org/occurrences/198154661</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.68945,30.26861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>93897</td><td>1973-02-28</td><td><a href="http://data.gbif.org/occurrences/198155212">http://data.gbif.org/occurrences/198155212</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.24583,30.42778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>40957</td><td>1966-06-29</td><td><a href="http://data.gbif.org/occurrences/198155011">http://data.gbif.org/occurrences/198155011</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.45472,31.93,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23140</td><td>1960-05-11</td><td><a href="http://data.gbif.org/occurrences/198154766">http://data.gbif.org/occurrences/198154766</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.92389,30.61417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16068</td><td>1957-07-29</td><td><a href="http://data.gbif.org/occurrences/198154655">http://data.gbif.org/occurrences/198154655</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.4533,30.7933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>81323</td><td>1961-05-11</td><td><a href="http://data.gbif.org/occurrences/198155166">http://data.gbif.org/occurrences/198155166</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.56003,30.9175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53345</td><td>1968-08-01</td><td><a href="http://data.gbif.org/occurrences/198155059">http://data.gbif.org/occurrences/198155059</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.55334,31.61444,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41645</td><td>1966-10-04</td><td><a href="http://data.gbif.org/occurrences/198155015">http://data.gbif.org/occurrences/198155015</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41737</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155021">http://data.gbif.org/occurrences/198155021</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.42223,31.915,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23640</td><td>1960-07-08</td><td><a href="http://data.gbif.org/occurrences/198154775">http://data.gbif.org/occurrences/198154775</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86361,30.68889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170536</td><td>1989-06-20</td><td><a href="http://data.gbif.org/occurrences/198155349">http://data.gbif.org/occurrences/198155349</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170848</td><td>1989-07-12</td><td><a href="http://data.gbif.org/occurrences/198155370">http://data.gbif.org/occurrences/198155370</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86117,30.707472,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20499</td><td>1959-07-21</td><td><a href="http://data.gbif.org/occurrences/198154711">http://data.gbif.org/occurrences/198154711</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.17223,30.43083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>59966</td><td>1969-09-25</td><td><a href="http://data.gbif.org/occurrences/198155069">http://data.gbif.org/occurrences/198155069</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.69083,31.84583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>53296</td><td>1968-07-31</td><td><a href="http://data.gbif.org/occurrences/198155057">http://data.gbif.org/occurrences/198155057</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.43777,31.74667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>26419</td><td>1962-07-13</td><td><a href="http://data.gbif.org/occurrences/198154827">http://data.gbif.org/occurrences/198154827</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.10555,31.64556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22733</td><td>1959-10-27</td><td><a href="http://data.gbif.org/occurrences/198154749">http://data.gbif.org/occurrences/198154749</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.082664,30.40975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70678</td><td>1971-08-02</td><td><a href="http://data.gbif.org/occurrences/198155095">http://data.gbif.org/occurrences/198155095</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.4475,31.97583,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41802</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155024">http://data.gbif.org/occurrences/198155024</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.43833,31.74333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21143</td><td>1959-07-30</td><td><a href="http://data.gbif.org/occurrences/198154727">http://data.gbif.org/occurrences/198154727</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.11584,30.39972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20815</td><td>1959-07-24</td><td><a href="http://data.gbif.org/occurrences/198154716">http://data.gbif.org/occurrences/198154716</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>92361</td><td>1973-07-05</td><td><a href="http://data.gbif.org/occurrences/198155208">http://data.gbif.org/occurrences/198155208</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>101967</td><td>1977-04-30</td><td><a href="http://data.gbif.org/occurrences/198155240">http://data.gbif.org/occurrences/198155240</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.84333,30.95,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22874</td><td>1960-03-29</td><td><a href="http://data.gbif.org/occurrences/198154751">http://data.gbif.org/occurrences/198154751</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24359</td><td>1960-10-18</td><td><a href="http://data.gbif.org/occurrences/198154787">http://data.gbif.org/occurrences/198154787</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24475</td><td>1961-03-26</td><td><a href="http://data.gbif.org/occurrences/198154790">http://data.gbif.org/occurrences/198154790</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24501</td><td>1961-04-18</td><td><a href="http://data.gbif.org/occurrences/198154793">http://data.gbif.org/occurrences/198154793</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>25716</td><td>1962-02-24</td><td><a href="http://data.gbif.org/occurrences/198154818">http://data.gbif.org/occurrences/198154818</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>29874</td><td>1962-03-24</td><td><a href="http://data.gbif.org/occurrences/198154848">http://data.gbif.org/occurrences/198154848</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>80539</td><td>1961-03-23</td><td><a href="http://data.gbif.org/occurrences/198155163">http://data.gbif.org/occurrences/198155163</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86389,30.70833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27128</td><td>1962-08-29</td><td><a href="http://data.gbif.org/occurrences/198154831">http://data.gbif.org/occurrences/198154831</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.01722,31.43778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41720</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155019">http://data.gbif.org/occurrences/198155019</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>70610</td><td>1971-08-01</td><td><a href="http://data.gbif.org/occurrences/198155093">http://data.gbif.org/occurrences/198155093</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>87910</td><td>1974-06-13</td><td><a href="http://data.gbif.org/occurrences/198155194">http://data.gbif.org/occurrences/198155194</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>90023</td><td>1974-08-06</td><td><a href="http://data.gbif.org/occurrences/198155200">http://data.gbif.org/occurrences/198155200</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.39861,31.95944,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22895</td><td>1960-03-04</td><td><a href="http://data.gbif.org/occurrences/198154752">http://data.gbif.org/occurrences/198154752</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22898</td><td>1960-03-11</td><td><a href="http://data.gbif.org/occurrences/198154753">http://data.gbif.org/occurrences/198154753</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>24484</td><td>1960-02-17</td><td><a href="http://data.gbif.org/occurrences/198154791">http://data.gbif.org/occurrences/198154791</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37055</td><td>1963-03-13</td><td><a href="http://data.gbif.org/occurrences/198154972">http://data.gbif.org/occurrences/198154972</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.1775,30.12722,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18688</td><td>1958-07-08</td><td><a href="http://data.gbif.org/occurrences/198154690">http://data.gbif.org/occurrences/198154690</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>29121</td><td>1962-07-18</td><td><a href="http://data.gbif.org/occurrences/198154844">http://data.gbif.org/occurrences/198154844</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34050</td><td>1964-06-28</td><td><a href="http://data.gbif.org/occurrences/198154937">http://data.gbif.org/occurrences/198154937</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.07806,33.01889,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170593</td><td>1989-06-28</td><td><a href="http://data.gbif.org/occurrences/198155355">http://data.gbif.org/occurrences/198155355</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170719</td><td>1989-08-24</td><td><a href="http://data.gbif.org/occurrences/198155363">http://data.gbif.org/occurrences/198155363</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170745</td><td>1989-09-06</td><td><a href="http://data.gbif.org/occurrences/198155367">http://data.gbif.org/occurrences/198155367</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.02278,29.760279,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>31484</td><td>1963-10-11</td><td><a href="http://data.gbif.org/occurrences/198154907">http://data.gbif.org/occurrences/198154907</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34692</td><td>1964-09-25</td><td><a href="http://data.gbif.org/occurrences/198154952">http://data.gbif.org/occurrences/198154952</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>38452</td><td>1965-08-28</td><td><a href="http://data.gbif.org/occurrences/198154987">http://data.gbif.org/occurrences/198154987</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.79361,30.56833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>62709</td><td>1970-06-24</td><td><a href="http://data.gbif.org/occurrences/198155074">http://data.gbif.org/occurrences/198155074</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.43889,31.974167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>16840</td><td>1957-10-30</td><td><a href="http://data.gbif.org/occurrences/198154662">http://data.gbif.org/occurrences/198154662</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>27231</td><td>1962-08-28</td><td><a href="http://data.gbif.org/occurrences/198154833">http://data.gbif.org/occurrences/198154833</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.65611,30.19778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (6 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20280</td><td>1959-04-24</td><td><a href="http://data.gbif.org/occurrences/198154705">http://data.gbif.org/occurrences/198154705</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20351</td><td>1959-07-21</td><td><a href="http://data.gbif.org/occurrences/198154707">http://data.gbif.org/occurrences/198154707</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20443</td><td>1959-07-22</td><td><a href="http://data.gbif.org/occurrences/198154709">http://data.gbif.org/occurrences/198154709</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>21441</td><td>1959-08-26</td><td><a href="http://data.gbif.org/occurrences/198154731">http://data.gbif.org/occurrences/198154731</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23030</td><td>1960-05-12</td><td><a href="http://data.gbif.org/occurrences/198154761">http://data.gbif.org/occurrences/198154761</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23341</td><td>1960-07-06</td><td><a href="http://data.gbif.org/occurrences/198154772">http://data.gbif.org/occurrences/198154772</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.86214,30.706694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18978</td><td>1958-08-08</td><td><a href="http://data.gbif.org/occurrences/198154696">http://data.gbif.org/occurrences/198154696</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.95667,32.47,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>18989</td><td>1958-08-07</td><td><a href="http://data.gbif.org/occurrences/198154697">http://data.gbif.org/occurrences/198154697</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.01527,32.36694,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (4 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170580</td><td>1989-06-23</td><td><a href="http://data.gbif.org/occurrences/198155353">http://data.gbif.org/occurrences/198155353</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170636</td><td>1989-07-19</td><td><a href="http://data.gbif.org/occurrences/198155359">http://data.gbif.org/occurrences/198155359</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170698</td><td>1989-08-14</td><td><a href="http://data.gbif.org/occurrences/198155362">http://data.gbif.org/occurrences/198155362</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170743</td><td>1989-09-05</td><td><a href="http://data.gbif.org/occurrences/198155366">http://data.gbif.org/occurrences/198155366</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.13084,30.141556,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34707</td><td>1964-09-25</td><td><a href="http://data.gbif.org/occurrences/198154953">http://data.gbif.org/occurrences/198154953</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.7575,30.51833,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>170619</td><td>1989-07-18</td><td><a href="http://data.gbif.org/occurrences/198155357">http://data.gbif.org/occurrences/198155357</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.02278,29.76028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>102294</td><td>1977-06-09</td><td><a href="http://data.gbif.org/occurrences/198155242">http://data.gbif.org/occurrences/198155242</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.62778,30.75222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Kansas Biodiversity Research Center</td><td>KU</td><td>KUI</td><td>16823</td><td></td><td><a href="http://data.gbif.org/occurrences/190533621">http://data.gbif.org/occurrences/190533621</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-90.6134,38.4525,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>37097</td><td>1962-11-15</td><td><a href="http://data.gbif.org/occurrences/198154974">http://data.gbif.org/occurrences/198154974</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.11195,29.32055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>20397</td><td>1959-06-22</td><td><a href="http://data.gbif.org/occurrences/198154708">http://data.gbif.org/occurrences/198154708</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.12167,30.4025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>41795</td><td>1966-08-05</td><td><a href="http://data.gbif.org/occurrences/198155023">http://data.gbif.org/occurrences/198155023</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.44111,31.80333,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>47510</td><td>1967-08-18</td><td><a href="http://data.gbif.org/occurrences/198155049">http://data.gbif.org/occurrences/198155049</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.38972,32.14139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>22920</td><td>1960-04-09</td><td><a href="http://data.gbif.org/occurrences/198154757">http://data.gbif.org/occurrences/198154757</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>23107</td><td>1960-04-21</td><td><a href="http://data.gbif.org/occurrences/198154764">http://data.gbif.org/occurrences/198154764</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.74805,31.02861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Alosa alabamae (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>34266</td><td>1964-08-22</td><td><a href="http://data.gbif.org/occurrences/198154947">http://data.gbif.org/occurrences/198154947</a></td></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>96167</td><td>1975-10-24</td><td><a href="http://data.gbif.org/occurrences/198155231">http://data.gbif.org/occurrences/198155231</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-89.79806,30.49444,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
