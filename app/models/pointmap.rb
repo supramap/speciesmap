@@ -92,7 +92,7 @@ class Pointmap < ActiveRecord::Base
     if self.oil_spill
       self.kml << "\t\t<NetworkLink>\n"
       self.kml << "\t\t\t<open>1</open><name>NOAA Spill Extent</name>\n"
-      self.kml << "\t\t\t<Link><href>http://mw1.google.com/mw-earth-vectordb/disaster/gulf_oil_spill/kml/noaa/nesdis_anomaly_rs2.kml</href></Link>\n"
+      self.kml << "\t\t\t<Link><href>http://depthmap.osu.edu/oil_dates/spill_dates.kmz</href></Link>\n"
       self.kml << "\t\t</NetworkLink>\n"
     end
     self.kml << "\t\t<name>#{name}</name><open>1</open>\n"
