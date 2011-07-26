@@ -1,26 +1,16 @@
-require 'net/http'
-require 'open-uri'
-
-class HomeController < ApplicationController
-
-  def help
+class WorkflowsController < ApplicationController
+  def index
   end
 
-  def contact
+  def list
   end
 
-  def news
-
+  def tree_control
   end
 
-  def workflow
+  def search_control
   end
 
-  def oil_spill
-    #@oil = Oil.find(:all)
-    #@file = 'hello'
-    #@fish = Fish.find(:all)
-  end
 
   def getOrder()
    items =Array.new
@@ -48,7 +38,7 @@ class HomeController < ApplicationController
       render :json  => items
    end
 
-  
+
 
   def get_oil_fishkml()
     @kml_text = params[:date] #Oil.first(params[:date] => oil)

@@ -1,0 +1,91 @@
+<h1>Browse for Species(click to expand):</h1>
+
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+                          <link rel='stylesheet' href='/css/screen.css' type='text/css' />
+                          <link rel='stylesheet' href='/css/jquery.treeview.css' type='text/css' />
+                          <script type='text/javascript' src='/javascripts/jquery.treeview.js'></script>
+                          <script>
+                          $(document).ready(function(){
+                            $('tree2').treeview();
+                            $(".pclass").onclick()
+                          });
+                           var treestate = {};
+
+                             function getOrder(id) {
+                             if(treestate["class"+id]==0){
+                                treestate["class"+id]=1
+
+                                 $.getJSON('getOrder/'+id, function(data) {
+                                   var items = [];
+
+                                   $.each(data, function(key, val) {
+                                        $('#orderlist'+id).append("<li><span onclick='getFamily("+val[0]+")'> order: " + val[1] + "</span><br/><ul id='f"+val[0]+"'></ul></li>");
+                                          treestate["order"+val[0]] = 0;
+                                   });
+                                 });
+                                }
+                             }
+
+                             function getFamily(id) {
+
+                                 if(treestate["order"+id]==0){
+                                 treestate["order"+id]=1
+
+                                 $.getJSON('getFamily/'+id, function(data) {
+                                   var items = [];
+
+                                   $.each(data, function(key, val) {
+                                        $('#f'+id).append("<li><span onclick='getGenus("+val[0]+")'> family: " + val[1] + "</span><br/><ul id='g"+val[0]+"'></ul></li>");
+                                          treestate["family"+val[0]] = 0;
+                                   });
+                                 });
+
+
+                                }
+                             }
+
+                             function getGenus(id) {
+                                 if(treestate["family"+id]==0){
+                                     treestate["family"+id]=1
+
+                                     $.getJSON('getGenus/'+id, function(data) {
+                                       var items = [];
+
+                                       $.each(data, function(key, val) {
+                                            $('#g'+id).append("<li><span onclick='getSpecies("+val[0]+")'> genus: " + val[1] + "</span><br/><ul id='s"+val[0]+"'></ul></li>");
+                                              treestate["genus"+val[0]] = 0;
+                                       });
+                                     });
+                                }
+                             }
+
+                             function getSpecies(id) {
+                                 if(treestate["genus"+id]==0){
+                                     treestate["genus"+id]=1
+
+                                     $.getJSON('getSpecies/'+id, function(data) {
+                                       var items = [];
+
+                                       $.each(data, function(key, val) {
+                                            $('#s'+id).append("<li><span > species: " + val[1] + "</span><a href='getKML/"+val[2]+"?name="+val[1]+"'> (download kml)</a></li>");
+                                              treestate["genus"+val[0]] = 0;
+                                       });
+                                     });
+                                }
+                             }
+                          </script>
+
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+
+
+
+      <ul id="tree1">
+       <% pclass =  ActiveRecord::Base.connection.execute('SELECT id, name FROM class').each { |c|  %>
+
+     <li><span id='class<%=c[0] %>' class="pclass" onclick="getOrder(<%=c[0] %>)">class: <%= c[1] %></span><br/>
+                       <ul id='orderlist<%=c[0] %>' > </ul>
+     </li>
+            <script> treestate["class<%=c[0] %>"] = 0;</script>
+  <%  } %>
+  </ul>

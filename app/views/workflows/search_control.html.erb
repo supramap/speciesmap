@@ -1,0 +1,24 @@
+
+ <H1> Get Species Search</H1>
+   <script src='http://code.jquery.com/jquery-latest.js'></script>
+    <script>
+
+
+         function getSpeciesbyName() {
+
+                $.get('getSpeciesKML/'+$('#searchbox').val(), function(data) {
+
+                    if(data=='0')
+                    {
+                        alert('Could not find '+ $('#searchbox').val()+'. Maybe you misspelled it.')
+                    }
+                    else
+                    {
+                        window.location.href = 'getKML/'+data.replace('"', '').replace("[", "").replace("]", "")+"?name="+$('#searchbox').val();
+                    }
+                                       });
+         }
+    </script>
+
+    Species Scientific Name: <input id="searchbox" type="text"/> <input onclick="getSpeciesbyName()"  type="button" value="download kml"></input>
+ <p>make sure you use the correct format of the scientific of genus followed by species with proper capitalization.  example: Argopleura conventus</p>

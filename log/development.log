@@ -3943,3 +3943,3054 @@ Processing HomeController#getKML (for 127.0.0.1 at 2011-04-21 12:10:59) [GET]
   Parameters: {"name"=>"Aborichthys elongatu", "controller"=>"home", "action"=>"getKML", "id"=>"12563690"}
 Sending data Aborichthys elongatu.kml
 Completed in 962ms (View: 1, DB: 40) | 200 OK [http://0.0.0.0/home/getKML/12563690?name=Aborichthys%20elongatu]
+  [4;36;1mSQL (16.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:44:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (12.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (119.7ms)
+Completed in 176ms (View: 150, DB: 53) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:44:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (16.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (113.7ms)
+Completed in 117ms (View: 83, DB: 82) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (29.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (30.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:44:23) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (26.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (21.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (70.2ms)
+Completed in 76ms (View: 25, DB: 109) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:44:28) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (20.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (125.6ms)
+Completed in 129ms (View: 87, DB: 80) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2011-07-26 12:44:29) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/contact
+  [4;36;1mUser Columns (19.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (9.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (69.4ms)
+Completed in 88ms (View: 57, DB: 78) | 200 OK [http://0.0.0.0/home/contact]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:44:31) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (19.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (18.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (125.3ms)
+Completed in 129ms (View: 89, DB: 78) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:44:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (19.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (72.6ms)
+Completed in 76ms (View: 35, DB: 79) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:45:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (30.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (21.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (136.1ms)
+Completed in 139ms (View: 87, DB: 111) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:45:31) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (19.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (74.1ms)
+Completed in 77ms (View: 37, DB: 78) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:46:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (20.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (124.9ms)
+Completed in 128ms (View: 86, DB: 80) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2011-07-26 12:50:53) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/contact
+  [4;36;1mUser Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (72.9ms)
+Completed in 76ms (View: 35, DB: 79) | 200 OK [http://0.0.0.0/home/contact]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:50:54) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (17.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (21.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (123.3ms)
+Completed in 127ms (View: 87, DB: 78) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (18.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:50:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (19.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (72.5ms)
+Completed in 76ms (View: 35, DB: 77) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:50:56) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (20.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (125.2ms)
+Completed in 128ms (View: 87, DB: 79) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:54:13) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (17.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (60.6ms)
+Completed in 66ms (View: 30, DB: 84) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2011-07-26 12:54:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (14.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 118ms (DB: 74) | 302 Found [http://0.0.0.0/pointmaps/index]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-07-26 12:54:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (11.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.6ms)
+Completed in 82ms (View: 26, DB: 68) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-07-26 12:54:20) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"jacob"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (14.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mUser Load (16.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'jacob') LIMIT 1[0m
+  [4;35;1mSQL (11.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.6ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:54:20', `perishable_token` = 'zj2i6EIUkVea6ckpOGl', `last_login_at` = '2011-07-26 14:20:53', `last_login_ip` = '140.254.194.154', `current_login_at` = '2011-07-26 16:54:20', `login_count` = 8, `current_login_ip` = '127.0.0.1', `last_request_at` = '2011-07-26 16:54:20' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/pointmaps/index
+Completed in 318ms (DB: 135) | 302 Found [http://0.0.0.0/user_session]
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2011-07-26 12:54:21) [GET]
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (18.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:54:21', `perishable_token` = 'bOV7CW9zXh82wH9rgtT', `last_request_at` = '2011-07-26 16:54:21' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (18.9ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (17.9ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Pointmap with ID=index):
+  app/controllers/application_controller.rb:48:in `viewable'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2011-07-26 12:54:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (13.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:54:54', `perishable_token` = 'VoS9rIugdM45GWGNDrL', `last_request_at` = '2011-07-26 16:54:54' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (11.2ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (17.9ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Pointmap with ID=index):
+  app/controllers/application_controller.rb:48:in `viewable'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (95.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:55:10) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (16.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:55:10', `perishable_token` = 'kNCcoHQxb0LmHlwrcAFL', `last_request_at` = '2011-07-26 16:55:10' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (100.2ms)
+Completed in 106ms (View: 35, DB: 109) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2011-07-26 12:55:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"show", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (15.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:55:13', `perishable_token` = 'cAX9VEjFoPhaCVkt1zM', `last_request_at` = '2011-07-26 16:55:13' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Columns (11.6ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mPointmap Load (17.8ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Pointmap with ID=show):
+  app/controllers/application_controller.rb:48:in `viewable'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#show (for 127.0.0.1 at 2011-07-26 12:56:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"show", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (16.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:15', `perishable_token` = 'RMkIRU41OniTHOB6UiXh', `last_request_at` = '2011-07-26 16:56:15' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Columns (11.9ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mPointmap Load (17.8ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (`pointmaps`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Pointmap with ID=show):
+  app/controllers/application_controller.rb:48:in `viewable'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:56:20) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:20', `perishable_token` = 'S1ct8IAuHjuZQDVVWJw1', `last_request_at` = '2011-07-26 16:56:20' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (109.6ms)
+Completed in 116ms (View: 35, DB: 119) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-07-26 12:56:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (13.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:22', `perishable_token` = 'MMRbsJwZh8GeH8A5JgZZ', `last_request_at` = '2011-07-26 16:56:22' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (182.2ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (19.2ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (12.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.2ms)
+Completed in 437ms (View: 34, DB: 333) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:56:40) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (16.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (16.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:40', `perishable_token` = 'kYu9THFSvaiXfjZqmxP', `last_request_at` = '2011-07-26 16:56:40' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (119.6ms)
+Completed in 123ms (View: 37, DB: 124) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:56:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (13.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.6ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:43', `perishable_token` = 'YuOM5HyOyulcx4EB43h', `last_request_at` = '2011-07-26 16:56:43' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (106.8ms)
+Completed in 114ms (View: 33, DB: 118) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:56:45) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;36;1mUser Columns (19.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:45', `perishable_token` = 'AqgusqA4HL3FHIe9Vab1', `last_request_at` = '2011-07-26 16:56:45' WHERE `id` = 20[0m
+  [4;36;1mSQL (21.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (134.5ms)
+Completed in 138ms (View: 42, DB: 134) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2011-07-26 12:56:46) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/contact
+  [4;35;1mUser Columns (17.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:46', `perishable_token` = 'CbLUXHSMvJnTKuD2Yo', `last_request_at` = '2011-07-26 16:56:46' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (111.0ms)
+Completed in 115ms (View: 33, DB: 119) | 200 OK [http://0.0.0.0/home/contact]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 12:56:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (16.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.9ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:48', `perishable_token` = 'KAGtMdUbfSoi1vvlJaG', `last_request_at` = '2011-07-26 16:56:48' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (190.2ms)
+Completed in 194ms (View: 102, DB: 126) | 200 OK [http://0.0.0.0/home]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 12:56:50) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;35;1mUser Columns (17.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (18.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:50', `perishable_token` = 'DvwYZO25n89cHMgX2FDM', `last_request_at` = '2011-07-26 16:56:50' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (101.1ms)
+Completed in 105ms (View: 22, DB: 121) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-07-26 12:56:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (13.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (7.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 16:56:55', `perishable_token` = '6sp7JMolkvvIQ78i8TBB', `last_request_at` = '2011-07-26 16:56:55' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (182.4ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (18.4ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (12.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.6ms)
+Completed in 439ms (View: 21, DB: 329) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 13:14:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:14:04', `perishable_token` = '3Ygymh7YYMe9ZtnSPiX', `last_request_at` = '2011-07-26 17:14:04' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (101.1ms)
+Completed in 105ms (View: 24, DB: 118) | 200 OK [http://0.0.0.0/home]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 13:14:22) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;35;1mUser Columns (17.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (13.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (15.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:14:22', `perishable_token` = 'pfnSZpnBE5NMlNxzAdV', `last_request_at` = '2011-07-26 17:14:22' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (181.3ms)
+Completed in 185ms (View: 101, DB: 121) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2011-07-26 13:14:24) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/contact
+  [4;36;1mUser Columns (16.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (29.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:14:24', `perishable_token` = 'bR0sSHijESHRz3cf0xJ', `last_request_at` = '2011-07-26 17:14:24' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (140.1ms)
+Completed in 144ms (View: 42, DB: 140) | 200 OK [http://0.0.0.0/home/contact]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#workflow (for 127.0.0.1 at 2011-07-26 13:14:25) [GET]
+  Parameters: {"action"=>"workflow", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/workflow
+  [4;35;1mUser Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:14:26', `perishable_token` = 'PBdeZMi32qAokpX8zKo', `last_request_at` = '2011-07-26 17:14:26' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (191.4ms)
+Completed in 195ms (View: 101, DB: 132) | 200 OK [http://0.0.0.0/home/workflow]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-07-26 13:14:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (19.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:14:31', `perishable_token` = 'imDwHgnhXGxSUZ3bP', `last_request_at` = '2011-07-26 17:14:31' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPointmap Load (179.5ms)[0m   [0mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;36;1mPointmap Columns (12.1ms)[0m   [0;1mSHOW FIELDS FROM `pointmaps`[0m
+  [4;35;1mUser Load (13.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendered home/_login (0.6ms)
+Completed in 354ms (View: 22, DB: 330) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 13:40:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:40:08', `perishable_token` = 'j9Ar5pRxkVzJdRv5uxU', `last_request_at` = '2011-07-26 17:40:08' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (102.1ms)
+Completed in 175ms (View: 96, DB: 118) | 200 OK [http://0.0.0.0/home]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:40:09) [GET]
+
+ActionController::RoutingError (No route matches "/workflow" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (29.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:40:39) [GET]
+
+ActionController::RoutingError (No route matches "/workflows" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (9.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:40:44) [GET]
+
+ActionController::RoutingError (No route matches "/workflow" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 13:40:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (18.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (18.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:40:50', `perishable_token` = 'DKi3NjQTW51SC5H6YOQ', `last_request_at` = '2011-07-26 17:40:50' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (112.7ms)
+Completed in 186ms (View: 97, DB: 127) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:40:52) [GET]
+
+ActionController::RoutingError (No route matches "/workflows" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/workflows" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/workflows" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:43:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (12.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (18.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:43:44', `perishable_token` = 'GYrzyiJQmYaMzfZMa', `last_request_at` = '2011-07-26 17:43:44' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (105.9ms)
+Completed in 114ms (View: 32, DB: 120) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:43:48) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:43:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (17.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:43:59', `perishable_token` = 'e9SMW7tO6bnbuwGS9tZO', `last_request_at` = '2011-07-26 17:43:59' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (111.8ms)
+Completed in 116ms (View: 33, DB: 116) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:44:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (17.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (10.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (13.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:44:21', `perishable_token` = 'CkCAza1xFrM2GFnV3ee', `last_request_at` = '2011-07-26 17:44:21' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (190.8ms)
+Completed in 197ms (View: 116, DB: 118) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:44:23) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 13:44:26) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (17.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (9.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:44:26', `perishable_token` = 'wYpKZVxxzaQh39caJhTj', `last_request_at` = '2011-07-26 17:44:26' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (126.4ms)
+Completed in 175ms (View: 76, DB: 136) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:44:31) [GET]
+
+ActionController::RoutingError (No route matches "/tree_control" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 13:44:33) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (10.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:44:34', `perishable_token` = 'a9P0bggZOHJud1SCxL5', `last_request_at` = '2011-07-26 17:44:33' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (137.1ms)
+Completed in 155ms (View: 55, DB: 138) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 13:45:11) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (11.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:45:11', `perishable_token` = 'GCWcKSsAtaeYFXwHV3u', `last_request_at` = '2011-07-26 17:45:11' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (186.1ms)
+Completed in 205ms (View: 110, DB: 132) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:45:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (16.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:45:13', `perishable_token` = 'aMrYm1dT8WDt1aKAYBF4', `last_request_at` = '2011-07-26 17:45:13' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (120.1ms)
+Completed in 126ms (View: 40, DB: 124) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#show (for 127.0.0.1 at 2011-07-26 13:45:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"workflows"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, list, search_control, and tree_control):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#show (for 127.0.0.1 at 2011-07-26 13:46:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"workflows"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, list, search_control, and tree_control):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#show (for 127.0.0.1 at 2011-07-26 13:46:55) [GET]
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"workflows"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, list, search_control, and tree_control):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 13:47:11) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (13.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:47:11', `perishable_token` = 'vzEevXKtbyUQTKwr9LNQ', `last_request_at` = '2011-07-26 17:47:11' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (186.2ms)
+Completed in 206ms (View: 108, DB: 135) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#show (for 127.0.0.1 at 2011-07-26 13:47:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"workflows"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, list, search_control, and tree_control):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 13:49:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (12.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:49:19', `perishable_token` = '1fZO40M1bauOiXE98f', `last_request_at` = '2011-07-26 17:49:19' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (116.7ms)
+Completed in 121ms (View: 37, DB: 121) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:49:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (16.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (26.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:49:20', `perishable_token` = 'mNfCWkCXTUN9xAb6a3aw', `last_request_at` = '2011-07-26 17:49:20' WHERE `id` = 20[0m
+  [4;35;1mSQL (16.4ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (203.6ms)
+Completed in 210ms (View: 113, DB: 135) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:49:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (15.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:49:22', `perishable_token` = 'luoJEY7rxfm1l8SHO8f', `last_request_at` = '2011-07-26 17:49:22' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (108.9ms)
+Completed in 113ms (View: 30, DB: 131) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:49:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (20.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.7ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:49:24', `perishable_token` = 'Xf4abXdaAlSbWVRpM9P5', `last_request_at` = '2011-07-26 17:49:23' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (193.1ms)
+Completed in 197ms (View: 104, DB: 131) | 200 OK [http://0.0.0.0/list]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:49:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (8.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:49:25', `perishable_token` = 'WzYl5dyLt9cYodBqzo1Q', `last_request_at` = '2011-07-26 17:49:25' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (111.9ms)
+Completed in 116ms (View: 35, DB: 118) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:53:37) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:53:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:53:42', `perishable_token` = 'E7ohoCxJ7rLKtTRvs9F1', `last_request_at` = '2011-07-26 17:53:42' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (132.6ms)
+Completed in 137ms (View: 44, DB: 129) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:53:45) [GET]
+
+ActionController::RoutingError (No route matches "/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#show (for 127.0.0.1 at 2011-07-26 13:53:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"list", "controller"=>"workflows"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, list, search_control, and tree_control):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:54:30) [GET]
+
+ActionController::RoutingError (No route matches "/workflows/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:54:31) [GET]
+
+ActionController::RoutingError (No route matches "/workflows/list" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 13:54:37) [GET]
+
+ActionController::RoutingError (No route matches "/workflows" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#list (for 127.0.0.1 at 2011-07-26 13:57:48) [GET]
+  Parameters: {"action"=>"list", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/list
+  [4;36;1mUser Columns (17.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:57:48', `perishable_token` = 'Lk91KIraNmdemUEQo2T', `last_request_at` = '2011-07-26 17:57:48' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (111.5ms)
+Completed in 118ms (View: 33, DB: 123) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:57:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (17.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:57:56', `perishable_token` = 'et74EIB19pKzrasZJX', `last_request_at` = '2011-07-26 17:57:56' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (110.4ms)
+Completed in 114ms (View: 28, DB: 124) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#list (for 127.0.0.1 at 2011-07-26 13:57:58) [GET]
+  Parameters: {"action"=>"list", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/list
+  [4;36;1mUser Columns (17.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (7.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:57:58', `perishable_token` = 'qgZCIEFRuwCwFZgyHSHp', `last_request_at` = '2011-07-26 17:57:58' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (111.3ms)
+Completed in 115ms (View: 39, DB: 114) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:59:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (25.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (29.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (25.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:18', `perishable_token` = '9Vx48c94EZsFt0GfhVA', `last_request_at` = '2011-07-26 17:59:18' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (159.7ms)
+Completed in 167ms (View: 51, DB: 154) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#list (for 127.0.0.1 at 2011-07-26 13:59:19) [GET]
+  Parameters: {"action"=>"list", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/list
+  [4;36;1mUser Columns (29.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (26.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (28.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (26.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:19', `perishable_token` = '8tCxEGfX1XHLpGZEy', `last_request_at` = '2011-07-26 17:59:19' WHERE `id` = 20[0m
+  [4;36;1mSQL (28.3ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (173.0ms)
+Completed in 177ms (View: 35, DB: 179) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:59:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (14.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (13.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (14.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:21', `perishable_token` = 'JTspoFbZl0S3aUqf0ND', `last_request_at` = '2011-07-26 17:59:21' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (99.0ms)
+Completed in 103ms (View: 23, DB: 117) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 13:59:23) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mUser Columns (17.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (18.8ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:23', `perishable_token` = '5Qf33gttwnXOfeqqn6w', `last_request_at` = '2011-07-26 17:59:23' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.3ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (180.7ms)
+Completed in 187ms (View: 98, DB: 127) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 13:59:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (18.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (28.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:25', `perishable_token` = 'bqqIxtdGFSwX4OYN2lDI', `last_request_at` = '2011-07-26 17:59:25' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (132.0ms)
+Completed in 136ms (View: 35, DB: 138) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 13:59:26) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (17.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (28.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 17:59:27', `perishable_token` = 'a7mFF5H4Op8UdL2QQsh', `last_request_at` = '2011-07-26 17:59:27' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (200.8ms)
+Completed in 207ms (View: 106, DB: 139) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 14:09:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:24', `perishable_token` = 'weLTIKDxaVHln6SPy', `last_request_at` = '2011-07-26 18:09:24' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (132.9ms)
+Completed in 137ms (View: 45, DB: 130) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#list (for 127.0.0.1 at 2011-07-26 14:09:26) [GET]
+  Parameters: {"action"=>"list", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/list
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (29.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:26', `perishable_token` = 'xyIKaLQsZolEgPolX4I', `last_request_at` = '2011-07-26 18:09:26' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (129.8ms)
+Completed in 207ms (View: 110, DB: 135) | 200 OK [http://0.0.0.0/list]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 14:09:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (20.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:31', `perishable_token` = 'zGFt80k2syhFY3KRtet1', `last_request_at` = '2011-07-26 18:09:31' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (132.4ms)
+Completed in 136ms (View: 41, DB: 132) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 14:09:33) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (16.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:33', `perishable_token` = 'mIvKmKqwycGucX240OQ', `last_request_at` = '2011-07-26 18:09:33' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (116.2ms)
+Completed in 144ms (View: 42, DB: 140) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:09:36) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:09:38) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/2" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 14:09:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (14.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (18.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.7ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:41', `perishable_token` = 'JOBjbyjF0KwXx7MVwcQ', `last_request_at` = '2011-07-26 18:09:41' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (184.1ms)
+Completed in 187ms (View: 103, DB: 122) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 14:09:44) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (15.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:09:44', `perishable_token` = 'zHvZglZnMlqs6iqDlcE', `last_request_at` = '2011-07-26 18:09:44' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (99.7ms)
+Completed in 106ms (View: 27, DB: 117) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 14:15:02) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (13.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (8.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 18:15:02', `perishable_token` = '9ISfP7EoMzaYb9EPnXUR', `last_request_at` = '2011-07-26 18:15:02' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (107.0ms)
+Completed in 111ms (View: 36, DB: 112) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 14:15:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:15:09', `perishable_token` = 'MOwA6d9UfUP3yIG2XtU0', `last_request_at` = '2011-07-26 18:15:09' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (122.6ms)
+Completed in 126ms (View: 35, DB: 129) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 14:15:15) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (11.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:15:15', `perishable_token` = 'FBABVX3oH2FDwaTdFbH9', `last_request_at` = '2011-07-26 18:15:15' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (126.5ms)
+Completed in 146ms (View: 43, DB: 141) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:15:17) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/2" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:15:18) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 14:17:52) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (17.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (13.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (18.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (15.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.6ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:17:52', `perishable_token` = 'EpcoujOH2DHlY2K9S3ek', `last_request_at` = '2011-07-26 18:17:52' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (124.4ms)
+Completed in 168ms (View: 66, DB: 139) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:17:54) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/2" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 14:17:55) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 14:26:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (18.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 18:26:15', `perishable_token` = '6Ff7qZSyIfrKXy68egf', `last_request_at` = '2011-07-26 18:26:15' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (121.7ms)
+Completed in 127ms (View: 36, DB: 129) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 14:26:18) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (10.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (15.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 18:26:18', `perishable_token` = 'EzcTOZVgFlS3BiOmo0sx', `last_request_at` = '2011-07-26 18:26:18' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (164.1ms)
+Completed in 170ms (View: 90, DB: 117) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 14:28:13) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (17.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (12.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 18:28:13', `perishable_token` = 'Y9A5IVr70iFoOYQro5OO', `last_request_at` = '2011-07-26 18:28:13' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (111.3ms)
+Completed in 117ms (View: 31, DB: 124) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-07-26 15:04:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (11.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:04:55', `perishable_token` = 'e8A9iPJ9wrCPUOokMz29', `last_request_at` = '2011-07-26 19:04:55' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (114.8ms)
+Completed in 121ms (View: 37, DB: 122) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:04:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (10.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (23.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (18.6ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:04:58', `perishable_token` = 'YBFFZRdKVYFw6a3ERn', `last_request_at` = '2011-07-26 19:04:58' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (164.0ms)
+Completed in 167ms (View: 79, DB: 127) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 15:05:00) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (14.1ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:05:00', `perishable_token` = 'X75bVycgqntfy1otcvW', `last_request_at` = '2011-07-26 19:05:00' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (106.4ms)
+Completed in 135ms (View: 39, DB: 134) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getOrder (for 127.0.0.1 at 2011-07-26 15:05:30) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"home"}
+  [4;35;1mSQL (13.1ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 22ms (View: 7, DB: 53) | 200 OK [http://0.0.0.0/home/getOrder/1]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (22.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getFamily (for 127.0.0.1 at 2011-07-26 15:05:31) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"home"}
+  [4;36;1mSQL (14.2ms)[0m   [0;1mSELECT id,name FROM family where order_id=1[0m
+Completed in 19ms (View: 3, DB: 56) | 200 OK [http://0.0.0.0/home/getFamily/1]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-07-26 15:05:32) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"49", "controller"=>"home"}
+  [4;35;1mSQL (13.0ms)[0m   [0mSELECT id,name FROM genus where family_id=49[0m
+Completed in 21ms (View: 6, DB: 52) | 200 OK [http://0.0.0.0/home/getGenus/49]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:33) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"68", "controller"=>"home"}
+  [4;36;1mSQL (10.4ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=68[0m
+Completed in 14ms (View: 2, DB: 50) | 200 OK [http://0.0.0.0/home/getSpecies/68]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:34) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"69", "controller"=>"home"}
+  [4;35;1mSQL (23.5ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=69[0m
+Completed in 27ms (View: 2, DB: 63) | 200 OK [http://0.0.0.0/home/getSpecies/69]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:35) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"70", "controller"=>"home"}
+  [4;36;1mSQL (13.2ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=70[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/70]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:36) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"75", "controller"=>"home"}
+  [4;35;1mSQL (13.3ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=75[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/75]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getGenus (for 127.0.0.1 at 2011-07-26 15:05:38) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"home"}
+  [4;36;1mSQL (55.5ms)[0m   [0;1mSELECT id,name FROM genus where family_id=1[0m
+Completed in 86ms (View: 27, DB: 95) | 200 OK [http://0.0.0.0/home/getGenus/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:40) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;35;1mSQL (13.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:40) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:41) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;35;1mSQL (13.3ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:49) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:50) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;35;1mSQL (13.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:50) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;36;1mSQL (13.3ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:50) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"home"}
+  [4;35;1mSQL (12.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 16ms (View: 2, DB: 51) | 200 OK [http://0.0.0.0/home/getSpecies/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpecies (for 127.0.0.1 at 2011-07-26 15:05:52) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"4", "controller"=>"home"}
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=4[0m
+Completed in 17ms (View: 3, DB: 52) | 200 OK [http://0.0.0.0/home/getSpecies/4]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:06:09) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Abbottina liaoningen", "controller"=>"home"}
+  [4;35;1mSQL (13.0ms)[0m   [0mSELECT gbif_key FROM species where name='Abbottina liaoningen'[0m
+Completed in 16ms (View: 1, DB: 53) | 200 OK [http://0.0.0.0/home/getSpeciesKML/Abbottina%20liaoningen]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-07-26 15:06:10) [GET]
+  Parameters: {"name"=>"Abbottina liaoningen", "action"=>"getKML", "id"=>"12587815", "controller"=>"home"}
+Sending data Abbottina liaoningen.kml
+Completed in 632ms (View: 1, DB: 40) | 200 OK [http://0.0.0.0/home/getKML/12587815?name=Abbottina%20liaoningen]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:07:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (19.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (13.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (18.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:07:53', `perishable_token` = 'w3s0QQBRyxiU7Eu58FJB', `last_request_at` = '2011-07-26 19:07:53' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (113.0ms)
+Completed in 116ms (View: 28, DB: 127) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 15:07:57) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (14.2ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (16.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:07:57', `perishable_token` = 'oVsiaa9JXCZPxVjWLxzG', `last_request_at` = '2011-07-26 19:07:57' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (176.4ms)
+Completed in 197ms (View: 94, DB: 142) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:07:59) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:08:02) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (10.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (19.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:08:02', `perishable_token` = '680O8xqwY543MmVAx', `last_request_at` = '2011-07-26 19:08:02' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (113.9ms)
+Completed in 117ms (View: 31, DB: 124) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:20:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (10.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (12.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:20:01', `perishable_token` = 'qpW6fGYTYiOA3Zfte2Pn', `last_request_at` = '2011-07-26 19:20:01' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (163.9ms)
+Completed in 167ms (View: 89, DB: 116) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 15:20:05) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (10.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (20.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:20:05', `perishable_token` = 'tgfNL73p7HP5RTGSc8xK', `last_request_at` = '2011-07-26 19:20:05' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (136.5ms)
+Completed in 157ms (View: 52, DB: 143) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:20:07) [GET]
+
+ActionController::RoutingError (No route matches "/getOrder/1" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:21:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (17.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (8.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (26.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:21:59', `perishable_token` = 'CXCQozIE72TsmacWqXx3', `last_request_at` = '2011-07-26 19:21:59' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (182.9ms)
+Completed in 192ms (View: 102, DB: 127) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:22:01) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (17.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (28.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:22:02', `perishable_token` = '7Gzl9DoTP1KqIxNWd7nc', `last_request_at` = '2011-07-26 19:22:01' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (120.6ms)
+Completed in 126ms (View: 32, DB: 132) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 15:27:19) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (12.7ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (6.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (15.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (17.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:27:19', `perishable_token` = 'WmSAm3CzFEPV3biEm9M', `last_request_at` = '2011-07-26 19:27:19' WHERE `id` = 20[0m
+  [4;36;1mSQL (17.6ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (176.5ms)
+Completed in 196ms (View: 107, DB: 127) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:27:23) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (17.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:27:23', `perishable_token` = 'T1PjSbWt5cPQnpv1RSi', `last_request_at` = '2011-07-26 19:27:23' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (121.2ms)
+Completed in 127ms (View: 37, DB: 128) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:27:31) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/hgjkghjgh" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/hgjkghjgh" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:27:45) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:28:21) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:29:19) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:30:21) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (15.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:30:21', `perishable_token` = 'TouxnRZokz0DaKUsmTlT', `last_request_at` = '2011-07-26 19:30:21' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (128.8ms)
+Completed in 135ms (View: 44, DB: 128) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:30:28) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (17.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:30:28', `perishable_token` = 'VD6XHNoFiLPtJujLBLqE', `last_request_at` = '2011-07-26 19:30:28' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (110.9ms)
+Completed in 115ms (View: 30, DB: 123) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (9.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:32:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (20.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (12.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (18.9ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:32:35', `perishable_token` = '18YDDKONaRDDTdIcGqsE', `last_request_at` = '2011-07-26 19:32:35' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (163.8ms)
+Completed in 167ms (View: 78, DB: 117) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:33:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (14.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:33:01', `perishable_token` = '3tm58HMl95Z2ziLDkA4N', `last_request_at` = '2011-07-26 19:33:01' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (112.8ms)
+Completed in 116ms (View: 28, DB: 126) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:33:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (8.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (9.9ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:33:52', `perishable_token` = 'vDoC0fNiCh0XdltjX2z', `last_request_at` = '2011-07-26 19:33:52' WHERE `id` = 20[0m
+  [4;36;1mSQL (33.6ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (166.5ms)
+Completed in 172ms (View: 84, DB: 127) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:34:00) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (24.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:34:00', `perishable_token` = 'LPLRv5Wt61jgLoOyar2x', `last_request_at` = '2011-07-26 19:34:00' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (122.6ms)
+Completed in 126ms (View: 29, DB: 135) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:34:29) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:34:45) [GET]
+
+ActionController::RoutingError (No route matches "/getSpeciesKML/Argopleura%20conventus" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:37:47) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus", "controller"=>"workflows"}
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:41:11) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus", "controller"=>"workflows"}
+  [4;36;1mSQL (14.9ms)[0m   [0;1mSELECT gbif_key FROM species where name='Argopleura conventus'[0m
+Completed in 24ms (View: 8, DB: 54) | 200 OK [http://0.0.0.0/getSpeciesKML/Argopleura%20conventus]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:41:17) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (16.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:41:17', `perishable_token` = 'W4mWprr2eNOWhJQxExSC', `last_request_at` = '2011-07-26 19:41:17' WHERE `id` = 20[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (146.8ms)
+Completed in 159ms (View: 66, DB: 131) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:41:20) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus sdfsd", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT gbif_key FROM species where name='Argopleura conventus sdfsd'[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpeciesKML/Argopleura%20conventus%20sdfsd]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:41:26) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus", "controller"=>"workflows"}
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT gbif_key FROM species where name='Argopleura conventus'[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpeciesKML/Argopleura%20conventus]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:41:26) [GET]
+  Parameters: {"name"=>"Argopleura conventus"}
+
+ActionController::RoutingError (No route matches "/getKML/12816580" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:49:16) [GET]
+  Parameters: {"name"=>"Argopleura conventus"}
+
+ActionController::RoutingError (No route matches "/getKML/12816580" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-26 15:49:18) [GET]
+  Parameters: {"name"=>"Argopleura conventus"}
+
+ActionController::RoutingError (No route matches "/getKML/12816580" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:51:02) [GET]
+  Parameters: {"name"=>"Argopleura conventus", "action"=>"getKML", "id"=>"12816580", "controller"=>"workflows"}
+
+TypeError (can't convert Hash into String):
+  app/controllers/workflows_controller.rb:61:in `initialize'
+  app/controllers/workflows_controller.rb:61:in `open'
+  app/controllers/workflows_controller.rb:61:in `getKML'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (22.7ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:51:06) [GET]
+  Parameters: {"name"=>"Argopleura conventus", "action"=>"getKML", "id"=>"12816580", "controller"=>"workflows"}
+
+TypeError (can't convert Hash into String):
+  app/controllers/workflows_controller.rb:61:in `initialize'
+  app/controllers/workflows_controller.rb:61:in `open'
+  app/controllers/workflows_controller.rb:61:in `getKML'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (22.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:51:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (17.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (11.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.2ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:51:11', `perishable_token` = 'x94wq45V6zlWzcqswMPl', `last_request_at` = '2011-07-26 19:51:11' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (101.4ms)
+Completed in 107ms (View: 26, DB: 119) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:51:15) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (16.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:51:15', `perishable_token` = '17jN4kEoIkHPEKdOyy4X', `last_request_at` = '2011-07-26 19:51:15' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (120.6ms)
+Completed in 125ms (View: 36, DB: 126) | 200 OK [http://0.0.0.0/search_control]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:51:22) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT gbif_key FROM species where name='Argopleura conventus'[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpeciesKML/Argopleura%20conventus]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:51:22) [GET]
+  Parameters: {"name"=>"Argopleura conventus", "action"=>"getKML", "id"=>"12816580", "controller"=>"workflows"}
+
+TypeError (can't convert Hash into String):
+  app/controllers/workflows_controller.rb:61:in `initialize'
+  app/controllers/workflows_controller.rb:61:in `open'
+  app/controllers/workflows_controller.rb:61:in `getKML'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (81.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:52:30) [GET]
+  Parameters: {"name"=>"Argopleura conventus", "action"=>"getKML", "id"=>"12816580", "controller"=>"workflows"}
+
+TypeError (can't convert Hash into String):
+  app/controllers/workflows_controller.rb:61:in `initialize'
+  app/controllers/workflows_controller.rb:61:in `open'
+  app/controllers/workflows_controller.rb:61:in `getKML'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (23.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:54:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (20.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:54:22', `perishable_token` = 'cqt4MBa5J9Ax8tOzX2uc', `last_request_at` = '2011-07-26 19:54:22' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (123.7ms)
+Completed in 127ms (View: 35, DB: 130) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 15:54:28) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (13.7ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:54:29', `perishable_token` = 'xmL3GXQNnvEbIfKGN7zm', `last_request_at` = '2011-07-26 19:54:29' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (136.0ms)
+Completed in 161ms (View: 55, DB: 144) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-07-26 15:54:31) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 24ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-07-26 15:54:32) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name FROM family where order_id=1[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-07-26 15:54:33) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (55.3ms)[0m   [0;1mSELECT id,name FROM genus where family_id=1[0m
+Completed in 85ms (View: 27, DB: 95) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-07-26 15:54:34) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"4", "controller"=>"workflows"}
+  [4;35;1mSQL (15.1ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=4[0m
+Completed in 20ms (View: 3, DB: 55) | 200 OK [http://0.0.0.0/getSpecies/4]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:54:36) [GET]
+  Parameters: {"name"=>"Abbottina binhi", "action"=>"getKML", "id"=>"12586433", "controller"=>"workflows"}
+
+TypeError (can't convert Hash into String):
+  app/controllers/workflows_controller.rb:61:in `initialize'
+  app/controllers/workflows_controller.rb:61:in `open'
+  app/controllers/workflows_controller.rb:61:in `getKML'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (27.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (24.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (14.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:56:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (11.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:56:01', `perishable_token` = 'vjIXJqVLRpuUjfmSXYr', `last_request_at` = '2011-07-26 19:56:01' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (115.4ms)
+Completed in 119ms (View: 35, DB: 122) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (12.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#oil_spill (for 127.0.0.1 at 2011-07-26 15:56:08) [GET]
+  Parameters: {"action"=>"oil_spill", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/oil_spill
+  [4;35;1mSQL (16.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (16.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.1ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:56:08', `perishable_token` = 'rOKb9IVTiObWc7WrFL7L', `last_request_at` = '2011-07-26 19:56:08' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (126.3ms)
+Completed in 157ms (View: 55, DB: 132) | 200 OK [http://0.0.0.0/home/oil_spill]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:56:23) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Adinia xenica", "controller"=>"home"}
+  [4;35;1mSQL (12.9ms)[0m   [0mSELECT gbif_key FROM species where name='Adinia xenica'[0m
+Completed in 16ms (View: 2, DB: 52) | 200 OK [http://0.0.0.0/home/getSpeciesKML/Adinia%20xenica]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#getKML (for 127.0.0.1 at 2011-07-26 15:56:24) [GET]
+  Parameters: {"name"=>"Adinia xenica", "action"=>"getKML", "id"=>"12578807", "controller"=>"home"}
+Sending data Adinia xenica.kml
+Completed in 36301ms (View: 1, DB: 40) | 200 OK [http://0.0.0.0/home/getKML/12578807?name=Adinia%20xenica]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:57:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (19.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.7ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:09', `perishable_token` = '2iUBm9ShO3SxTdEsAcTe', `last_request_at` = '2011-07-26 19:57:09' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (122.7ms)
+Completed in 126ms (View: 38, DB: 126) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 15:57:12) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (13.9ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (16.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (10.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:13', `perishable_token` = 'cz1KkBcWUHJaao8iSbAG', `last_request_at` = '2011-07-26 19:57:13' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (156.4ms)
+Completed in 177ms (View: 86, DB: 129) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:57:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:16', `perishable_token` = 'owo9WMn7nCERKwULBDLa', `last_request_at` = '2011-07-26 19:57:16' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (133.4ms)
+Completed in 137ms (View: 45, DB: 130) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (18.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-07-26 15:57:18) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (20.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (32.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (18.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (14.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:18', `perishable_token` = 'Bt9tVkFS5FdcwzHB8', `last_request_at` = '2011-07-26 19:57:18' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (183.3ms)
+Completed in 186ms (View: 81, DB: 142) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:57:21) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Adinia_xenica", "controller"=>"workflows"}
+  [4;35;1mSQL (13.5ms)[0m   [0mSELECT gbif_key FROM species where name='Adinia_xenica'[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpeciesKML/Adinia_xenica]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-07-26 15:57:25) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Adinia xenica", "controller"=>"workflows"}
+  [4;36;1mSQL (13.5ms)[0m   [0;1mSELECT gbif_key FROM species where name='Adinia xenica'[0m
+Completed in 17ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpeciesKML/Adinia%20xenica]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:57:25) [GET]
+  Parameters: {"name"=>"Adinia xenica", "action"=>"getKML", "id"=>"12578807", "controller"=>"workflows"}
+Sending data Adinia xenica.kml
+Completed in 894ms (View: 2, DB: 39) | 200 OK [http://0.0.0.0/getKML/12578807?name=Adinia%20xenica]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-07-26 15:57:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:35', `perishable_token` = 'JZ0uCtSoBaz7crt74K', `last_request_at` = '2011-07-26 19:57:35' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (132.8ms)
+Completed in 136ms (View: 45, DB: 129) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-07-26 15:57:38) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (13.9ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (18.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.2ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-07-26 19:57:38', `perishable_token` = 'qBKyF45sY5RJ2YRKlBzi', `last_request_at` = '2011-07-26 19:57:38' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (126.4ms)
+Completed in 147ms (View: 44, DB: 141) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-07-26 15:57:40) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-07-26 15:57:41) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (18.7ms)[0m   [0mSELECT id,name FROM family where order_id=1[0m
+Completed in 79ms (View: 3, DB: 58) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-07-26 15:57:42) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (52.0ms)[0m   [0;1mSELECT id,name FROM genus where family_id=1[0m
+Completed in 75ms (View: 20, DB: 92) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (23.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-07-26 15:57:43) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (17.8ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 20ms (View: 1, DB: 61) | 200 OK [http://0.0.0.0/getSpecies/1]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:57:44) [GET]
+  Parameters: {"name"=>"Aaptosyax grypus", "action"=>"getKML", "id"=>"12814294", "controller"=>"workflows"}
+Sending data Aaptosyax grypus.kml
+Completed in 360ms (View: 2, DB: 39) | 200 OK [http://0.0.0.0/getKML/12814294?name=Aaptosyax%20grypus]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-07-26 15:57:48) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"26", "controller"=>"workflows"}
+  [4;36;1mSQL (13.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=26[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpecies/26]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (21.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-07-26 15:57:49) [GET]
+  Parameters: {"name"=>"Acanthalburnus micro", "action"=>"getKML", "id"=>"12561013", "controller"=>"workflows"}
+Sending data Acanthalburnus micro.kml
+Completed in 367ms (View: 1, DB: 41) | 200 OK [http://0.0.0.0/getKML/12561013?name=Acanthalburnus%20micro]

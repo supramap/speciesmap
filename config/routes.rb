@@ -39,9 +39,27 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
   map.resource :user_session
+  map.resources :workflows
+  map.connect 'list', :controller => "workflows", :action => "list"
+  map.connect 'tree_control', :controller => "workflows", :action => "tree_control"
+  map.connect 'search_control', :controller => "workflows", :action => "search_control"
+
+  map.connect 'getSpeciesKML/:id', :controller => "workflows", :action => "getSpeciesKML"
+  map.connect 'getKML/:id', :controller => "workflows", :action => "getKML"
+  map.connect 'getOrder/:id', :controller => "workflows", :action => "getOrder"
+  map.connect 'getFamily/:id', :controller => "workflows", :action => "getFamily"
+  map.connect 'getGenus/:id', :controller => "workflows", :action => "getGenus"
+  map.connect 'getSpecies/:id', :controller => "workflows", :action => "getSpecies"
+
+
+
+  map.resources :workflows, :controller => "workflows"
+
+
   map.resources :depthmaps, :controller => "pointmaps"
   map.resource :account, :controller => "users"
   map.resources :pointmaps #This is just in case I forgot to change a route.  Should be taken out later though.
+  map.connect ':controller/:action'
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
   map.root :controller => "home"
