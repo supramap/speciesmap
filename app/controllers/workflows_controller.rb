@@ -40,10 +40,10 @@ class WorkflowsController < ApplicationController
 
 
 
-  def get_oil_fishkml()
-    @kml_text = params[:date] #Oil.first(params[:date] => oil)
-    #Oil.find(:first, :conditions => [ "Name = ?",params[:date]). ]find   Client.where("orders_count = #{params[:orders]}")
-  end
+ # def get_oil_fishkml()
+ #   @kml_text = params[:date] #Oil.first(params[:date] => oil)
+ #   #Oil.find(:first, :conditions => [ "Name = ?",params[:date]). ]find   Client.where("orders_count = #{params[:orders]}")
+ # end
 
   def getSpeciesKML
      items =Array.new
