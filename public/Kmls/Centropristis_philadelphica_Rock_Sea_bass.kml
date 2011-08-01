@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Document xmlns="http://earth.google.com/kml/2.1">
  <name>GBIF Data Portal Occurrence Search</name>
+ <NetworkLink><open>1</open><name>NOAA Spill Extent</name><Link><href>http://depthmap.osu.edu/oil_dates/spill_dates.kmz</href></Link></NetworkLink>
  <open>true</open>
  <description>-
 
