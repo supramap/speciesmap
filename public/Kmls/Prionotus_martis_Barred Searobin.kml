@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document xmlns="http://earth.google.com/kml/2.1">
+ <NetworkLink><open>1</open><name>NOAA Spill Extent</name><Link><href>http://depthmap.osu.edu/oil_dates/spill_dates.kmz</href></Link></NetworkLink>
+ <name>GBIF Data Portal Occurrence Search</name>
+ <open>true</open>
+ <description>-
+
+This document contains data shared through the GBIF Network - see http://data.gbif.org/ for more information.
+					
+All usage of these data must be in accordance with the GBIF Data Use Agreement - see http://www.gbif.org/DataProviders/Agreements/DUA
+<br/><br/><b>Please cite these data as follows:</b><br/><br/>Canadian Museum of Nature, Canadian Museum of Nature Fish Collection (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/121">http://data.gbif.org/datasets/resource/121</a>, 2011-08-04)<br/><br/>FishBase, Fishbase (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1602">http://data.gbif.org/datasets/resource/1602</a>, 2011-08-04)<br/><br/>Institute of Marine and Coastal Sciences, Rutgers University, Canadian Museum of Nature - Fish Collection (OBIS Canada) (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/344">http://data.gbif.org/datasets/resource/344</a>, 2011-08-04)<br/><br/>National Museum of Natural History, NMNH Vertebrate Zoology Fishes Collections (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1836">http://data.gbif.org/datasets/resource/1836</a>, 2011-08-04)<br/><br/>Tulane University Museum of Natural History, Tulane University Museum of Natural History (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/8077">http://data.gbif.org/datasets/resource/8077</a>, 2011-08-04)<br/><br/>University of Minnesota Bell Museum of Natural History, Fish specimens (accessed through GBIF data portal, <a href="http://data.gbif.org/datasets/resource/1008">http://data.gbif.org/datasets/resource/1008</a>, 2011-08-04)<br/><br/>
+-
+</description>
+ <Style id="gbifIcon1">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon2">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon3">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon4">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon5">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GE5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon6">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon7">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon8">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon9">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon10">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcube5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon11">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon12">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon13">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GErc3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon14">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEfl1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon15">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon16">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon17">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon18">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon19">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEcil5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon20">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp1.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon21">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp2.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon22">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp3.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon23">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp4.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Style id="gbifIcon24">
+  <IconStyle>
+   <Icon>
+    <href>http://data.gbif.org/images/GEslp5.png</href>
+   </Icon>
+  </IconStyle>
+ </Style> 
+ <Folder>
+  <name>Prionotus martis</name>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>University of Minnesota Bell Museum of Natural History</td><td>JFBM</td><td>Fish</td><td>40166</td><td>1994-12-06</td><td><a href="http://data.gbif.org/occurrences/48213571">http://data.gbif.org/occurrences/48213571</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-87.8494,30.0453,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>2784</td><td>1951-11-19</td><td><a href="http://data.gbif.org/occurrences/198345830">http://data.gbif.org/occurrences/198345830</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-92.84167,29.16667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00196770</td><td></td><td><a href="http://data.gbif.org/occurrences/189265367">http://data.gbif.org/occurrences/189265367</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.9319,28.6611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>196770.5149042</td><td></td><td><a href="http://data.gbif.org/occurrences/150097927">http://data.gbif.org/occurrences/150097927</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.6258,27.97,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>134941.5044084</td><td>1901-11-27</td><td><a href="http://data.gbif.org/occurrences/150097943">http://data.gbif.org/occurrences/150097943</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00134941</td><td>1901-11-27</td><td><a href="http://data.gbif.org/occurrences/189265360">http://data.gbif.org/occurrences/189265360</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>134941</td><td>1901-11-27</td><td><a href="http://data.gbif.org/occurrences/241384154">http://data.gbif.org/occurrences/241384154</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.2917,29.125,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>AMNH 84205</td><td>1976-07-12</td><td><a href="http://data.gbif.org/occurrences/189265371">http://data.gbif.org/occurrences/189265371</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-85.2333,29.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>8675</td><td>1954-03-29</td><td><a href="http://data.gbif.org/occurrences/198345945">http://data.gbif.org/occurrences/198345945</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-88.86667,30.06667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis (2 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Ocean Biogeographic Information System</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0063.13</td><td>1988-03-12</td><td><a href="http://data.gbif.org/occurrences/17635024">http://data.gbif.org/occurrences/17635024</a></td></tr><tr><td>Canadian Museum of Nature</td><td>CMN</td><td>CMNFI</td><td>CMNFI 1988-0063.13</td><td>1988-03-12</td><td><a href="http://data.gbif.org/occurrences/78296442">http://data.gbif.org/occurrences/78296442</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-82.0,26.417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>142835.5044884</td><td>1901-11-06</td><td><a href="http://data.gbif.org/occurrences/150097956">http://data.gbif.org/occurrences/150097956</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00142835</td><td>1901-11-06</td><td><a href="http://data.gbif.org/occurrences/189265361">http://data.gbif.org/occurrences/189265361</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>142835</td><td>1901-11-06</td><td><a href="http://data.gbif.org/occurrences/241384368">http://data.gbif.org/occurrences/241384368</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.9208,29.8028,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00152887</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/189265365">http://data.gbif.org/occurrences/189265365</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.4675,29.5361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00152888</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/189265366">http://data.gbif.org/occurrences/189265366</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.5278,29.5139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>CAS 48047</td><td>1976-04-04</td><td><a href="http://data.gbif.org/occurrences/189265369">http://data.gbif.org/occurrences/189265369</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-84.77,29.3467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis (3 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>151938.5046425</td><td>1939-01-16</td><td><a href="http://data.gbif.org/occurrences/150097955">http://data.gbif.org/occurrences/150097955</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00151938</td><td>1939-01-16</td><td><a href="http://data.gbif.org/occurrences/189265362">http://data.gbif.org/occurrences/189265362</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>151938</td><td>1939-01-16</td><td><a href="http://data.gbif.org/occurrences/241384160">http://data.gbif.org/occurrences/241384160</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-93.7583,28.625,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>196770</td><td></td><td><a href="http://data.gbif.org/occurrences/241384136">http://data.gbif.org/occurrences/241384136</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-94.9319,27.6611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>Tulane University Museum of Natural History</td><td>TU</td><td>Fish</td><td>83856</td><td>1973-04-05</td><td><a href="http://data.gbif.org/occurrences/198346380">http://data.gbif.org/occurrences/198346380</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-86.88333,30.15,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>Prionotus martis (7 records)</name>
+   <description><![CDATA[<p><img src="http://data.gbif.org/images/gbifSmall.gif"/></p><p><b>Data retrieved from <a href="http://data.gbif.org">GBIF Data Portal</a></b><p><table><tr><th>Data Provider</th><th>Institution Code</th><th>Collection Code</th><th>Catalogue Number</th><th>Date</th><th>Portal URL</th></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152886.5046563</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/150097945">http://data.gbif.org/occurrences/150097945</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152887.5046564</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/150097946">http://data.gbif.org/occurrences/150097946</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152888.5046565</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/150097947">http://data.gbif.org/occurrences/150097947</a></td></tr><tr><td>FishBase</td><td>FishBase</td><td>Occurrence</td><td>USNM 00152886</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/189265364">http://data.gbif.org/occurrences/189265364</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152888</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/241384194">http://data.gbif.org/occurrences/241384194</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152887</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/241384240">http://data.gbif.org/occurrences/241384240</a></td></tr><tr><td>National Museum of Natural History</td><td>USNM                                              </td><td>Vertebrate Zoology; Fishes</td><td>152886</td><td>1901-11-05</td><td><a href="http://data.gbif.org/occurrences/241384518">http://data.gbif.org/occurrences/241384518</a></td></tr></table></p>]]></description>
+   <styleUrl>#gbifIcon22</styleUrl>
+   <Point>
+    <coordinates>-83.5569,29.4917,0</coordinates>
+   </Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>
