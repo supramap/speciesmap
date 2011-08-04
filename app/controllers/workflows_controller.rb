@@ -21,13 +21,13 @@ class WorkflowsController < ApplicationController
 
    def getFamily()
         items =Array.new
-        ActiveRecord::Base.connection.execute("SELECT id,name FROM family where order_id=#{params[:id]}").each { |c|   items << c}
+        ActiveRecord::Base.connection.execute("SELECT id,name,has_species FROM family where order_id=#{params[:id]}").each { |c|   items << c}
         render :json  => items
    end
 
    def getGenus()
       items =Array.new
-      ActiveRecord::Base.connection.execute("SELECT id,name FROM genus where family_id=#{params[:id]}").each { |c|   items << c}
+      ActiveRecord::Base.connection.execute("SELECT id,name,has_species FROM genus where family_id=#{params[:id]}").each { |c|   items << c}
       render :json  => items
    end
 

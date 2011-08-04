@@ -35,33 +35,4 @@
   </tr>
 <% end %>
 </table>
-</div>
-<h1>Depthmap Help</h1>
-
-<h3>Depthmap Creation</h3>
-<p>
-To create a kml, upload a csv with the following fields: <br/><br/>
-label: Name of the location. <br/>
-lat: Latitude of the location. <br/>
-long: Longitude of the location. <br/>
-altitude (optional): Altitude relative to sea level.  Will be at ground level if unspecified. <br/>
-date (optional) in YYYY-MM-DD format: Date when the sample was collected.  Allows all locations to be viewed on a timeline.<br/>
-icon/color (optional): This field specifies either an image url or a color in aabbggrr hex format.<br/>
-If an image url is provided, the location's placemark will use that image.<br/>
-If a color is provided, the location's placemark will be a pushpin of the specified color.<br/>
-description (optional): A simple text description contained in the placemarks balloon.<br/>
-NOTE: Do not put commas in the description, since this will separate the description into two fields.<br/><br/>
-An example file demonstrating the required format can be found <a href="/files/example.csv">here</a>.<br/>
-NOTE: In order to view all locations with dates, the time slider in Google Earth must be expanded.<br/><br/>
-
-If you would like to leave one of the optional fields blank, make sure you still leave a blank space for the attribute in the csv.
-For example, if you wanted to leave date blank, the csv line would look like this:  Example,10.0,10.0,0,,FF00FF00
-</p>
-
-<h3>Viewing Underwater Points in Google Earth 5</h3>
-<ol>
-	<li>Make sure that the "Terrain" box in the layers menu to the lower left of the screen is checked.</li>
-	<li>Hold down the command key (OSX) or control key (Windows, Linux) and click and hold on the screen.</li>
-	<li>While the command or control key is held down, move the mouse pointer to change the viewing angle so the angle is not straight down.</li>
-	<li>Zoom into an ocean area and the view should go underwater.</li>
-</ol>
+</div>        <br/>    <a href = "/help">Tutorial and Help on how to create your own DepthMap.</a>

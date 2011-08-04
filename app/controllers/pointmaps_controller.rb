@@ -1,5 +1,5 @@
 class PointmapsController < ApplicationController
-  before_filter :require_user
+  before_filter :require_user, :only => [:edit, :destroy, :update,:index]
   before_filter :editable, :only => [:edit, :destroy, :update]
   before_filter :viewable, :only => [:show, :download]
 

@@ -1,5 +1,5 @@
 <h1>Browse for Species(click to expand):</h1>
-
+ <p>Greyed out Taxon were never in gbif<p/>
 <script src='http://code.jquery.com/jquery-latest.js'></script>
                           <link rel='stylesheet' href='/css/screen.css' type='text/css' />
                           <link rel='stylesheet' href='/css/jquery.treeview.css' type='text/css' />
@@ -35,7 +35,12 @@
                                    var items = [];
 
                                    $.each(data, function(key, val) {
-                                        $('#f'+id).append("<li><span onclick='getGenus("+val[0]+")'> family: " + val[1] + "</span><br/><ul id='g"+val[0]+"'></ul></li>");
+                                         if(val[2] ==0)
+                                            {
+                                                color = 'style="color:#C0C0C0"'
+                                            }
+                                             else{color = ""}
+                                        $('#f'+id).append("<li><span "+color+"onclick='getGenus("+val[0]+")'> family: " + val[1] + "</span><br/><ul id='g"+val[0]+"'></ul></li>");
                                           treestate["family"+val[0]] = 0;
                                    });
                                  });
@@ -52,7 +57,12 @@
                                        var items = [];
 
                                        $.each(data, function(key, val) {
-                                            $('#g'+id).append("<li><span onclick='getSpecies("+val[0]+")'> genus: " + val[1] + "</span><br/><ul id='s"+val[0]+"'></ul></li>");
+                                            if(val[2] ==0)
+                                            {
+                                                color = 'style="color:#C0C0C0"'
+                                            }
+                                             else{color = ""}
+                                            $('#g'+id).append("<li><span "+color+"onclick='getSpecies("+val[0]+")'> genus: " + val[1] + "</span><br/><ul id='s"+val[0]+"'></ul></li>");
                                               treestate["genus"+val[0]] = 0;
                                        });
                                      });
@@ -80,7 +90,7 @@
 
 
 
-      <ul id="tree1">
+      <ul id="tree1" style="color:#000000">
        <% pclass =  ActiveRecord::Base.connection.execute('SELECT id, name FROM class').each { |c|  %>
 
      <li><span id='class<%=c[0] %>' class="pclass" onclick="getOrder(<%=c[0] %>)">class: <%= c[1] %></span><br/>

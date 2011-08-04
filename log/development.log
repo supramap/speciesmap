@@ -7605,3 +7605,1947 @@ Rendering workflows/index
   [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
 Rendered home/_login (112.6ms)
 Completed in 116ms (View: 30, DB: 125) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (30.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 12:46:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (22.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (30.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (150.5ms)
+Completed in 237ms (View: 178, DB: 99) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 12:47:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (20.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (111.8ms)
+Completed in 115ms (View: 75, DB: 88) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 12:47:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (13.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (12.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (65.6ms)
+Completed in 89ms (View: 62, DB: 66) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (29.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 12:47:10) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (531.7ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (20.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (137.2ms)
+Completed in 709ms (View: 137, DB: 621) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 12:47:14) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (24.6ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 33ms (View: 7, DB: 64) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 12:47:15) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"2", "controller"=>"workflows"}
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id,name FROM family where order_id=2[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/2]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 12:47:16) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"2", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name FROM genus where family_id=2[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getGenus/2]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 12:47:17) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1058", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1058[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/1058]
+  [4;35;1mSQL (30.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 12:52:23) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (23.6ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (24.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (78.3ms)
+Completed in 109ms (View: 42, DB: 115) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 12:52:27) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 55) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 12:56:00) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (13.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (14.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (111.1ms)
+Completed in 134ms (View: 86, DB: 85) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 12:56:03) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 12:56:38) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (20.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (77.8ms)
+Completed in 108ms (View: 48, DB: 99) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 12:56:40) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (13.8ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 63) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 12:56:41) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name FROM family where order_id=1[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 12:56:42) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (85.1ms)[0m   [0;1mSELECT id,name FROM genus where family_id=1[0m
+Completed in 115ms (View: 27, DB: 124) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 12:56:44) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"37", "controller"=>"workflows"}
+  [4;35;1mSQL (24.7ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=37[0m
+Completed in 30ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getSpecies/37]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 13:00:31) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (21.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (15.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (12.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (109.3ms)
+Completed in 140ms (View: 90, DB: 88) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:00:34) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:00:35) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (24.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=1[0m
+Completed in 29ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;35;1mSQL (30.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:00:36) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (93715.1ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=1[0m
+Completed in 93751ms (View: 30, DB: 93775) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:02:10) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"8", "controller"=>"workflows"}
+  [4;36;1mSQL (14.9ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=8[0m
+Completed in 27ms (View: 10, DB: 54) | 200 OK [http://0.0.0.0/getGenus/8]
+  [4;35;1mSQL (20.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (18.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:02:10) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"145", "controller"=>"workflows"}
+  [4;35;1mSQL (13.7ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=145[0m
+Completed in 22ms (View: 6, DB: 52) | 200 OK [http://0.0.0.0/getGenus/145]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:02:10) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"402", "controller"=>"workflows"}
+  [4;36;1mSQL (14.0ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=402[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getGenus/402]
+  [4;35;1mSQL (30.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:02:10) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"2", "controller"=>"workflows"}
+  [4;35;1mSQL (14.3ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=2[0m
+Completed in 20ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getFamily/2]
+  [4;36;1mSQL (20.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:02:11) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"3", "controller"=>"workflows"}
+  [4;36;1mSQL (25.0ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=3[0m
+Completed in 31ms (View: 4, DB: 65) | 200 OK [http://0.0.0.0/getFamily/3]
+  [4;35;1mSQL (30.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 13:02:11) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (11.4ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (29.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.3ms)
+Completed in 104ms (View: 42, DB: 120) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:02:36) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (13.8ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 7, DB: 53) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:02:44) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"4", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=4[0m
+Completed in 24ms (View: 7, DB: 64) | 200 OK [http://0.0.0.0/getFamily/4]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:02:47) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"42", "controller"=>"workflows"}
+  [4;36;1mSQL (15.2ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=42[0m
+Completed in 24ms (View: 7, DB: 55) | 200 OK [http://0.0.0.0/getGenus/42]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:02:49) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"34", "controller"=>"workflows"}
+  [4;35;1mSQL (14.8ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=34[0m
+Completed in 30ms (View: 13, DB: 54) | 200 OK [http://0.0.0.0/getGenus/34]
+  [4;36;1mSQL (30.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:02:50) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"213", "controller"=>"workflows"}
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=213[0m
+Completed in 28ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getSpecies/213]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:02:52) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"48", "controller"=>"workflows"}
+  [4;35;1mSQL (24.5ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=48[0m
+Completed in 28ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getSpecies/48]
+  [4;36;1mSQL (30.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:02:53) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"264", "controller"=>"workflows"}
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=264[0m
+Completed in 27ms (View: 1, DB: 74) | 200 OK [http://0.0.0.0/getSpecies/264]
+  [4;35;1mSQL (30.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:03:01) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"558", "controller"=>"workflows"}
+  [4;35;1mSQL (23.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=558[0m
+Completed in 28ms (View: 2, DB: 73) | 200 OK [http://0.0.0.0/getSpecies/558]
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 13:06:59) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (17.7ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (15.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (27.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (86.2ms)
+Completed in 114ms (View: 52, DB: 100) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:07:03) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 24ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:07:10) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (27.7ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=1[0m
+Completed in 33ms (View: 3, DB: 77) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;35;1mSQL (30.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:07:12) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (84.6ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=1[0m
+Completed in 120ms (View: 32, DB: 144) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:07:31) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"12", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=12[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/12]
+  [4;35;1mSQL (29.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:07:33) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"14", "controller"=>"workflows"}
+  [4;35;1mSQL (24.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=14[0m
+Completed in 28ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getSpecies/14]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:07:33) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"16", "controller"=>"workflows"}
+  [4;36;1mSQL (24.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=16[0m
+Completed in 28ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getSpecies/16]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 13:07:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (10.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (97.9ms)
+Completed in 101ms (View: 72, DB: 67) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (30.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-08-04 13:07:55) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;35;1mUser Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (67.0ms)
+Completed in 89ms (View: 50, DB: 87) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpeciesKML (for 127.0.0.1 at 2011-08-04 13:08:02) [GET]
+  Parameters: {"action"=>"getSpeciesKML", "id"=>"Argopleura conventus", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT gbif_key FROM species where name='Argopleura conventus'[0m
+Completed in 18ms (View: 1, DB: 54) | 200 OK [http://0.0.0.0/getSpeciesKML/Argopleura%20conventus]
+  [4;36;1mSQL (29.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getKML (for 127.0.0.1 at 2011-08-04 13:08:03) [GET]
+  Parameters: {"name"=>"Argopleura conventus", "action"=>"getKML", "id"=>"12816580", "controller"=>"workflows"}
+Sending data Argopleura conventus.kml
+Completed in 741ms (View: 1, DB: 49) | 200 OK [http://0.0.0.0/getKML/12816580?name=Argopleura%20conventus]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 13:08:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (55.1ms)
+Completed in 58ms (View: 23, DB: 74) | 200 OK [http://0.0.0.0/home]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 13:23:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (10.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (29.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (75.5ms)
+Completed in 79ms (View: 37, DB: 80) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (30.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 13:23:08) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (59.4ms)
+Completed in 87ms (View: 32, DB: 102) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (29.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:23:11) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (24.5ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 33ms (View: 7, DB: 74) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:23:12) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=1[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:23:14) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (74.8ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=1[0m
+Completed in 102ms (View: 24, DB: 114) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;36;1mSQL (29.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:23:17) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1[0m
+Completed in 18ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getSpecies/1]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:23:19) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"12", "controller"=>"workflows"}
+  [4;35;1mSQL (24.6ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=12[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getSpecies/12]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:23:34) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"8", "controller"=>"workflows"}
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=8[0m
+Completed in 27ms (View: 10, DB: 54) | 200 OK [http://0.0.0.0/getGenus/8]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:23:38) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"145", "controller"=>"workflows"}
+  [4;35;1mSQL (15.2ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=145[0m
+Completed in 19ms (View: 2, DB: 55) | 200 OK [http://0.0.0.0/getGenus/145]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:24:29) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"2", "controller"=>"workflows"}
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=2[0m
+Completed in 19ms (View: 3, DB: 74) | 200 OK [http://0.0.0.0/getFamily/2]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:24:31) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"3", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=3[0m
+Completed in 21ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getFamily/3]
+  [4;36;1mSQL (30.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:24:34) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"324", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=324[0m
+Completed in 18ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getGenus/324]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:24:38) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1767", "controller"=>"workflows"}
+  [4;35;1mSQL (25.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1767[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getSpecies/1767]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:24:40) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"396", "controller"=>"workflows"}
+  [4;36;1mSQL (24.9ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=396[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getGenus/396]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:24:42) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"3732", "controller"=>"workflows"}
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=3732[0m
+Completed in 22ms (View: 5, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/3732]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:24:48) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"320", "controller"=>"workflows"}
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=320[0m
+Completed in 19ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getGenus/320]
+  [4;35;1mSQL (30.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:25:47) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"259", "controller"=>"workflows"}
+  [4;35;1mSQL (24.8ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=259[0m
+Completed in 29ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getGenus/259]
+  [4;36;1mSQL (25.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:25:48) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1129", "controller"=>"workflows"}
+  [4;36;1mSQL (22.2ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1129[0m
+Completed in 26ms (View: 2, DB: 62) | 200 OK [http://0.0.0.0/getSpecies/1129]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:25:50) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1960", "controller"=>"workflows"}
+  [4;35;1mSQL (14.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=1960[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpecies/1960]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:25:51) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"1961", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=1961[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/1961]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:25:58) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"231", "controller"=>"workflows"}
+  [4;35;1mSQL (12.2ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=231[0m
+Completed in 19ms (View: 5, DB: 52) | 200 OK [http://0.0.0.0/getGenus/231]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:00) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"90", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=90[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/90]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:01) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"63", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=63[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/63]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:03) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"3", "controller"=>"workflows"}
+  [4;36;1mSQL (24.9ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=3[0m
+Completed in 32ms (View: 5, DB: 64) | 200 OK [http://0.0.0.0/getGenus/3]
+  [4;35;1mSQL (29.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:05) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"255", "controller"=>"workflows"}
+  [4;35;1mSQL (12.3ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=255[0m
+Completed in 14ms (View: 1, DB: 62) | 200 OK [http://0.0.0.0/getGenus/255]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:06) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"242", "controller"=>"workflows"}
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=242[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/242]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:07) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"148", "controller"=>"workflows"}
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=148[0m
+Completed in 26ms (View: 9, DB: 65) | 200 OK [http://0.0.0.0/getGenus/148]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 13:26:13) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;36;1mSQL (10.4ms)[0m   [0;1mSELECT id, name FROM class[0m
+  [4;35;1mUser Columns (16.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (43.6ms)
+Completed in 58ms (View: 18, DB: 77) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:26:16) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (24.7ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 33ms (View: 7, DB: 74) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 13:26:23) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"2", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 19ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getOrder/2]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:25) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"47", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=47[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/47]
+  [4;36;1mSQL (29.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:27) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"466", "controller"=>"workflows"}
+  [4;36;1mSQL (24.2ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=466[0m
+Completed in 28ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getGenus/466]
+  [4;35;1mSQL (23.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (16.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:26:28) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"8271", "controller"=>"workflows"}
+  [4;35;1mSQL (24.8ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=8271[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getSpecies/8271]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:30) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"465", "controller"=>"workflows"}
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=465[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/465]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:37) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"48", "controller"=>"workflows"}
+  [4;35;1mSQL (11.5ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=48[0m
+Completed in 15ms (View: 2, DB: 51) | 200 OK [http://0.0.0.0/getFamily/48]
+  [4;36;1mSQL (29.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:39) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"49", "controller"=>"workflows"}
+  [4;36;1mSQL (14.3ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=49[0m
+Completed in 18ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getFamily/49]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:40) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"467", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=467[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/467]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:42) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"50", "controller"=>"workflows"}
+  [4;36;1mSQL (14.9ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=50[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/50]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:26:44) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"475", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=475[0m
+Completed in 18ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getGenus/475]
+  [4;36;1mSQL (30.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:47) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"51", "controller"=>"workflows"}
+  [4;36;1mSQL (24.7ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=51[0m
+Completed in 29ms (View: 3, DB: 84) | 200 OK [http://0.0.0.0/getFamily/51]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:49) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"52", "controller"=>"workflows"}
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=52[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/52]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:52) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"53", "controller"=>"workflows"}
+  [4;36;1mSQL (14.8ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=53[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/53]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:53) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"54", "controller"=>"workflows"}
+  [4;35;1mSQL (25.1ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=54[0m
+Completed in 30ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getFamily/54]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:55) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"55", "controller"=>"workflows"}
+  [4;36;1mSQL (532.4ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=55[0m
+Completed in 537ms (View: 3, DB: 572) | 200 OK [http://0.0.0.0/getFamily/55]
+  [4;35;1mSQL (19.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:26:58) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"56", "controller"=>"workflows"}
+  [4;35;1mSQL (23.9ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=56[0m
+Completed in 28ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getFamily/56]
+  [4;36;1mSQL (30.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:27:00) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"57", "controller"=>"workflows"}
+  [4;36;1mSQL (24.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=57[0m
+Completed in 28ms (View: 2, DB: 74) | 200 OK [http://0.0.0.0/getFamily/57]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:27:12) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"46", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=46[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/46]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 13:27:14) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"45", "controller"=>"workflows"}
+  [4;36;1mSQL (24.6ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=45[0m
+Completed in 29ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getFamily/45]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:27:15) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"365", "controller"=>"workflows"}
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=365[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/365]
+  [4;36;1mSQL (30.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:27:17) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"2673", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=2673[0m
+Completed in 18ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getSpecies/2673]
+  [4;35;1mSQL (30.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:27:19) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"6203", "controller"=>"workflows"}
+  [4;35;1mSQL (24.8ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=6203[0m
+Completed in 29ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getSpecies/6203]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:27:20) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"387", "controller"=>"workflows"}
+  [4;36;1mSQL (25.1ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=387[0m
+Completed in 30ms (View: 3, DB: 64) | 200 OK [http://0.0.0.0/getGenus/387]
+  [4;35;1mSQL (29.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:27:22) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"3445", "controller"=>"workflows"}
+  [4;35;1mSQL (25.0ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=3445[0m
+Completed in 29ms (View: 2, DB: 84) | 200 OK [http://0.0.0.0/getSpecies/3445]
+  [4;36;1mSQL (30.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:27:24) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"3680", "controller"=>"workflows"}
+  [4;36;1mSQL (21.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=3680[0m
+Completed in 26ms (View: 2, DB: 81) | 200 OK [http://0.0.0.0/getSpecies/3680]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 13:27:24) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"426", "controller"=>"workflows"}
+  [4;35;1mSQL (21.9ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=426[0m
+Completed in 26ms (View: 2, DB: 61) | 200 OK [http://0.0.0.0/getGenus/426]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 13:27:27) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"5500", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=5500[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/5500]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 14:09:48) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (14.3ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (18.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (19.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (75.7ms)
+Completed in 96ms (View: 42, DB: 92) | 200 OK [http://0.0.0.0/tree_control]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 14:09:50) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (14.9ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 23ms (View: 6, DB: 54) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:09:51) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=1[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/1]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:09:52) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"1", "controller"=>"workflows"}
+  [4;36;1mSQL (75.3ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=1[0m
+Completed in 161ms (View: 82, DB: 115) | 200 OK [http://0.0.0.0/getGenus/1]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 14:09:55) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"14", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=14[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/14]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 14:10:05) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"2", "controller"=>"workflows"}
+  [4;36;1mSQL (14.4ms)[0m   [0;1mSELECT id,name FROM `order` where class_id=2[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getOrder/2]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:06) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"47", "controller"=>"workflows"}
+  [4;35;1mSQL (14.8ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=47[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/47]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:08) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"459", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=459[0m
+Completed in 22ms (View: 5, DB: 54) | 200 OK [http://0.0.0.0/getGenus/459]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 14:10:10) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"8205", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=8205[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getSpecies/8205]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:12) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"460", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=460[0m
+Completed in 25ms (View: 9, DB: 54) | 200 OK [http://0.0.0.0/getGenus/460]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:16) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"48", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=48[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/48]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:18) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"49", "controller"=>"workflows"}
+  [4;36;1mSQL (14.9ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=49[0m
+Completed in 19ms (View: 2, DB: 55) | 200 OK [http://0.0.0.0/getFamily/49]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:19) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"50", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=50[0m
+Completed in 19ms (View: 3, DB: 55) | 200 OK [http://0.0.0.0/getFamily/50]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:21) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"51", "controller"=>"workflows"}
+  [4;36;1mSQL (11.8ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=51[0m
+Completed in 17ms (View: 3, DB: 52) | 200 OK [http://0.0.0.0/getFamily/51]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:23) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"52", "controller"=>"workflows"}
+  [4;35;1mSQL (14.4ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=52[0m
+Completed in 16ms (View: 1, DB: 54) | 200 OK [http://0.0.0.0/getFamily/52]
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:25) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"53", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=53[0m
+Completed in 18ms (View: 2, DB: 64) | 200 OK [http://0.0.0.0/getFamily/53]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:26) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"54", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=54[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getFamily/54]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:28) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"55", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=55[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/55]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:29) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"56", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=56[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/56]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:10:31) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"57", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=57[0m
+Completed in 18ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getFamily/57]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:32) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"500", "controller"=>"workflows"}
+  [4;35;1mSQL (14.7ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=500[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/500]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:34) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"501", "controller"=>"workflows"}
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=501[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getGenus/501]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:36) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"502", "controller"=>"workflows"}
+  [4;35;1mSQL (14.8ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=502[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/502]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:39) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"499", "controller"=>"workflows"}
+  [4;36;1mSQL (10.9ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=499[0m
+Completed in 15ms (View: 2, DB: 42) | 200 OK [http://0.0.0.0/getGenus/499]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:40) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"498", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=498[0m
+Completed in 24ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getGenus/498]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:42) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"497", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=497[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getGenus/497]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:44) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"496", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=496[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/496]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:45) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"495", "controller"=>"workflows"}
+  [4;36;1mSQL (14.6ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=495[0m
+Completed in 19ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/495]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:10:46) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"494", "controller"=>"workflows"}
+  [4;35;1mSQL (14.6ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=494[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/494]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:11:19) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"493", "controller"=>"workflows"}
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=493[0m
+Completed in 20ms (View: 2, DB: 55) | 200 OK [http://0.0.0.0/getGenus/493]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:11:20) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"492", "controller"=>"workflows"}
+  [4;35;1mSQL (15.1ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=492[0m
+Completed in 20ms (View: 3, DB: 54) | 200 OK [http://0.0.0.0/getGenus/492]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:11:33) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"46", "controller"=>"workflows"}
+  [4;36;1mSQL (12.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=46[0m
+Completed in 14ms (View: 1, DB: 52) | 200 OK [http://0.0.0.0/getFamily/46]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 14:11:34) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"45", "controller"=>"workflows"}
+  [4;35;1mSQL (12.7ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=45[0m
+Completed in 15ms (View: 1, DB: 52) | 200 OK [http://0.0.0.0/getFamily/45]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:11:36) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"426", "controller"=>"workflows"}
+  [4;36;1mSQL (14.1ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=426[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getGenus/426]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 14:11:38) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"370", "controller"=>"workflows"}
+  [4;35;1mSQL (14.5ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=370[0m
+Completed in 19ms (View: 2, DB: 54) | 200 OK [http://0.0.0.0/getGenus/370]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 14:11:39) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"7711", "controller"=>"workflows"}
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=7711[0m
+Completed in 21ms (View: 3, DB: 56) | 200 OK [http://0.0.0.0/getSpecies/7711]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 16:27:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (19.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (72.2ms)
+Completed in 75ms (View: 35, DB: 79) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (14.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:27:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (17.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (11.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (104.4ms)
+Completed in 110ms (View: 79, DB: 63) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:27:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (11.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (14.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 39ms (DB: 66) | 302 Found [http://0.0.0.0/depthmaps]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:27:32) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (13.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 77ms (View: 25, DB: 70) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2011-08-04 16:28:14) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/contact
+  [4;35;1mUser Columns (19.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (138.2ms)
+Completed in 165ms (View: 124, DB: 78) | 200 OK [http://0.0.0.0/home/contact]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:28:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (12.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 68ms (View: 7, DB: 69) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:28:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (20.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (19.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (73.4ms)
+Completed in 76ms (View: 35, DB: 79) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 16:28:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (18.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (34.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (123.8ms)
+Completed in 127ms (View: 72, DB: 93) | 200 OK [http://0.0.0.0/home]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:29:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendered home/_login (64.3ms)
+Completed in 68ms (View: 31, DB: 75) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:29:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (13.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (20.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 66ms (DB: 73) | 302 Found [http://0.0.0.0/depthmaps]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:29:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (12.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 62ms (View: 7, DB: 68) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;35;1mSQL (20.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-08-04 16:29:09) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"jacob"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (16.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (12.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mUser Load (16.3ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'jacob') LIMIT 1[0m
+  [4;36;1mSQL (10.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:10', `perishable_token` = '5wlPUdDA4ysdDB0Cod', `last_login_at` = '2011-08-04 18:55:59', `current_login_at` = '2011-08-04 20:29:10', `login_count` = 11, `current_login_ip` = '127.0.0.1', `last_request_at` = '2011-08-04 20:29:10' WHERE `id` = 20[0m
+  [4;36;1mSQL (17.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/depthmaps
+Completed in 311ms (DB: 127) | 302 Found [http://0.0.0.0/user_session]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:29:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (11.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (14.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:10', `perishable_token` = 'EyVyyfZpCkuUTosEUd5', `last_request_at` = '2011-08-04 20:29:10' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (192.3ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (29.7ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (12.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (10.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendered home/_login (0.2ms)
+Completed in 426ms (View: 36, DB: 363) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 16:29:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (21.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.6ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:38', `perishable_token` = 'K3i30a1bm47h3luphRZ3', `last_request_at` = '2011-08-04 20:29:38' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.7ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (131.1ms)
+Completed in 135ms (View: 40, DB: 132) | 200 OK [http://0.0.0.0/home]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:29:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;35;1mUser Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (16.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.1ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:39', `perishable_token` = 'fknux1Zrntj8myQwFcDj', `last_request_at` = '2011-08-04 20:29:39' WHERE `id` = 20[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mCOMMIT[0m
+Rendered home/_login (192.8ms)
+Completed in 196ms (View: 105, DB: 129) | 200 OK [http://0.0.0.0/workflows]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#search_control (for 127.0.0.1 at 2011-08-04 16:29:44) [GET]
+  Parameters: {"action"=>"search_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/search_control
+  [4;36;1mUser Columns (15.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (28.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:44', `perishable_token` = 'drfv86l03qxtRHDEiB2x', `last_request_at` = '2011-08-04 20:29:44' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (129.3ms)
+Completed in 136ms (View: 38, DB: 135) | 200 OK [http://0.0.0.0/search_control]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#tree_control (for 127.0.0.1 at 2011-08-04 16:29:58) [GET]
+  Parameters: {"action"=>"tree_control", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/tree_control
+  [4;35;1mSQL (19.5ms)[0m   [0mSELECT id, name FROM class[0m
+  [4;36;1mUser Columns (15.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.8ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:29:58', `perishable_token` = 'RS6E7A5UixGg8cyOErF', `last_request_at` = '2011-08-04 20:29:58' WHERE `id` = 20[0m
+  [4;36;1mSQL (11.2ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (197.1ms)
+Completed in 227ms (View: 132, DB: 133) | 200 OK [http://0.0.0.0/tree_control]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getOrder (for 127.0.0.1 at 2011-08-04 16:30:03) [GET]
+  Parameters: {"action"=>"getOrder", "id"=>"1", "controller"=>"workflows"}
+  [4;35;1mSQL (20.5ms)[0m   [0mSELECT id,name FROM `order` where class_id=1[0m
+Completed in 34ms (View: 7, DB: 60) | 200 OK [http://0.0.0.0/getOrder/1]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 16:30:04) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"4", "controller"=>"workflows"}
+  [4;36;1mSQL (13.5ms)[0m   [0;1mSELECT id,name,has_species FROM family where order_id=4[0m
+Completed in 23ms (View: 7, DB: 54) | 200 OK [http://0.0.0.0/getFamily/4]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 16:30:05) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"34", "controller"=>"workflows"}
+  [4;35;1mSQL (13.9ms)[0m   [0mSELECT id,name,has_species FROM genus where family_id=34[0m
+Completed in 26ms (View: 10, DB: 53) | 200 OK [http://0.0.0.0/getGenus/34]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 16:30:07) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"48", "controller"=>"workflows"}
+  [4;36;1mSQL (13.7ms)[0m   [0;1mSELECT id,name,gbif_key FROM species where genus_id=48[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpecies/48]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getSpecies (for 127.0.0.1 at 2011-08-04 16:30:08) [GET]
+  Parameters: {"action"=>"getSpecies", "id"=>"264", "controller"=>"workflows"}
+  [4;35;1mSQL (13.9ms)[0m   [0mSELECT id,name,gbif_key FROM species where genus_id=264[0m
+Completed in 18ms (View: 2, DB: 53) | 200 OK [http://0.0.0.0/getSpecies/264]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getGenus (for 127.0.0.1 at 2011-08-04 16:30:11) [GET]
+  Parameters: {"action"=>"getGenus", "id"=>"149", "controller"=>"workflows"}
+  [4;36;1mSQL (14.5ms)[0m   [0;1mSELECT id,name,has_species FROM genus where family_id=149[0m
+Completed in 20ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/getGenus/149]
+  [4;35;1mSQL (20.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#getFamily (for 127.0.0.1 at 2011-08-04 16:30:13) [GET]
+  Parameters: {"action"=>"getFamily", "id"=>"5", "controller"=>"workflows"}
+  [4;35;1mSQL (32.2ms)[0m   [0mSELECT id,name,has_species FROM family where order_id=5[0m
+Completed in 55ms (View: 20, DB: 72) | 200 OK [http://0.0.0.0/getFamily/5]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:31:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (10.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (13.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (15.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:31:50', `perishable_token` = 'YNxvtaQuxN8LT1ZuMmSE', `last_request_at` = '2011-08-04 20:31:50' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.8ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (173.9ms)
+Completed in 177ms (View: 102, DB: 113) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:31:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (11.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (17.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (18.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-08-04 20:31:52', `perishable_token` = 'CnxQo6A2HNRQ9tkoKmo', `last_request_at` = '2011-08-04 20:31:52' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (179.9ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (11.0ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (12.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (11.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendered home/_login (0.6ms)
+Completed in 371ms (View: 26, DB: 339) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-04 16:31:54) [GET]
+
+ActionController::RoutingError (No route matches "/pointmap/help" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-08-04 16:43:39) [GET]
+
+ActionController::RoutingError (No route matches "/pointmap/help" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 16:43:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (16.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (16.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.9ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:43:42', `perishable_token` = '8gqch7GQxrPkawt9USm', `last_request_at` = '2011-08-04 20:43:42' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (110.1ms)
+Completed in 114ms (View: 30, DB: 122) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2011-08-04 16:43:44) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (19.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (30.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (16.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-08-04 20:43:45', `perishable_token` = 'MiU7VoL6fo7Sxd0Mw9T', `last_request_at` = '2011-08-04 20:43:44' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 156ms (DB: 141) | 302 Found [http://0.0.0.0/user_sessions/destroy]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-08-04 16:43:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (17.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (29.0ms)
+Completed in 32ms (View: 13, DB: 57) | 200 OK [http://0.0.0.0/]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:43:46) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (11.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 37ms (View: 7, DB: 51) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:43:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (12.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 28ms (DB: 52) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:43:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (12.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 41ms (View: 4, DB: 52) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:43:51) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (15.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 31ms (DB: 55) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:43:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (11.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 29ms (View: 5, DB: 51) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:43:53) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (12.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 28ms (DB: 52) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:43:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (12.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 34ms (View: 4, DB: 52) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:43:55) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (12.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 28ms (DB: 52) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:43:55) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (13.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 107ms (View: 5, DB: 53) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:45:03) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (11.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 27ms (DB: 50) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (19.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:45:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (14.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 44ms (View: 4, DB: 54) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:45:06) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (12.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 21ms (DB: 52) | 302 Found [http://0.0.0.0/help]
+  [4;35;1mSQL (19.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:45:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (12.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 33ms (View: 4, DB: 52) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (19.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:46:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (43.8ms)
+Completed in 47ms (View: 26, DB: 59) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:46:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (19.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/pointmaps_controller.rb:9:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (19.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:46:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (19.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (104.1ms)
+Completed in 108ms (View: 87, DB: 59) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (20.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:46:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (17.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/pointmaps_controller.rb:9:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:51:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (12.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.2ms)
+Completed in 34ms (View: 4, DB: 53) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;35;1mSQL (29.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (29.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:51:03) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+Rendering template within layouts/application
+Rendering pointmaps/help
+  [4;35;1mUser Columns (16.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (111.1ms)
+Completed in 117ms (View: 99, DB: 76) | 200 OK [http://0.0.0.0/help]
+  [4;36;1mSQL (29.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WorkflowsController#index (for 127.0.0.1 at 2011-08-04 16:51:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"workflows"}
+Rendering template within layouts/application
+Rendering workflows/index
+  [4;36;1mUser Columns (18.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered home/_login (34.6ms)
+Completed in 38ms (View: 18, DB: 67) | 200 OK [http://0.0.0.0/workflows]
+  [4;35;1mSQL (19.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:51:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (18.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/pointmaps_controller.rb:9:in `index'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_load'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/lib/ruby-debug-ide.rb:112:in `debug_program'
+  /home/jacob/.gem/ruby/1.8/gems/ruby-debug-ide-0.4.17.beta5/bin/rdebug-ide:87
+  -e:1:in `load'
+  -e:1
+
+Rendered rescues/_trace (22.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:51:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;36;1mUser Columns (12.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://0.0.0.0:3000/user_session/new
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 121ms (DB: 52) | 302 Found [http://0.0.0.0/depthmaps]
+  [4;35;1mSQL (30.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-08-04 16:51:31) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (21.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered home/_login (0.3ms)
+Completed in 42ms (View: 7, DB: 71) | 200 OK [http://0.0.0.0/user_session/new]
+  [4;36;1mSQL (20.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-08-04 16:51:36) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>"jacob"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (19.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (17.8ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'jacob') LIMIT 1[0m
+  [4;36;1mSQL (18.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (15.8ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:51:36', `perishable_token` = 'Vcl0bOVO2sar7uiV7f5', `last_login_at` = '2011-08-04 20:29:10', `last_login_ip` = '127.0.0.1', `current_login_at` = '2011-08-04 20:51:36', `login_count` = 12, `last_request_at` = '2011-08-04 20:51:36' WHERE `id` = 20[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/depthmaps
+Completed in 133ms (DB: 130) | 302 Found [http://0.0.0.0/user_session]
+  [4;35;1mSQL (19.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#index (for 127.0.0.1 at 2011-08-04 16:51:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"pointmaps"}
+  [4;35;1mUser Columns (12.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (26.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;35;1mSQL (20.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (15.9ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-08-04 20:51:36', `perishable_token` = '3IPoR0VDOjxqMimfn9aE', `last_request_at` = '2011-08-04 20:51:36' WHERE `id` = 20[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPointmap Load (180.1ms)[0m   [0;1mSELECT * FROM `pointmaps` WHERE (user_id = 20 OR public = 1) [0m
+Rendering template within layouts/application
+Rendering pointmaps/index
+  [4;35;1mPointmap Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `pointmaps`[0m
+  [4;36;1mUser Load (13.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (11.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendered home/_login (0.6ms)
+Completed in 412ms (View: 36, DB: 358) | 200 OK [http://0.0.0.0/depthmaps]
+  [4;36;1mSQL (20.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PointmapsController#help (for 127.0.0.1 at 2011-08-04 16:51:39) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pointmaps"}
+Rendering template within layouts/application
+Rendering pointmaps/help
+  [4;36;1mUser Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (13.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '20') LIMIT 1[0m
+  [4;36;1mSQL (14.5ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (16.7ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-08-04 20:51:39', `perishable_token` = '0s5O6r0YIOKtiSPPl3Fo', `last_request_at` = '2011-08-04 20:51:39' WHERE `id` = 20[0m
+  [4;36;1mSQL (18.5ms)[0m   [0;1mCOMMIT[0m
+Rendered home/_login (95.1ms)
+Completed in 99ms (View: 23, DB: 114) | 200 OK [http://0.0.0.0/help]

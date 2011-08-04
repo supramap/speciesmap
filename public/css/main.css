@@ -57,11 +57,16 @@ body {
 	display: inline;
 }
 
+#li{
+    color:  #000000
+
+}
+
 #nav ul li a {
 	display: block;
 	float: left;
 	padding: 0 14px;
-	color: #FFFFFF;
+	/*color: #FFFFFF; */
 	text-decoration: none;
 	text-align:center;
 	border-right: 1px solid #bae1fc ;

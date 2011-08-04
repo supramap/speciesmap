@@ -50,7 +50,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'getFamily/:id', :controller => "workflows", :action => "getFamily"
   map.connect 'getGenus/:id', :controller => "workflows", :action => "getGenus"
   map.connect 'getSpecies/:id', :controller => "workflows", :action => "getSpecies"
-
+  map.connect 'help', :controller => "pointmaps", :action => "help"
 
 
   map.resources :workflows, :controller => "workflows"
