@@ -4,7 +4,7 @@
   <h3> <a href = "/help">Tutorial and Help on how to create your own Speciesmap.</a> </h3>
 <h1>Listing Speciesmaps</h1>
 
-<p><%= link_to 'New Depthmap', new_depthmap_path %></p>
+<p><%= link_to 'New Speciesmap', new_depthmap_path %></p>
 
 <div class="list">
 <table class="sortable">
@@ -25,7 +25,7 @@
     <td><%=h pointmap.public %></td>
     <td><%=h pointmap.user.login %></td>
     <td>
-      <%= link_to 'View Depthmap', depthmap_path(pointmap) %> |
+      <%= link_to 'View Speciesmap', depthmap_path(pointmap) %> |
       <%= link_to 'Download Kml', "/pointmaps/download_kml/#{pointmap.id}" %>
       <% if current_user.id == pointmap.user_id %>
         | <%= link_to 'Edit', edit_depthmap_path(pointmap) %>
